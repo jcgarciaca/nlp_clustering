@@ -1,0 +1,147 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	falla [label="falla 
+ Count = 2802 
+ Coef = 9.12"]
+	node [color=green style=filled]
+	una [label="una 
+ Count = 308 
+ Coef = 0.62" shape=plaintext]
+	una -> falla [label="59.23%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 39 
+ Coef = 3.59" shape=plaintext]
+	electrica -> falla [label="7.5%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 35 
+ Coef = -0.24" shape=plaintext]
+	la -> falla [label="6.73%" weight=1.2]
+	node [color=green style=filled]
+	por [label="por 
+ Count = 32 
+ Coef = 0.04" shape=plaintext]
+	por -> falla [label="6.15%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 30 
+ Coef = Not in Dict" shape=plaintext]
+	en -> una [label="18.18%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 24 
+ Coef = -2.45" shape=plaintext]
+	haber -> una [label="14.55%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 23 
+ Coef = -1.8" shape=plaintext]
+	tener -> una [label="13.94%" weight=1.2]
+	node [color=green style=filled]
+	por [label="por 
+ Count = 19 
+ Coef = 0.04" shape=plaintext]
+	por -> una [label="11.52%" weight=1.2]
+	node [color=red style=filled]
+	para [label="para 
+ Count = 14 
+ Coef = -2.15" shape=plaintext]
+	para -> una [label="8.48%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -1.69" shape=plaintext]
+	ser -> una [label="7.88%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 10 
+ Coef = 5.82" shape=plaintext]
+	faltar -> una [label="6.06%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 10 
+ Coef = Not in Dict" shape=plaintext]
+	de -> una [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1478 
+ Coef = 9.12" shape=plaintext]
+	falla -> electrica [label="83.69%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 102 
+ Coef = 4.55" shape=plaintext]
+	energia -> electrica [label="5.78%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 482 
+ Coef = Not in Dict" shape=plaintext]
+	en -> la [label="62.35%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 176 
+ Coef = Not in Dict" shape=plaintext]
+	de -> la [label="22.77%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 7 
+ Coef = 4.55" shape=plaintext]
+	energia -> por [label="12.28%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 6 
+ Coef = 3.59" shape=plaintext]
+	electrica -> por [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 3 
+ Coef = 2.52" shape=plaintext]
+	suministro -> por [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 3 
+ Coef = -1.05" shape=plaintext]
+	luz -> por [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1480 
+ Coef = 3.59" shape=plaintext]
+	falla -> electrica [label="68.9%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 491 
+ Coef = Not in Dict" shape=plaintext]
+	falla -> de [label="22.86%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 234 
+ Coef = Not in Dict" shape=plaintext]
+	electrica -> en [label="57.21%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 40 
+ Coef = 9.12" shape=plaintext]
+	electrica -> falla [label="9.78%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1331 
+ Coef = 4.55" shape=plaintext]
+	de -> energia [label="56.66%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 307 
+ Coef = 2.52" shape=plaintext]
+	de -> suministro [label="13.07%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 212 
+ Coef = -1.05" shape=plaintext]
+	de -> luz [label="9.03%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 166 
+ Coef = -0.24" shape=plaintext]
+	de -> la [label="7.07%" weight=1.2]
+}

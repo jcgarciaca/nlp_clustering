@@ -1,0 +1,107 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cancelar [label="cancelar 
+ Count = 262 
+ Coef = 5.19"]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 56 
+ Coef = 1.75" shape=plaintext]
+	ya -> cancelar [label="23.43%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 30 
+ Coef = 1.13" shape=plaintext]
+	ser -> cancelar [label="12.55%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 13 
+ Coef = 1.09" shape=plaintext]
+	habia -> cancelar [label="5.44%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 39 
+ Coef = -0.75" shape=plaintext]
+	luz -> ya [label="9.97%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 35 
+ Coef = 4.87" shape=plaintext]
+	servicio -> ya [label="8.95%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 29 
+ Coef = 1.36" shape=plaintext]
+	que -> ya [label="7.42%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 20 
+ Coef = 0.62" shape=plaintext]
+	energia -> ya [label="5.12%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 157 
+ Coef = 5.25" shape=plaintext]
+	cortar -> ser [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 149 
+ Coef = 0.14" shape=plaintext]
+	paso -> ser [label="9.47%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 49 
+ Coef = 1.05" shape=plaintext]
+	no -> habia [label="41.88%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 19 
+ Coef = 1.75" shape=plaintext]
+	ya -> habia [label="16.24%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 13 
+ Coef = 1.36" shape=plaintext]
+	que -> habia [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 7 
+ Coef = 4.87" shape=plaintext]
+	servicio -> habia [label="5.98%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 85 
+ Coef = 4.87" shape=plaintext]
+	cancelar -> servicio [label="35.42%" weight=1.2]
+	node [color=green style=filled]
+	recibo [label="recibo 
+ Count = 23 
+ Coef = 5.45" shape=plaintext]
+	cancelar -> recibo [label="9.58%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 219 
+ Coef = 0.62" shape=plaintext]
+	servicio -> energia [label="17.18%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 209 
+ Coef = -0.75" shape=plaintext]
+	servicio -> luz [label="16.39%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -0.75" shape=plaintext]
+	recibo -> luz [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 13 
+ Coef = 3.07" shape=plaintext]
+	recibo -> pago [label="5.91%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = 1.05" shape=plaintext]
+	recibo -> no [label="5.91%" weight=1.2]
+}

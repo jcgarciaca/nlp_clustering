@@ -1,0 +1,32 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"casa no tener" [label="casa no tener 
+ Count = 8 
+ Coef = 2.58"]
+	node [color=green style=filled]
+	unico [label="unico 
+ Count = 4 
+ Coef = 0.45" shape=plaintext]
+	unico -> "casa no tener" [label="80.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.8" shape=plaintext]
+	haber -> "casa no tener" [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = 10.41" shape=plaintext]
+	ser -> unico [label="75.0%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.22" shape=plaintext]
+	dia -> unico [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 2.49" shape=plaintext]
+	no -> haber [label="100.0%" weight=1.2]
+}

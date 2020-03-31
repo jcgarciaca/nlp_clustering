@@ -1,0 +1,252 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	saber [label="saber 
+ Count = 286 
+ Coef = 4.41"]
+	node [color=green style=filled]
+	querer [label="querer 
+ Count = 139 
+ Coef = 3.42" shape=plaintext]
+	querer -> saber [label="54.51%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 37 
+ Coef = 0.67" shape=plaintext]
+	necesitar -> saber [label="14.51%" weight=1.2]
+	node [color=green style=filled]
+	quisieramos [label="quisieramos 
+ Count = 15 
+ Coef = 0.59" shape=plaintext]
+	quisieramos -> saber [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 11 
+ Coef = -0.65" shape=plaintext]
+	luz -> querer [label="9.17%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 11 
+ Coef = -0.07" shape=plaintext]
+	entonces -> querer [label="9.17%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 9 
+ Coef = 0.89" shape=plaintext]
+	manana -> querer [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 9 
+ Coef = 4.81" shape=plaintext]
+	servicio -> querer [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 8 
+ Coef = 1.15" shape=plaintext]
+	energia -> querer [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 9 
+ Coef = -0.07" shape=plaintext]
+	entonces -> necesitar [label="10.23%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 7 
+ Coef = 3.41" shape=plaintext]
+	hora -> necesitar [label="7.95%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 4.81" shape=plaintext]
+	servicio -> necesitar [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 5 
+ Coef = 0.61" shape=plaintext]
+	noche -> necesitar [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 5 
+ Coef = 1.26" shape=plaintext]
+	que -> necesitar [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 4.81" shape=plaintext]
+	servicio -> quisieramos [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 2 
+ Coef = 0.71" shape=plaintext]
+	tarde -> quisieramos [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = 1.15" shape=plaintext]
+	energia -> quisieramos [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 2 
+ Coef = 0.89" shape=plaintext]
+	manana -> quisieramos [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	ver [label="ver 
+ Count = 1 
+ Coef = 0.62" shape=plaintext]
+	ver -> quisieramos [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	pues [label="pues 
+ Count = 1 
+ Coef = -0.1" shape=plaintext]
+	pues -> quisieramos [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	entonces -> quisieramos [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	sasaima [label="sasaima 
+ Count = 1 
+ Coef = 0.11" shape=plaintext]
+	sasaima -> quisieramos [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	fallar -> quisieramos [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.65" shape=plaintext]
+	luz -> quisieramos [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 126 
+ Coef = 1.26" shape=plaintext]
+	saber -> que [label="44.37%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 38 
+ Coef = 1.39" shape=plaintext]
+	saber -> si [label="13.38%" weight=1.2]
+	node [color=green style=filled]
+	cuando [label="cuando 
+ Count = 22 
+ Coef = 0.6" shape=plaintext]
+	saber -> cuando [label="7.75%" weight=1.2]
+	node [color=green style=filled]
+	cuanto [label="cuanto 
+ Count = 22 
+ Coef = 3.64" shape=plaintext]
+	saber -> cuanto [label="7.75%" weight=1.2]
+	node [color=green style=filled]
+	tiempo [label="tiempo 
+ Count = 16 
+ Coef = 0.79" shape=plaintext]
+	saber -> tiempo [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 118 
+ Coef = 3.41" shape=plaintext]
+	que -> hora [label="22.1%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 54 
+ Coef = 12.56" shape=plaintext]
+	que -> restablecer [label="10.11%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 51 
+ Coef = 1.91" shape=plaintext]
+	que -> estar [label="9.55%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 38 
+ Coef = 0.97" shape=plaintext]
+	que -> no [label="7.12%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 22 
+ Coef = -0.48" shape=plaintext]
+	si -> ser [label="14.38%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 22 
+ Coef = 0.79" shape=plaintext]
+	si -> poder [label="14.38%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 10 
+ Coef = 12.56" shape=plaintext]
+	si -> restablecer [label="6.54%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 0.97" shape=plaintext]
+	si -> no [label="6.54%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 10 
+ Coef = -0.52" shape=plaintext]
+	si -> ya [label="6.54%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 16 
+ Coef = 0.46" shape=plaintext]
+	cuando -> ir [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 11 
+ Coef = 12.56" shape=plaintext]
+	cuando -> restablecer [label="27.5%" weight=1.2]
+	node [color=green style=filled]
+	demorar [label="demorar 
+ Count = 26 
+ Coef = 2.97" shape=plaintext]
+	cuanto -> demorar [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	tiempo [label="tiempo 
+ Count = 4 
+ Coef = 0.79" shape=plaintext]
+	cuanto -> tiempo [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	antes [label="antes 
+ Count = 4 
+ Coef = 0.08" shape=plaintext]
+	cuanto -> antes [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 4 
+ Coef = 0.46" shape=plaintext]
+	cuanto -> ir [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	demorar [label="demorar 
+ Count = 10 
+ Coef = 2.97" shape=plaintext]
+	tiempo -> demorar [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 8 
+ Coef = 12.56" shape=plaintext]
+	tiempo -> restablecer [label="21.05%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 5 
+ Coef = 0.46" shape=plaintext]
+	tiempo -> ir [label="13.16%" weight=1.2]
+	node [color=green style=filled]
+	posible [label="posible 
+ Count = 3 
+ Coef = 1.67" shape=plaintext]
+	tiempo -> posible [label="7.89%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 3 
+ Coef = 2.19" shape=plaintext]
+	tiempo -> mas [label="7.89%" weight=1.2]
+	node [color=green style=filled]
+	restablecimiento [label="restablecimiento 
+ Count = 2 
+ Coef = 4.67" shape=plaintext]
+	tiempo -> restablecimiento [label="5.26%" weight=1.2]
+}

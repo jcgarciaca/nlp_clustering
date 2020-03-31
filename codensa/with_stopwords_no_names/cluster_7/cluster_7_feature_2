@@ -1,0 +1,197 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	localidad [label="localidad 
+ Count = 756 
+ Coef = 10.4"]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 52 
+ Coef = -0.49" shape=plaintext]
+	energia -> localidad [label="7.24%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 48 
+ Coef = 3.87" shape=plaintext]
+	aqui -> localidad [label="6.69%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 43 
+ Coef = -2.82" shape=plaintext]
+	servicio -> localidad [label="5.99%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 353 
+ Coef = -2.82" shape=plaintext]
+	servicio -> energia [label="24.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 153 
+ Coef = 0.28" shape=plaintext]
+	haber -> energia [label="10.49%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 140 
+ Coef = -1.03" shape=plaintext]
+	tener -> energia [label="9.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 101 
+ Coef = 0.05" shape=plaintext]
+	estar -> energia [label="6.92%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 101 
+ Coef = -0.35" shape=plaintext]
+	corte -> energia [label="6.92%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 84 
+ Coef = -1.22" shape=plaintext]
+	suministro -> energia [label="5.76%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 191 
+ Coef = -0.09" shape=plaintext]
+	que -> aqui [label="13.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 79 
+ Coef = 0.05" shape=plaintext]
+	estar -> aqui [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 286 
+ Coef = 0.28" shape=plaintext]
+	haber -> servicio [label="21.52%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 211 
+ Coef = -1.03" shape=plaintext]
+	tener -> servicio [label="15.88%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 196 
+ Coef = 0.05" shape=plaintext]
+	estar -> servicio [label="14.75%" weight=1.2]
+	node [color=green style=filled]
+	engativa [label="engativa 
+ Count = 62 
+ Coef = 2.78" shape=plaintext]
+	localidad -> engativa [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	kennedy [label="kennedy 
+ Count = 57 
+ Coef = 3.15" shape=plaintext]
+	localidad -> kennedy [label="7.99%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 43 
+ Coef = 16.47" shape=plaintext]
+	localidad -> barrio [label="6.03%" weight=1.2]
+	node [color=green style=filled]
+	tunjuelito [label="tunjuelito 
+ Count = 37 
+ Coef = 2.17" shape=plaintext]
+	localidad -> tunjuelito [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	usaquen [label="usaquen 
+ Count = 36 
+ Coef = 1.45" shape=plaintext]
+	localidad -> usaquen [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	teusaquillo [label="teusaquillo 
+ Count = 36 
+ Coef = 3.39" shape=plaintext]
+	localidad -> teusaquillo [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 31 
+ Coef = 16.47" shape=plaintext]
+	engativa -> barrio [label="36.47%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 5 
+ Coef = 9.9" shape=plaintext]
+	engativa -> calle [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 22 
+ Coef = 16.47" shape=plaintext]
+	kennedy -> barrio [label="19.64%" weight=1.2]
+	node [color=green style=filled]
+	nia [label="nia 
+ Count = 6 
+ Coef = 0.17" shape=plaintext]
+	kennedy -> nia [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 6 
+ Coef = 0.05" shape=plaintext]
+	kennedy -> estar [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 6 
+ Coef = 9.9" shape=plaintext]
+	kennedy -> calle [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 316 
+ Coef = 1.39" shape=plaintext]
+	barrio -> santo [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 183 
+ Coef = 1.29" shape=plaintext]
+	barrio -> santa [label="5.38%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 12 
+ Coef = -0.18" shape=plaintext]
+	tunjuelito -> no [label="26.67%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 7 
+ Coef = 16.47" shape=plaintext]
+	tunjuelito -> barrio [label="15.56%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 4 
+ Coef = 13.85" shape=plaintext]
+	tunjuelito -> carrera [label="8.89%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 10 
+ Coef = 16.47" shape=plaintext]
+	usaquen -> barrio [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 5 
+ Coef = 13.85" shape=plaintext]
+	usaquen -> carrera [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 2 
+ Coef = 0.94" shape=plaintext]
+	usaquen -> encontrar [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -0.18" shape=plaintext]
+	usaquen -> no [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 8 
+ Coef = 16.47" shape=plaintext]
+	teusaquillo -> barrio [label="17.39%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 4 
+ Coef = 13.85" shape=plaintext]
+	teusaquillo -> carrera [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	soledad [label="soledad 
+ Count = 3 
+ Coef = 0.75" shape=plaintext]
+	teusaquillo -> soledad [label="6.52%" weight=1.2]
+}

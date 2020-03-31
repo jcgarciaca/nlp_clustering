@@ -1,0 +1,52 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"dano zona" [label="dano zona 
+ Count = 8 
+ Coef = 3.65"]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	zona -> "dano zona" [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 8 
+ Coef = 10.33" shape=plaintext]
+	dano -> zona [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 2 
+ Coef = 9.02" shape=plaintext]
+	danos -> zona [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 10.33" shape=plaintext]
+	"dano zona" -> dano [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 44 
+ Coef = 3.92" shape=plaintext]
+	dano -> red [label="58.67%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 10 
+ Coef = 10.33" shape=plaintext]
+	dano -> dano [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 8 
+ Coef = 2.39" shape=plaintext]
+	dano -> zona [label="10.67%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 6 
+ Coef = 1.83" shape=plaintext]
+	dano -> fase [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = 0.58" shape=plaintext]
+	dano -> casa [label="5.33%" weight=1.2]
+}

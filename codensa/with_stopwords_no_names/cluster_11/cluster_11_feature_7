@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	heladeria [label="heladeria 
+ Count = 283 
+ Coef = 4.86"]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 12 
+ Coef = -1.68" shape=plaintext]
+	energia -> heladeria [label="6.22%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 11 
+ Coef = 16.7" shape=plaintext]
+	cundinamarca -> heladeria [label="5.7%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1493 
+ Coef = -2.19" shape=plaintext]
+	servicio -> energia [label="34.92%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 474 
+ Coef = -0.51" shape=plaintext]
+	estar -> energia [label="11.09%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 373 
+ Coef = -0.13" shape=plaintext]
+	tener -> energia [label="8.72%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 316 
+ Coef = 0.88" shape=plaintext]
+	haber -> energia [label="7.39%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 263 
+ Coef = 0.33" shape=plaintext]
+	suministro -> energia [label="6.15%" weight=1.2]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 337 
+ Coef = 1.73" shape=plaintext]
+	mesa -> cundinamarca [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 36 
+ Coef = 3.37" shape=plaintext]
+	heladeria -> santo [label="13.28%" weight=1.2]
+	node [color=green style=filled]
+	miguel [label="miguel 
+ Count = 161 
+ Coef = 1.74" shape=plaintext]
+	santo -> miguel [label="11.89%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 110 
+ Coef = 16.76" shape=plaintext]
+	santo -> municipio [label="8.12%" weight=1.2]
+}

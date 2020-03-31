@@ -1,0 +1,67 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	que [label="que 
+ Count = 20808 
+ Coef = 4.94"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7706 
+ Coef = 1.55" shape=plaintext]
+	ser -> que [label="42.63%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 3419 
+ Coef = 1.28" shape=plaintext]
+	paso -> ser [label="18.29%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 1853 
+ Coef = 2.16" shape=plaintext]
+	llamada -> ser [label="9.91%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1015 
+ Coef = 3.32" shape=plaintext]
+	estar -> ser [label="5.43%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2352 
+ Coef = 1.7" shape=plaintext]
+	que -> no [label="11.86%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1711 
+ Coef = 3.32" shape=plaintext]
+	que -> estar [label="8.63%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1081 
+ Coef = 1.55" shape=plaintext]
+	que -> ser [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5519 
+ Coef = 2.13" shape=plaintext]
+	no -> haber [label="28.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4811 
+ Coef = 2.29" shape=plaintext]
+	no -> tener [label="24.47%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 1414 
+ Coef = 4.52" shape=plaintext]
+	estar -> llamar [label="12.05%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1191 
+ Coef = 1.67" shape=plaintext]
+	estar -> servicio [label="10.15%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7710 
+ Coef = 4.94" shape=plaintext]
+	ser -> que [label="50.24%" weight=1.2]
+}

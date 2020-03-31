@@ -1,0 +1,37 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	subachoque [label="subachoque 
+ Count = 351 
+ Coef = 4.28"]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 157 
+ Coef = 16.76" shape=plaintext]
+	municipio -> subachoque [label="45.51%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 66 
+ Coef = 16.7" shape=plaintext]
+	subachoque -> cundinamarca [label="25.1%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 52 
+ Coef = 15.91" shape=plaintext]
+	subachoque -> vereda [label="19.77%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 967 
+ Coef = 15.91" shape=plaintext]
+	cundinamarca -> vereda [label="29.8%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 264 
+ Coef = -1.84" shape=plaintext]
+	cundinamarca -> no [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 655 
+ Coef = 3.37" shape=plaintext]
+	vereda -> santo [label="7.2%" weight=1.2]
+}

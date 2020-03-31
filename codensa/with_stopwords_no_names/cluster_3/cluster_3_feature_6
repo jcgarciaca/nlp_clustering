@@ -1,0 +1,87 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reportar que" [label="reportar que 
+ Count = 130 
+ Coef = 3.16"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 9 
+ Coef = -2.41" shape=plaintext]
+	ser -> "reportar que" [label="45.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -1.14" shape=plaintext]
+	que -> "reportar que" [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 341 
+ Coef = 3.08" shape=plaintext]
+	falla -> ser [label="52.06%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 52 
+ Coef = 1.53" shape=plaintext]
+	dano -> ser [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 37 
+ Coef = 0.34" shape=plaintext]
+	fallo -> ser [label="5.65%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 130 
+ Coef = 21.1" shape=plaintext]
+	reportar -> que [label="71.43%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 81 
+ Coef = -1.43" shape=plaintext]
+	"reportar que" -> no [label="62.79%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 20 
+ Coef = -1.99" shape=plaintext]
+	"reportar que" -> estar [label="15.5%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 94 
+ Coef = -1.0" shape=plaintext]
+	no -> haber [label="15.31%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 63 
+ Coef = -1.65" shape=plaintext]
+	no -> tener [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 63 
+ Coef = 2.2" shape=plaintext]
+	no -> energia [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 48 
+ Coef = 0.83" shape=plaintext]
+	no -> servicio [label="7.82%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 0.83" shape=plaintext]
+	estar -> servicio [label="26.15%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 7 
+ Coef = 21.1" shape=plaintext]
+	estar -> reportar [label="10.77%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 7 
+ Coef = -0.03" shape=plaintext]
+	estar -> llamar [label="10.77%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = 2.2" shape=plaintext]
+	estar -> energia [label="7.69%" weight=1.2]
+}

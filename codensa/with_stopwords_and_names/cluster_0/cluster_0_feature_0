@@ -1,0 +1,202 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrico [label="electrico 
+ Count = 3431 
+ Coef = 22.07"]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 970 
+ Coef = -0.91" shape=plaintext]
+	servicio -> electrico [label="28.4%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 886 
+ Coef = 2.58" shape=plaintext]
+	fluido -> electrico [label="25.94%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 579 
+ Coef = 0.53" shape=plaintext]
+	suministro -> electrico [label="16.95%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 168 
+ Coef = 0.14" shape=plaintext]
+	haber -> servicio [label="18.14%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 159 
+ Coef = 1.56" shape=plaintext]
+	fallo -> servicio [label="17.17%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 121 
+ Coef = 0.8" shape=plaintext]
+	tener -> servicio [label="13.07%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 85 
+ Coef = -0.99" shape=plaintext]
+	estar -> servicio [label="9.18%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 73 
+ Coef = 0.49" shape=plaintext]
+	falla -> servicio [label="7.88%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 62 
+ Coef = 1.24" shape=plaintext]
+	fallar -> servicio [label="6.7%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 109 
+ Coef = 0.49" shape=plaintext]
+	falla -> fluido [label="12.79%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 107 
+ Coef = 1.56" shape=plaintext]
+	fallo -> fluido [label="12.56%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 101 
+ Coef = 0.14" shape=plaintext]
+	haber -> fluido [label="11.85%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 83 
+ Coef = -0.99" shape=plaintext]
+	estar -> fluido [label="9.74%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 71 
+ Coef = 2.1" shape=plaintext]
+	faltar -> fluido [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 64 
+ Coef = 0.8" shape=plaintext]
+	tener -> fluido [label="7.51%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 52 
+ Coef = 1.24" shape=plaintext]
+	fallar -> fluido [label="6.1%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 287 
+ Coef = 1.56" shape=plaintext]
+	fallo -> suministro [label="50.98%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 58 
+ Coef = 0.49" shape=plaintext]
+	falla -> suministro [label="10.3%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 33 
+ Coef = 1.24" shape=plaintext]
+	fallar -> suministro [label="5.86%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 30 
+ Coef = 2.1" shape=plaintext]
+	faltar -> suministro [label="5.33%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 70 
+ Coef = -0.18" shape=plaintext]
+	electrico -> hacer [label="7.19%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 66 
+ Coef = -0.51" shape=plaintext]
+	electrico -> sector [label="6.78%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 64 
+ Coef = -1.1" shape=plaintext]
+	electrico -> casa [label="6.58%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 59 
+ Coef = -0.21" shape=plaintext]
+	electrico -> dia [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 25 
+ Coef = 0.55" shape=plaintext]
+	hacer -> hora [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 24 
+ Coef = -0.21" shape=plaintext]
+	hacer -> dia [label="20.87%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 17 
+ Coef = -0.17" shape=plaintext]
+	hacer -> mas [label="14.78%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 9 
+ Coef = -0.17" shape=plaintext]
+	hacer -> dos [label="7.83%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 7 
+ Coef = -0.38" shape=plaintext]
+	hacer -> como [label="6.09%" weight=1.2]
+	node [color=green style=filled]
+	tres [label="tres 
+ Count = 7 
+ Coef = 0.43" shape=plaintext]
+	hacer -> tres [label="6.09%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 3 
+ Coef = 22.07" shape=plaintext]
+	sector -> electrico [label="8.57%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 0.23" shape=plaintext]
+	sector -> no [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 2 
+ Coef = -0.11" shape=plaintext]
+	sector -> ayer [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	subir [label="subir 
+ Count = 2 
+ Coef = -0.12" shape=plaintext]
+	sector -> subir [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 0.23" shape=plaintext]
+	casa -> no [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 2 
+ Coef = 2.58" shape=plaintext]
+	casa -> fluido [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = -1.1" shape=plaintext]
+	casa -> casa [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 53 
+ Coef = -0.11" shape=plaintext]
+	dia -> ayer [label="42.74%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 0.23" shape=plaintext]
+	dia -> no [label="6.45%" weight=1.2]
+}

@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	poder [label="poder 
+ Count = 498 
+ Coef = 2.84"]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 105 
+ Coef = 1.73" shape=plaintext]
+	si -> poder [label="21.52%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 100 
+ Coef = 1.3" shape=plaintext]
+	no -> poder [label="20.49%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 41 
+ Coef = 4.89" shape=plaintext]
+	que -> poder [label="8.4%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 31 
+ Coef = 0.94" shape=plaintext]
+	haber -> poder [label="6.35%" weight=1.2]
+	node [color=green style=filled]
+	ver [label="ver 
+ Count = 165 
+ Coef = 0.68" shape=plaintext]
+	ver -> si [label="17.72%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 127 
+ Coef = 2.29" shape=plaintext]
+	saber -> si [label="13.64%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 56 
+ Coef = 4.89" shape=plaintext]
+	que -> si [label="6.02%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 282 
+ Coef = 4.89" shape=plaintext]
+	que -> no [label="14.72%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 98 
+ Coef = -0.26" shape=plaintext]
+	luz -> no [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1195 
+ Coef = 2.51" shape=plaintext]
+	ser -> que [label="44.06%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 154 
+ Coef = 9.43" shape=plaintext]
+	necesitar -> que [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 403 
+ Coef = 1.3" shape=plaintext]
+	no -> haber [label="40.34%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 124 
+ Coef = 4.89" shape=plaintext]
+	que -> haber [label="12.41%" weight=1.2]
+	node [color=green style=filled]
+	colaborar [label="colaborar 
+ Count = 77 
+ Coef = 2.58" shape=plaintext]
+	poder -> colaborar [label="15.68%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 51 
+ Coef = 1.4" shape=plaintext]
+	poder -> hacer [label="10.39%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 26 
+ Coef = 4.59" shape=plaintext]
+	colaborar -> porque [label="13.47%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 22 
+ Coef = 4.89" shape=plaintext]
+	colaborar -> que [label="11.4%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 92 
+ Coef = -0.44" shape=plaintext]
+	hacer -> dia [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 66 
+ Coef = 0.69" shape=plaintext]
+	hacer -> mas [label="6.52%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 64 
+ Coef = 0.94" shape=plaintext]
+	hacer -> como [label="6.32%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 52 
+ Coef = 4.89" shape=plaintext]
+	hacer -> que [label="5.14%" weight=1.2]
+}

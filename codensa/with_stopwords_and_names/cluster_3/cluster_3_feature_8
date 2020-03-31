@@ -1,0 +1,7 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"llevar dia luz" [label="llevar dia luz 
+ Count = 23 
+ Coef = 2.26"]
+}

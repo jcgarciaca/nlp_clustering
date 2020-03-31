@@ -1,0 +1,47 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	finca [label="finca 
+ Count = 1310 
+ Coef = 5.32"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 84 
+ Coef = 3.12" shape=plaintext]
+	aqui -> finca [label="6.58%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 402 
+ Coef = -0.63" shape=plaintext]
+	que -> aqui [label="12.09%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 313 
+ Coef = -0.51" shape=plaintext]
+	estar -> aqui [label="9.41%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 228 
+ Coef = -2.19" shape=plaintext]
+	servicio -> aqui [label="6.86%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 200 
+ Coef = -0.13" shape=plaintext]
+	tener -> aqui [label="6.02%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 74 
+ Coef = 3.37" shape=plaintext]
+	finca -> santo [label="6.29%" weight=1.2]
+	node [color=green style=filled]
+	miguel [label="miguel 
+ Count = 161 
+ Coef = 1.74" shape=plaintext]
+	santo -> miguel [label="11.89%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 110 
+ Coef = 16.76" shape=plaintext]
+	santo -> municipio [label="8.12%" weight=1.2]
+}

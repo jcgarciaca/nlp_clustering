@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	noche [label="noche 
+ Count = 207 
+ Coef = 4.96"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 89 
+ Coef = 2.34" shape=plaintext]
+	luz -> noche [label="48.63%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 24 
+ Coef = -1.56" shape=plaintext]
+	energia -> noche [label="13.11%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 16 
+ Coef = 2.22" shape=plaintext]
+	ayer -> noche [label="8.74%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1254 
+ Coef = 14.84" shape=plaintext]
+	estar -> luz [label="91.4%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 383 
+ Coef = 14.84" shape=plaintext]
+	estar -> energia [label="91.19%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 135 
+ Coef = 2.34" shape=plaintext]
+	luz -> ayer [label="41.54%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 87 
+ Coef = 4.91" shape=plaintext]
+	dia -> ayer [label="26.77%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 45 
+ Coef = -1.56" shape=plaintext]
+	energia -> ayer [label="13.85%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 17 
+ Coef = 4.96" shape=plaintext]
+	noche -> noche [label="23.61%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 15 
+ Coef = 14.84" shape=plaintext]
+	noche -> estar [label="20.83%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 7 
+ Coef = 2.22" shape=plaintext]
+	noche -> ayer [label="9.72%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 17 
+ Coef = 4.96" shape=plaintext]
+	noche -> noche [label="23.61%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 15 
+ Coef = 14.84" shape=plaintext]
+	noche -> estar [label="20.83%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 7 
+ Coef = 2.22" shape=plaintext]
+	noche -> ayer [label="9.72%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1248 
+ Coef = 2.34" shape=plaintext]
+	estar -> luz [label="61.87%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 361 
+ Coef = -1.56" shape=plaintext]
+	estar -> energia [label="17.9%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 66 
+ Coef = 4.72" shape=plaintext]
+	ayer -> tarde [label="34.74%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 32 
+ Coef = 14.84" shape=plaintext]
+	ayer -> estar [label="16.84%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 26 
+ Coef = 6.73" shape=plaintext]
+	ayer -> manana [label="13.68%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 16 
+ Coef = 4.96" shape=plaintext]
+	ayer -> noche [label="8.42%" weight=1.2]
+	node [color=green style=filled]
+	mediodia [label="mediodia 
+ Count = 13 
+ Coef = 1.81" shape=plaintext]
+	ayer -> mediodia [label="6.84%" weight=1.2]
+}

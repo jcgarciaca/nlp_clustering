@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	entonces [label="entonces 
+ Count = 4998 
+ Coef = 5.8"]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 641 
+ Coef = 8.67" shape=plaintext]
+	entonces -> necesitar [label="13.06%" weight=1.2]
+	node [color=green style=filled]
+	querer [label="querer 
+ Count = 379 
+ Coef = 3.4" shape=plaintext]
+	entonces -> querer [label="7.72%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 360 
+ Coef = 1.7" shape=plaintext]
+	entonces -> no [label="7.34%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 329 
+ Coef = 4.94" shape=plaintext]
+	entonces -> que [label="6.7%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 307 
+ Coef = 1.55" shape=plaintext]
+	entonces -> ser [label="6.26%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 307 
+ Coef = 3.32" shape=plaintext]
+	entonces -> estar [label="6.26%" weight=1.2]
+	node [color=green style=filled]
+	ver [label="ver 
+ Count = 303 
+ Coef = 0.88" shape=plaintext]
+	entonces -> ver [label="6.17%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1218 
+ Coef = 4.94" shape=plaintext]
+	necesitar -> que [label="30.02%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 573 
+ Coef = 1.67" shape=plaintext]
+	necesitar -> saber [label="14.12%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 1174 
+ Coef = 1.67" shape=plaintext]
+	querer -> saber [label="55.22%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 194 
+ Coef = 4.94" shape=plaintext]
+	querer -> que [label="9.13%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5519 
+ Coef = 2.13" shape=plaintext]
+	no -> haber [label="28.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4811 
+ Coef = 2.29" shape=plaintext]
+	no -> tener [label="24.47%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2352 
+ Coef = 1.7" shape=plaintext]
+	que -> no [label="11.86%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1711 
+ Coef = 3.32" shape=plaintext]
+	que -> estar [label="8.63%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1081 
+ Coef = 1.55" shape=plaintext]
+	que -> ser [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7710 
+ Coef = 4.94" shape=plaintext]
+	ser -> que [label="50.24%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 1414 
+ Coef = 4.52" shape=plaintext]
+	estar -> llamar [label="12.05%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1191 
+ Coef = 1.67" shape=plaintext]
+	estar -> servicio [label="10.15%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 1146 
+ Coef = 1.52" shape=plaintext]
+	ver -> si [label="34.26%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 499 
+ Coef = 4.94" shape=plaintext]
+	ver -> que [label="14.92%" weight=1.2]
+}

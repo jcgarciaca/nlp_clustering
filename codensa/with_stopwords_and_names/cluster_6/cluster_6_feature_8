@@ -1,0 +1,52 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	corriente [label="corriente 
+ Count = 416 
+ Coef = 5.55"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 65 
+ Coef = 0.93" shape=plaintext]
+	tener -> corriente [label="16.21%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 42 
+ Coef = 0.6" shape=plaintext]
+	haber -> corriente [label="10.47%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1206 
+ Coef = 0.46" shape=plaintext]
+	no -> tener [label="45.27%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 285 
+ Coef = 3.89" shape=plaintext]
+	que -> tener [label="10.7%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 987 
+ Coef = 0.46" shape=plaintext]
+	no -> haber [label="37.82%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 274 
+ Coef = 3.89" shape=plaintext]
+	que -> haber [label="10.5%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 30 
+ Coef = 0.46" shape=plaintext]
+	corriente -> no [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1093 
+ Coef = 0.93" shape=plaintext]
+	no -> tener [label="21.14%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 866 
+ Coef = 0.6" shape=plaintext]
+	no -> haber [label="16.75%" weight=1.2]
+}

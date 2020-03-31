@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"estar suministro" [label="estar suministro 
+ Count = 90 
+ Coef = 2.83"]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 4 
+ Coef = 0.46" shape=plaintext]
+	ayer -> "estar suministro" [label="19.05%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = -1.95" shape=plaintext]
+	que -> "estar suministro" [label="19.05%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 3 
+ Coef = 0.9" shape=plaintext]
+	mna -> "estar suministro" [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 449 
+ Coef = 1.25" shape=plaintext]
+	dia -> ayer [label="48.23%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 276 
+ Coef = 15.75" shape=plaintext]
+	energia -> ayer [label="29.65%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 234 
+ Coef = -1.44" shape=plaintext]
+	ser -> que [label="37.93%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 213 
+ Coef = 15.75" shape=plaintext]
+	energia -> mna [label="35.74%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 64 
+ Coef = 0.46" shape=plaintext]
+	ayer -> mna [label="10.74%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 58 
+ Coef = 2.53" shape=plaintext]
+	tener -> mna [label="9.73%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 37 
+ Coef = 1.56" shape=plaintext]
+	hora -> mna [label="6.21%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 58 
+ Coef = 15.75" shape=plaintext]
+	"estar suministro" -> energia [label="77.33%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 5 
+ Coef = 0.9" shape=plaintext]
+	"estar suministro" -> mna [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 536 
+ Coef = 0.64" shape=plaintext]
+	energia -> electrica [label="11.17%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 374 
+ Coef = -0.04" shape=plaintext]
+	energia -> sector [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 339 
+ Coef = 1.25" shape=plaintext]
+	energia -> dia [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 284 
+ Coef = -0.36" shape=plaintext]
+	energia -> hacer [label="5.92%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 273 
+ Coef = 0.46" shape=plaintext]
+	energia -> ayer [label="5.69%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 44 
+ Coef = -0.64" shape=plaintext]
+	mna -> no [label="15.66%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 24 
+ Coef = -1.99" shape=plaintext]
+	mna -> estar [label="8.54%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 23 
+ Coef = 0.9" shape=plaintext]
+	mna -> mna [label="8.19%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 21 
+ Coef = -1.44" shape=plaintext]
+	mna -> ser [label="7.47%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 17 
+ Coef = 1.25" shape=plaintext]
+	mna -> dia [label="6.05%" weight=1.2]
+}

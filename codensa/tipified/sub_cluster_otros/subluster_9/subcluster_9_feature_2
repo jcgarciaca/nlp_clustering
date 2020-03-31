@@ -1,0 +1,152 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llamar [label="llamar 
+ Count = 1024 
+ Coef = 6.53"]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 224 
+ Coef = 1.27" shape=plaintext]
+	estar -> llamar [label="22.97%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 121 
+ Coef = 2.52" shape=plaintext]
+	hemo -> llamar [label="12.41%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 74 
+ Coef = 3.97" shape=plaintext]
+	haber -> llamar [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 62 
+ Coef = 1.41" shape=plaintext]
+	ayer -> llamar [label="6.36%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 54 
+ Coef = 2.72" shape=plaintext]
+	ya -> llamar [label="5.54%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 168 
+ Coef = 1.03" shape=plaintext]
+	que -> estar [label="16.95%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 77 
+ Coef = 1.41" shape=plaintext]
+	ayer -> estar [label="7.77%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 55 
+ Coef = 2.72" shape=plaintext]
+	ya -> hemo [label="21.48%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 33 
+ Coef = 2.07" shape=plaintext]
+	no -> hemo [label="12.89%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 27 
+ Coef = -0.51" shape=plaintext]
+	luz -> hemo [label="10.55%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 13 
+ Coef = 0.62" shape=plaintext]
+	dia -> hemo [label="5.08%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1146 
+ Coef = 2.07" shape=plaintext]
+	no -> haber [label="70.26%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 158 
+ Coef = 0.62" shape=plaintext]
+	dia -> ayer [label="24.2%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 78 
+ Coef = -0.51" shape=plaintext]
+	luz -> ayer [label="11.94%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 72 
+ Coef = 1.03" shape=plaintext]
+	que -> ayer [label="11.03%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 174 
+ Coef = 1.03" shape=plaintext]
+	que -> ya [label="19.35%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 65 
+ Coef = -0.51" shape=plaintext]
+	luz -> ya [label="7.23%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 92 
+ Coef = 2.07" shape=plaintext]
+	llamar -> no [label="9.21%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 77 
+ Coef = 1.03" shape=plaintext]
+	llamar -> que [label="7.71%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 50 
+ Coef = -0.89" shape=plaintext]
+	llamar -> porque [label="5.01%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 928 
+ Coef = 3.97" shape=plaintext]
+	no -> haber [label="43.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 142 
+ Coef = 2.07" shape=plaintext]
+	no -> no [label="6.7%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 114 
+ Coef = -0.4" shape=plaintext]
+	no -> tener [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 165 
+ Coef = 1.27" shape=plaintext]
+	que -> estar [label="9.76%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 155 
+ Coef = 2.07" shape=plaintext]
+	que -> no [label="9.17%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 120 
+ Coef = 2.72" shape=plaintext]
+	que -> ya [label="7.1%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 75 
+ Coef = 2.07" shape=plaintext]
+	porque -> no [label="21.55%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 35 
+ Coef = 1.27" shape=plaintext]
+	porque -> estar [label="10.06%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 20 
+ Coef = -0.31" shape=plaintext]
+	porque -> ser [label="5.75%" weight=1.2]
+}

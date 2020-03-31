@@ -1,0 +1,152 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"tener servicio" [label="tener servicio 
+ Count = 1900 
+ Coef = 3.38"]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1804 
+ Coef = -1.47" shape=plaintext]
+	no -> "tener servicio" [label="97.46%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 391 
+ Coef = 22.7" shape=plaintext]
+	servicio -> no [label="30.22%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 172 
+ Coef = -1.08" shape=plaintext]
+	que -> no [label="13.29%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 67 
+ Coef = 3.03" shape=plaintext]
+	ayer -> no [label="5.18%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 89 
+ Coef = 0.59" shape=plaintext]
+	"tener servicio" -> dia [label="10.55%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 85 
+ Coef = -0.31" shape=plaintext]
+	"tener servicio" -> hacer [label="10.07%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 76 
+ Coef = 3.03" shape=plaintext]
+	"tener servicio" -> ayer [label="9.0%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 68 
+ Coef = -1.36" shape=plaintext]
+	"tener servicio" -> casa [label="8.06%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 63 
+ Coef = 0.32" shape=plaintext]
+	"tener servicio" -> mna [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 315 
+ Coef = 3.03" shape=plaintext]
+	dia -> ayer [label="43.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 92 
+ Coef = 22.7" shape=plaintext]
+	dia -> servicio [label="12.65%" weight=1.2]
+	node [color=green style=filled]
+	hoy [label="hoy 
+ Count = 41 
+ Coef = 0.55" shape=plaintext]
+	dia -> hoy [label="5.64%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 161 
+ Coef = 0.59" shape=plaintext]
+	hacer -> dia [label="30.32%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 125 
+ Coef = 1.21" shape=plaintext]
+	hacer -> hora [label="23.54%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 77 
+ Coef = 0.21" shape=plaintext]
+	hacer -> mas [label="14.5%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 31 
+ Coef = -0.12" shape=plaintext]
+	hacer -> dos [label="5.84%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 95 
+ Coef = 0.57" shape=plaintext]
+	ayer -> tarde [label="21.02%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 55 
+ Coef = 0.32" shape=plaintext]
+	ayer -> mna [label="12.17%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 44 
+ Coef = -1.47" shape=plaintext]
+	ayer -> no [label="9.73%" weight=1.2]
+	node [color=red style=filled]
+	mediodia [label="mediodia 
+ Count = 31 
+ Coef = -0.02" shape=plaintext]
+	ayer -> mediodia [label="6.86%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 25 
+ Coef = -0.85" shape=plaintext]
+	ayer -> noche [label="5.53%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 24 
+ Coef = -0.71" shape=plaintext]
+	ayer -> estar [label="5.31%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 20 
+ Coef = -1.47" shape=plaintext]
+	casa -> no [label="23.53%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = -1.28" shape=plaintext]
+	casa -> ser [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 40 
+ Coef = -1.47" shape=plaintext]
+	mna -> no [label="19.42%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 18 
+ Coef = -0.71" shape=plaintext]
+	mna -> estar [label="8.74%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 16 
+ Coef = 22.7" shape=plaintext]
+	mna -> servicio [label="7.77%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 15 
+ Coef = -1.28" shape=plaintext]
+	mna -> ser [label="7.28%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 14 
+ Coef = 0.32" shape=plaintext]
+	mna -> mna [label="6.8%" weight=1.2]
+}

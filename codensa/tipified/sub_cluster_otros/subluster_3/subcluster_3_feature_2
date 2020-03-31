@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	servicio [label="servicio 
+ Count = 877 
+ Coef = 4.81"]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 402 
+ Coef = 12.56" shape=plaintext]
+	restablecer -> servicio [label="46.42%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 130 
+ Coef = 1.91" shape=plaintext]
+	estar -> servicio [label="15.01%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 126 
+ Coef = 0.86" shape=plaintext]
+	haber -> restablecer [label="20.97%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 77 
+ Coef = 3.41" shape=plaintext]
+	hora -> restablecer [label="12.81%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 76 
+ Coef = 1.26" shape=plaintext]
+	que -> restablecer [label="12.65%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 53 
+ Coef = 0.46" shape=plaintext]
+	ir -> restablecer [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 31 
+ Coef = 0.97" shape=plaintext]
+	no -> restablecer [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 53 
+ Coef = 1.26" shape=plaintext]
+	que -> estar [label="20.46%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 15 
+ Coef = 3.41" shape=plaintext]
+	hora -> estar [label="5.79%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 13 
+ Coef = -0.65" shape=plaintext]
+	luz -> estar [label="5.02%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 150 
+ Coef = 1.15" shape=plaintext]
+	servicio -> energia [label="22.87%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 138 
+ Coef = -0.65" shape=plaintext]
+	servicio -> luz [label="21.04%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 16 
+ Coef = -0.36" shape=plaintext]
+	energia -> hacer [label="7.34%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 13 
+ Coef = 0.46" shape=plaintext]
+	energia -> dia [label="5.96%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = -0.36" shape=plaintext]
+	luz -> hacer [label="7.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 20 
+ Coef = 0.97" shape=plaintext]
+	luz -> no [label="6.54%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 17 
+ Coef = 0.29" shape=plaintext]
+	luz -> aqui [label="5.56%" weight=1.2]
+}

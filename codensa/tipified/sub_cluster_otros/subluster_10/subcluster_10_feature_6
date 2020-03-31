@@ -1,0 +1,232 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reconectar servicio" [label="reconectar servicio 
+ Count = 11 
+ Coef = 3.42"]
+	node [color=lightgrey style=filled]
+	sinonimo [label="sinonimo 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	sinonimo -> "reconectar servicio" [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -0.33" shape=plaintext]
+	ir -> "reconectar servicio" [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> "reconectar servicio" [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> sinonimo [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.34" shape=plaintext]
+	que -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	ustedes [label="ustedes 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	ustedes -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.65" shape=plaintext]
+	hora -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	cuando [label="cuando 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	cuando -> ir [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 405 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> ser [label="84.73%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = -0.04" shape=plaintext]
+	"reconectar servicio" -> energia [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -0.13" shape=plaintext]
+	"reconectar servicio" -> luz [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	"reconectar servicio" -> ayer [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	"reconectar servicio" -> porque [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 1 
+ Coef = 0.41" shape=plaintext]
+	"reconectar servicio" -> suspension [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.81" shape=plaintext]
+	"reconectar servicio" -> estar [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	tercer [label="tercer 
+ Count = 1 
+ Coef = 0.24" shape=plaintext]
+	energia -> tercer [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	energia -> no [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 3 
+ Coef = 0.88" shape=plaintext]
+	luz -> corte [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 2.57" shape=plaintext]
+	luz -> servicio [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	luz -> porque [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -0.2" shape=plaintext]
+	ayer -> ser [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 1 
+ Coef = 2.09" shape=plaintext]
+	ayer -> cortar [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -0.54" shape=plaintext]
+	ayer -> noche [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 1 
+ Coef = 1.14" shape=plaintext]
+	ayer -> pago [label="11.11%" weight=1.2]
+	node [color=lightgrey style=filled]
+	michael [label="michael 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	ayer -> michael [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.34" shape=plaintext]
+	ayer -> que [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	ayer -> tarde [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	pedir [label="pedir 
+ Count = 1 
+ Coef = 0.42" shape=plaintext]
+	porque -> pedir [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 2.57" shape=plaintext]
+	porque -> servicio [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tenia [label="tenia 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	porque -> tenia [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	porque -> ya [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	porque -> no [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	porque -> ser [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	suspension -> ya [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 2.57" shape=plaintext]
+	suspension -> servicio [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 5 
+ Coef = -0.58" shape=plaintext]
+	estar -> llamar [label="29.41%" weight=1.2]
+	node [color=green style=filled]
+	esperar [label="esperar 
+ Count = 2 
+ Coef = 0.14" shape=plaintext]
+	estar -> esperar [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	espera [label="espera 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	estar -> espera [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 2 
+ Coef = 0.66" shape=plaintext]
+	estar -> solicitar [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 1 
+ Coef = 12.16" shape=plaintext]
+	estar -> reconexion [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	pedir [label="pedir 
+ Count = 1 
+ Coef = 0.42" shape=plaintext]
+	estar -> pedir [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	suspendido [label="suspendido 
+ Count = 1 
+ Coef = 1.4" shape=plaintext]
+	estar -> suspendido [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	hablar [label="hablar 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	estar -> hablar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	validar [label="validar 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	estar -> validar [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	estar -> luz [label="5.88%" weight=1.2]
+}

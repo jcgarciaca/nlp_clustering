@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llamar [label="llamar 
+ Count = 140 
+ Coef = 4.05"]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 38 
+ Coef = 2.18" shape=plaintext]
+	estar -> llamar [label="28.15%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 10 
+ Coef = 1.15" shape=plaintext]
+	que -> llamar [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 9 
+ Coef = 0.05" shape=plaintext]
+	hemo -> llamar [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 91 
+ Coef = 1.15" shape=plaintext]
+	que -> estar [label="26.07%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 33 
+ Coef = 0.15" shape=plaintext]
+	porque -> estar [label="9.46%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 23 
+ Coef = 11.7" shape=plaintext]
+	llamada -> estar [label="6.59%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 339 
+ Coef = 0.87" shape=plaintext]
+	ser -> que [label="65.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 1.13" shape=plaintext]
+	no -> hemo [label="24.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 1.15" shape=plaintext]
+	que -> hemo [label="12.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 0.58" shape=plaintext]
+	ya -> hemo [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -0.99" shape=plaintext]
+	luz -> hemo [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 18 
+ Coef = 1.13" shape=plaintext]
+	llamar -> no [label="13.14%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 10 
+ Coef = 1.15" shape=plaintext]
+	llamar -> que [label="7.3%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 8 
+ Coef = 4.05" shape=plaintext]
+	llamar -> llamar [label="5.84%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7 
+ Coef = 0.87" shape=plaintext]
+	llamar -> ser [label="5.11%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 73 
+ Coef = -1.44" shape=plaintext]
+	no -> haber [label="16.94%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 43 
+ Coef = -0.51" shape=plaintext]
+	no -> tener [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 32 
+ Coef = 5.31" shape=plaintext]
+	no -> contestar [label="7.42%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 114 
+ Coef = 2.18" shape=plaintext]
+	que -> estar [label="18.42%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 42 
+ Coef = 1.13" shape=plaintext]
+	que -> no [label="6.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 36 
+ Coef = 0.87" shape=plaintext]
+	que -> ser [label="5.82%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 18 
+ Coef = 1.13" shape=plaintext]
+	llamar -> no [label="13.14%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 10 
+ Coef = 1.15" shape=plaintext]
+	llamar -> que [label="7.3%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 8 
+ Coef = 4.05" shape=plaintext]
+	llamar -> llamar [label="5.84%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7 
+ Coef = 0.87" shape=plaintext]
+	llamar -> ser [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 319 
+ Coef = 1.15" shape=plaintext]
+	ser -> que [label="52.99%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 85 
+ Coef = 0.15" shape=plaintext]
+	ser -> porque [label="14.12%" weight=1.2]
+}

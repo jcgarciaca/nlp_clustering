@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reportar [label="reportar 
+ Count = 2245 
+ Coef = 21.59"]
+	node [color=green style=filled]
+	para [label="para 
+ Count = 1351 
+ Coef = 4.39" shape=plaintext]
+	para -> reportar [label="91.1%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 138 
+ Coef = -0.8" shape=plaintext]
+	ser -> para [label="42.99%" weight=1.2]
+	node [color=green style=filled]
+	un [label="un 
+ Count = 18 
+ Coef = 2.6" shape=plaintext]
+	un -> para [label="5.61%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 17 
+ Coef = -0.41" shape=plaintext]
+	llamar -> para [label="5.3%" weight=1.2]
+	node [color=green style=filled]
+	una [label="una 
+ Count = 881 
+ Coef = 0.57" shape=plaintext]
+	reportar -> una [label="39.38%" weight=1.2]
+	node [color=green style=filled]
+	un [label="un 
+ Count = 772 
+ Coef = 2.6" shape=plaintext]
+	reportar -> un [label="34.51%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 152 
+ Coef = 3.29" shape=plaintext]
+	reportar -> falla [label="6.79%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 114 
+ Coef = -0.32" shape=plaintext]
+	reportar -> que [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 847 
+ Coef = 3.29" shape=plaintext]
+	una -> falla [label="88.41%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 563 
+ Coef = 1.03" shape=plaintext]
+	un -> dano [label="64.34%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 120 
+ Coef = 0.73" shape=plaintext]
+	un -> fallo [label="13.71%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 485 
+ Coef = Not in Dict" shape=plaintext]
+	falla -> en [label="52.15%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 158 
+ Coef = Not in Dict" shape=plaintext]
+	falla -> de [label="16.99%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 138 
+ Coef = 0.13" shape=plaintext]
+	falla -> electrica [label="14.84%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 105 
+ Coef = -1.99" shape=plaintext]
+	que -> no [label="39.33%" weight=1.2]
+	node [color=green style=filled]
+	se [label="se 
+ Count = 26 
+ Coef = 0.42" shape=plaintext]
+	que -> se [label="9.74%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 21 
+ Coef = -2.57" shape=plaintext]
+	que -> estar [label="7.87%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 15 
+ Coef = -1.59" shape=plaintext]
+	que -> haber [label="5.62%" weight=1.2]
+}

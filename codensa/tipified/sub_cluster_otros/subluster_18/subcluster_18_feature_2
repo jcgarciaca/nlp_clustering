@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cayo [label="cayo 
+ Count = 50 
+ Coef = 4.66"]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	que -> cayo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 3 
+ Coef = 4.66" shape=plaintext]
+	cayo -> cayo [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	luz -> cayo [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 8 
+ Coef = 1.19" shape=plaintext]
+	ser -> que [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	canuela [label="canuela 
+ Count = 4 
+ Coef = 10.71" shape=plaintext]
+	canuela -> que [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	luz -> que [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	que -> cayo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 3 
+ Coef = 4.66" shape=plaintext]
+	cayo -> cayo [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	luz -> cayo [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 12 
+ Coef = -0.56" shape=plaintext]
+	estar -> luz [label="41.38%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = 1.19" shape=plaintext]
+	ser -> luz [label="20.69%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	fallo -> luz [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	quedar [label="quedar 
+ Count = 2 
+ Coef = -0.24" shape=plaintext]
+	quedar -> luz [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	canuela [label="canuela 
+ Count = 34 
+ Coef = 10.71" shape=plaintext]
+	cayo -> canuela [label="72.34%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 4 
+ Coef = 4.66" shape=plaintext]
+	cayo -> cayo [label="8.51%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 3 
+ Coef = 0.4" shape=plaintext]
+	cayo -> fase [label="6.38%" weight=1.2]
+	node [color=red style=filled]
+	quedar [label="quedar 
+ Count = 4 
+ Coef = -0.24" shape=plaintext]
+	canuela -> quedar [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	entrada [label="entrada 
+ Count = 4 
+ Coef = 1.05" shape=plaintext]
+	canuela -> entrada [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = -0.56" shape=plaintext]
+	canuela -> estar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 3 
+ Coef = -0.29" shape=plaintext]
+	canuela -> aqui [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	canuela [label="canuela 
+ Count = 34 
+ Coef = 10.71" shape=plaintext]
+	cayo -> canuela [label="72.34%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 4 
+ Coef = 4.66" shape=plaintext]
+	cayo -> cayo [label="8.51%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 3 
+ Coef = 0.4" shape=plaintext]
+	cayo -> fase [label="6.38%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.56" shape=plaintext]
+	fase -> estar [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	fase -> luz [label="50.0%" weight=1.2]
+}

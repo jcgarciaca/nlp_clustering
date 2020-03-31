@@ -1,0 +1,147 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	ausencia [label="ausencia 
+ Count = 19 
+ Coef = 2.6"]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 1 
+ Coef = 22.07" shape=plaintext]
+	electrico -> ausencia [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	reporte [label="reporte 
+ Count = 1 
+ Coef = -0.24" shape=plaintext]
+	reporte -> ausencia [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	reclamacion [label="reclamacion 
+ Count = 1 
+ Coef = 0.21" shape=plaintext]
+	reclamacion -> ausencia [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 970 
+ Coef = -0.91" shape=plaintext]
+	servicio -> electrico [label="28.4%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 886 
+ Coef = 2.58" shape=plaintext]
+	fluido -> electrico [label="25.94%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 579 
+ Coef = 0.53" shape=plaintext]
+	suministro -> electrico [label="16.95%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.65" shape=plaintext]
+	ser -> reclamacion [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 7 
+ Coef = 2.58" shape=plaintext]
+	ausencia -> fluido [label="36.84%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = -0.91" shape=plaintext]
+	ausencia -> servicio [label="26.32%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -2.94" shape=plaintext]
+	ausencia -> luz [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = -3.02" shape=plaintext]
+	ausencia -> energia [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	sonido [label="sonido 
+ Count = 1 
+ Coef = 0.03" shape=plaintext]
+	ausencia -> sonido [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	solo [label="solo 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	ausencia -> solo [label="5.26%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pulidor [label="pulidor 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	ausencia -> pulidor [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 896 
+ Coef = 22.07" shape=plaintext]
+	fluido -> electrico [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 959 
+ Coef = 22.07" shape=plaintext]
+	servicio -> electrico [label="93.74%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 0.23" shape=plaintext]
+	luz -> no [label="15.69%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 8 
+ Coef = 7.58" shape=plaintext]
+	luz -> electrica [label="15.69%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 5 
+ Coef = 22.07" shape=plaintext]
+	luz -> electrico [label="9.8%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = -0.91" shape=plaintext]
+	luz -> servicio [label="7.84%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 25 
+ Coef = 7.58" shape=plaintext]
+	energia -> electrica [label="52.08%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 0.23" shape=plaintext]
+	energia -> no [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	riesgo [label="riesgo 
+ Count = 3 
+ Coef = 1.02" shape=plaintext]
+	energia -> riesgo [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 7 
+ Coef = 22.07" shape=plaintext]
+	sonido -> electrico [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 7.58" shape=plaintext]
+	solo -> electrica [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	clases [label="clases 
+ Count = 1 
+ Coef = -1.1" shape=plaintext]
+	solo -> clases [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.8" shape=plaintext]
+	solo -> tener [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 1 
+ Coef = 22.07" shape=plaintext]
+	pulidor -> electrico [label="100.0%" weight=1.2]
+}

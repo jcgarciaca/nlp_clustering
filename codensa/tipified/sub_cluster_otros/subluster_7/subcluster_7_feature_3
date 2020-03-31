@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	servicio [label="servicio 
+ Count = 1421 
+ Coef = 4.87"]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 219 
+ Coef = 5.25" shape=plaintext]
+	cortar -> servicio [label="16.11%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 89 
+ Coef = 2.36" shape=plaintext]
+	suspender -> servicio [label="6.55%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 83 
+ Coef = 3.2" shape=plaintext]
+	reconexion -> servicio [label="6.11%" weight=1.2]
+	node [color=green style=filled]
+	cancelar [label="cancelar 
+ Count = 72 
+ Coef = 5.19" shape=plaintext]
+	cancelar -> servicio [label="5.3%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 65 
+ Coef = 1.36" shape=plaintext]
+	que -> cortar [label="16.37%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 36 
+ Coef = 2.73" shape=plaintext]
+	porque -> cortar [label="9.07%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 26 
+ Coef = 0.2" shape=plaintext]
+	ayer -> cortar [label="6.55%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 23 
+ Coef = -0.32" shape=plaintext]
+	ir -> cortar [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 34 
+ Coef = 1.13" shape=plaintext]
+	ser -> suspender [label="28.33%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 11 
+ Coef = 1.36" shape=plaintext]
+	que -> suspender [label="9.17%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 1.05" shape=plaintext]
+	no -> suspender [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 7 
+ Coef = 2.73" shape=plaintext]
+	porque -> suspender [label="5.83%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 32 
+ Coef = 1.06" shape=plaintext]
+	hacer -> reconexion [label="15.02%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 23 
+ Coef = 2.4" shape=plaintext]
+	solicitar -> reconexion [label="10.8%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 18 
+ Coef = 1.84" shape=plaintext]
+	necesitar -> reconexion [label="8.45%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 1.13" shape=plaintext]
+	ser -> reconexion [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 56 
+ Coef = 1.75" shape=plaintext]
+	ya -> cancelar [label="23.43%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 30 
+ Coef = 1.13" shape=plaintext]
+	ser -> cancelar [label="12.55%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 13 
+ Coef = 1.09" shape=plaintext]
+	habia -> cancelar [label="5.44%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 219 
+ Coef = 0.62" shape=plaintext]
+	servicio -> energia [label="17.18%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 209 
+ Coef = -0.75" shape=plaintext]
+	servicio -> luz [label="16.39%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 17 
+ Coef = 1.75" shape=plaintext]
+	energia -> ya [label="6.23%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 43 
+ Coef = 1.05" shape=plaintext]
+	luz -> no [label="9.35%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 40 
+ Coef = 1.75" shape=plaintext]
+	luz -> ya [label="8.7%" weight=1.2]
+}

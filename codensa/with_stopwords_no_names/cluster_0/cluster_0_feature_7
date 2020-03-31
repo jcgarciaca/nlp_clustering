@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llamar [label="llamar 
+ Count = 4904 
+ Coef = 4.52"]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1557 
+ Coef = 3.32" shape=plaintext]
+	estar -> llamar [label="33.13%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 383 
+ Coef = 1.94" shape=plaintext]
+	hemo -> llamar [label="8.15%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 246 
+ Coef = 2.13" shape=plaintext]
+	haber -> llamar [label="5.23%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1742 
+ Coef = 4.94" shape=plaintext]
+	que -> estar [label="17.56%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 176 
+ Coef = 1.7" shape=plaintext]
+	no -> hemo [label="16.45%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 164 
+ Coef = 2.62" shape=plaintext]
+	ya -> hemo [label="15.33%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 66 
+ Coef = 1.0" shape=plaintext]
+	dia -> hemo [label="6.17%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7093 
+ Coef = 1.7" shape=plaintext]
+	no -> haber [label="62.29%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 657 
+ Coef = 4.94" shape=plaintext]
+	que -> haber [label="5.77%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 378 
+ Coef = 6.06" shape=plaintext]
+	llamar -> porque [label="7.88%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 337 
+ Coef = 4.94" shape=plaintext]
+	llamar -> que [label="7.03%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 317 
+ Coef = 1.7" shape=plaintext]
+	llamar -> no [label="6.61%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1124 
+ Coef = 1.7" shape=plaintext]
+	porque -> no [label="17.81%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 478 
+ Coef = 3.32" shape=plaintext]
+	porque -> estar [label="7.58%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 446 
+ Coef = 1.55" shape=plaintext]
+	porque -> ser [label="7.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 442 
+ Coef = 2.29" shape=plaintext]
+	porque -> tener [label="7.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2352 
+ Coef = 1.7" shape=plaintext]
+	que -> no [label="11.86%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1711 
+ Coef = 3.32" shape=plaintext]
+	que -> estar [label="8.63%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1081 
+ Coef = 1.55" shape=plaintext]
+	que -> ser [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5519 
+ Coef = 2.13" shape=plaintext]
+	no -> haber [label="28.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4811 
+ Coef = 2.29" shape=plaintext]
+	no -> tener [label="24.47%" weight=1.2]
+}

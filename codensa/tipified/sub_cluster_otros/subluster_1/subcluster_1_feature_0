@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	servicio [label="servicio 
+ Count = 1894 
+ Coef = 10.87"]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 98 
+ Coef = 0.34" shape=plaintext]
+	dano -> servicio [label="6.62%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 77 
+ Coef = 0.38" shape=plaintext]
+	falla -> servicio [label="5.2%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 3 
+ Coef = -0.06" shape=plaintext]
+	haber -> dano [label="15.79%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 2 
+ Coef = -0.89" shape=plaintext]
+	si -> dano [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 2 
+ Coef = -0.08" shape=plaintext]
+	reportar -> dano [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	verificar [label="verificar 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	verificar -> dano [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	malo [label="malo 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	malo -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	notificar [label="notificar 
+ Count = 1 
+ Coef = 0.1" shape=plaintext]
+	notificar -> dano [label="5.26%" weight=1.2]
+	node [color=lightgrey style=filled]
+	italika [label="italika 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	italika -> dano [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	suspendido [label="suspendido 
+ Count = 1 
+ Coef = -0.44" shape=plaintext]
+	suspendido -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 1 
+ Coef = 0.25" shape=plaintext]
+	presentar -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	dios [label="dios 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	dios -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 0.34" shape=plaintext]
+	dano -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 1 
+ Coef = 0.46" shape=plaintext]
+	numero -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	tener -> dano [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	arreglo [label="arreglo 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	arreglo -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 27 
+ Coef = 0.9" shape=plaintext]
+	tener -> falla [label="25.96%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 22 
+ Coef = -0.06" shape=plaintext]
+	haber -> falla [label="21.15%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 10 
+ Coef = -2.17" shape=plaintext]
+	ser -> falla [label="9.62%" weight=1.2]
+	node [color=green style=filled]
+	presente [label="presente 
+ Count = 9 
+ Coef = 1.16" shape=plaintext]
+	presente -> falla [label="8.65%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 240 
+ Coef = 3.13" shape=plaintext]
+	servicio -> sector [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 195 
+ Coef = -2.09" shape=plaintext]
+	servicio -> luz [label="17.66%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 18 
+ Coef = 10.87" shape=plaintext]
+	sector -> servicio [label="35.29%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 3 
+ Coef = 0.01" shape=plaintext]
+	sector -> vivir [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 11 
+ Coef = 3.13" shape=plaintext]
+	luz -> sector [label="7.86%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 8 
+ Coef = -0.39" shape=plaintext]
+	luz -> aqui [label="5.71%" weight=1.2]
+}

@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	apartamento [label="apartamento 
+ Count = 226 
+ Coef = 10.67"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 48 
+ Coef = 1.01" shape=plaintext]
+	luz -> apartamento [label="22.43%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 29 
+ Coef = -0.65" shape=plaintext]
+	energia -> apartamento [label="13.55%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 94 
+ Coef = -0.4" shape=plaintext]
+	ser -> luz [label="28.31%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 28 
+ Coef = 1.3" shape=plaintext]
+	quedar -> luz [label="8.43%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 23 
+ Coef = -3.08" shape=plaintext]
+	estar -> luz [label="6.93%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = -4.91" shape=plaintext]
+	servicio -> energia [label="10.81%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 8 
+ Coef = -0.7" shape=plaintext]
+	haber -> energia [label="10.81%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 6 
+ Coef = -0.29" shape=plaintext]
+	corte -> energia [label="8.11%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = -0.4" shape=plaintext]
+	ser -> energia [label="6.76%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 4 
+ Coef = 1.3" shape=plaintext]
+	quedar -> energia [label="5.41%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 4 
+ Coef = -3.08" shape=plaintext]
+	estar -> energia [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 14 
+ Coef = 1.01" shape=plaintext]
+	apartamento -> luz [label="12.07%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = -0.4" shape=plaintext]
+	apartamento -> ser [label="10.34%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 9 
+ Coef = 1.3" shape=plaintext]
+	apartamento -> quedar [label="7.76%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 1.38" shape=plaintext]
+	apartamento -> no [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 56 
+ Coef = 7.45" shape=plaintext]
+	luz -> casa [label="18.42%" weight=1.2]
+	node [color=green style=filled]
+	apartamento [label="apartamento 
+ Count = 44 
+ Coef = 10.67" shape=plaintext]
+	luz -> apartamento [label="14.47%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 16 
+ Coef = 1.38" shape=plaintext]
+	luz -> no [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 88 
+ Coef = 1.01" shape=plaintext]
+	ser -> luz [label="38.94%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 73 
+ Coef = -0.99" shape=plaintext]
+	ser -> que [label="32.3%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 34 
+ Coef = 1.01" shape=plaintext]
+	quedar -> luz [label="58.62%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = -0.65" shape=plaintext]
+	quedar -> energia [label="8.62%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 4 
+ Coef = 4.93" shape=plaintext]
+	quedar -> taco [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 31 
+ Coef = 0.18" shape=plaintext]
+	no -> tener [label="12.81%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 27 
+ Coef = -0.7" shape=plaintext]
+	no -> haber [label="11.16%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 20 
+ Coef = 2.3" shape=plaintext]
+	no -> funcionar [label="8.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.4" shape=plaintext]
+	no -> ser [label="5.37%" weight=1.2]
+}

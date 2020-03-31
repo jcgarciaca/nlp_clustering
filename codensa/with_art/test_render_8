@@ -1,0 +1,162 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	estar [label="estar 
+ Count = 1370 
+ Coef = 17.13"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 18 
+ Coef = 2.26" shape=plaintext]
+	luz -> estar [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 17 
+ Coef = -2.28" shape=plaintext]
+	que -> estar [label="20.99%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 9 
+ Coef = 17.13" shape=plaintext]
+	estar -> estar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	vez [label="vez 
+ Count = 9 
+ Coef = 0.76" shape=plaintext]
+	vez -> estar [label="11.11%" weight=1.2]
+	node [color=lightgrey style=filled]
+	y [label="y 
+ Count = 5 
+ Coef = Not in Dict" shape=plaintext]
+	y -> estar [label="6.17%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 909 
+ Coef = 2.71" shape=plaintext]
+	sin -> luz [label="94.59%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = 0.4" shape=plaintext]
+	energia -> que [label="15.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.55" shape=plaintext]
+	ser -> que [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	se [label="se 
+ Count = 2 
+ Coef = -1.07" shape=plaintext]
+	se -> que [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	me [label="me 
+ Count = 2 
+ Coef = -0.9" shape=plaintext]
+	me -> que [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 18 
+ Coef = 2.26" shape=plaintext]
+	luz -> estar [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 17 
+ Coef = -2.28" shape=plaintext]
+	que -> estar [label="20.99%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 9 
+ Coef = 17.13" shape=plaintext]
+	estar -> estar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	vez [label="vez 
+ Count = 9 
+ Coef = 0.76" shape=plaintext]
+	vez -> estar [label="11.11%" weight=1.2]
+	node [color=lightgrey style=filled]
+	y [label="y 
+ Count = 5 
+ Coef = Not in Dict" shape=plaintext]
+	y -> estar [label="6.17%" weight=1.2]
+	node [color=green style=filled]
+	otra [label="otra 
+ Count = 21 
+ Coef = 0.63" shape=plaintext]
+	otra -> vez [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 5 
+ Coef = 17.13" shape=plaintext]
+	estar -> y [label="11.9%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = 2.26" shape=plaintext]
+	luz -> y [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 4 
+ Coef = 2.99" shape=plaintext]
+	dia -> y [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 4 
+ Coef = 1.24" shape=plaintext]
+	hora -> y [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 1.88" shape=plaintext]
+	casa -> y [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -0.55" shape=plaintext]
+	ser -> y [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 3 
+ Coef = 3.21" shape=plaintext]
+	noche -> y [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 1016 
+ Coef = 2.71" shape=plaintext]
+	estar -> sin [label="74.65%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 118 
+ Coef = Not in Dict" shape=plaintext]
+	estar -> en [label="8.67%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 913 
+ Coef = 2.26" shape=plaintext]
+	sin -> luz [label="83.68%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 165 
+ Coef = 0.4" shape=plaintext]
+	sin -> energia [label="15.12%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 62 
+ Coef = -1.65" shape=plaintext]
+	en -> la [label="24.7%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 53 
+ Coef = -2.88" shape=plaintext]
+	en -> el [label="21.12%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 43 
+ Coef = 0.4" shape=plaintext]
+	en -> energia [label="17.13%" weight=1.2]
+	node [color=green style=filled]
+	mi [label="mi 
+ Count = 13 
+ Coef = 0.11" shape=plaintext]
+	en -> mi [label="5.18%" weight=1.2]
+}

@@ -1,0 +1,187 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	bajar [label="bajar 
+ Count = 13 
+ Coef = 5.48"]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 2 
+ Coef = 4.74" shape=plaintext]
+	subir -> bajar [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.88" shape=plaintext]
+	no -> bajar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.53" shape=plaintext]
+	energia -> bajar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 2.12" shape=plaintext]
+	luz -> subir [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 2 
+ Coef = 7.78" shape=plaintext]
+	baja -> subir [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	rato [label="rato 
+ Count = 1 
+ Coef = 0.09" shape=plaintext]
+	rato -> no [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	bajita [label="bajita 
+ Count = 1 
+ Coef = 2.21" shape=plaintext]
+	bajita -> no [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	paso -> no [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 2.12" shape=plaintext]
+	luz -> no [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 3 
+ Coef = 7.78" shape=plaintext]
+	baja -> energia [label="75.0%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = 4.74" shape=plaintext]
+	subir -> energia [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 5 
+ Coef = 2.12" shape=plaintext]
+	bajar -> luz [label="41.67%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 1 
+ Coef = 3.67" shape=plaintext]
+	bajar -> tension [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 1 
+ Coef = 0.95" shape=plaintext]
+	bajar -> taco [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = 4.74" shape=plaintext]
+	bajar -> subir [label="8.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	directx [label="directx 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	bajar -> directx [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.57" shape=plaintext]
+	bajar -> ya [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	cosa [label="cosa 
+ Count = 1 
+ Coef = 1.1" shape=plaintext]
+	bajar -> cosa [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	corriente [label="corriente 
+ Count = 1 
+ Coef = 1.84" shape=plaintext]
+	bajar -> corriente [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 6 
+ Coef = 4.74" shape=plaintext]
+	luz -> subir [label="17.65%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 5 
+ Coef = 7.78" shape=plaintext]
+	luz -> baja [label="14.71%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 3 
+ Coef = 1.51" shape=plaintext]
+	luz -> muy [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 1.05" shape=plaintext]
+	luz -> casa [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 2 
+ Coef = 4.92" shape=plaintext]
+	luz -> bajo [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 2 
+ Coef = 3.67" shape=plaintext]
+	luz -> tension [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 24 
+ Coef = 7.78" shape=plaintext]
+	tension -> baja [label="72.73%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 5 
+ Coef = 2.12" shape=plaintext]
+	tension -> luz [label="15.15%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.84" shape=plaintext]
+	tension -> servicio [label="6.06%" weight=1.2]
+	node [color=red style=filled]
+	calle [label="calle 
+ Count = 1 
+ Coef = -0.31" shape=plaintext]
+	taco -> calle [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 2.12" shape=plaintext]
+	taco -> luz [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 9 
+ Coef = 4.92" shape=plaintext]
+	subir -> bajo [label="40.91%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 6 
+ Coef = 7.78" shape=plaintext]
+	subir -> baja [label="27.27%" weight=1.2]
+	node [color=green style=filled]
+	bajar [label="bajar 
+ Count = 2 
+ Coef = 5.48" shape=plaintext]
+	subir -> bajar [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 2.12" shape=plaintext]
+	subir -> luz [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = -0.35" shape=plaintext]
+	ya -> hacer [label="100.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	consejo [label="consejo 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	cosa -> consejo [label="100.0%" weight=1.2]
+}

@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	carne [label="carne 
+ Count = 112 
+ Coef = 4.51"]
+	node [color=green style=filled]
+	pollo [label="pollo 
+ Count = 9 
+ Coef = 3.63" shape=plaintext]
+	pollo -> carne [label="8.11%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 9 
+ Coef = 5.89" shape=plaintext]
+	danando -> carne [label="8.11%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 8 
+ Coef = 6.41" shape=plaintext]
+	tener -> carne [label="7.21%" weight=1.2]
+	node [color=green style=filled]
+	carne [label="carne 
+ Count = 25 
+ Coef = 4.51" shape=plaintext]
+	carne -> pollo [label="35.21%" weight=1.2]
+	node [color=green style=filled]
+	carnet [label="carnet 
+ Count = 6 
+ Coef = 1.62" shape=plaintext]
+	carnet -> pollo [label="8.45%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 146 
+ Coef = 3.47" shape=plaintext]
+	estan -> danando [label="59.35%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 122 
+ Coef = 0.35" shape=plaintext]
+	no -> tener [label="16.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 76 
+ Coef = 1.24" shape=plaintext]
+	que -> tener [label="10.47%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 56 
+ Coef = 1.52" shape=plaintext]
+	porque -> tener [label="7.71%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 44 
+ Coef = 0.02" shape=plaintext]
+	luz -> tener [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	pollo [label="pollo 
+ Count = 25 
+ Coef = 3.63" shape=plaintext]
+	carne -> pollo [label="28.41%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 5 
+ Coef = 7.02" shape=plaintext]
+	carne -> nevera [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	carne [label="carne 
+ Count = 9 
+ Coef = 4.51" shape=plaintext]
+	pollo -> carne [label="14.06%" weight=1.2]
+	node [color=green style=filled]
+	pescado [label="pescado 
+ Count = 6 
+ Coef = 1.46" shape=plaintext]
+	pollo -> pescado [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 4 
+ Coef = 5.89" shape=plaintext]
+	pollo -> danando [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = 0.35" shape=plaintext]
+	nevera -> no [label="7.23%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 12 
+ Coef = 0.75" shape=plaintext]
+	nevera -> ya [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 12 
+ Coef = 3.47" shape=plaintext]
+	nevera -> estan [label="5.11%" weight=1.2]
+}

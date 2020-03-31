@@ -1,0 +1,32 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"corto corto" [label="corto corto 
+ Count = 3 
+ Coef = 2.55"]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 1.18" shape=plaintext]
+	"corto corto" -> casa [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.38" shape=plaintext]
+	casa -> estar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	sacar [label="sacar 
+ Count = 1 
+ Coef = 0.35" shape=plaintext]
+	casa -> sacar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	casa -> ayer [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -2.02" shape=plaintext]
+	casa -> tener [label="25.0%" weight=1.2]
+}

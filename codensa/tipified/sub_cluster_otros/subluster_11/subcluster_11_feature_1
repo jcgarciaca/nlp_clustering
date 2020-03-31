@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	prender [label="prender 
+ Count = 210 
+ Coef = 5.54"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 77 
+ Coef = 1.49" shape=plaintext]
+	no -> prender [label="41.4%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 25 
+ Coef = 1.56" shape=plaintext]
+	poder -> prender [label="13.44%" weight=1.2]
+	node [color=green style=filled]
+	alcanzar [label="alcanzar 
+ Count = 10 
+ Coef = 2.12" shape=plaintext]
+	alcanzar -> prender [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 65 
+ Coef = 1.56" shape=plaintext]
+	luz -> no [label="8.83%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 53 
+ Coef = 0.21" shape=plaintext]
+	que -> no [label="7.2%" weight=1.2]
+	node [color=green style=filled]
+	bajita [label="bajita 
+ Count = 37 
+ Coef = 4.37" shape=plaintext]
+	bajita -> no [label="5.03%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 60 
+ Coef = 1.49" shape=plaintext]
+	no -> poder [label="34.09%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 13 
+ Coef = 0.08" shape=plaintext]
+	si -> poder [label="7.39%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = 0.21" shape=plaintext]
+	que -> poder [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 10 
+ Coef = 12.59" shape=plaintext]
+	electrodomesticos -> poder [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 38 
+ Coef = 1.49" shape=plaintext]
+	no -> alcanzar [label="95.0%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 16 
+ Coef = 12.59" shape=plaintext]
+	prender -> electrodomesticos [label="8.38%" weight=1.2]
+	node [color=green style=filled]
+	bombillos [label="bombillos 
+ Count = 15 
+ Coef = 4.16" shape=plaintext]
+	prender -> bombillos [label="7.85%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 28 
+ Coef = 1.49" shape=plaintext]
+	electrodomesticos -> no [label="7.57%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 28 
+ Coef = 2.35" shape=plaintext]
+	electrodomesticos -> estan [label="7.57%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 20 
+ Coef = 1.2" shape=plaintext]
+	electrodomesticos -> entonces [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 1.49" shape=plaintext]
+	bombillos -> no [label="6.67%" weight=1.2]
+}

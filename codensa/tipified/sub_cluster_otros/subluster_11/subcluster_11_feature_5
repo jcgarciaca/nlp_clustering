@@ -1,0 +1,197 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	quemar [label="quemar 
+ Count = 94 
+ Coef = 3.98"]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 17 
+ Coef = 2.35" shape=plaintext]
+	estan -> quemar [label="18.48%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 10 
+ Coef = 0.43" shape=plaintext]
+	haber -> quemar [label="10.87%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 9 
+ Coef = 1.44" shape=plaintext]
+	ir -> quemar [label="9.78%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 7 
+ Coef = 1.56" shape=plaintext]
+	poder -> quemar [label="7.61%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 25 
+ Coef = 12.59" shape=plaintext]
+	electrodomesticos -> estan [label="11.57%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 23 
+ Coef = 1.49" shape=plaintext]
+	no -> estan [label="10.65%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 15 
+ Coef = 0.21" shape=plaintext]
+	que -> estan [label="6.94%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 60 
+ Coef = 1.49" shape=plaintext]
+	no -> haber [label="19.05%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 32 
+ Coef = 0.21" shape=plaintext]
+	que -> haber [label="10.16%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 20 
+ Coef = 1.56" shape=plaintext]
+	luz -> haber [label="6.35%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 28 
+ Coef = 1.56" shape=plaintext]
+	luz -> ir [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 26 
+ Coef = 0.21" shape=plaintext]
+	que -> ir [label="8.84%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 15 
+ Coef = 0.43" shape=plaintext]
+	haber -> ir [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 15 
+ Coef = 0.42" shape=plaintext]
+	ya -> ir [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 60 
+ Coef = 1.49" shape=plaintext]
+	no -> poder [label="34.09%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 13 
+ Coef = 0.08" shape=plaintext]
+	si -> poder [label="7.39%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = 0.21" shape=plaintext]
+	que -> poder [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 10 
+ Coef = 12.59" shape=plaintext]
+	electrodomesticos -> poder [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 32 
+ Coef = 12.59" shape=plaintext]
+	quemar -> electrodomesticos [label="36.78%" weight=1.2]
+	node [color=green style=filled]
+	aparatos [label="aparatos 
+ Count = 8 
+ Coef = 3.85" shape=plaintext]
+	quemar -> aparatos [label="9.2%" weight=1.2]
+	node [color=green style=filled]
+	equipos [label="equipos 
+ Count = 8 
+ Coef = 3.74" shape=plaintext]
+	quemar -> equipos [label="9.2%" weight=1.2]
+	node [color=green style=filled]
+	bombillos [label="bombillos 
+ Count = 5 
+ Coef = 4.16" shape=plaintext]
+	quemar -> bombillos [label="5.75%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 28 
+ Coef = 1.49" shape=plaintext]
+	electrodomesticos -> no [label="7.57%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 28 
+ Coef = 2.35" shape=plaintext]
+	electrodomesticos -> estan [label="7.57%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 20 
+ Coef = 1.2" shape=plaintext]
+	electrodomesticos -> entonces [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	electronico [label="electronico 
+ Count = 12 
+ Coef = 3.08" shape=plaintext]
+	aparatos -> electronico [label="15.58%" weight=1.2]
+	node [color=green style=filled]
+	electricos [label="electricos 
+ Count = 8 
+ Coef = 0.65" shape=plaintext]
+	aparatos -> electricos [label="10.39%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 6 
+ Coef = 2.35" shape=plaintext]
+	aparatos -> estan [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 4 
+ Coef = 12.59" shape=plaintext]
+	aparatos -> electrodomesticos [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 1.49" shape=plaintext]
+	aparatos -> no [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4 
+ Coef = 1.07" shape=plaintext]
+	aparatos -> tener [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 5 
+ Coef = 1.49" shape=plaintext]
+	equipos -> no [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 4 
+ Coef = 12.59" shape=plaintext]
+	equipos -> electrodomesticos [label="7.27%" weight=1.2]
+	node [color=green style=filled]
+	electronico [label="electronico 
+ Count = 4 
+ Coef = 3.08" shape=plaintext]
+	equipos -> electronico [label="7.27%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 3 
+ Coef = 2.81" shape=plaintext]
+	equipos -> nevera [label="5.45%" weight=1.2]
+	node [color=lightgrey style=filled]
+	computo [label="computo 
+ Count = 3 
+ Coef = Not in Dict" shape=plaintext]
+	equipos -> computo [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 3 
+ Coef = 1.07" shape=plaintext]
+	equipos -> tener [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 1.49" shape=plaintext]
+	bombillos -> no [label="6.67%" weight=1.2]
+}

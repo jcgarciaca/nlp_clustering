@@ -1,0 +1,172 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electricas [label="electricas 
+ Count = 43 
+ Coef = 6.33"]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 16 
+ Coef = 1.8" shape=plaintext]
+	fallar -> electricas [label="37.21%" weight=1.2]
+	node [color=green style=filled]
+	redes [label="redes 
+ Count = 11 
+ Coef = 0.71" shape=plaintext]
+	redes -> electricas [label="25.58%" weight=1.2]
+	node [color=green style=filled]
+	tomas [label="tomas 
+ Count = 4 
+ Coef = 1.08" shape=plaintext]
+	tomas -> electricas [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 10 
+ Coef = 0.84" shape=plaintext]
+	presentado -> fallar [label="32.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 8 
+ Coef = 0.83" shape=plaintext]
+	tener -> fallar [label="25.81%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 3 
+ Coef = 0.37" shape=plaintext]
+	haber -> fallar [label="9.68%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -0.28" shape=plaintext]
+	estar -> fallar [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 2 
+ Coef = 0.56" shape=plaintext]
+	problema -> redes [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	emergencia [label="emergencia 
+ Count = 2 
+ Coef = 0.0" shape=plaintext]
+	emergencia -> redes [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	tension [label="tension 
+ Count = 1 
+ Coef = -0.37" shape=plaintext]
+	tension -> redes [label="10.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	traslado [label="traslado 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	traslado -> redes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 1 
+ Coef = 0.76" shape=plaintext]
+	danos -> redes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 0.18" shape=plaintext]
+	dano -> redes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 1 
+ Coef = 0.06" shape=plaintext]
+	red -> redes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	cortocircuito [label="cortocircuito 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	cortocircuito -> redes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	danaron [label="danaron 
+ Count = 2 
+ Coef = 0.45" shape=plaintext]
+	danaron -> tomas [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	variar [label="variar 
+ Count = 1 
+ Coef = 0.32" shape=plaintext]
+	variar -> tomas [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 1 
+ Coef = 0.3" shape=plaintext]
+	funcionar -> tomas [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	aca [label="aca 
+ Count = 2 
+ Coef = -0.03" shape=plaintext]
+	electricas -> aca [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 0.56" shape=plaintext]
+	electricas -> casa [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -1.88" shape=plaintext]
+	electricas -> luz [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 0.56" shape=plaintext]
+	aca -> casa [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	danaron [label="danaron 
+ Count = 1 
+ Coef = 0.45" shape=plaintext]
+	aca -> danaron [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	negocio [label="negocio 
+ Count = 1 
+ Coef = 0.27" shape=plaintext]
+	aca -> negocio [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	vereda [label="vereda 
+ Count = 1 
+ Coef = -0.69" shape=plaintext]
+	aca -> vereda [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	tirar [label="tirar 
+ Count = 1 
+ Coef = 0.21" shape=plaintext]
+	aca -> tirar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	lados [label="lados 
+ Count = 1 
+ Coef = 0.06" shape=plaintext]
+	aca -> lados [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	aca -> dos [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	lado [label="lado 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	aca -> lado [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = -0.38" shape=plaintext]
+	casa -> no [label="15.87%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4 
+ Coef = 0.83" shape=plaintext]
+	casa -> tener [label="6.35%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 19 
+ Coef = 13.44" shape=plaintext]
+	luz -> electrica [label="22.35%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = -0.38" shape=plaintext]
+	luz -> no [label="8.24%" weight=1.2]
+}

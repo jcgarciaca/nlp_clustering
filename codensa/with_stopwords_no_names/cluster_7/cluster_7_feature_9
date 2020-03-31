@@ -1,0 +1,182 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	zipaquira [label="zipaquira 
+ Count = 140 
+ Coef = 4.89"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 11 
+ Coef = 3.87" shape=plaintext]
+	aqui -> zipaquira [label="8.15%" weight=1.2]
+	node [color=red style=filled]
+	concepcion [label="concepcion 
+ Count = 9 
+ Coef = -0.08" shape=plaintext]
+	concepcion -> zipaquira [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 7 
+ Coef = 16.47" shape=plaintext]
+	barrio -> zipaquira [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	cuarta [label="cuarta 
+ Count = 7 
+ Coef = 3.01" shape=plaintext]
+	cuarta -> zipaquira [label="5.19%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 191 
+ Coef = -0.09" shape=plaintext]
+	que -> aqui [label="13.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 79 
+ Coef = 0.05" shape=plaintext]
+	estar -> aqui [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 14 
+ Coef = 16.47" shape=plaintext]
+	barrio -> concepcion [label="87.5%" weight=1.2]
+	node [color=green style=filled]
+	primero [label="primero 
+ Count = 1 
+ Coef = 2.45" shape=plaintext]
+	primero -> concepcion [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	inmaculada [label="inmaculada 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	inmaculada -> concepcion [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 379 
+ Coef = 3.87" shape=plaintext]
+	aqui -> barrio [label="10.63%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 210 
+ Coef = -0.49" shape=plaintext]
+	energia -> barrio [label="5.89%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 188 
+ Coef = 0.28" shape=plaintext]
+	haber -> barrio [label="5.27%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 76 
+ Coef = 13.85" shape=plaintext]
+	carrera -> cuarta [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 51 
+ Coef = 9.9" shape=plaintext]
+	calle -> cuarta [label="26.84%" weight=1.2]
+	node [color=green style=filled]
+	localidad [label="localidad 
+ Count = 17 
+ Coef = 10.4" shape=plaintext]
+	localidad -> cuarta [label="8.95%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 15 
+ Coef = 1.32" shape=plaintext]
+	zona -> cuarta [label="7.89%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 14 
+ Coef = 16.47" shape=plaintext]
+	zipaquira -> barrio [label="14.89%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 10 
+ Coef = 13.85" shape=plaintext]
+	zipaquira -> carrera [label="10.64%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 9 
+ Coef = -0.18" shape=plaintext]
+	zipaquira -> no [label="9.57%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 7 
+ Coef = 0.34" shape=plaintext]
+	zipaquira -> cundinamarca [label="7.45%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 6 
+ Coef = 9.9" shape=plaintext]
+	zipaquira -> calle [label="6.38%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 316 
+ Coef = 1.39" shape=plaintext]
+	barrio -> santo [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 183 
+ Coef = 1.29" shape=plaintext]
+	barrio -> santa [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 327 
+ Coef = 7.31" shape=plaintext]
+	carrera -> numero [label="19.3%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 169 
+ Coef = 9.9" shape=plaintext]
+	carrera -> calle [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	septima [label="septima 
+ Count = 124 
+ Coef = 2.87" shape=plaintext]
+	carrera -> septima [label="7.32%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1456 
+ Coef = 0.28" shape=plaintext]
+	no -> haber [label="38.88%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1032 
+ Coef = -1.03" shape=plaintext]
+	no -> tener [label="27.56%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 71 
+ Coef = 16.47" shape=plaintext]
+	cundinamarca -> barrio [label="19.24%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 41 
+ Coef = 9.9" shape=plaintext]
+	cundinamarca -> calle [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 35 
+ Coef = 13.85" shape=plaintext]
+	cundinamarca -> carrera [label="9.49%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 20 
+ Coef = 0.05" shape=plaintext]
+	cundinamarca -> estar [label="5.42%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 262 
+ Coef = 7.31" shape=plaintext]
+	calle -> numero [label="16.73%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 193 
+ Coef = 13.85" shape=plaintext]
+	calle -> carrera [label="12.32%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 164 
+ Coef = 3.79" shape=plaintext]
+	calle -> sur [label="10.47%" weight=1.2]
+}

@@ -1,0 +1,107 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	danando [label="danando 
+ Count = 247 
+ Coef = 5.89"]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 146 
+ Coef = 3.47" shape=plaintext]
+	estan -> danando [label="59.35%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 34 
+ Coef = 0.35" shape=plaintext]
+	no -> estan [label="13.08%" weight=1.2]
+	node [color=green style=filled]
+	alimentos [label="alimentos 
+ Count = 15 
+ Coef = 5.51" shape=plaintext]
+	alimentos -> estan [label="5.77%" weight=1.2]
+	node [color=green style=filled]
+	cosa [label="cosa 
+ Count = 15 
+ Coef = 3.16" shape=plaintext]
+	cosa -> estan [label="5.77%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 14 
+ Coef = 0.75" shape=plaintext]
+	ya -> estan [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	producto [label="producto 
+ Count = 30 
+ Coef = 5.43" shape=plaintext]
+	danando -> producto [label="13.45%" weight=1.2]
+	node [color=green style=filled]
+	cosa [label="cosa 
+ Count = 22 
+ Coef = 3.16" shape=plaintext]
+	danando -> cosa [label="9.87%" weight=1.2]
+	node [color=green style=filled]
+	alimentos [label="alimentos 
+ Count = 20 
+ Coef = 5.51" shape=plaintext]
+	danando -> alimentos [label="8.97%" weight=1.2]
+	node [color=green style=filled]
+	perecederos [label="perecederos 
+ Count = 15 
+ Coef = 1.62" shape=plaintext]
+	producto -> perecederos [label="13.89%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 7 
+ Coef = 7.02" shape=plaintext]
+	producto -> nevera [label="6.48%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 7 
+ Coef = 3.47" shape=plaintext]
+	producto -> estan [label="6.48%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 0.35" shape=plaintext]
+	producto -> no [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 25 
+ Coef = 7.02" shape=plaintext]
+	cosa -> nevera [label="21.37%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 15 
+ Coef = 3.47" shape=plaintext]
+	cosa -> estan [label="12.82%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 8 
+ Coef = 6.41" shape=plaintext]
+	cosa -> tener [label="6.84%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 0.35" shape=plaintext]
+	cosa -> no [label="5.98%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 18 
+ Coef = 3.47" shape=plaintext]
+	alimentos -> estan [label="16.82%" weight=1.2]
+	node [color=green style=filled]
+	perecederos [label="perecederos 
+ Count = 12 
+ Coef = 1.62" shape=plaintext]
+	alimentos -> perecederos [label="11.21%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 8 
+ Coef = 6.41" shape=plaintext]
+	alimentos -> tener [label="7.48%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 8 
+ Coef = 7.02" shape=plaintext]
+	alimentos -> nevera [label="7.48%" weight=1.2]
+}

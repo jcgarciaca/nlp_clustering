@@ -1,0 +1,202 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	apartamentos [label="apartamentos 
+ Count = 41 
+ Coef = 5.17"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = 1.01" shape=plaintext]
+	luz -> apartamentos [label="9.76%" weight=1.2]
+	node [color=green style=filled]
+	parte [label="parte 
+ Count = 3 
+ Coef = 3.7" shape=plaintext]
+	parte -> apartamentos [label="7.32%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = -0.65" shape=plaintext]
+	energia -> apartamentos [label="7.32%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 94 
+ Coef = -0.4" shape=plaintext]
+	ser -> luz [label="28.31%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 28 
+ Coef = 1.3" shape=plaintext]
+	quedar -> luz [label="8.43%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 23 
+ Coef = -3.08" shape=plaintext]
+	estar -> luz [label="6.93%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 11 
+ Coef = 1.01" shape=plaintext]
+	luz -> parte [label="18.33%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = -4.91" shape=plaintext]
+	servicio -> energia [label="10.81%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 8 
+ Coef = -0.7" shape=plaintext]
+	haber -> energia [label="10.81%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 6 
+ Coef = -0.29" shape=plaintext]
+	corte -> energia [label="8.11%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = -0.4" shape=plaintext]
+	ser -> energia [label="6.76%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 4 
+ Coef = 1.3" shape=plaintext]
+	quedar -> energia [label="5.41%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 4 
+ Coef = -3.08" shape=plaintext]
+	estar -> energia [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 0.18" shape=plaintext]
+	apartamentos -> tener [label="15.15%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.38" shape=plaintext]
+	apartamentos -> no [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	apartamentos [label="apartamentos 
+ Count = 2 
+ Coef = 5.17" shape=plaintext]
+	apartamentos -> apartamentos [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	edificio [label="edificio 
+ Count = 2 
+ Coef = 4.67" shape=plaintext]
+	apartamentos -> edificio [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 2 
+ Coef = 1.3" shape=plaintext]
+	apartamentos -> quedar [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 29 
+ Coef = 1.01" shape=plaintext]
+	tener -> luz [label="18.12%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 10 
+ Coef = 4.84" shape=plaintext]
+	tener -> corto [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 9 
+ Coef = 3.77" shape=plaintext]
+	tener -> fase [label="5.62%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 31 
+ Coef = 0.18" shape=plaintext]
+	no -> tener [label="12.81%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 27 
+ Coef = -0.7" shape=plaintext]
+	no -> haber [label="11.16%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 20 
+ Coef = 2.3" shape=plaintext]
+	no -> funcionar [label="8.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.4" shape=plaintext]
+	no -> ser [label="5.37%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 0.18" shape=plaintext]
+	apartamentos -> tener [label="15.15%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.38" shape=plaintext]
+	apartamentos -> no [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	apartamentos [label="apartamentos 
+ Count = 2 
+ Coef = 5.17" shape=plaintext]
+	apartamentos -> apartamentos [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	edificio [label="edificio 
+ Count = 2 
+ Coef = 4.67" shape=plaintext]
+	apartamentos -> edificio [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 2 
+ Coef = 1.3" shape=plaintext]
+	apartamentos -> quedar [label="6.06%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = -0.4" shape=plaintext]
+	edificio -> ser [label="16.13%" weight=1.2]
+	node [color=green style=filled]
+	acacias [label="acacias 
+ Count = 2 
+ Coef = 0.47" shape=plaintext]
+	edificio -> acacias [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.38" shape=plaintext]
+	edificio -> no [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 2 
+ Coef = 0.16" shape=plaintext]
+	edificio -> vivir [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	edificio [label="edificio 
+ Count = 2 
+ Coef = 4.67" shape=plaintext]
+	edificio -> edificio [label="6.45%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -0.7" shape=plaintext]
+	edificio -> haber [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 34 
+ Coef = 1.01" shape=plaintext]
+	quedar -> luz [label="58.62%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = -0.65" shape=plaintext]
+	quedar -> energia [label="8.62%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 4 
+ Coef = 4.93" shape=plaintext]
+	quedar -> taco [label="6.9%" weight=1.2]
+}

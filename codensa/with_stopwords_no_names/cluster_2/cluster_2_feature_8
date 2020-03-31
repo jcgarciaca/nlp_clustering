@@ -1,0 +1,157 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	ausencia [label="ausencia 
+ Count = 17 
+ Coef = 2.1"]
+	node [color=red style=filled]
+	reporte [label="reporte 
+ Count = 1 
+ Coef = 0.0" shape=plaintext]
+	reporte -> ausencia [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 1 
+ Coef = 22.37" shape=plaintext]
+	electrico -> ausencia [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 969 
+ Coef = -0.36" shape=plaintext]
+	servicio -> electrico [label="28.71%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 887 
+ Coef = 2.66" shape=plaintext]
+	fluido -> electrico [label="26.28%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 564 
+ Coef = 0.63" shape=plaintext]
+	suministro -> electrico [label="16.71%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 7 
+ Coef = 2.66" shape=plaintext]
+	ausencia -> fluido [label="41.18%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = -0.36" shape=plaintext]
+	ausencia -> servicio [label="23.53%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = -2.18" shape=plaintext]
+	ausencia -> energia [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 6.73" shape=plaintext]
+	ausencia -> electrica [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pulidor [label="pulidor 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	ausencia -> pulidor [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	sonido [label="sonido 
+ Count = 1 
+ Coef = 0.08" shape=plaintext]
+	ausencia -> sonido [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	solo [label="solo 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	ausencia -> solo [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 898 
+ Coef = 22.37" shape=plaintext]
+	fluido -> electrico [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 958 
+ Coef = 22.37" shape=plaintext]
+	servicio -> electrico [label="94.01%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 10 
+ Coef = 6.73" shape=plaintext]
+	energia -> electrica [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	riesgo [label="riesgo 
+ Count = 2 
+ Coef = 0.94" shape=plaintext]
+	energia -> riesgo [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 2 
+ Coef = 0.45" shape=plaintext]
+	energia -> ayer [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -0.57" shape=plaintext]
+	energia -> no [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 2 
+ Coef = 0.63" shape=plaintext]
+	energia -> suministro [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	zona [label="zona 
+ Count = 2 
+ Coef = -0.12" shape=plaintext]
+	energia -> zona [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 8 
+ Coef = 0.76" shape=plaintext]
+	electrica -> falla [label="14.55%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = -0.91" shape=plaintext]
+	electrica -> casa [label="7.27%" weight=1.2]
+	node [color=green style=filled]
+	riesgo [label="riesgo 
+ Count = 3 
+ Coef = 0.94" shape=plaintext]
+	electrica -> riesgo [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = -0.57" shape=plaintext]
+	electrica -> no [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -1.05" shape=plaintext]
+	electrica -> ser [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 1 
+ Coef = 22.37" shape=plaintext]
+	pulidor -> electrico [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 7 
+ Coef = 22.37" shape=plaintext]
+	sonido -> electrico [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 6.73" shape=plaintext]
+	solo -> electrica [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	solo -> tener [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	clases [label="clases 
+ Count = 1 
+ Coef = -0.92" shape=plaintext]
+	solo -> clases [label="33.33%" weight=1.2]
+}

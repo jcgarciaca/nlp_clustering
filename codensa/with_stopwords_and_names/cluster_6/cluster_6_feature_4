@@ -1,0 +1,82 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	apartamento [label="apartamento 
+ Count = 569 
+ Coef = 6.28"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 137 
+ Coef = -1.84" shape=plaintext]
+	luz -> apartamento [label="24.86%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 40 
+ Coef = -2.8" shape=plaintext]
+	energia -> apartamento [label="7.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 732 
+ Coef = 0.93" shape=plaintext]
+	tener -> luz [label="15.3%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 573 
+ Coef = 1.68" shape=plaintext]
+	ser -> luz [label="11.98%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 455 
+ Coef = 0.6" shape=plaintext]
+	haber -> luz [label="9.51%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 433 
+ Coef = -2.44" shape=plaintext]
+	estar -> luz [label="9.05%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 190 
+ Coef = -6.22" shape=plaintext]
+	servicio -> energia [label="11.35%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 123 
+ Coef = 0.93" shape=plaintext]
+	tener -> energia [label="7.35%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 84 
+ Coef = -2.44" shape=plaintext]
+	estar -> energia [label="5.02%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 36 
+ Coef = 0.46" shape=plaintext]
+	apartamento -> no [label="11.69%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 25 
+ Coef = 1.68" shape=plaintext]
+	apartamento -> ser [label="8.12%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1093 
+ Coef = 0.93" shape=plaintext]
+	no -> tener [label="21.14%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 866 
+ Coef = 0.6" shape=plaintext]
+	no -> haber [label="16.75%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 2260 
+ Coef = 3.89" shape=plaintext]
+	ser -> que [label="50.24%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 443 
+ Coef = -1.84" shape=plaintext]
+	ser -> luz [label="9.85%" weight=1.2]
+}

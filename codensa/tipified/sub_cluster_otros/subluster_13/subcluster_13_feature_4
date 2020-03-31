@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	suministrar [label="suministrar 
+ Count = 4 
+ Coef = 3.35"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.67" shape=plaintext]
+	tener -> suministrar [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 41 
+ Coef = 0.7" shape=plaintext]
+	no -> tener [label="97.62%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 0.99" shape=plaintext]
+	suministrar -> falla [label="25.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	diariamente [label="diariamente 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	suministrar -> diariamente [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	momento [label="momento 
+ Count = 1 
+ Coef = 0.41" shape=plaintext]
+	suministrar -> momento [label="25.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	ligas [label="ligas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	suministrar -> ligas [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 4 
+ Coef = 12.7" shape=plaintext]
+	falla -> suministro [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	sistema [label="sistema 
+ Count = 3 
+ Coef = 1.86" shape=plaintext]
+	falla -> sistema [label="30.0%" weight=1.2]
+	node [color=red style=filled]
+	tecnico [label="tecnico 
+ Count = 1 
+ Coef = -0.25" shape=plaintext]
+	falla -> tecnico [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 1 
+ Coef = 4.46" shape=plaintext]
+	falla -> fluido [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.45" shape=plaintext]
+	falla -> energia [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = 0.35" shape=plaintext]
+	diariamente -> hora [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	momento -> noche [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	paciente [label="paciente 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	ligas -> paciente [label="100.0%" weight=1.2]
+}

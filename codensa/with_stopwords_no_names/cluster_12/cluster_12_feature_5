@@ -1,0 +1,252 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	vez [label="vez 
+ Count = 45 
+ Coef = 3.94"]
+	node [color=green style=filled]
+	otra [label="otra 
+ Count = 6 
+ Coef = 0.63" shape=plaintext]
+	otra -> vez [label="27.27%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = 16.54" shape=plaintext]
+	estar -> vez [label="13.64%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -0.7" shape=plaintext]
+	que -> vez [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 2 
+ Coef = 4.55" shape=plaintext]
+	mna -> vez [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 6 
+ Coef = 16.54" shape=plaintext]
+	estar -> otra [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 58 
+ Coef = -0.7" shape=plaintext]
+	que -> estar [label="20.21%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 29 
+ Coef = 2.26" shape=plaintext]
+	ayer -> estar [label="10.1%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 21 
+ Coef = 16.54" shape=plaintext]
+	estar -> estar [label="7.32%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 17 
+ Coef = 4.64" shape=plaintext]
+	tarde -> estar [label="5.92%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 25 
+ Coef = -1.78" shape=plaintext]
+	ser -> que [label="38.46%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = 16.54" shape=plaintext]
+	estar -> que [label="10.77%" weight=1.2]
+	node [color=green style=filled]
+	vez [label="vez 
+ Count = 4 
+ Coef = 3.94" shape=plaintext]
+	vez -> que [label="6.15%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 95 
+ Coef = 16.54" shape=plaintext]
+	estar -> mna [label="41.85%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 28 
+ Coef = -3.1" shape=plaintext]
+	energia -> mna [label="12.33%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 27 
+ Coef = 2.26" shape=plaintext]
+	ayer -> mna [label="11.89%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 11 
+ Coef = 16.54" shape=plaintext]
+	vez -> estar [label="39.29%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 3 
+ Coef = 1.34" shape=plaintext]
+	vez -> quedar [label="10.71%" weight=1.2]
+	node [color=green style=filled]
+	hoy [label="hoy 
+ Count = 2 
+ Coef = 2.89" shape=plaintext]
+	vez -> hoy [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	quitar [label="quitar 
+ Count = 2 
+ Coef = 1.73" shape=plaintext]
+	vez -> quitar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -1.78" shape=plaintext]
+	vez -> ser [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 348 
+ Coef = -3.1" shape=plaintext]
+	estar -> energia [label="22.83%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 132 
+ Coef = 2.26" shape=plaintext]
+	estar -> ayer [label="8.66%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 121 
+ Coef = 1.26" shape=plaintext]
+	estar -> hacer [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 90 
+ Coef = 4.55" shape=plaintext]
+	estar -> mna [label="5.91%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 89 
+ Coef = 5.04" shape=plaintext]
+	estar -> noche [label="5.84%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 2 
+ Coef = 5.04" shape=plaintext]
+	quedar -> noche [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.7" shape=plaintext]
+	quedar -> que [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 5.73" shape=plaintext]
+	quedar -> dia [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	voz [label="voz 
+ Count = 1 
+ Coef = 0.26" shape=plaintext]
+	quedar -> voz [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 2.26" shape=plaintext]
+	quedar -> ayer [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	partir [label="partir 
+ Count = 1 
+ Coef = -0.31" shape=plaintext]
+	quedar -> partir [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 4.55" shape=plaintext]
+	quedar -> mna [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	variar [label="variar 
+ Count = 1 
+ Coef = -0.24" shape=plaintext]
+	quedar -> variar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 4 
+ Coef = 4.55" shape=plaintext]
+	hoy -> mna [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = -2.9" shape=plaintext]
+	hoy -> no [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 3 
+ Coef = 5.73" shape=plaintext]
+	hoy -> dia [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	nuevamente [label="nuevamente 
+ Count = 2 
+ Coef = 1.17" shape=plaintext]
+	quitar -> nuevamente [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = 16.54" shape=plaintext]
+	quitar -> estar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = 5.04" shape=plaintext]
+	quitar -> noche [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 4.55" shape=plaintext]
+	quitar -> mna [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = 2.89" shape=plaintext]
+	quitar -> hoy [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = 1.52" shape=plaintext]
+	quitar -> como [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	tercer [label="tercer 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	quitar -> tercer [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	rato [label="rato 
+ Count = 1 
+ Coef = -0.16" shape=plaintext]
+	quitar -> rato [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	mucho [label="mucho 
+ Count = 1 
+ Coef = 0.2" shape=plaintext]
+	quitar -> mucho [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	fin [label="fin 
+ Count = 1 
+ Coef = -0.16" shape=plaintext]
+	quitar -> fin [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 25 
+ Coef = -0.7" shape=plaintext]
+	ser -> que [label="24.75%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 10 
+ Coef = 5.73" shape=plaintext]
+	ser -> dia [label="9.9%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 7 
+ Coef = 4.55" shape=plaintext]
+	ser -> mna [label="6.93%" weight=1.2]
+}

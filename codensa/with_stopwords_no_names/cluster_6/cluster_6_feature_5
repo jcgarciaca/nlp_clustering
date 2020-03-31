@@ -1,0 +1,107 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	emergencia [label="emergencia 
+ Count = 617 
+ Coef = 7.07"]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 69 
+ Coef = -2.64" shape=plaintext]
+	tener -> emergencia [label="22.7%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 52 
+ Coef = -0.63" shape=plaintext]
+	ser -> emergencia [label="17.11%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 26 
+ Coef = -0.31" shape=plaintext]
+	haber -> emergencia [label="8.55%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 22 
+ Coef = -1.98" shape=plaintext]
+	reportar -> emergencia [label="7.24%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 303 
+ Coef = -2.26" shape=plaintext]
+	no -> tener [label="42.38%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 78 
+ Coef = 3.11" shape=plaintext]
+	que -> tener [label="10.91%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 492 
+ Coef = 1.17" shape=plaintext]
+	paso -> ser [label="25.59%" weight=1.2]
+	node [color=red style=filled]
+	llamada [label="llamada 
+ Count = 206 
+ Coef = -0.04" shape=plaintext]
+	llamada -> ser [label="10.71%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 107 
+ Coef = 3.11" shape=plaintext]
+	que -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 331 
+ Coef = -2.26" shape=plaintext]
+	no -> haber [label="30.73%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 146 
+ Coef = 3.11" shape=plaintext]
+	que -> haber [label="13.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 44 
+ Coef = -0.63" shape=plaintext]
+	ser -> reportar [label="29.73%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 15 
+ Coef = -2.05" shape=plaintext]
+	estar -> reportar [label="10.14%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 11 
+ Coef = -0.7" shape=plaintext]
+	llamar -> reportar [label="7.43%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 38 
+ Coef = 0.15" shape=plaintext]
+	emergencia -> electrica [label="10.19%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 22 
+ Coef = -0.2" shape=plaintext]
+	emergencia -> aqui [label="5.9%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 9 
+ Coef = 1.65" shape=plaintext]
+	electrica -> casa [label="5.03%" weight=1.2]
+	node [color=red style=filled]
+	vereda [label="vereda 
+ Count = 58 
+ Coef = -0.68" shape=plaintext]
+	aqui -> vereda [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 39 
+ Coef = 1.65" shape=plaintext]
+	aqui -> casa [label="5.85%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 39 
+ Coef = -1.71" shape=plaintext]
+	aqui -> barrio [label="5.85%" weight=1.2]
+}

@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"corte luz" [label="corte luz 
+ Count = 477 
+ Coef = 4.72"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 11 
+ Coef = 1.28" shape=plaintext]
+	luz -> "corte luz" [label="29.73%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 13.51" shape=plaintext]
+	corte -> "corte luz" [label="5.41%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -2.1" shape=plaintext]
+	haber -> "corte luz" [label="5.41%" weight=1.2]
+	node [color=red style=filled]
+	motivo [label="motivo 
+ Count = 2 
+ Coef = -0.48" shape=plaintext]
+	motivo -> "corte luz" [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 473 
+ Coef = 13.51" shape=plaintext]
+	corte -> luz [label="85.38%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 15 
+ Coef = 1.28" shape=plaintext]
+	luz -> corte [label="18.29%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 11 
+ Coef = 13.51" shape=plaintext]
+	corte -> corte [label="13.41%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 9 
+ Coef = -1.14" shape=plaintext]
+	no -> haber [label="64.29%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	luz -> haber [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.32" shape=plaintext]
+	energia -> haber [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.95" shape=plaintext]
+	que -> haber [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.55" shape=plaintext]
+	si -> haber [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	corte -> haber [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	salud [label="salud 
+ Count = 1 
+ Coef = 0.51" shape=plaintext]
+	salud -> motivo [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 11 
+ Coef = 13.51" shape=plaintext]
+	"corte luz" -> corte [label="6.83%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = -1.14" shape=plaintext]
+	"corte luz" -> no [label="6.21%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 475 
+ Coef = -0.32" shape=plaintext]
+	corte -> energia [label="38.52%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 472 
+ Coef = 1.28" shape=plaintext]
+	corte -> luz [label="38.28%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 164 
+ Coef = -0.93" shape=plaintext]
+	corte -> servicio [label="13.3%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 9 
+ Coef = -2.1" shape=plaintext]
+	no -> haber [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	programado [label="programado 
+ Count = 3 
+ Coef = 1.38" shape=plaintext]
+	no -> programado [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -1.16" shape=plaintext]
+	no -> ser [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 13.51" shape=plaintext]
+	no -> corte [label="7.41%" weight=1.2]
+}

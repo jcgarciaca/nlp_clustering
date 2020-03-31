@@ -1,0 +1,202 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"servicio energia" [label="servicio energia 
+ Count = 5292 
+ Coef = 5.59"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1277 
+ Coef = 2.53" shape=plaintext]
+	tener -> "servicio energia" [label="27.87%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1035 
+ Coef = 1.38" shape=plaintext]
+	haber -> "servicio energia" [label="22.59%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 784 
+ Coef = -1.99" shape=plaintext]
+	estar -> "servicio energia" [label="17.11%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 265 
+ Coef = 2.27" shape=plaintext]
+	encontrar -> "servicio energia" [label="5.78%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2778 
+ Coef = -0.64" shape=plaintext]
+	no -> tener [label="92.72%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2369 
+ Coef = -0.64" shape=plaintext]
+	no -> haber [label="93.45%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 84 
+ Coef = -1.95" shape=plaintext]
+	que -> estar [label="19.31%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 32 
+ Coef = 0.46" shape=plaintext]
+	ayer -> estar [label="7.36%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 31 
+ Coef = 15.75" shape=plaintext]
+	energia -> estar [label="7.13%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 26 
+ Coef = 0.9" shape=plaintext]
+	mna -> estar [label="5.98%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 29 
+ Coef = -1.95" shape=plaintext]
+	que -> encontrar [label="12.61%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 29 
+ Coef = -0.64" shape=plaintext]
+	no -> encontrar [label="12.61%" weight=1.2]
+	node [color=green style=filled]
+	momento [label="momento 
+ Count = 18 
+ Coef = 2.13" shape=plaintext]
+	momento -> encontrar [label="7.83%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 12 
+ Coef = 0.46" shape=plaintext]
+	ayer -> encontrar [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 193 
+ Coef = 1.25" shape=plaintext]
+	"servicio energia" -> dia [label="8.54%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 183 
+ Coef = 0.64" shape=plaintext]
+	"servicio energia" -> electrica [label="8.1%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 166 
+ Coef = -0.04" shape=plaintext]
+	"servicio energia" -> sector [label="7.35%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 154 
+ Coef = 0.46" shape=plaintext]
+	"servicio energia" -> ayer [label="6.81%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 149 
+ Coef = -0.36" shape=plaintext]
+	"servicio energia" -> hacer [label="6.59%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 450 
+ Coef = 0.46" shape=plaintext]
+	dia -> ayer [label="46.78%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 74 
+ Coef = 15.75" shape=plaintext]
+	dia -> energia [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 60 
+ Coef = 4.45" shape=plaintext]
+	dia -> servicio [label="6.24%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 17 
+ Coef = -0.36" shape=plaintext]
+	electrica -> hacer [label="6.46%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 16 
+ Coef = -0.04" shape=plaintext]
+	electrica -> sector [label="6.08%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 16 
+ Coef = -2.46" shape=plaintext]
+	electrica -> casa [label="6.08%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 16 
+ Coef = 0.46" shape=plaintext]
+	electrica -> ayer [label="6.08%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 20 
+ Coef = -0.64" shape=plaintext]
+	sector -> no [label="6.31%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 150 
+ Coef = 2.19" shape=plaintext]
+	ayer -> tarde [label="23.66%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 66 
+ Coef = -0.64" shape=plaintext]
+	ayer -> no [label="10.41%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 62 
+ Coef = 0.9" shape=plaintext]
+	ayer -> mna [label="9.78%" weight=1.2]
+	node [color=green style=filled]
+	mediodia [label="mediodia 
+ Count = 34 
+ Coef = 0.39" shape=plaintext]
+	ayer -> mediodia [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 34 
+ Coef = 0.63" shape=plaintext]
+	ayer -> noche [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 33 
+ Coef = 1.56" shape=plaintext]
+	ayer -> hora [label="5.21%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 33 
+ Coef = -1.99" shape=plaintext]
+	ayer -> estar [label="5.21%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 117 
+ Coef = 1.25" shape=plaintext]
+	hacer -> dia [label="19.53%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 115 
+ Coef = 1.56" shape=plaintext]
+	hacer -> hora [label="19.2%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 89 
+ Coef = -0.12" shape=plaintext]
+	hacer -> mas [label="14.86%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 63 
+ Coef = 0.27" shape=plaintext]
+	hacer -> dos [label="10.52%" weight=1.2]
+	node [color=green style=filled]
+	aproximadamente [label="aproximadamente 
+ Count = 31 
+ Coef = 2.04" shape=plaintext]
+	hacer -> aproximadamente [label="5.18%" weight=1.2]
+}

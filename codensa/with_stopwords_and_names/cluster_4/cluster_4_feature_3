@@ -1,0 +1,87 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reportes [label="reportes 
+ Count = 3 
+ Coef = 4.33"]
+	node [color=green style=filled]
+	hecho [label="hecho 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	hecho -> reportes [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.45" shape=plaintext]
+	ya -> hecho [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	reportes -> servicio [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 1 
+ Coef = 0.7" shape=plaintext]
+	reportes -> fallar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.53" shape=plaintext]
+	reportes -> no [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 87 
+ Coef = 1.32" shape=plaintext]
+	servicio -> energia [label="36.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 40 
+ Coef = -1.58" shape=plaintext]
+	servicio -> luz [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 0.33" shape=plaintext]
+	fallar -> servicio [label="47.22%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = 1.32" shape=plaintext]
+	fallar -> energia [label="13.89%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 3 
+ Coef = -0.59" shape=plaintext]
+	fallar -> suministro [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -1.58" shape=plaintext]
+	fallar -> luz [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	sistema [label="sistema 
+ Count = 2 
+ Coef = 0.38" shape=plaintext]
+	fallar -> sistema [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 83 
+ Coef = -1.3" shape=plaintext]
+	no -> haber [label="14.69%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 61 
+ Coef = 1.32" shape=plaintext]
+	no -> energia [label="10.8%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 53 
+ Coef = -2.06" shape=plaintext]
+	no -> tener [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 49 
+ Coef = 0.33" shape=plaintext]
+	no -> servicio [label="8.67%" weight=1.2]
+}

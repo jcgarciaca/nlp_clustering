@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	tener [label="tener 
+ Count = 3199 
+ Coef = 2.53"]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2778 
+ Coef = -0.64" shape=plaintext]
+	no -> tener [label="92.72%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 341 
+ Coef = 15.75" shape=plaintext]
+	energia -> no [label="19.04%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 221 
+ Coef = -1.95" shape=plaintext]
+	que -> no [label="12.34%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 95 
+ Coef = 0.46" shape=plaintext]
+	ayer -> no [label="5.3%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1412 
+ Coef = 4.45" shape=plaintext]
+	tener -> servicio [label="44.56%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 870 
+ Coef = 15.75" shape=plaintext]
+	tener -> energia [label="27.45%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 182 
+ Coef = 3.75" shape=plaintext]
+	tener -> suministro [label="5.74%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5189 
+ Coef = 15.75" shape=plaintext]
+	servicio -> energia [label="87.36%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 536 
+ Coef = 0.64" shape=plaintext]
+	energia -> electrica [label="11.17%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 374 
+ Coef = -0.04" shape=plaintext]
+	energia -> sector [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 339 
+ Coef = 1.25" shape=plaintext]
+	energia -> dia [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 284 
+ Coef = -0.36" shape=plaintext]
+	energia -> hacer [label="5.92%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 273 
+ Coef = 0.46" shape=plaintext]
+	energia -> ayer [label="5.69%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 969 
+ Coef = 15.75" shape=plaintext]
+	suministro -> energia [label="85.3%" weight=1.2]
+}

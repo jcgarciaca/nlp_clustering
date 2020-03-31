@@ -1,0 +1,177 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	ayer [label="ayer 
+ Count = 898 
+ Coef = 2.82"]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 377 
+ Coef = 0.02" shape=plaintext]
+	dia -> ayer [label="44.3%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 195 
+ Coef = 21.63" shape=plaintext]
+	servicio -> ayer [label="22.91%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 133 
+ Coef = -2.19" shape=plaintext]
+	luz -> ayer [label="15.63%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 287 
+ Coef = 21.63" shape=plaintext]
+	servicio -> dia [label="29.23%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 170 
+ Coef = -0.15" shape=plaintext]
+	hacer -> dia [label="17.31%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 137 
+ Coef = -2.19" shape=plaintext]
+	luz -> dia [label="13.95%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1902 
+ Coef = -0.72" shape=plaintext]
+	tener -> servicio [label="19.95%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1859 
+ Coef = -0.01" shape=plaintext]
+	haber -> servicio [label="19.49%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1080 
+ Coef = -1.38" shape=plaintext]
+	estar -> servicio [label="11.33%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 487 
+ Coef = 6.16" shape=plaintext]
+	reconexion -> servicio [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3169 
+ Coef = 21.63" shape=plaintext]
+	servicio -> luz [label="87.66%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 113 
+ Coef = -0.19" shape=plaintext]
+	ayer -> tarde [label="21.69%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 49 
+ Coef = 0.15" shape=plaintext]
+	ayer -> manana [label="9.4%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 46 
+ Coef = -0.65" shape=plaintext]
+	ayer -> no [label="8.83%" weight=1.2]
+	node [color=green style=filled]
+	mediodia [label="mediodia 
+ Count = 32 
+ Coef = 0.22" shape=plaintext]
+	ayer -> mediodia [label="6.14%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 27 
+ Coef = -1.38" shape=plaintext]
+	ayer -> estar [label="5.18%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 24 
+ Coef = -0.65" shape=plaintext]
+	tarde -> no [label="22.02%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 9 
+ Coef = -0.48" shape=plaintext]
+	tarde -> ser [label="8.26%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = -1.38" shape=plaintext]
+	tarde -> estar [label="6.42%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = 0.02" shape=plaintext]
+	tarde -> dia [label="5.5%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 34 
+ Coef = -0.65" shape=plaintext]
+	manana -> no [label="18.68%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 17 
+ Coef = -1.38" shape=plaintext]
+	manana -> estar [label="9.34%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 15 
+ Coef = 21.63" shape=plaintext]
+	manana -> servicio [label="8.24%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 12 
+ Coef = 0.15" shape=plaintext]
+	manana -> manana [label="6.59%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = -0.48" shape=plaintext]
+	manana -> ser [label="6.59%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2091 
+ Coef = -0.01" shape=plaintext]
+	no -> haber [label="45.26%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1933 
+ Coef = -0.72" shape=plaintext]
+	no -> tener [label="41.84%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -0.65" shape=plaintext]
+	mediodia -> no [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = 0.02" shape=plaintext]
+	mediodia -> dia [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.48" shape=plaintext]
+	mediodia -> ser [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -1.38" shape=plaintext]
+	mediodia -> estar [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 2 
+ Coef = 0.3" shape=plaintext]
+	mediodia -> llevar [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 1.14" shape=plaintext]
+	mediodia -> ya [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1112 
+ Coef = 21.63" shape=plaintext]
+	estar -> servicio [label="81.64%" weight=1.2]
+}

@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	porque [label="porque 
+ Count = 6425 
+ Coef = 6.06"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 543 
+ Coef = 1.55" shape=plaintext]
+	ser -> porque [label="8.97%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 399 
+ Coef = 4.52" shape=plaintext]
+	llamar -> porque [label="6.59%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 332 
+ Coef = 1.67" shape=plaintext]
+	saber -> porque [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 3419 
+ Coef = 1.28" shape=plaintext]
+	paso -> ser [label="18.29%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 1853 
+ Coef = 2.16" shape=plaintext]
+	llamada -> ser [label="9.91%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1015 
+ Coef = 3.32" shape=plaintext]
+	estar -> ser [label="5.43%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1557 
+ Coef = 3.32" shape=plaintext]
+	estar -> llamar [label="33.13%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 383 
+ Coef = 1.94" shape=plaintext]
+	hemo -> llamar [label="8.15%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 246 
+ Coef = 2.13" shape=plaintext]
+	haber -> llamar [label="5.23%" weight=1.2]
+	node [color=green style=filled]
+	querer [label="querer 
+ Count = 1168 
+ Coef = 3.4" shape=plaintext]
+	querer -> saber [label="37.82%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 580 
+ Coef = 8.67" shape=plaintext]
+	necesitar -> saber [label="18.78%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 363 
+ Coef = 1.7" shape=plaintext]
+	no -> saber [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1124 
+ Coef = 1.7" shape=plaintext]
+	porque -> no [label="17.81%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 478 
+ Coef = 3.32" shape=plaintext]
+	porque -> estar [label="7.58%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 446 
+ Coef = 1.55" shape=plaintext]
+	porque -> ser [label="7.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 442 
+ Coef = 2.29" shape=plaintext]
+	porque -> tener [label="7.0%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5519 
+ Coef = 2.13" shape=plaintext]
+	no -> haber [label="28.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4811 
+ Coef = 2.29" shape=plaintext]
+	no -> tener [label="24.47%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 1414 
+ Coef = 4.52" shape=plaintext]
+	estar -> llamar [label="12.05%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1191 
+ Coef = 1.67" shape=plaintext]
+	estar -> servicio [label="10.15%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7710 
+ Coef = 4.94" shape=plaintext]
+	ser -> que [label="50.24%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1132 
+ Coef = 1.67" shape=plaintext]
+	tener -> servicio [label="10.46%" weight=1.2]
+}

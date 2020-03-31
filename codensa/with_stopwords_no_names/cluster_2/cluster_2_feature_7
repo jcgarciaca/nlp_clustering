@@ -1,0 +1,327 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electricidad [label="electricidad 
+ Count = 13 
+ Coef = 2.19"]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 3 
+ Coef = -0.51" shape=plaintext]
+	haber -> electricidad [label="30.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -1.05" shape=plaintext]
+	ser -> electricidad [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	dndo [label="dndo 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	dndo -> electricidad [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 1 
+ Coef = 22.37" shape=plaintext]
+	electrico -> electricidad [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	tener -> electricidad [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.32" shape=plaintext]
+	estar -> electricidad [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 1 
+ Coef = 0.7" shape=plaintext]
+	faltar -> electricidad [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 335 
+ Coef = -0.57" shape=plaintext]
+	no -> haber [label="97.1%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 165 
+ Coef = -0.51" shape=plaintext]
+	haber -> ser [label="16.85%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 158 
+ Coef = 1.43" shape=plaintext]
+	fallo -> ser [label="16.14%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 125 
+ Coef = 0.14" shape=plaintext]
+	tener -> ser [label="12.77%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 80 
+ Coef = -1.32" shape=plaintext]
+	estar -> ser [label="8.17%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 74 
+ Coef = 0.76" shape=plaintext]
+	falla -> ser [label="7.56%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 62 
+ Coef = 0.39" shape=plaintext]
+	fallar -> ser [label="6.33%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 969 
+ Coef = -0.36" shape=plaintext]
+	servicio -> electrico [label="28.71%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 887 
+ Coef = 2.66" shape=plaintext]
+	fluido -> electrico [label="26.28%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 564 
+ Coef = 0.63" shape=plaintext]
+	suministro -> electrico [label="16.71%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 262 
+ Coef = -0.57" shape=plaintext]
+	no -> tener [label="92.91%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = -1.73" shape=plaintext]
+	que -> estar [label="15.56%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 6 
+ Coef = 22.37" shape=plaintext]
+	electrico -> estar [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 3 
+ Coef = 0.04" shape=plaintext]
+	tarde -> estar [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 3 
+ Coef = 0.21" shape=plaintext]
+	hora -> estar [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 5 
+ Coef = 22.37" shape=plaintext]
+	electrico -> faltar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	nuevamente [label="nuevamente 
+ Count = 2 
+ Coef = -0.07" shape=plaintext]
+	nuevamente -> faltar [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 2 
+ Coef = 1.08" shape=plaintext]
+	reportar -> faltar [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	faltar -> faltar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	ahora [label="ahora 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	electricidad -> ahora [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	finca [label="finca 
+ Count = 1 
+ Coef = -0.73" shape=plaintext]
+	electricidad -> finca [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	chia [label="chia 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	electricidad -> chia [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	electricidad -> servicio [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	electricidad -> baja [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	vez [label="vez 
+ Count = 1 
+ Coef = -0.48" shape=plaintext]
+	electricidad -> vez [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	despues [label="despues 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	electricidad -> despues [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	zona [label="zona 
+ Count = 1 
+ Coef = -0.12" shape=plaintext]
+	electricidad -> zona [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	sala [label="sala 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	ahora -> sala [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	llegado [label="llegado 
+ Count = 1 
+ Coef = 0.18" shape=plaintext]
+	ahora -> llegado [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	sali [label="sali 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	finca -> sali [label="20.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	s [label="s 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	finca -> s [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 1 
+ Coef = 2.66" shape=plaintext]
+	finca -> fluido [label="20.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	campin [label="campin 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	finca -> campin [label="20.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pl [label="pl 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	finca -> pl [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	electrico [label="electrico 
+ Count = 958 
+ Coef = 22.37" shape=plaintext]
+	servicio -> electrico [label="94.01%" weight=1.2]
+	node [color=red style=filled]
+	tension [label="tension 
+ Count = 5 
+ Coef = -0.47" shape=plaintext]
+	baja -> tension [label="62.5%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = 0.36" shape=plaintext]
+	baja -> ir [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	presion [label="presion 
+ Count = 1 
+ Coef = 0.05" shape=plaintext]
+	baja -> presion [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = 0.25" shape=plaintext]
+	baja -> subir [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -1.05" shape=plaintext]
+	vez -> ser [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 1 
+ Coef = 0.01" shape=plaintext]
+	vez -> sector [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -1.05" shape=plaintext]
+	despues -> ser [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	explosion [label="explosion 
+ Count = 1 
+ Coef = -0.0" shape=plaintext]
+	despues -> explosion [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 1 
+ Coef = 0.04" shape=plaintext]
+	despues -> tarde [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 2 
+ Coef = 0.32" shape=plaintext]
+	zona -> vivir [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = -0.65" shape=plaintext]
+	zona -> corto [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	colegio [label="colegio 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	zona -> colegio [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	soacha [label="soacha 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	zona -> soacha [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 1 
+ Coef = 0.2" shape=plaintext]
+	zona -> encontrar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.57" shape=plaintext]
+	zona -> no [label="7.14%" weight=1.2]
+	node [color=lightgrey style=filled]
+	insectos [label="insectos 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> insectos [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	unico [label="unico 
+ Count = 1 
+ Coef = -0.1" shape=plaintext]
+	zona -> unico [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = -0.77" shape=plaintext]
+	zona -> corte [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.32" shape=plaintext]
+	zona -> estar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	calle [label="calle 
+ Count = 1 
+ Coef = -0.6" shape=plaintext]
+	zona -> calle [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	chinauta [label="chinauta 
+ Count = 1 
+ Coef = -0.32" shape=plaintext]
+	zona -> chinauta [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	chico [label="chico 
+ Count = 1 
+ Coef = 0.03" shape=plaintext]
+	zona -> chico [label="7.14%" weight=1.2]
+}

@@ -1,0 +1,272 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"media casa" [label="media casa 
+ Count = 14 
+ Coef = 2.45"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 1.18" shape=plaintext]
+	luz -> "media casa" [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	ahi [label="ahi 
+ Count = 1 
+ Coef = 0.04" shape=plaintext]
+	ahi -> "media casa" [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	regreso [label="regreso 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	regreso -> "media casa" [label="14.29%" weight=1.2]
+	node [color=lightgrey style=filled]
+	angulos [label="angulos 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	angulos -> "media casa" [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -2.78" shape=plaintext]
+	tener -> "media casa" [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -1.12" shape=plaintext]
+	energia -> "media casa" [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 126 
+ Coef = 0.37" shape=plaintext]
+	ser -> luz [label="43.6%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 61 
+ Coef = -1.0" shape=plaintext]
+	estar -> luz [label="21.11%" weight=1.2]
+	node [color=red style=filled]
+	entrada [label="entrada 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	entrada -> ahi [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	estan [label="estan 
+ Count = 1 
+ Coef = -0.54" shape=plaintext]
+	estan -> ahi [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	casa -> ahi [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	bomberos [label="bomberos 
+ Count = 1 
+ Coef = 0.12" shape=plaintext]
+	bomberos -> ahi [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	cuando [label="cuando 
+ Count = 1 
+ Coef = -0.33" shape=plaintext]
+	cuando -> regreso [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 14 
+ Coef = 0.56" shape=plaintext]
+	no -> tener [label="82.35%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = 0.93" shape=plaintext]
+	que -> tener [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	casa -> tener [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.18" shape=plaintext]
+	luz -> tener [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 6 
+ Coef = -1.0" shape=plaintext]
+	estar -> energia [label="15.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = 0.37" shape=plaintext]
+	ser -> energia [label="13.16%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = -5.69" shape=plaintext]
+	servicio -> energia [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 4 
+ Coef = -2.23" shape=plaintext]
+	haber -> energia [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 2 
+ Coef = 0.15" shape=plaintext]
+	quedar -> energia [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 10 
+ Coef = 1.18" shape=plaintext]
+	"media casa" -> luz [label="71.43%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -2.78" shape=plaintext]
+	"media casa" -> tener [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	menor [label="menor 
+ Count = 1 
+ Coef = 2.14" shape=plaintext]
+	"media casa" -> menor [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 1 
+ Coef = 4.89" shape=plaintext]
+	"media casa" -> media [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -1.12" shape=plaintext]
+	"media casa" -> energia [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 112 
+ Coef = 9.48" shape=plaintext]
+	luz -> hacer [label="52.34%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 12 
+ Coef = 0.56" shape=plaintext]
+	luz -> no [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = 9.48" shape=plaintext]
+	tener -> hacer [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	duda [label="duda 
+ Count = 2 
+ Coef = -0.13" shape=plaintext]
+	tener -> duda [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 1.18" shape=plaintext]
+	tener -> luz [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	novio [label="novio 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	tener -> novio [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	tener -> casa [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.43" shape=plaintext]
+	tener -> ya [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.0" shape=plaintext]
+	tener -> estar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = -1.11" shape=plaintext]
+	tener -> falla [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	clase [label="clase 
+ Count = 1 
+ Coef = 0.2" shape=plaintext]
+	tener -> clase [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 1 
+ Coef = 5.1" shape=plaintext]
+	tener -> minuto [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = -0.75" shape=plaintext]
+	tener -> corto [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	colocar [label="colocar 
+ Count = 1 
+ Coef = 0.47" shape=plaintext]
+	tener -> colocar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 1 
+ Coef = 4.89" shape=plaintext]
+	tener -> media [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	lucha [label="lucha 
+ Count = 1 
+ Coef = 0.99" shape=plaintext]
+	tener -> lucha [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 1 
+ Coef = -1.82" shape=plaintext]
+	tener -> aqui [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 0.56" shape=plaintext]
+	tener -> no [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 6 
+ Coef = 4.89" shape=plaintext]
+	menor -> media [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 6 
+ Coef = 2.91" shape=plaintext]
+	menor -> hora [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 2 
+ Coef = 5.1" shape=plaintext]
+	menor -> minuto [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 55 
+ Coef = 2.91" shape=plaintext]
+	media -> hora [label="63.95%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 13 
+ Coef = 0.38" shape=plaintext]
+	media -> casa [label="15.12%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.18" shape=plaintext]
+	media -> luz [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 21 
+ Coef = 9.48" shape=plaintext]
+	energia -> hacer [label="61.76%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 0.38" shape=plaintext]
+	energia -> casa [label="8.82%" weight=1.2]
+}

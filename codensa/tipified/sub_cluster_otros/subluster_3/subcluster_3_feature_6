@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	establecer [label="establecer 
+ Count = 694 
+ Coef = 3.65"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 10 
+ Coef = 0.86" shape=plaintext]
+	haber -> establecer [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 5 
+ Coef = 0.97" shape=plaintext]
+	no -> establecer [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = 1.26" shape=plaintext]
+	que -> establecer [label="13.33%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	hacer -> establecer [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 239 
+ Coef = 0.97" shape=plaintext]
+	no -> haber [label="81.29%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 41 
+ Coef = 1.26" shape=plaintext]
+	que -> no [label="10.41%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 27 
+ Coef = -0.65" shape=plaintext]
+	luz -> no [label="6.85%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 25 
+ Coef = 3.41" shape=plaintext]
+	hora -> no [label="6.35%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 23 
+ Coef = 4.81" shape=plaintext]
+	servicio -> no [label="5.84%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 21 
+ Coef = 0.89" shape=plaintext]
+	manana -> no [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	momento [label="momento 
+ Count = 20 
+ Coef = 0.69" shape=plaintext]
+	momento -> no [label="5.08%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 123 
+ Coef = -0.48" shape=plaintext]
+	ser -> que [label="24.17%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 72 
+ Coef = 4.41" shape=plaintext]
+	saber -> que [label="14.15%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 31 
+ Coef = 0.67" shape=plaintext]
+	necesitar -> que [label="6.09%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 21 
+ Coef = -0.65" shape=plaintext]
+	luz -> hacer [label="14.09%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 15 
+ Coef = 1.15" shape=plaintext]
+	energia -> hacer [label="10.07%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 14 
+ Coef = 4.81" shape=plaintext]
+	servicio -> hacer [label="9.4%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 1.26" shape=plaintext]
+	que -> hacer [label="6.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 512 
+ Coef = 4.81" shape=plaintext]
+	establecer -> servicio [label="83.25%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 150 
+ Coef = 1.15" shape=plaintext]
+	servicio -> energia [label="22.87%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 138 
+ Coef = -0.65" shape=plaintext]
+	servicio -> luz [label="21.04%" weight=1.2]
+}

@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reportar dano" [label="reportar dano 
+ Count = 687 
+ Coef = 4.1"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 33 
+ Coef = -2.41" shape=plaintext]
+	ser -> "reportar dano" [label="34.74%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 7 
+ Coef = 1.53" shape=plaintext]
+	dano -> "reportar dano" [label="7.37%" weight=1.2]
+	node [color=red style=filled]
+	querer [label="querer 
+ Count = 6 
+ Coef = -0.43" shape=plaintext]
+	querer -> "reportar dano" [label="6.32%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 341 
+ Coef = 3.08" shape=plaintext]
+	falla -> ser [label="52.06%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 52 
+ Coef = 1.53" shape=plaintext]
+	dano -> ser [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 37 
+ Coef = 0.34" shape=plaintext]
+	fallo -> ser [label="5.65%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 687 
+ Coef = 21.1" shape=plaintext]
+	reportar -> dano [label="92.09%" weight=1.2]
+	node [color=green style=filled]
+	reporte [label="reporte 
+ Count = 42 
+ Coef = 10.9" shape=plaintext]
+	reporte -> dano [label="5.63%" weight=1.2]
+	node [color=red style=filled]
+	electrico [label="electrico 
+ Count = 2 
+ Coef = -3.62" shape=plaintext]
+	electrico -> querer [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -1.43" shape=plaintext]
+	no -> querer [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -0.59" shape=plaintext]
+	noche -> querer [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	que -> querer [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.41" shape=plaintext]
+	ser -> querer [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 54 
+ Coef = 2.2" shape=plaintext]
+	"reportar dano" -> energia [label="13.27%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 47 
+ Coef = 0.83" shape=plaintext]
+	"reportar dano" -> servicio [label="11.55%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 25 
+ Coef = 0.15" shape=plaintext]
+	"reportar dano" -> aqui [label="6.14%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 24 
+ Coef = 0.68" shape=plaintext]
+	energia -> sector [label="13.95%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 17 
+ Coef = 0.54" shape=plaintext]
+	energia -> electrica [label="9.88%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 15 
+ Coef = 1.57" shape=plaintext]
+	energia -> vereda [label="8.72%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 92 
+ Coef = 2.2" shape=plaintext]
+	servicio -> energia [label="41.82%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 8 
+ Coef = 0.68" shape=plaintext]
+	aqui -> sector [label="12.31%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 5 
+ Coef = 1.57" shape=plaintext]
+	aqui -> vereda [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 5 
+ Coef = 0.01" shape=plaintext]
+	aqui -> municipio [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 4 
+ Coef = -0.36" shape=plaintext]
+	aqui -> barrio [label="6.15%" weight=1.2]
+}

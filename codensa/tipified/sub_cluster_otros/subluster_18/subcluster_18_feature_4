@@ -1,0 +1,82 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"dano ser" [label="dano ser 
+ Count = 1 
+ Coef = 2.41"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	ser -> "dano ser" [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	que -> ser [label="27.78%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 2 
+ Coef = -0.24" shape=plaintext]
+	paso -> ser [label="11.11%" weight=1.2]
+	node [color=lightgrey style=filled]
+	jackson [label="jackson 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	jackson -> ser [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = 0.21" shape=plaintext]
+	porque -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	problema [label="problema 
+ Count = 1 
+ Coef = -0.27" shape=plaintext]
+	problema -> ser [label="5.56%" weight=1.2]
+	node [color=lightgrey style=filled]
+	prueba [label="prueba 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	prueba -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.46" shape=plaintext]
+	ya -> ser [label="5.56%" weight=1.2]
+	node [color=lightgrey style=filled]
+	emocional [label="emocional 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	emocional -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	finca [label="finca 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	finca -> ser [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 1.81" shape=plaintext]
+	dano -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -0.77" shape=plaintext]
+	ir -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	motivo [label="motivo 
+ Count = 1 
+ Coef = -0.16" shape=plaintext]
+	motivo -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	corto -> ser [label="5.56%" weight=1.2]
+	node [color=lightgrey style=filled]
+	castanuela [label="castanuela 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	"dano ser" -> castanuela [label="100.0%" weight=1.2]
+}

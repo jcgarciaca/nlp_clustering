@@ -1,0 +1,7 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"dano fase" [label="dano fase 
+ Count = 6 
+ Coef = 3.41"]
+}

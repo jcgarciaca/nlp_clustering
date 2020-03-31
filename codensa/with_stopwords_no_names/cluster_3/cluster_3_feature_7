@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	falla [label="falla 
+ Count = 1107 
+ Coef = 3.08"]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 1021 
+ Coef = 21.1" shape=plaintext]
+	reportar -> falla [label="92.48%" weight=1.2]
+	node [color=green style=filled]
+	reporte [label="reporte 
+ Count = 66 
+ Coef = 10.9" shape=plaintext]
+	reporte -> falla [label="5.98%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 98 
+ Coef = -2.41" shape=plaintext]
+	ser -> reportar [label="30.53%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 21 
+ Coef = -0.03" shape=plaintext]
+	llamar -> reportar [label="6.54%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = -0.83" shape=plaintext]
+	hacer -> reporte [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 3 
+ Coef = 21.1" shape=plaintext]
+	reportar -> reporte [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -2.41" shape=plaintext]
+	ser -> reporte [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 345 
+ Coef = 0.83" shape=plaintext]
+	falla -> servicio [label="39.34%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 138 
+ Coef = 0.54" shape=plaintext]
+	falla -> electrica [label="15.74%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 113 
+ Coef = 2.2" shape=plaintext]
+	falla -> energia [label="12.88%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 84 
+ Coef = -0.57" shape=plaintext]
+	falla -> suministro [label="9.58%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 92 
+ Coef = 2.2" shape=plaintext]
+	servicio -> energia [label="41.82%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 12 
+ Coef = 0.68" shape=plaintext]
+	electrica -> sector [label="18.75%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 4 
+ Coef = 0.01" shape=plaintext]
+	electrica -> municipio [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 24 
+ Coef = 0.68" shape=plaintext]
+	energia -> sector [label="13.95%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 17 
+ Coef = 0.54" shape=plaintext]
+	energia -> electrica [label="9.88%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 15 
+ Coef = 1.57" shape=plaintext]
+	energia -> vereda [label="8.72%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 68 
+ Coef = 2.2" shape=plaintext]
+	suministro -> energia [label="80.95%" weight=1.2]
+}

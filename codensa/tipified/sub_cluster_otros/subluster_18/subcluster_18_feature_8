@@ -1,0 +1,57 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"fase estar" [label="fase estar 
+ Count = 1 
+ Coef = 2.12"]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 1 
+ Coef = 4.66" shape=plaintext]
+	cayo -> "fase estar" [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	que -> cayo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 3 
+ Coef = 4.66" shape=plaintext]
+	cayo -> cayo [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	luz -> cayo [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	"fase estar" -> luz [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	canuelas [label="canuelas 
+ Count = 6 
+ Coef = 10.11" shape=plaintext]
+	luz -> canuelas [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	saltar [label="saltar 
+ Count = 2 
+ Coef = 1.73" shape=plaintext]
+	luz -> saltar [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -0.51" shape=plaintext]
+	luz -> que [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	canuela [label="canuela 
+ Count = 2 
+ Coef = 10.71" shape=plaintext]
+	luz -> canuela [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 2 
+ Coef = 4.66" shape=plaintext]
+	luz -> cayo [label="6.67%" weight=1.2]
+}

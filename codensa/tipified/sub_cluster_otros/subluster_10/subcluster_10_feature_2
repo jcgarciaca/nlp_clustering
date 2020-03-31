@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reconectar [label="reconectar 
+ Count = 14 
+ Coef = 4.44"]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 2 
+ Coef = -0.33" shape=plaintext]
+	ir -> reconectar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	querer [label="querer 
+ Count = 1 
+ Coef = -0.52" shape=plaintext]
+	querer -> reconectar [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> reconectar [label="16.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	sinonimo [label="sinonimo 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	sinonimo -> reconectar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 2.57" shape=plaintext]
+	servicio -> reconectar [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.34" shape=plaintext]
+	que -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	ustedes [label="ustedes 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	ustedes -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.65" shape=plaintext]
+	hora -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	cuando [label="cuando 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	cuando -> ir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -0.6" shape=plaintext]
+	haber -> querer [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 405 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> ser [label="84.73%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> sinonimo [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 407 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> servicio [label="86.41%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 11 
+ Coef = 2.57" shape=plaintext]
+	reconectar -> servicio [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -0.13" shape=plaintext]
+	servicio -> luz [label="27.27%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 24 
+ Coef = -0.04" shape=plaintext]
+	servicio -> energia [label="19.83%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 15 
+ Coef = 12.16" shape=plaintext]
+	servicio -> reconexion [label="12.4%" weight=1.2]
+}

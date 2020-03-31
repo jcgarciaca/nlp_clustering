@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	sector [label="sector 
+ Count = 3703 
+ Coef = 6.94"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 292 
+ Coef = 3.12" shape=plaintext]
+	aqui -> sector [label="8.09%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 259 
+ Coef = -1.68" shape=plaintext]
+	energia -> sector [label="7.17%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 208 
+ Coef = -0.13" shape=plaintext]
+	tener -> sector [label="5.76%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 182 
+ Coef = 0.88" shape=plaintext]
+	haber -> sector [label="5.04%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 402 
+ Coef = -0.63" shape=plaintext]
+	que -> aqui [label="12.09%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 313 
+ Coef = -0.51" shape=plaintext]
+	estar -> aqui [label="9.41%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 228 
+ Coef = -2.19" shape=plaintext]
+	servicio -> aqui [label="6.86%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 200 
+ Coef = -0.13" shape=plaintext]
+	tener -> aqui [label="6.02%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1493 
+ Coef = -2.19" shape=plaintext]
+	servicio -> energia [label="34.92%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 474 
+ Coef = -0.51" shape=plaintext]
+	estar -> energia [label="11.09%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 373 
+ Coef = -0.13" shape=plaintext]
+	tener -> energia [label="8.72%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 316 
+ Coef = 0.88" shape=plaintext]
+	haber -> energia [label="7.39%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 263 
+ Coef = 0.33" shape=plaintext]
+	suministro -> energia [label="6.15%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 3475 
+ Coef = -1.84" shape=plaintext]
+	no -> tener [label="79.96%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 3867 
+ Coef = -1.84" shape=plaintext]
+	no -> haber [label="78.5%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 235 
+ Coef = 15.91" shape=plaintext]
+	sector -> vereda [label="7.51%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 655 
+ Coef = 3.37" shape=plaintext]
+	vereda -> santo [label="7.2%" weight=1.2]
+}

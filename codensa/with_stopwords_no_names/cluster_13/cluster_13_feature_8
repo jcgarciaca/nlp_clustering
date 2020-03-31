@@ -1,0 +1,37 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"haber mna" [label="haber mna 
+ Count = 43 
+ Coef = 2.54"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 43 
+ Coef = 3.62" shape=plaintext]
+	no -> "haber mna" [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 94 
+ Coef = 0.3" shape=plaintext]
+	que -> no [label="31.33%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 81 
+ Coef = 7.47" shape=plaintext]
+	haber -> no [label="27.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 18 
+ Coef = 0.72" shape=plaintext]
+	ayer -> no [label="6.0%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	"haber mna" -> entonces [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	entonces -> saber [label="100.0%" weight=1.2]
+}

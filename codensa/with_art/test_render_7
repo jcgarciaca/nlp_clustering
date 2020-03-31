@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	dano [label="dano 
+ Count = 298 
+ Coef = 11.82"]
+	node [color=green style=filled]
+	un [label="un 
+ Count = 10 
+ Coef = 0.78" shape=plaintext]
+	un -> dano [label="38.46%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 5 
+ Coef = 11.82" shape=plaintext]
+	dano -> dano [label="19.23%" weight=1.2]
+	node [color=green style=filled]
+	por [label="por 
+ Count = 3 
+ Coef = 0.15" shape=plaintext]
+	por -> dano [label="11.54%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 2 
+ Coef = 8.78" shape=plaintext]
+	danos -> dano [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 2 
+ Coef = 11.82" shape=plaintext]
+	dano -> un [label="33.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 2 
+ Coef = Not in Dict" shape=plaintext]
+	en -> un [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	para [label="para 
+ Count = 2 
+ Coef = -0.03" shape=plaintext]
+	para -> un [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	un [label="un 
+ Count = 10 
+ Coef = 0.78" shape=plaintext]
+	un -> dano [label="38.46%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 5 
+ Coef = 11.82" shape=plaintext]
+	dano -> dano [label="19.23%" weight=1.2]
+	node [color=green style=filled]
+	por [label="por 
+ Count = 3 
+ Coef = 0.15" shape=plaintext]
+	por -> dano [label="11.54%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 2 
+ Coef = 8.78" shape=plaintext]
+	danos -> dano [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 2 
+ Coef = 8.78" shape=plaintext]
+	danos -> danos [label="100.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 57 
+ Coef = Not in Dict" shape=plaintext]
+	dano -> en [label="71.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 10 
+ Coef = Not in Dict" shape=plaintext]
+	dano -> de [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 5 
+ Coef = 11.82" shape=plaintext]
+	dano -> dano [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 71 
+ Coef = 0.3" shape=plaintext]
+	en -> la [label="88.75%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 7 
+ Coef = 0.3" shape=plaintext]
+	de -> la [label="46.67%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 0.26" shape=plaintext]
+	de -> luz [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	un [label="un 
+ Count = 1 
+ Coef = 0.78" shape=plaintext]
+	de -> un [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	cable [label="cable 
+ Count = 1 
+ Coef = 1.43" shape=plaintext]
+	de -> cable [label="6.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 57 
+ Coef = Not in Dict" shape=plaintext]
+	dano -> en [label="71.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 10 
+ Coef = Not in Dict" shape=plaintext]
+	dano -> de [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 5 
+ Coef = 11.82" shape=plaintext]
+	dano -> dano [label="6.25%" weight=1.2]
+}

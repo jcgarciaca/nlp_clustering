@@ -1,0 +1,17 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	ver [label="ver 
+ Count = 2 
+ Coef = 3.54"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 7.47" shape=plaintext]
+	haber -> ver [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1573 
+ Coef = 3.62" shape=plaintext]
+	no -> haber [label="99.87%" weight=1.2]
+}

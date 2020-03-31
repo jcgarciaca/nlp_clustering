@@ -1,0 +1,52 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"banco servicio" [label="banco servicio 
+ Count = 14 
+ Coef = 1.88"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.17" shape=plaintext]
+	ser -> "banco servicio" [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 98 
+ Coef = 0.34" shape=plaintext]
+	dano -> ser [label="6.59%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 75 
+ Coef = 0.38" shape=plaintext]
+	falla -> ser [label="5.04%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -2.09" shape=plaintext]
+	"banco servicio" -> luz [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	redes [label="redes 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	"banco servicio" -> redes [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 11 
+ Coef = 3.13" shape=plaintext]
+	luz -> sector [label="7.86%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 8 
+ Coef = -0.39" shape=plaintext]
+	luz -> aqui [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	sol [label="sol 
+ Count = 1 
+ Coef = 0.11" shape=plaintext]
+	redes -> sol [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	cadena [label="cadena 
+ Count = 1 
+ Coef = -0.08" shape=plaintext]
+	redes -> cadena [label="50.0%" weight=1.2]
+}

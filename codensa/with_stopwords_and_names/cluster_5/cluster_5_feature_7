@@ -1,0 +1,217 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"corte energia" [label="corte energia 
+ Count = 482 
+ Coef = 3.01"]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 4 
+ Coef = 13.51" shape=plaintext]
+	corte -> "corte energia" [label="40.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = -0.32" shape=plaintext]
+	energia -> "corte energia" [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	luz -> "corte energia" [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	sector -> "corte energia" [label="10.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	cortesia [label="cortesia 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	cortesia -> "corte energia" [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 15 
+ Coef = 1.28" shape=plaintext]
+	luz -> corte [label="18.29%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 11 
+ Coef = 13.51" shape=plaintext]
+	corte -> corte [label="13.41%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 482 
+ Coef = 13.51" shape=plaintext]
+	corte -> energia [label="92.87%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 473 
+ Coef = 13.51" shape=plaintext]
+	corte -> luz [label="85.38%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 14 
+ Coef = -0.32" shape=plaintext]
+	energia -> sector [label="45.16%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 7 
+ Coef = 1.28" shape=plaintext]
+	luz -> sector [label="22.58%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = -0.93" shape=plaintext]
+	servicio -> sector [label="19.35%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 12 
+ Coef = 0.07" shape=plaintext]
+	"corte energia" -> sector [label="13.79%" weight=1.2]
+	node [color=green style=filled]
+	programado [label="programado 
+ Count = 6 
+ Coef = 1.38" shape=plaintext]
+	"corte energia" -> programado [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 6 
+ Coef = -0.9" shape=plaintext]
+	"corte energia" -> hacer [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 0.57" shape=plaintext]
+	"corte energia" -> dia [label="5.75%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 13.51" shape=plaintext]
+	sector -> corte [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	biota [label="biota 
+ Count = 1 
+ Coef = 0.39" shape=plaintext]
+	sector -> biota [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.43" shape=plaintext]
+	sector -> casa [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	ricaute [label="ricaute 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	sector -> ricaute [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = -0.32" shape=plaintext]
+	programado -> energia [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.57" shape=plaintext]
+	programado -> dia [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 5 
+ Coef = 0.44" shape=plaintext]
+	hacer -> mas [label="29.41%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 2 
+ Coef = -0.07" shape=plaintext]
+	hacer -> hora [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 2 
+ Coef = 0.03" shape=plaintext]
+	hacer -> dos [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	tres [label="tres 
+ Count = 2 
+ Coef = 0.03" shape=plaintext]
+	hacer -> tres [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = 0.57" shape=plaintext]
+	hacer -> dia [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	rato [label="rato 
+ Count = 1 
+ Coef = -0.1" shape=plaintext]
+	hacer -> rato [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	hacer -> media [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	hacer -> corte [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = 0.27" shape=plaintext]
+	hacer -> como [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 5 
+ Coef = -0.58" shape=plaintext]
+	dia -> hoy [label="26.32%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 3 
+ Coef = -0.61" shape=plaintext]
+	dia -> ayer [label="15.79%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 2 
+ Coef = -0.43" shape=plaintext]
+	dia -> noche [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	enero [label="enero 
+ Count = 2 
+ Coef = 0.2" shape=plaintext]
+	dia -> enero [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.37" shape=plaintext]
+	dia -> manana [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	animal [label="animal 
+ Count = 1 
+ Coef = 0.28" shape=plaintext]
+	dia -> animal [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	canal [label="canal 
+ Count = 1 
+ Coef = 0.31" shape=plaintext]
+	dia -> canal [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	pasar [label="pasar 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	dia -> pasar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	dia -> hora [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	secretaria [label="secretaria 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	dia -> secretaria [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tacos [label="tacos 
+ Count = 1 
+ Coef = 3.8" shape=plaintext]
+	dia -> tacos [label="5.26%" weight=1.2]
+}

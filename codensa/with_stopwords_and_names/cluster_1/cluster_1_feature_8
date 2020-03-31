@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	facatativa [label="facatativa 
+ Count = 168 
+ Coef = 5.55"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 16 
+ Coef = 4.14" shape=plaintext]
+	aqui -> facatativa [label="9.76%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 9 
+ Coef = -0.86" shape=plaintext]
+	luz -> facatativa [label="5.49%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 325 
+ Coef = -0.86" shape=plaintext]
+	luz -> aqui [label="21.42%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 206 
+ Coef = 0.03" shape=plaintext]
+	que -> aqui [label="13.58%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 956 
+ Coef = 0.49" shape=plaintext]
+	haber -> luz [label="21.66%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 725 
+ Coef = -0.21" shape=plaintext]
+	tener -> luz [label="16.43%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 540 
+ Coef = 0.63" shape=plaintext]
+	estar -> luz [label="12.23%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 524 
+ Coef = 1.0" shape=plaintext]
+	ser -> luz [label="11.87%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 335 
+ Coef = -3.8" shape=plaintext]
+	servicio -> luz [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 29 
+ Coef = 17.73" shape=plaintext]
+	facatativa -> barrio [label="26.85%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 11 
+ Coef = 0.3" shape=plaintext]
+	facatativa -> no [label="10.19%" weight=1.2]
+	node [color=red style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 7 
+ Coef = -0.37" shape=plaintext]
+	facatativa -> cundinamarca [label="6.48%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 302 
+ Coef = 1.72" shape=plaintext]
+	barrio -> santo [label="8.13%" weight=1.2]
+	node [color=green style=filled]
+	villa [label="villa 
+ Count = 204 
+ Coef = 3.24" shape=plaintext]
+	barrio -> villa [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 189 
+ Coef = 1.43" shape=plaintext]
+	barrio -> santa [label="5.09%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1608 
+ Coef = 0.49" shape=plaintext]
+	no -> haber [label="39.24%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1167 
+ Coef = -0.21" shape=plaintext]
+	no -> tener [label="28.48%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 86 
+ Coef = 17.73" shape=plaintext]
+	cundinamarca -> barrio [label="21.66%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 44 
+ Coef = 10.96" shape=plaintext]
+	cundinamarca -> calle [label="11.08%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 33 
+ Coef = 13.71" shape=plaintext]
+	cundinamarca -> carrera [label="8.31%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 21 
+ Coef = 0.3" shape=plaintext]
+	cundinamarca -> no [label="5.29%" weight=1.2]
+}

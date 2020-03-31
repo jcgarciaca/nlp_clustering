@@ -1,0 +1,47 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 5654 
+ Coef = 16.7"]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 337 
+ Coef = 1.73" shape=plaintext]
+	mesa -> cundinamarca [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 278 
+ Coef = 16.76" shape=plaintext]
+	municipio -> mesa [label="41.99%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 40 
+ Coef = 3.12" shape=plaintext]
+	aqui -> mesa [label="6.04%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 967 
+ Coef = 15.91" shape=plaintext]
+	cundinamarca -> vereda [label="29.8%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 264 
+ Coef = -1.84" shape=plaintext]
+	cundinamarca -> no [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 655 
+ Coef = 3.37" shape=plaintext]
+	vereda -> santo [label="7.2%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 3612 
+ Coef = 0.88" shape=plaintext]
+	no -> haber [label="38.01%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 3286 
+ Coef = -0.13" shape=plaintext]
+	no -> tener [label="34.57%" weight=1.2]
+}

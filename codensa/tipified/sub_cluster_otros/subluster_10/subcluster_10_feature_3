@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reconexion servicio" [label="reconexion servicio 
+ Count = 409 
+ Coef = 4.05"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = 2.57" shape=plaintext]
+	servicio -> "reconexion servicio" [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 7 
+ Coef = 0.66" shape=plaintext]
+	solicitar -> "reconexion servicio" [label="10.29%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = -0.2" shape=plaintext]
+	ser -> "reconexion servicio" [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	pedir [label="pedir 
+ Count = 4 
+ Coef = 0.42" shape=plaintext]
+	pedir -> "reconexion servicio" [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 407 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> servicio [label="86.41%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -0.81" shape=plaintext]
+	estar -> solicitar [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 405 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> ser [label="84.73%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	porque -> pedir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> pedir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.81" shape=plaintext]
+	estar -> pedir [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 2.57" shape=plaintext]
+	servicio -> pedir [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 28 
+ Coef = -0.13" shape=plaintext]
+	"reconexion servicio" -> luz [label="32.94%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 20 
+ Coef = -0.04" shape=plaintext]
+	"reconexion servicio" -> energia [label="23.53%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 6 
+ Coef = 12.16" shape=plaintext]
+	"reconexion servicio" -> reconexion [label="7.06%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 3 
+ Coef = 0.88" shape=plaintext]
+	luz -> corte [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 2.57" shape=plaintext]
+	luz -> servicio [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	luz -> porque [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	tercer [label="tercer 
+ Count = 1 
+ Coef = 0.24" shape=plaintext]
+	energia -> tercer [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	energia -> no [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 405 
+ Coef = 2.57" shape=plaintext]
+	reconexion -> servicio [label="83.33%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 29 
+ Coef = -0.04" shape=plaintext]
+	reconexion -> energia [label="5.97%" weight=1.2]
+}

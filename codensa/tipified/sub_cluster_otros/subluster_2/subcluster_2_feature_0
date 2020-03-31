@@ -1,0 +1,107 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	nevera [label="nevera 
+ Count = 336 
+ Coef = 7.02"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 61 
+ Coef = 6.41" shape=plaintext]
+	tener -> nevera [label="18.15%" weight=1.2]
+	node [color=green style=filled]
+	cosa [label="cosa 
+ Count = 30 
+ Coef = 3.16" shape=plaintext]
+	cosa -> nevera [label="8.93%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 122 
+ Coef = 0.35" shape=plaintext]
+	no -> tener [label="16.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 76 
+ Coef = 1.24" shape=plaintext]
+	que -> tener [label="10.47%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 56 
+ Coef = 1.52" shape=plaintext]
+	porque -> tener [label="7.71%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 44 
+ Coef = 0.02" shape=plaintext]
+	luz -> tener [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 24 
+ Coef = 6.41" shape=plaintext]
+	tener -> cosa [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 23 
+ Coef = 5.89" shape=plaintext]
+	danando -> cosa [label="17.42%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = 0.35" shape=plaintext]
+	nevera -> no [label="7.23%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 12 
+ Coef = 0.75" shape=plaintext]
+	nevera -> ya [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 12 
+ Coef = 3.47" shape=plaintext]
+	nevera -> estan [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 119 
+ Coef = 6.41" shape=plaintext]
+	no -> tener [label="17.3%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 110 
+ Coef = 0.09" shape=plaintext]
+	no -> haber [label="15.99%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 32 
+ Coef = 1.24" shape=plaintext]
+	ya -> que [label="11.59%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 32 
+ Coef = 0.73" shape=plaintext]
+	ya -> llevar [label="11.59%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 22 
+ Coef = 0.35" shape=plaintext]
+	ya -> no [label="7.97%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 17 
+ Coef = 1.25" shape=plaintext]
+	ya -> ir [label="6.16%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 138 
+ Coef = 5.89" shape=plaintext]
+	estan -> danando [label="52.67%" weight=1.2]
+	node [color=green style=filled]
+	descongelar [label="descongelar 
+ Count = 17 
+ Coef = 4.18" shape=plaintext]
+	estan -> descongelar [label="6.49%" weight=1.2]
+	node [color=green style=filled]
+	perjudicar [label="perjudicar 
+ Count = 14 
+ Coef = 2.06" shape=plaintext]
+	estan -> perjudicar [label="5.34%" weight=1.2]
+}

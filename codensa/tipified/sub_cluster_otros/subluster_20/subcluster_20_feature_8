@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llamar [label="llamar 
+ Count = 883 
+ Coef = 2.83"]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 351 
+ Coef = 3.1" shape=plaintext]
+	estar -> llamar [label="41.15%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 47 
+ Coef = 0.71" shape=plaintext]
+	hemo -> llamar [label="5.51%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 43 
+ Coef = 1.1" shape=plaintext]
+	haber -> llamar [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 363 
+ Coef = 2.22" shape=plaintext]
+	que -> estar [label="17.57%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 28 
+ Coef = 0.35" shape=plaintext]
+	no -> hemo [label="16.28%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 22 
+ Coef = 1.01" shape=plaintext]
+	ya -> hemo [label="12.79%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 11 
+ Coef = 1.42" shape=plaintext]
+	ayer -> hemo [label="6.4%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 10 
+ Coef = 0.89" shape=plaintext]
+	dia -> hemo [label="5.81%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 2.22" shape=plaintext]
+	que -> hemo [label="5.23%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 641 
+ Coef = 0.35" shape=plaintext]
+	no -> haber [label="46.15%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 111 
+ Coef = 2.22" shape=plaintext]
+	que -> haber [label="7.99%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 58 
+ Coef = 0.28" shape=plaintext]
+	llamar -> porque [label="6.73%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 50 
+ Coef = 4.66" shape=plaintext]
+	llamar -> aqui [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 88 
+ Coef = 0.35" shape=plaintext]
+	porque -> no [label="11.22%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 81 
+ Coef = 3.1" shape=plaintext]
+	porque -> estar [label="10.33%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 61 
+ Coef = 1.15" shape=plaintext]
+	porque -> ser [label="7.78%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 42 
+ Coef = 1.01" shape=plaintext]
+	porque -> ya [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 209 
+ Coef = 8.0" shape=plaintext]
+	aqui -> vereda [label="15.68%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 71 
+ Coef = 8.21" shape=plaintext]
+	aqui -> municipio [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 69 
+ Coef = 3.89" shape=plaintext]
+	aqui -> barrio [label="5.18%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 69 
+ Coef = 4.65" shape=plaintext]
+	aqui -> sector [label="5.18%" weight=1.2]
+}

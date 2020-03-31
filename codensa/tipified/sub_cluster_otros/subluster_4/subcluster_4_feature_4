@@ -1,0 +1,172 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"dia servicio" [label="dia servicio 
+ Count = 45 
+ Coef = 2.66"]
+	node [color=green style=filled]
+	tres [label="tres 
+ Count = 8 
+ Coef = 0.28" shape=plaintext]
+	tres -> "dia servicio" [label="36.36%" weight=1.2]
+	node [color=green style=filled]
+	cinco [label="cinco 
+ Count = 4 
+ Coef = 0.58" shape=plaintext]
+	cinco -> "dia servicio" [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 4 
+ Coef = 0.45" shape=plaintext]
+	dos -> "dia servicio" [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 2 
+ Coef = 0.54" shape=plaintext]
+	mas -> "dia servicio" [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3 
+ Coef = 14.77" shape=plaintext]
+	servicio -> tres [label="60.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 0.44" shape=plaintext]
+	ya -> tres [label="40.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	ser -> cinco [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 4 
+ Coef = -0.3" shape=plaintext]
+	hacer -> dos [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3 
+ Coef = 14.77" shape=plaintext]
+	servicio -> dos [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 0.7" shape=plaintext]
+	luz -> dos [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.57" shape=plaintext]
+	como -> dos [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.44" shape=plaintext]
+	ya -> dos [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = -0.3" shape=plaintext]
+	hacer -> mas [label="61.54%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3 
+ Coef = 14.77" shape=plaintext]
+	servicio -> mas [label="23.08%" weight=1.2]
+	node [color=green style=filled]
+	usar [label="usar 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	usar -> mas [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	ir -> mas [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 9 
+ Coef = 0.7" shape=plaintext]
+	"dia servicio" -> luz [label="64.29%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = -0.41" shape=plaintext]
+	"dia servicio" -> energia [label="21.43%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 2.35" shape=plaintext]
+	"dia servicio" -> dia [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	tres [label="tres 
+ Count = 1 
+ Coef = 0.28" shape=plaintext]
+	"dia servicio" -> tres [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 17 
+ Coef = -0.3" shape=plaintext]
+	luz -> hacer [label="21.79%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 11 
+ Coef = 14.77" shape=plaintext]
+	luz -> servicio [label="14.1%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 7 
+ Coef = 0.12" shape=plaintext]
+	luz -> manana [label="8.97%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 6 
+ Coef = 0.22" shape=plaintext]
+	luz -> noche [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = 2.35" shape=plaintext]
+	luz -> dia [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 5 
+ Coef = 0.42" shape=plaintext]
+	luz -> muy [label="6.41%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 4 
+ Coef = 0.69" shape=plaintext]
+	luz -> ayer [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 17 
+ Coef = 2.35" shape=plaintext]
+	energia -> dia [label="89.47%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 1 
+ Coef = 0.42" shape=plaintext]
+	energia -> muy [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.47" shape=plaintext]
+	energia -> no [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 43 
+ Coef = 14.77" shape=plaintext]
+	dia -> servicio [label="45.74%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 35 
+ Coef = 0.69" shape=plaintext]
+	dia -> ayer [label="37.23%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 9 
+ Coef = 2.35" shape=plaintext]
+	tres -> dia [label="100.0%" weight=1.2]
+}

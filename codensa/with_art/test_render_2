@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	servicio [label="servicio 
+ Count = 9736 
+ Coef = 22.07"]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 2009 
+ Coef = 1.66" shape=plaintext]
+	sin -> servicio [label="21.42%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1720 
+ Coef = 0.39" shape=plaintext]
+	haber -> servicio [label="18.33%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1472 
+ Coef = 0.51" shape=plaintext]
+	tener -> servicio [label="15.69%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 1462 
+ Coef = 1.84" shape=plaintext]
+	el -> servicio [label="15.58%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 929 
+ Coef = Not in Dict" shape=plaintext]
+	de -> servicio [label="9.9%" weight=1.2]
+	node [color=green style=filled]
+	del [label="del 
+ Count = 709 
+ Coef = 0.2" shape=plaintext]
+	del -> servicio [label="7.56%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 561 
+ Coef = -1.01" shape=plaintext]
+	estar -> sin [label="55.82%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 115 
+ Coef = 0.34" shape=plaintext]
+	encontrar -> sin [label="11.44%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 78 
+ Coef = 2.18" shape=plaintext]
+	dia -> sin [label="7.76%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1853 
+ Coef = -0.25" shape=plaintext]
+	no -> haber [label="95.17%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1629 
+ Coef = -0.25" shape=plaintext]
+	no -> tener [label="95.6%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 1263 
+ Coef = Not in Dict" shape=plaintext]
+	en -> el [label="52.62%" weight=1.2]
+	node [color=red style=filled]
+	desde [label="desde 
+ Count = 166 
+ Coef = -0.99" shape=plaintext]
+	desde -> el [label="6.92%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3185 
+ Coef = 22.07" shape=plaintext]
+	servicio -> de [label="58.13%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 384 
+ Coef = 3.28" shape=plaintext]
+	reconexion -> de [label="7.01%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 218 
+ Coef = 3.28" shape=plaintext]
+	reconexion -> del [label="23.49%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 196 
+ Coef = 1.5" shape=plaintext]
+	suspension -> del [label="21.12%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 86 
+ Coef = 22.07" shape=plaintext]
+	servicio -> del [label="9.27%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 79 
+ Coef = 0.89" shape=plaintext]
+	corte -> del [label="8.51%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 3125 
+ Coef = Not in Dict" shape=plaintext]
+	servicio -> de [label="57.59%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 787 
+ Coef = Not in Dict" shape=plaintext]
+	servicio -> en [label="14.5%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2578 
+ Coef = -1.07" shape=plaintext]
+	de -> luz [label="53.18%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 914 
+ Coef = 22.07" shape=plaintext]
+	de -> servicio [label="18.85%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 1269 
+ Coef = 1.84" shape=plaintext]
+	en -> el [label="54.96%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 355 
+ Coef = -2.56" shape=plaintext]
+	en -> la [label="15.37%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 229 
+ Coef = 22.07" shape=plaintext]
+	en -> servicio [label="9.92%" weight=1.2]
+}

@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	avenida [label="avenida 
+ Count = 1256 
+ Coef = 6.19"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 258 
+ Coef = 3.3" shape=plaintext]
+	aqui -> avenida [label="20.91%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 158 
+ Coef = -2.08" shape=plaintext]
+	luz -> avenida [label="12.8%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 99 
+ Coef = -1.79" shape=plaintext]
+	energia -> avenida [label="8.02%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 832 
+ Coef = -2.08" shape=plaintext]
+	luz -> aqui [label="23.84%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 422 
+ Coef = -0.3" shape=plaintext]
+	que -> aqui [label="12.09%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 185 
+ Coef = -1.79" shape=plaintext]
+	energia -> aqui [label="5.3%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2030 
+ Coef = 0.76" shape=plaintext]
+	haber -> luz [label="20.01%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1836 
+ Coef = -0.07" shape=plaintext]
+	tener -> luz [label="18.09%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1724 
+ Coef = -0.48" shape=plaintext]
+	estar -> luz [label="16.99%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1244 
+ Coef = -2.3" shape=plaintext]
+	servicio -> luz [label="12.26%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 722 
+ Coef = 0.19" shape=plaintext]
+	ser -> luz [label="7.12%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1680 
+ Coef = -2.3" shape=plaintext]
+	servicio -> energia [label="35.14%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 492 
+ Coef = -0.48" shape=plaintext]
+	estar -> energia [label="10.29%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 393 
+ Coef = -0.07" shape=plaintext]
+	tener -> energia [label="8.22%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 342 
+ Coef = 0.76" shape=plaintext]
+	haber -> energia [label="7.15%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 319 
+ Coef = 0.85" shape=plaintext]
+	suministro -> energia [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 159 
+ Coef = 4.56" shape=plaintext]
+	avenida -> santo [label="12.77%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 75 
+ Coef = 2.32" shape=plaintext]
+	avenida -> santa [label="6.02%" weight=1.2]
+	node [color=green style=filled]
+	jose [label="jose 
+ Count = 269 
+ Coef = 1.37" shape=plaintext]
+	santo -> jose [label="15.81%" weight=1.2]
+	node [color=green style=filled]
+	antonio [label="antonio 
+ Count = 265 
+ Coef = 1.73" shape=plaintext]
+	santo -> antonio [label="15.58%" weight=1.2]
+	node [color=green style=filled]
+	miguel [label="miguel 
+ Count = 166 
+ Coef = 1.79" shape=plaintext]
+	santo -> miguel [label="9.76%" weight=1.2]
+	node [color=green style=filled]
+	barbara [label="barbara 
+ Count = 149 
+ Coef = 0.93" shape=plaintext]
+	santa -> barbara [label="16.41%" weight=1.2]
+	node [color=green style=filled]
+	rosa [label="rosa 
+ Count = 137 
+ Coef = 0.83" shape=plaintext]
+	santa -> rosa [label="15.09%" weight=1.2]
+	node [color=green style=filled]
+	ana [label="ana 
+ Count = 117 
+ Coef = 0.59" shape=plaintext]
+	santa -> ana [label="12.89%" weight=1.2]
+	node [color=green style=filled]
+	lucia [label="lucia 
+ Count = 84 
+ Coef = 0.12" shape=plaintext]
+	santa -> lucia [label="9.25%" weight=1.2]
+	node [color=green style=filled]
+	maria [label="maria 
+ Count = 65 
+ Coef = 1.57" shape=plaintext]
+	santa -> maria [label="7.16%" weight=1.2]
+	node [color=green style=filled]
+	isabel [label="isabel 
+ Count = 50 
+ Coef = 0.06" shape=plaintext]
+	santa -> isabel [label="5.51%" weight=1.2]
+}

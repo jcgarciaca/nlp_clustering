@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	municipio [label="municipio 
+ Count = 896 
+ Coef = 8.21"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 73 
+ Coef = 4.66" shape=plaintext]
+	aqui -> municipio [label="8.38%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 200 
+ Coef = 0.52" shape=plaintext]
+	luz -> aqui [label="15.42%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 194 
+ Coef = 2.22" shape=plaintext]
+	que -> aqui [label="14.96%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 94 
+ Coef = 3.1" shape=plaintext]
+	estar -> aqui [label="7.25%" weight=1.2]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 45 
+ Coef = 1.17" shape=plaintext]
+	municipio -> mesa [label="5.07%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 49 
+ Coef = 8.22" shape=plaintext]
+	mesa -> cundinamarca [label="37.98%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = 3.1" shape=plaintext]
+	mesa -> estar [label="5.43%" weight=1.2]
+}

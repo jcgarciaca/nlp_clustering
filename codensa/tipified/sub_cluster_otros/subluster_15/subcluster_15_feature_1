@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	baja [label="baja 
+ Count = 102 
+ Coef = 7.78"]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 25 
+ Coef = 3.67" shape=plaintext]
+	tension -> baja [label="48.08%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 8 
+ Coef = 4.74" shape=plaintext]
+	subir -> baja [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 5 
+ Coef = 2.12" shape=plaintext]
+	luz -> baja [label="9.62%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 40 
+ Coef = 7.78" shape=plaintext]
+	baja -> tension [label="85.11%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 2.12" shape=plaintext]
+	luz -> subir [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 2 
+ Coef = 7.78" shape=plaintext]
+	baja -> subir [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 5 
+ Coef = 3.67" shape=plaintext]
+	tension -> luz [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	bajar [label="bajar 
+ Count = 5 
+ Coef = 5.48" shape=plaintext]
+	bajar -> luz [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 4 
+ Coef = 4.92" shape=plaintext]
+	bajo -> luz [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	intensidad [label="intensidad 
+ Count = 3 
+ Coef = 1.0" shape=plaintext]
+	intensidad -> luz [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	bajon [label="bajon 
+ Count = 3 
+ Coef = 3.17" shape=plaintext]
+	bajon -> luz [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 41 
+ Coef = 3.67" shape=plaintext]
+	baja -> tension [label="61.19%" weight=1.2]
+	node [color=green style=filled]
+	intensidad [label="intensidad 
+ Count = 5 
+ Coef = 1.0" shape=plaintext]
+	baja -> intensidad [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 24 
+ Coef = 7.78" shape=plaintext]
+	tension -> baja [label="72.73%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 5 
+ Coef = 2.12" shape=plaintext]
+	tension -> luz [label="15.15%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.84" shape=plaintext]
+	tension -> servicio [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 3 
+ Coef = 2.12" shape=plaintext]
+	intensidad -> luz [label="75.0%" weight=1.2]
+	node [color=green style=filled]
+	corriente [label="corriente 
+ Count = 1 
+ Coef = 1.84" shape=plaintext]
+	intensidad -> corriente [label="25.0%" weight=1.2]
+}

@@ -1,0 +1,237 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reconectan [label="reconectan 
+ Count = 7 
+ Coef = 3.98"]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = -0.68" shape=plaintext]
+	no -> reconectan [label="42.86%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -0.34" shape=plaintext]
+	que -> reconectan [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	hoy -> reconectan [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	pagar [label="pagar 
+ Count = 1 
+ Coef = 1.06" shape=plaintext]
+	pagar -> reconectan [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 2.57" shape=plaintext]
+	servicio -> no [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -0.34" shape=plaintext]
+	que -> no [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	porque -> no [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	recibo [label="recibo 
+ Count = 1 
+ Coef = -0.19" shape=plaintext]
+	recibo -> no [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	suspendido [label="suspendido 
+ Count = 1 
+ Coef = 1.4" shape=plaintext]
+	suspendido -> no [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	ayer -> no [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.0" shape=plaintext]
+	dia -> no [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.65" shape=plaintext]
+	hora -> no [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 1 
+ Coef = 1.21" shape=plaintext]
+	suspender -> no [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	cancelar [label="cancelar 
+ Count = 1 
+ Coef = 0.41" shape=plaintext]
+	cancelar -> no [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	energia -> no [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	luz -> no [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -0.2" shape=plaintext]
+	ser -> que [label="27.27%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 0.4" shape=plaintext]
+	ya -> que [label="18.18%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	no -> que [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 1 
+ Coef = 1.14" shape=plaintext]
+	pago -> que [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	dar [label="dar 
+ Count = 1 
+ Coef = -0.27" shape=plaintext]
+	dar -> que [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = -0.27" shape=plaintext]
+	saber -> que [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	es [label="es 
+ Count = 1 
+ Coef = 0.25" shape=plaintext]
+	es -> que [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	luz -> que [label="9.09%" weight=1.2]
+	node [color=lightgrey style=filled]
+	dolar [label="dolar 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	dolar -> hoy [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.0" shape=plaintext]
+	dia -> hoy [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	tocar [label="tocar 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	tocar -> hoy [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.38" shape=plaintext]
+	si -> hoy [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 0.4" shape=plaintext]
+	ya -> pagar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	no -> pagar [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> pagar [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	habia [label="habia 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	habia -> pagar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 1 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> pagar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 2.57" shape=plaintext]
+	reconectan -> servicio [label="57.14%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -0.13" shape=plaintext]
+	reconectan -> luz [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.38" shape=plaintext]
+	reconectan -> si [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -0.13" shape=plaintext]
+	servicio -> luz [label="27.27%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 24 
+ Coef = -0.04" shape=plaintext]
+	servicio -> energia [label="19.83%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 15 
+ Coef = 12.16" shape=plaintext]
+	servicio -> reconexion [label="12.4%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 3 
+ Coef = 0.88" shape=plaintext]
+	luz -> corte [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 2.57" shape=plaintext]
+	luz -> servicio [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	luz -> porque [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	perder [label="perder 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	si -> perder [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	si -> hoy [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	si -> ya [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	si -> ser [label="25.0%" weight=1.2]
+}

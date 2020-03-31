@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	sector [label="sector 
+ Count = 288 
+ Coef = 3.13"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 242 
+ Coef = 10.87" shape=plaintext]
+	servicio -> sector [label="86.12%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 98 
+ Coef = 0.34" shape=plaintext]
+	dano -> servicio [label="6.62%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 77 
+ Coef = 0.38" shape=plaintext]
+	falla -> servicio [label="5.2%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 18 
+ Coef = 10.87" shape=plaintext]
+	sector -> servicio [label="35.29%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 3 
+ Coef = 0.01" shape=plaintext]
+	sector -> vivir [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 240 
+ Coef = 3.13" shape=plaintext]
+	servicio -> sector [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 195 
+ Coef = -2.09" shape=plaintext]
+	servicio -> luz [label="17.66%" weight=1.2]
+}

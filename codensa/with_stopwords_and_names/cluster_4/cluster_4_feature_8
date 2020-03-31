@@ -1,0 +1,287 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reportar fallo" [label="reportar fallo 
+ Count = 140 
+ Coef = 2.95"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 7 
+ Coef = -2.04" shape=plaintext]
+	ser -> "reportar fallo" [label="43.75%" weight=1.2]
+	node [color=red style=filled]
+	querer [label="querer 
+ Count = 1 
+ Coef = -0.59" shape=plaintext]
+	querer -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	reporte [label="reporte 
+ Count = 1 
+ Coef = 11.16" shape=plaintext]
+	reporte -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 1 
+ Coef = 20.9" shape=plaintext]
+	reportar -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	fallo -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 1 
+ Coef = -0.24" shape=plaintext]
+	llamar -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	entrar [label="entrar 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	entrar -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 2.4" shape=plaintext]
+	falla -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	paquete [label="paquete 
+ Count = 1 
+ Coef = -0.02" shape=plaintext]
+	paquete -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	paro [label="paro 
+ Count = 1 
+ Coef = -0.06" shape=plaintext]
+	paro -> "reportar fallo" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 338 
+ Coef = 2.4" shape=plaintext]
+	falla -> ser [label="53.31%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 53 
+ Coef = 2.74" shape=plaintext]
+	dano -> ser [label="8.36%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 36 
+ Coef = 0.52" shape=plaintext]
+	fallo -> ser [label="5.68%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -1.58" shape=plaintext]
+	luz -> querer [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -1.53" shape=plaintext]
+	no -> querer [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	rama [label="rama 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	rama -> querer [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -1.12" shape=plaintext]
+	noche -> querer [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 9 
+ Coef = -1.58" shape=plaintext]
+	hacer -> reporte [label="39.13%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 3 
+ Coef = 20.9" shape=plaintext]
+	reportar -> reporte [label="13.04%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 86 
+ Coef = -2.04" shape=plaintext]
+	ser -> reportar [label="30.5%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 18 
+ Coef = -0.24" shape=plaintext]
+	llamar -> reportar [label="6.38%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 140 
+ Coef = 20.9" shape=plaintext]
+	reportar -> fallo [label="83.83%" weight=1.2]
+	node [color=green style=filled]
+	reporte [label="reporte 
+ Count = 23 
+ Coef = 11.16" shape=plaintext]
+	reporte -> fallo [label="13.77%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 5 
+ Coef = -2.96" shape=plaintext]
+	estar -> llamar [label="27.78%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 2 
+ Coef = 0.67" shape=plaintext]
+	habia -> llamar [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	manana -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.04" shape=plaintext]
+	ser -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = 1.32" shape=plaintext]
+	energia -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	mirar [label="mirar 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	mirar -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	hemo [label="hemo 
+ Count = 1 
+ Coef = -0.16" shape=plaintext]
+	hemo -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	ok [label="ok 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	ok -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -1.18" shape=plaintext]
+	como -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 2.4" shape=plaintext]
+	falla -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	servicio -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.3" shape=plaintext]
+	haber -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.14" shape=plaintext]
+	que -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 996 
+ Coef = 20.9" shape=plaintext]
+	reportar -> falla [label="92.22%" weight=1.2]
+	node [color=green style=filled]
+	reporte [label="reporte 
+ Count = 67 
+ Coef = 11.16" shape=plaintext]
+	reporte -> falla [label="6.2%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.04" shape=plaintext]
+	ser -> paquete [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 1 
+ Coef = 20.9" shape=plaintext]
+	reportar -> paro [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 50 
+ Coef = 1.32" shape=plaintext]
+	"reportar fallo" -> energia [label="39.37%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 26 
+ Coef = 0.33" shape=plaintext]
+	"reportar fallo" -> servicio [label="20.47%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 14 
+ Coef = -1.58" shape=plaintext]
+	"reportar fallo" -> luz [label="11.02%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 13 
+ Coef = -0.59" shape=plaintext]
+	"reportar fallo" -> suministro [label="10.24%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 22 
+ Coef = 0.53" shape=plaintext]
+	energia -> sector [label="14.19%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 15 
+ Coef = 0.48" shape=plaintext]
+	energia -> electrica [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 10 
+ Coef = 0.61" shape=plaintext]
+	energia -> vereda [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 8 
+ Coef = 0.41" shape=plaintext]
+	energia -> dia [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 87 
+ Coef = 1.32" shape=plaintext]
+	servicio -> energia [label="36.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 40 
+ Coef = -1.58" shape=plaintext]
+	servicio -> luz [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 12 
+ Coef = 0.61" shape=plaintext]
+	luz -> vereda [label="8.57%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 10 
+ Coef = -0.33" shape=plaintext]
+	luz -> aqui [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 10 
+ Coef = 0.31" shape=plaintext]
+	luz -> ayer [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = -1.58" shape=plaintext]
+	luz -> hacer [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 8 
+ Coef = 0.53" shape=plaintext]
+	luz -> sector [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 68 
+ Coef = 1.32" shape=plaintext]
+	suministro -> energia [label="80.0%" weight=1.2]
+}

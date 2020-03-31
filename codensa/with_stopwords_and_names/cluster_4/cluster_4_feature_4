@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reportaje [label="reportaje 
+ Count = 4 
+ Coef = 4.31"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	reportaje -> servicio [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 0.56" shape=plaintext]
+	reportaje -> corto [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 87 
+ Coef = 1.32" shape=plaintext]
+	servicio -> energia [label="36.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 40 
+ Coef = -1.58" shape=plaintext]
+	servicio -> luz [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 4 
+ Coef = -1.3" shape=plaintext]
+	corto -> haber [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 2 
+ Coef = 0.15" shape=plaintext]
+	corto -> red [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = 1.32" shape=plaintext]
+	corto -> energia [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	escuela [label="escuela 
+ Count = 1 
+ Coef = -0.29" shape=plaintext]
+	corto -> escuela [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	circuito [label="circuito 
+ Count = 1 
+ Coef = 0.43" shape=plaintext]
+	corto -> circuito [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	redes [label="redes 
+ Count = 1 
+ Coef = -0.06" shape=plaintext]
+	corto -> redes [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	transformador [label="transformador 
+ Count = 1 
+ Coef = -1.06" shape=plaintext]
+	corto -> transformador [label="8.33%" weight=1.2]
+}

@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reportar falla" [label="reportar falla 
+ Count = 1021 
+ Coef = 3.73"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 31 
+ Coef = -2.41" shape=plaintext]
+	ser -> "reportar falla" [label="24.03%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 12 
+ Coef = -0.03" shape=plaintext]
+	llamar -> "reportar falla" [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 341 
+ Coef = 3.08" shape=plaintext]
+	falla -> ser [label="52.06%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 52 
+ Coef = 1.53" shape=plaintext]
+	dano -> ser [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 37 
+ Coef = 0.34" shape=plaintext]
+	fallo -> ser [label="5.65%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = -1.99" shape=plaintext]
+	estar -> llamar [label="36.84%" weight=1.2]
+	node [color=green style=filled]
+	mirar [label="mirar 
+ Count = 2 
+ Coef = 0.69" shape=plaintext]
+	mirar -> llamar [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 2 
+ Coef = 0.14" shape=plaintext]
+	habia -> llamar [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	servicio -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	que -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 1 
+ Coef = 0.11" shape=plaintext]
+	hemo -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.41" shape=plaintext]
+	ser -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -1.18" shape=plaintext]
+	como -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = -0.66" shape=plaintext]
+	mna -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 3.08" shape=plaintext]
+	falla -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = 2.2" shape=plaintext]
+	energia -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 332 
+ Coef = 0.83" shape=plaintext]
+	"reportar falla" -> servicio [label="41.55%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 110 
+ Coef = 0.54" shape=plaintext]
+	"reportar falla" -> electrica [label="13.77%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 94 
+ Coef = 2.2" shape=plaintext]
+	"reportar falla" -> energia [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 82 
+ Coef = -0.57" shape=plaintext]
+	"reportar falla" -> suministro [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 92 
+ Coef = 2.2" shape=plaintext]
+	servicio -> energia [label="41.82%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 12 
+ Coef = 0.68" shape=plaintext]
+	electrica -> sector [label="18.75%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 4 
+ Coef = 0.01" shape=plaintext]
+	electrica -> municipio [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 24 
+ Coef = 0.68" shape=plaintext]
+	energia -> sector [label="13.95%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 17 
+ Coef = 0.54" shape=plaintext]
+	energia -> electrica [label="9.88%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 15 
+ Coef = 1.57" shape=plaintext]
+	energia -> vereda [label="8.72%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 68 
+ Coef = 2.2" shape=plaintext]
+	suministro -> energia [label="80.95%" weight=1.2]
+}

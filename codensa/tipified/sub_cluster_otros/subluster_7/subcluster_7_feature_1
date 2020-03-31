@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cortar [label="cortar 
+ Count = 470 
+ Coef = 5.25"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 65 
+ Coef = 1.36" shape=plaintext]
+	que -> cortar [label="16.37%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 36 
+ Coef = 2.73" shape=plaintext]
+	porque -> cortar [label="9.07%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 26 
+ Coef = 0.2" shape=plaintext]
+	ayer -> cortar [label="6.55%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 23 
+ Coef = -0.32" shape=plaintext]
+	ir -> cortar [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 373 
+ Coef = 1.13" shape=plaintext]
+	ser -> que [label="45.6%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 47 
+ Coef = 4.87" shape=plaintext]
+	servicio -> porque [label="13.51%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 26 
+ Coef = 0.83" shape=plaintext]
+	saber -> porque [label="7.47%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 25 
+ Coef = 1.05" shape=plaintext]
+	no -> porque [label="7.18%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 23 
+ Coef = -0.75" shape=plaintext]
+	luz -> porque [label="6.61%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 19 
+ Coef = 0.23" shape=plaintext]
+	llamar -> porque [label="5.46%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 87 
+ Coef = 0.36" shape=plaintext]
+	dia -> ayer [label="35.66%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 28 
+ Coef = 1.36" shape=plaintext]
+	que -> ayer [label="11.48%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 19 
+ Coef = -0.75" shape=plaintext]
+	luz -> ayer [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 33 
+ Coef = 1.36" shape=plaintext]
+	que -> ir [label="21.57%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 11 
+ Coef = -0.0" shape=plaintext]
+	haber -> ir [label="7.19%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 11 
+ Coef = 1.75" shape=plaintext]
+	ya -> ir [label="7.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 11 
+ Coef = 1.05" shape=plaintext]
+	no -> ir [label="7.19%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 240 
+ Coef = 4.87" shape=plaintext]
+	cortar -> servicio [label="53.69%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 103 
+ Coef = -0.75" shape=plaintext]
+	cortar -> luz [label="23.04%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 219 
+ Coef = 0.62" shape=plaintext]
+	servicio -> energia [label="17.18%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 209 
+ Coef = -0.75" shape=plaintext]
+	servicio -> luz [label="16.39%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 43 
+ Coef = 1.05" shape=plaintext]
+	luz -> no [label="9.35%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 40 
+ Coef = 1.75" shape=plaintext]
+	luz -> ya [label="8.7%" weight=1.2]
+}

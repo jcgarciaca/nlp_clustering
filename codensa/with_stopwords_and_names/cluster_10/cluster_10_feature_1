@@ -1,0 +1,72 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	no [label="no 
+ Count = 3474 
+ Coef = 6.94"]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 170 
+ Coef = -0.7" shape=plaintext]
+	que -> no [label="27.29%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 168 
+ Coef = 7.76" shape=plaintext]
+	luz -> no [label="26.97%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 66 
+ Coef = 5.13" shape=plaintext]
+	casa -> no [label="10.59%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 67 
+ Coef = 2.12" shape=plaintext]
+	ser -> que [label="67.68%" weight=1.2]
+	node [color=red style=filled]
+	pues [label="pues 
+ Count = 6 
+ Coef = -0.0" shape=plaintext]
+	pues -> que [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1893 
+ Coef = 4.44" shape=plaintext]
+	haber -> luz [label="51.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1347 
+ Coef = 5.63" shape=plaintext]
+	tener -> luz [label="36.47%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 364 
+ Coef = 2.12" shape=plaintext]
+	ser -> luz [label="9.86%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 444 
+ Coef = 7.76" shape=plaintext]
+	luz -> casa [label="72.91%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1971 
+ Coef = 4.44" shape=plaintext]
+	no -> haber [label="57.83%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1374 
+ Coef = 5.63" shape=plaintext]
+	no -> tener [label="40.32%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1905 
+ Coef = 7.76" shape=plaintext]
+	haber -> luz [label="93.66%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1360 
+ Coef = 7.76" shape=plaintext]
+	tener -> luz [label="95.98%" weight=1.2]
+}

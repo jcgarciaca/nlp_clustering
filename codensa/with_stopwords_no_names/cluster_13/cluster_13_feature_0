@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"no haber" [label="no haber 
+ Count = 1575 
+ Coef = 8.23"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 91 
+ Coef = 0.3" shape=plaintext]
+	que -> "no haber" [label="31.82%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 76 
+ Coef = 7.47" shape=plaintext]
+	haber -> "no haber" [label="26.57%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 18 
+ Coef = 0.72" shape=plaintext]
+	ayer -> "no haber" [label="6.29%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 16 
+ Coef = -0.2" shape=plaintext]
+	ser -> que [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	pues [label="pues 
+ Count = 5 
+ Coef = 1.28" shape=plaintext]
+	pues -> que [label="15.62%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 2 
+ Coef = 2.39" shape=plaintext]
+	saber -> que [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = 7.47" shape=plaintext]
+	haber -> que [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = -1.99" shape=plaintext]
+	tener -> que [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 2 
+ Coef = 1.21" shape=plaintext]
+	decir -> que [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1573 
+ Coef = 3.62" shape=plaintext]
+	no -> haber [label="99.87%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 44 
+ Coef = 7.47" shape=plaintext]
+	haber -> ayer [label="81.48%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 0.45" shape=plaintext]
+	dia -> ayer [label="9.26%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 93 
+ Coef = 3.62" shape=plaintext]
+	"no haber" -> no [label="35.36%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 42 
+ Coef = 1.25" shape=plaintext]
+	"no haber" -> mna [label="15.97%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 42 
+ Coef = 0.72" shape=plaintext]
+	"no haber" -> ayer [label="15.97%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 21 
+ Coef = 1.72" shape=plaintext]
+	"no haber" -> zona [label="7.98%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1555 
+ Coef = 7.47" shape=plaintext]
+	no -> haber [label="98.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 3.62" shape=plaintext]
+	mna -> no [label="66.67%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	mna -> entonces [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 1.25" shape=plaintext]
+	mna -> mna [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	mna -> saber [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 19 
+ Coef = 3.62" shape=plaintext]
+	ayer -> no [label="90.48%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 3.62" shape=plaintext]
+	zona -> no [label="60.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 0.72" shape=plaintext]
+	zona -> ayer [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 1.25" shape=plaintext]
+	zona -> mna [label="20.0%" weight=1.2]
+}

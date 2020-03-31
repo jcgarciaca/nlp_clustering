@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	conexion [label="conexion 
+ Count = 521 
+ Coef = 4.72"]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 3 
+ Coef = -0.6" shape=plaintext]
+	haber -> conexion [label="60.0%" weight=1.2]
+	node [color=green style=filled]
+	falte [label="falte 
+ Count = 1 
+ Coef = 0.86" shape=plaintext]
+	falte -> conexion [label="20.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	piano [label="piano 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	piano -> conexion [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 9 
+ Coef = -0.68" shape=plaintext]
+	no -> haber [label="81.82%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	ya -> haber [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -0.93" shape=plaintext]
+	casa -> haber [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	via [label="via 
+ Count = 1 
+ Coef = 0.62" shape=plaintext]
+	via -> piano [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 416 
+ Coef = 2.57" shape=plaintext]
+	conexion -> servicio [label="83.7%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 29 
+ Coef = -0.04" shape=plaintext]
+	conexion -> energia [label="5.84%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -0.13" shape=plaintext]
+	servicio -> luz [label="27.27%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 24 
+ Coef = -0.04" shape=plaintext]
+	servicio -> energia [label="19.83%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 15 
+ Coef = 12.16" shape=plaintext]
+	servicio -> reconexion [label="12.4%" weight=1.2]
+	node [color=green style=filled]
+	tercer [label="tercer 
+ Count = 1 
+ Coef = 0.24" shape=plaintext]
+	energia -> tercer [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	energia -> no [label="50.0%" weight=1.2]
+}

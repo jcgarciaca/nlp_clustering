@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	haber [label="haber 
+ Count = 1575 
+ Coef = 7.47"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1573 
+ Coef = 3.62" shape=plaintext]
+	no -> haber [label="99.87%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 94 
+ Coef = 0.3" shape=plaintext]
+	que -> no [label="31.33%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 81 
+ Coef = 7.47" shape=plaintext]
+	haber -> no [label="27.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 18 
+ Coef = 0.72" shape=plaintext]
+	ayer -> no [label="6.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 95 
+ Coef = 3.62" shape=plaintext]
+	haber -> no [label="35.19%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 42 
+ Coef = 0.72" shape=plaintext]
+	haber -> ayer [label="15.56%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 42 
+ Coef = 1.25" shape=plaintext]
+	haber -> mna [label="15.56%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 21 
+ Coef = 1.72" shape=plaintext]
+	haber -> zona [label="7.78%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1555 
+ Coef = 7.47" shape=plaintext]
+	no -> haber [label="98.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 19 
+ Coef = 3.62" shape=plaintext]
+	ayer -> no [label="90.48%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 3.62" shape=plaintext]
+	mna -> no [label="66.67%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	mna -> entonces [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 1.25" shape=plaintext]
+	mna -> mna [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	mna -> saber [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 3.62" shape=plaintext]
+	zona -> no [label="60.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 0.72" shape=plaintext]
+	zona -> ayer [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 1.25" shape=plaintext]
+	zona -> mna [label="20.0%" weight=1.2]
+}

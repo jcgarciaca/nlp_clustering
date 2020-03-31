@@ -1,0 +1,187 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	canuela [label="canuela 
+ Count = 203 
+ Coef = 10.71"]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 38 
+ Coef = 4.66" shape=plaintext]
+	cayo -> canuela [label="26.76%" weight=1.2]
+	node [color=green style=filled]
+	saltar [label="saltar 
+ Count = 9 
+ Coef = 1.73" shape=plaintext]
+	saltar -> canuela [label="6.34%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 8 
+ Coef = 0.17" shape=plaintext]
+	luz -> canuela [label="5.63%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	que -> cayo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 3 
+ Coef = 4.66" shape=plaintext]
+	cayo -> cayo [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	luz -> cayo [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = 0.21" shape=plaintext]
+	porque -> saltar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	luz -> saltar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.38" shape=plaintext]
+	si -> saltar [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	canuelas [label="canuelas 
+ Count = 1 
+ Coef = 10.11" shape=plaintext]
+	canuelas -> saltar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	manana -> saltar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.7" shape=plaintext]
+	hora -> saltar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 12 
+ Coef = -0.56" shape=plaintext]
+	estar -> luz [label="41.38%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = 1.19" shape=plaintext]
+	ser -> luz [label="20.69%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	fallo -> luz [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	quedar [label="quedar 
+ Count = 2 
+ Coef = -0.24" shape=plaintext]
+	quedar -> luz [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	quedar [label="quedar 
+ Count = 4 
+ Coef = -0.24" shape=plaintext]
+	canuela -> quedar [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	entrada [label="entrada 
+ Count = 4 
+ Coef = 1.05" shape=plaintext]
+	canuela -> entrada [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = -0.56" shape=plaintext]
+	canuela -> estar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 3 
+ Coef = -0.29" shape=plaintext]
+	canuela -> aqui [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	fusible [label="fusible 
+ Count = 3 
+ Coef = 1.18" shape=plaintext]
+	quedar -> fusible [label="42.86%" weight=1.2]
+	node [color=green style=filled]
+	canuela [label="canuela 
+ Count = 2 
+ Coef = 10.71" shape=plaintext]
+	quedar -> canuela [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	quedar -> luz [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	previo [label="previo 
+ Count = 3 
+ Coef = 0.47" shape=plaintext]
+	entrada -> previo [label="60.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.27" shape=plaintext]
+	entrada -> energia [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	finca [label="finca 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	entrada -> finca [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 12 
+ Coef = 0.17" shape=plaintext]
+	estar -> luz [label="80.0%" weight=1.2]
+	node [color=red style=filled]
+	energias [label="energias 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	estar -> energias [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	estar -> fase [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	dar [label="dar 
+ Count = 1 
+ Coef = -0.37" shape=plaintext]
+	estar -> dar [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	encontrar [label="encontrar 
+ Count = 1 
+ Coef = -0.35" shape=plaintext]
+	aqui -> encontrar [label="16.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	colectiva [label="colectiva 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	aqui -> colectiva [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	grupo [label="grupo 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	aqui -> grupo [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	agua [label="agua 
+ Count = 1 
+ Coef = -0.12" shape=plaintext]
+	aqui -> agua [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	finca [label="finca 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	aqui -> finca [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	paz [label="paz 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	aqui -> paz [label="16.67%" weight=1.2]
+}

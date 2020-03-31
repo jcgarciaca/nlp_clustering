@@ -1,0 +1,27 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"bajon luz" [label="bajon luz 
+ Count = 3 
+ Coef = 3.5"]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.68" shape=plaintext]
+	"bajon luz" -> estar [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = -0.62" shape=plaintext]
+	"bajon luz" -> ayer [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 2 
+ Coef = 3.67" shape=plaintext]
+	estar -> tension [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 2.12" shape=plaintext]
+	estar -> luz [label="33.33%" weight=1.2]
+}

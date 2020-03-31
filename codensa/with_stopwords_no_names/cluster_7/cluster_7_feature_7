@@ -1,0 +1,202 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	soacha [label="soacha 
+ Count = 223 
+ Coef = 5.71"]
+	node [color=green style=filled]
+	mateo [label="mateo 
+ Count = 37 
+ Coef = 1.87" shape=plaintext]
+	mateo -> soacha [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	municipio [label="municipio 
+ Count = 18 
+ Coef = -2.35" shape=plaintext]
+	municipio -> soacha [label="8.11%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 14 
+ Coef = 3.87" shape=plaintext]
+	aqui -> soacha [label="6.31%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 14 
+ Coef = 16.47" shape=plaintext]
+	barrio -> soacha [label="6.31%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 61 
+ Coef = 1.39" shape=plaintext]
+	santo -> mateo [label="83.56%" weight=1.2]
+	node [color=green style=filled]
+	san [label="san 
+ Count = 9 
+ Coef = 0.74" shape=plaintext]
+	san -> mateo [label="12.33%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 20 
+ Coef = 3.87" shape=plaintext]
+	aqui -> municipio [label="10.99%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 10 
+ Coef = 0.79" shape=plaintext]
+	llamar -> municipio [label="5.49%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 191 
+ Coef = -0.09" shape=plaintext]
+	que -> aqui [label="13.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 79 
+ Coef = 0.05" shape=plaintext]
+	estar -> aqui [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 379 
+ Coef = 3.87" shape=plaintext]
+	aqui -> barrio [label="10.63%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 210 
+ Coef = -0.49" shape=plaintext]
+	energia -> barrio [label="5.89%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 188 
+ Coef = 0.28" shape=plaintext]
+	haber -> barrio [label="5.27%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 15 
+ Coef = 0.34" shape=plaintext]
+	soacha -> cundinamarca [label="9.49%" weight=1.2]
+	node [color=green style=filled]
+	compartir [label="compartir 
+ Count = 12 
+ Coef = 1.58" shape=plaintext]
+	soacha -> compartir [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 12 
+ Coef = 1.39" shape=plaintext]
+	soacha -> santo [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 12 
+ Coef = 16.47" shape=plaintext]
+	soacha -> barrio [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 11 
+ Coef = 13.85" shape=plaintext]
+	soacha -> carrera [label="6.96%" weight=1.2]
+	node [color=green style=filled]
+	ciudad [label="ciudad 
+ Count = 9 
+ Coef = 4.57" shape=plaintext]
+	soacha -> ciudad [label="5.7%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 8 
+ Coef = 9.9" shape=plaintext]
+	soacha -> calle [label="5.06%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 71 
+ Coef = 16.47" shape=plaintext]
+	cundinamarca -> barrio [label="19.24%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 41 
+ Coef = 9.9" shape=plaintext]
+	cundinamarca -> calle [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 35 
+ Coef = 13.85" shape=plaintext]
+	cundinamarca -> carrera [label="9.49%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 20 
+ Coef = 0.05" shape=plaintext]
+	cundinamarca -> estar [label="5.42%" weight=1.2]
+	node [color=green style=filled]
+	soacha [label="soacha 
+ Count = 10 
+ Coef = 5.71" shape=plaintext]
+	compartir -> soacha [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = -0.18" shape=plaintext]
+	compartir -> no [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	mateo [label="mateo 
+ Count = 62 
+ Coef = 1.87" shape=plaintext]
+	santo -> mateo [label="14.87%" weight=1.2]
+	node [color=green style=filled]
+	blas [label="blas 
+ Count = 24 
+ Coef = 0.74" shape=plaintext]
+	santo -> blas [label="5.76%" weight=1.2]
+	node [color=green style=filled]
+	localidad [label="localidad 
+ Count = 22 
+ Coef = 10.4" shape=plaintext]
+	santo -> localidad [label="5.28%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 316 
+ Coef = 1.39" shape=plaintext]
+	barrio -> santo [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 183 
+ Coef = 1.29" shape=plaintext]
+	barrio -> santa [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 327 
+ Coef = 7.31" shape=plaintext]
+	carrera -> numero [label="19.3%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 169 
+ Coef = 9.9" shape=plaintext]
+	carrera -> calle [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	septima [label="septima 
+ Count = 124 
+ Coef = 2.87" shape=plaintext]
+	carrera -> septima [label="7.32%" weight=1.2]
+	node [color=green style=filled]
+	bolivar [label="bolivar 
+ Count = 81 
+ Coef = 2.07" shape=plaintext]
+	ciudad -> bolivar [label="28.03%" weight=1.2]
+	node [color=green style=filled]
+	jardin [label="jardin 
+ Count = 30 
+ Coef = 1.37" shape=plaintext]
+	ciudad -> jardin [label="10.38%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 262 
+ Coef = 7.31" shape=plaintext]
+	calle -> numero [label="16.73%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 193 
+ Coef = 13.85" shape=plaintext]
+	calle -> carrera [label="12.32%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 164 
+ Coef = 3.79" shape=plaintext]
+	calle -> sur [label="10.47%" weight=1.2]
+}

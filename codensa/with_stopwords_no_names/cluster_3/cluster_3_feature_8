@@ -1,0 +1,102 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reportada [label="reportada 
+ Count = 2 
+ Coef = 2.71"]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 0.54" shape=plaintext]
+	electrica -> reportada [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = 2.2" shape=plaintext]
+	energia -> reportada [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 140 
+ Coef = 3.08" shape=plaintext]
+	falla -> electrica [label="79.55%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 17 
+ Coef = 2.2" shape=plaintext]
+	energia -> electrica [label="9.66%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 112 
+ Coef = 3.08" shape=plaintext]
+	falla -> energia [label="21.46%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 93 
+ Coef = 0.83" shape=plaintext]
+	servicio -> energia [label="17.82%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 68 
+ Coef = -0.57" shape=plaintext]
+	suministro -> energia [label="13.03%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 67 
+ Coef = 0.34" shape=plaintext]
+	fallo -> energia [label="12.84%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 62 
+ Coef = 1.53" shape=plaintext]
+	dano -> energia [label="11.88%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	reportada -> ayer [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.25" shape=plaintext]
+	reportada -> dia [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 9 
+ Coef = -1.06" shape=plaintext]
+	ayer -> tarde [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = -1.43" shape=plaintext]
+	ayer -> no [label="13.33%" weight=1.2]
+	node [color=red style=filled]
+	mna [label="mna 
+ Count = 3 
+ Coef = -0.66" shape=plaintext]
+	ayer -> mna [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	mediodia [label="mediodia 
+ Count = 3 
+ Coef = 0.44" shape=plaintext]
+	ayer -> mediodia [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = -1.99" shape=plaintext]
+	ayer -> estar [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 27 
+ Coef = 0.22" shape=plaintext]
+	dia -> ayer [label="50.94%" weight=1.2]
+	node [color=green style=filled]
+	viernes [label="viernes 
+ Count = 4 
+ Coef = 0.44" shape=plaintext]
+	dia -> viernes [label="7.55%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = -1.14" shape=plaintext]
+	dia -> que [label="5.66%" weight=1.2]
+}

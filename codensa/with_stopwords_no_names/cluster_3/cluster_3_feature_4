@@ -1,0 +1,82 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reportes [label="reportes 
+ Count = 3 
+ Coef = 3.78"]
+	node [color=green style=filled]
+	hecho [label="hecho 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	hecho -> reportes [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	ya -> hecho [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 1 
+ Coef = 1.02" shape=plaintext]
+	reportes -> fallar [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	reportes -> servicio [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.43" shape=plaintext]
+	reportes -> no [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 0.83" shape=plaintext]
+	fallar -> servicio [label="47.22%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = 2.2" shape=plaintext]
+	fallar -> energia [label="13.89%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 3 
+ Coef = -0.57" shape=plaintext]
+	fallar -> suministro [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	fluido [label="fluido 
+ Count = 2 
+ Coef = -0.14" shape=plaintext]
+	fallar -> fluido [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	sistema [label="sistema 
+ Count = 2 
+ Coef = 0.02" shape=plaintext]
+	fallar -> sistema [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 92 
+ Coef = 2.2" shape=plaintext]
+	servicio -> energia [label="41.82%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 94 
+ Coef = -1.0" shape=plaintext]
+	no -> haber [label="15.31%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 63 
+ Coef = -1.65" shape=plaintext]
+	no -> tener [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 63 
+ Coef = 2.2" shape=plaintext]
+	no -> energia [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 48 
+ Coef = 0.83" shape=plaintext]
+	no -> servicio [label="7.82%" weight=1.2]
+}

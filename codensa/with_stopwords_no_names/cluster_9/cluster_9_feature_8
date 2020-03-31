@@ -1,0 +1,67 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	funcionar [label="funcionar 
+ Count = 366 
+ Coef = 5.58"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 224 
+ Coef = 0.77" shape=plaintext]
+	no -> funcionar [label="61.2%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 28 
+ Coef = 2.23" shape=plaintext]
+	estan -> funcionar [label="7.65%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 346 
+ Coef = 0.77" shape=plaintext]
+	que -> no [label="11.24%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 338 
+ Coef = 8.13" shape=plaintext]
+	casa -> no [label="10.98%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 43 
+ Coef = 0.77" shape=plaintext]
+	no -> estan [label="11.26%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 22 
+ Coef = 9.69" shape=plaintext]
+	electrodomesticos -> estan [label="5.76%" weight=1.2]
+	node [color=green style=filled]
+	bienes [label="bienes 
+ Count = 27 
+ Coef = 1.6" shape=plaintext]
+	funcionar -> bienes [label="9.57%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 16 
+ Coef = 0.77" shape=plaintext]
+	funcionar -> no [label="5.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 14 
+ Coef = 0.77" shape=plaintext]
+	bienes -> no [label="7.11%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 11 
+ Coef = 1.2" shape=plaintext]
+	bienes -> ir [label="5.58%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1461 
+ Coef = 3.76" shape=plaintext]
+	no -> tener [label="33.77%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1025 
+ Coef = 2.06" shape=plaintext]
+	no -> haber [label="23.69%" weight=1.2]
+}

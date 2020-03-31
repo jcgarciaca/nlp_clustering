@@ -1,0 +1,27 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"haber servicio luz" [label="haber servicio luz 
+ Count = 18 
+ Coef = 1.99"]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = 0.39" shape=plaintext]
+	si -> "haber servicio luz" [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 14.77" shape=plaintext]
+	servicio -> si [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	saber -> si [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 0.7" shape=plaintext]
+	luz -> si [label="25.0%" weight=1.2]
+}

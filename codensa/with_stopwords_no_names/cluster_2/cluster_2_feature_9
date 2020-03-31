@@ -1,0 +1,37 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"ausencia energia" [label="ausencia energia 
+ Count = 2 
+ Coef = 1.78"]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 2 
+ Coef = 6.73" shape=plaintext]
+	"ausencia energia" -> electrica [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 8 
+ Coef = 0.76" shape=plaintext]
+	electrica -> falla [label="14.55%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = -0.91" shape=plaintext]
+	electrica -> casa [label="7.27%" weight=1.2]
+	node [color=green style=filled]
+	riesgo [label="riesgo 
+ Count = 3 
+ Coef = 0.94" shape=plaintext]
+	electrica -> riesgo [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = -0.57" shape=plaintext]
+	electrica -> no [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -1.05" shape=plaintext]
+	electrica -> ser [label="5.45%" weight=1.2]
+}

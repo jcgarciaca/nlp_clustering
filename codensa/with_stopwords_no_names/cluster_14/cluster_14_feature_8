@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"interrupcion servicio" [label="interrupcion servicio 
+ Count = 74 
+ Coef = 2.73"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -1.44" shape=plaintext]
+	ser -> "interrupcion servicio" [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	nuevamente [label="nuevamente 
+ Count = 1 
+ Coef = 0.71" shape=plaintext]
+	nuevamente -> "interrupcion servicio" [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 1 
+ Coef = 2.22" shape=plaintext]
+	presentar -> "interrupcion servicio" [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 1.38" shape=plaintext]
+	haber -> "interrupcion servicio" [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1376 
+ Coef = 2.53" shape=plaintext]
+	tener -> ser [label="24.78%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1130 
+ Coef = 1.38" shape=plaintext]
+	haber -> ser [label="20.35%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 794 
+ Coef = -1.99" shape=plaintext]
+	estar -> ser [label="14.3%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 284 
+ Coef = 2.27" shape=plaintext]
+	encontrar -> ser [label="5.12%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = 15.75" shape=plaintext]
+	energia -> nuevamente [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 4 
+ Coef = -1.99" shape=plaintext]
+	estar -> nuevamente [label="16.0%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 3 
+ Coef = 0.64" shape=plaintext]
+	electrica -> nuevamente [label="12.0%" weight=1.2]
+	node [color=green style=filled]
+	hoy [label="hoy 
+ Count = 2 
+ Coef = 0.09" shape=plaintext]
+	hoy -> nuevamente [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = -0.64" shape=plaintext]
+	no -> presentar [label="30.36%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 6 
+ Coef = -1.99" shape=plaintext]
+	estar -> presentar [label="10.71%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 5 
+ Coef = 0.46" shape=plaintext]
+	ayer -> presentar [label="8.93%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = -1.95" shape=plaintext]
+	que -> presentar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = 15.75" shape=plaintext]
+	energia -> presentar [label="5.36%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2369 
+ Coef = -0.64" shape=plaintext]
+	no -> haber [label="93.45%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 12 
+ Coef = 15.75" shape=plaintext]
+	"interrupcion servicio" -> energia [label="46.15%" weight=1.2]
+	node [color=lightgrey style=filled]
+	rotura [label="rotura 
+ Count = 3 
+ Coef = Not in Dict" shape=plaintext]
+	"interrupcion servicio" -> rotura [label="11.54%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 536 
+ Coef = 0.64" shape=plaintext]
+	energia -> electrica [label="11.17%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 374 
+ Coef = -0.04" shape=plaintext]
+	energia -> sector [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 339 
+ Coef = 1.25" shape=plaintext]
+	energia -> dia [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 284 
+ Coef = -0.36" shape=plaintext]
+	energia -> hacer [label="5.92%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 273 
+ Coef = 0.46" shape=plaintext]
+	energia -> ayer [label="5.69%" weight=1.2]
+	node [color=red style=filled]
+	cable [label="cable 
+ Count = 3 
+ Coef = -0.57" shape=plaintext]
+	rotura -> cable [label="100.0%" weight=1.2]
+}

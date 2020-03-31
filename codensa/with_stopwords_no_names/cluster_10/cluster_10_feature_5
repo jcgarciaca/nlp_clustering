@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"fallo servicio" [label="fallo servicio 
+ Count = 1345 
+ Coef = 3.15"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 16 
+ Coef = 1.19" shape=plaintext]
+	servicio -> "fallo servicio" [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 1341 
+ Coef = 11.96" shape=plaintext]
+	fallo -> servicio [label="57.26%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 527 
+ Coef = 12.46" shape=plaintext]
+	fallar -> servicio [label="22.5%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 372 
+ Coef = 12.81" shape=plaintext]
+	falla -> servicio [label="15.88%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 191 
+ Coef = 2.43" shape=plaintext]
+	"fallo servicio" -> energia [label="59.13%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 81 
+ Coef = 2.86" shape=plaintext]
+	energia -> electrica [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 80 
+ Coef = 2.98" shape=plaintext]
+	energia -> sector [label="19.75%" weight=1.2]
+}

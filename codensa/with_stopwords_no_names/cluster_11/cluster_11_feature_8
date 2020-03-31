@@ -1,0 +1,32 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	dinamarca [label="dinamarca 
+ Count = 5796 
+ Coef = 4.46"]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 984 
+ Coef = 15.91" shape=plaintext]
+	dinamarca -> vereda [label="29.77%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 269 
+ Coef = -1.84" shape=plaintext]
+	dinamarca -> no [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 655 
+ Coef = 3.37" shape=plaintext]
+	vereda -> santo [label="7.2%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 3612 
+ Coef = 0.88" shape=plaintext]
+	no -> haber [label="38.01%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 3286 
+ Coef = -0.13" shape=plaintext]
+	no -> tener [label="34.57%" weight=1.2]
+}

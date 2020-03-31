@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	voltaje [label="voltaje 
+ Count = 291 
+ Coef = 5.6"]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 13 
+ Coef = 3.63" shape=plaintext]
+	baja -> voltaje [label="5.73%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 13 
+ Coef = 3.2" shape=plaintext]
+	bajo -> voltaje [label="5.73%" weight=1.2]
+	node [color=red style=filled]
+	alto [label="alto 
+ Count = 12 
+ Coef = -0.54" shape=plaintext]
+	alto -> voltaje [label="5.29%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 12 
+ Coef = 3.76" shape=plaintext]
+	tener -> voltaje [label="5.29%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 123 
+ Coef = 3.77" shape=plaintext]
+	subir -> baja [label="23.98%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 32 
+ Coef = 0.97" shape=plaintext]
+	muy -> baja [label="6.24%" weight=1.2]
+	node [color=green style=filled]
+	sube [label="sube 
+ Count = 32 
+ Coef = 1.09" shape=plaintext]
+	sube -> baja [label="6.24%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 74 
+ Coef = 3.77" shape=plaintext]
+	subir -> bajo [label="18.64%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 30 
+ Coef = 2.06" shape=plaintext]
+	haber -> bajo [label="7.56%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 30 
+ Coef = 3.76" shape=plaintext]
+	tener -> bajo [label="7.56%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 23 
+ Coef = 0.97" shape=plaintext]
+	muy -> bajo [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7 
+ Coef = 1.19" shape=plaintext]
+	ser -> alto [label="12.07%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 6 
+ Coef = 0.97" shape=plaintext]
+	muy -> alto [label="10.34%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 5 
+ Coef = -0.56" shape=plaintext]
+	barrio -> alto [label="8.62%" weight=1.2]
+	node [color=green style=filled]
+	jordan [label="jordan 
+ Count = 3 
+ Coef = 0.14" shape=plaintext]
+	jordan -> alto [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 3 
+ Coef = 3.76" shape=plaintext]
+	tener -> alto [label="5.17%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 3 
+ Coef = -2.53" shape=plaintext]
+	sector -> alto [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1576 
+ Coef = 0.77" shape=plaintext]
+	no -> tener [label="60.83%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 180 
+ Coef = 0.77" shape=plaintext]
+	que -> tener [label="6.95%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 20 
+ Coef = 0.97" shape=plaintext]
+	voltaje -> muy [label="9.66%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 15 
+ Coef = 0.77" shape=plaintext]
+	voltaje -> no [label="7.25%" weight=1.2]
+	node [color=green style=filled]
+	bajita [label="bajita 
+ Count = 159 
+ Coef = 4.76" shape=plaintext]
+	muy -> bajita [label="37.32%" weight=1.2]
+	node [color=green style=filled]
+	bajito [label="bajito 
+ Count = 50 
+ Coef = 2.82" shape=plaintext]
+	muy -> bajito [label="11.74%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 31 
+ Coef = 3.63" shape=plaintext]
+	muy -> baja [label="7.28%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1461 
+ Coef = 3.76" shape=plaintext]
+	no -> tener [label="33.77%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1025 
+ Coef = 2.06" shape=plaintext]
+	no -> haber [label="23.69%" weight=1.2]
+}

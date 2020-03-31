@@ -1,0 +1,262 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reportar que" [label="reportar que 
+ Count = 120 
+ Coef = 3.99"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 7 
+ Coef = -2.04" shape=plaintext]
+	ser -> "reportar que" [label="43.75%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -0.14" shape=plaintext]
+	que -> "reportar que" [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -1.18" shape=plaintext]
+	como -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.86" shape=plaintext]
+	si -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	mirar [label="mirar 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	mirar -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	hagame [label="hagame 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	hagame -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	mostrar [label="mostrar 
+ Count = 1 
+ Coef = 0.03" shape=plaintext]
+	mostrar -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 1 
+ Coef = -0.24" shape=plaintext]
+	llamar -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	ibero [label="ibero 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	ibero -> "reportar que" [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 338 
+ Coef = 2.4" shape=plaintext]
+	falla -> ser [label="53.31%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 53 
+ Coef = 2.74" shape=plaintext]
+	dano -> ser [label="8.36%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 36 
+ Coef = 0.52" shape=plaintext]
+	fallo -> ser [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 120 
+ Coef = 20.9" shape=plaintext]
+	reportar -> que [label="71.86%" weight=1.2]
+	node [color=red style=filled]
+	papel [label="papel 
+ Count = 1 
+ Coef = -0.02" shape=plaintext]
+	papel -> como [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = -1.58" shape=plaintext]
+	hacer -> como [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	asi [label="asi 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	asi -> como [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	encontrar [label="encontrar 
+ Count = 1 
+ Coef = -0.39" shape=plaintext]
+	encontrar -> como [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 1 
+ Coef = 20.9" shape=plaintext]
+	reportar -> como [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.45" shape=plaintext]
+	ya -> como [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 17 
+ Coef = 2.4" shape=plaintext]
+	falla -> si [label="43.59%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 5 
+ Coef = 2.74" shape=plaintext]
+	dano -> si [label="12.82%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 3 
+ Coef = 20.9" shape=plaintext]
+	reportar -> si [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	fallar -> si [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 2 
+ Coef = 0.61" shape=plaintext]
+	vereda -> si [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 2.4" shape=plaintext]
+	falla -> mirar [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	vender [label="vender 
+ Count = 1 
+ Coef = 0.34" shape=plaintext]
+	vender -> mirar [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.86" shape=plaintext]
+	si -> hagame [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 5 
+ Coef = -2.96" shape=plaintext]
+	estar -> llamar [label="27.78%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 2 
+ Coef = 0.67" shape=plaintext]
+	habia -> llamar [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	manana -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.04" shape=plaintext]
+	ser -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = 1.32" shape=plaintext]
+	energia -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	mirar [label="mirar 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	mirar -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	hemo [label="hemo 
+ Count = 1 
+ Coef = -0.16" shape=plaintext]
+	hemo -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	ok [label="ok 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	ok -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -1.18" shape=plaintext]
+	como -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 2.4" shape=plaintext]
+	falla -> llamar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	servicio -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.3" shape=plaintext]
+	haber -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.14" shape=plaintext]
+	que -> llamar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 73 
+ Coef = -1.53" shape=plaintext]
+	"reportar que" -> no [label="61.34%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 20 
+ Coef = -2.96" shape=plaintext]
+	"reportar que" -> estar [label="16.81%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 83 
+ Coef = -1.3" shape=plaintext]
+	no -> haber [label="14.69%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 61 
+ Coef = 1.32" shape=plaintext]
+	no -> energia [label="10.8%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 53 
+ Coef = -2.06" shape=plaintext]
+	no -> tener [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 49 
+ Coef = 0.33" shape=plaintext]
+	no -> servicio [label="8.67%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 18 
+ Coef = -1.58" shape=plaintext]
+	estar -> luz [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 15 
+ Coef = 0.33" shape=plaintext]
+	estar -> servicio [label="23.81%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 6 
+ Coef = 20.9" shape=plaintext]
+	estar -> reportar [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 5 
+ Coef = -0.24" shape=plaintext]
+	estar -> llamar [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = 1.32" shape=plaintext]
+	estar -> energia [label="7.94%" weight=1.2]
+}

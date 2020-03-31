@@ -1,0 +1,72 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cuerda [label="cuerda 
+ Count = 1049 
+ Coef = 8.16"]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 81 
+ Coef = 4.54" shape=plaintext]
+	cayo -> cuerda [label="8.24%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 69 
+ Coef = -0.31" shape=plaintext]
+	haber -> cuerda [label="7.02%" weight=1.2]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 54 
+ Coef = 5.18" shape=plaintext]
+	arbol -> cuerda [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 103 
+ Coef = 3.11" shape=plaintext]
+	que -> cayo [label="20.98%" weight=1.2]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 39 
+ Coef = 5.18" shape=plaintext]
+	arbol -> cayo [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 25 
+ Coef = 2.0" shape=plaintext]
+	porque -> cayo [label="5.09%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 331 
+ Coef = -2.26" shape=plaintext]
+	no -> haber [label="30.73%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 146 
+ Coef = 3.11" shape=plaintext]
+	que -> haber [label="13.56%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 122 
+ Coef = 4.54" shape=plaintext]
+	cayo -> arbol [label="26.99%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 42 
+ Coef = -0.31" shape=plaintext]
+	haber -> arbol [label="9.29%" weight=1.2]
+	node [color=green style=filled]
+	rama [label="rama 
+ Count = 27 
+ Coef = 0.59" shape=plaintext]
+	rama -> arbol [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	alta [label="alta 
+ Count = 18 
+ Coef = 1.24" shape=plaintext]
+	cuerda -> alta [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 88 
+ Coef = 4.63" shape=plaintext]
+	alta -> tension [label="55.0%" weight=1.2]
+}

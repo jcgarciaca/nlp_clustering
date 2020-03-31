@@ -1,0 +1,202 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	insulina [label="insulina 
+ Count = 105 
+ Coef = 5.01"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 18 
+ Coef = 6.41" shape=plaintext]
+	tener -> insulina [label="17.14%" weight=1.2]
+	node [color=green style=filled]
+	paciente [label="paciente 
+ Count = 11 
+ Coef = 2.64" shape=plaintext]
+	paciente -> insulina [label="10.48%" weight=1.2]
+	node [color=green style=filled]
+	depender [label="depender 
+ Count = 10 
+ Coef = 1.11" shape=plaintext]
+	depender -> insulina [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 122 
+ Coef = 0.35" shape=plaintext]
+	no -> tener [label="16.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 76 
+ Coef = 1.24" shape=plaintext]
+	que -> tener [label="10.47%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 56 
+ Coef = 1.52" shape=plaintext]
+	porque -> tener [label="7.71%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 44 
+ Coef = 0.02" shape=plaintext]
+	luz -> tener [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 29 
+ Coef = 6.41" shape=plaintext]
+	tener -> paciente [label="65.91%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 4 
+ Coef = 0.09" shape=plaintext]
+	haber -> paciente [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	esposo [label="esposo 
+ Count = 5 
+ Coef = 0.86" shape=plaintext]
+	esposo -> depender [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	persona [label="persona 
+ Count = 3 
+ Coef = 0.92" shape=plaintext]
+	persona -> depender [label="15.79%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = 1.52" shape=plaintext]
+	porque -> depender [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	paciente [label="paciente 
+ Count = 2 
+ Coef = 2.64" shape=plaintext]
+	paciente -> depender [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	tienda [label="tienda 
+ Count = 1 
+ Coef = 1.37" shape=plaintext]
+	tienda -> depender [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -1.98" shape=plaintext]
+	casa -> depender [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	obviamente [label="obviamente 
+ Count = 1 
+ Coef = -0.0" shape=plaintext]
+	obviamente -> depender [label="5.26%" weight=1.2]
+	node [color=lightgrey style=filled]
+	discapacitada [label="discapacitada 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	discapacitada -> depender [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tambien [label="tambien 
+ Count = 1 
+ Coef = 0.32" shape=plaintext]
+	tambien -> depender [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	poner [label="poner 
+ Count = 1 
+ Coef = 0.51" shape=plaintext]
+	poner -> depender [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	luz -> depender [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 10 
+ Coef = 7.02" shape=plaintext]
+	insulina -> nevera [label="11.63%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 0.35" shape=plaintext]
+	insulina -> no [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	insulina [label="insulina 
+ Count = 7 
+ Coef = 5.01" shape=plaintext]
+	insulina -> insulina [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = 0.99" shape=plaintext]
+	insulina -> ser [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 6.41" shape=plaintext]
+	insulina -> tener [label="5.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = 0.35" shape=plaintext]
+	nevera -> no [label="7.23%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 12 
+ Coef = 0.75" shape=plaintext]
+	nevera -> ya [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 12 
+ Coef = 3.47" shape=plaintext]
+	nevera -> estan [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 119 
+ Coef = 6.41" shape=plaintext]
+	no -> tener [label="17.3%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 110 
+ Coef = 0.09" shape=plaintext]
+	no -> haber [label="15.99%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 10 
+ Coef = 7.02" shape=plaintext]
+	insulina -> nevera [label="11.63%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 0.35" shape=plaintext]
+	insulina -> no [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	insulina [label="insulina 
+ Count = 7 
+ Coef = 5.01" shape=plaintext]
+	insulina -> insulina [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = 0.99" shape=plaintext]
+	insulina -> ser [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 6.41" shape=plaintext]
+	insulina -> tener [label="5.81%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 283 
+ Coef = 1.24" shape=plaintext]
+	ser -> que [label="45.35%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 80 
+ Coef = 0.02" shape=plaintext]
+	ser -> luz [label="12.82%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 44 
+ Coef = 1.24" shape=plaintext]
+	tener -> que [label="5.87%" weight=1.2]
+	node [color=green style=filled]
+	negocio [label="negocio 
+ Count = 42 
+ Coef = 4.02" shape=plaintext]
+	tener -> negocio [label="5.6%" weight=1.2]
+}

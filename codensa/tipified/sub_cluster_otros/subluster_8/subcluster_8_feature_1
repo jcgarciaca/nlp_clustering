@@ -1,0 +1,167 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	entonces [label="entonces 
+ Count = 975 
+ Coef = 5.38"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 111 
+ Coef = -0.26" shape=plaintext]
+	luz -> entonces [label="11.46%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 314 
+ Coef = 2.36" shape=plaintext]
+	estar -> luz [label="19.08%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 293 
+ Coef = 2.51" shape=plaintext]
+	ser -> luz [label="17.8%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 153 
+ Coef = -1.87" shape=plaintext]
+	servicio -> luz [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 182 
+ Coef = 9.43" shape=plaintext]
+	entonces -> necesitar [label="18.96%" weight=1.2]
+	node [color=green style=filled]
+	querer [label="querer 
+ Count = 92 
+ Coef = 4.34" shape=plaintext]
+	entonces -> querer [label="9.58%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 66 
+ Coef = 1.3" shape=plaintext]
+	entonces -> no [label="6.88%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 66 
+ Coef = 4.89" shape=plaintext]
+	entonces -> que [label="6.88%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 56 
+ Coef = 2.36" shape=plaintext]
+	entonces -> estar [label="5.83%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 51 
+ Coef = 2.51" shape=plaintext]
+	entonces -> ser [label="5.31%" weight=1.2]
+	node [color=green style=filled]
+	ver [label="ver 
+ Count = 50 
+ Coef = 0.68" shape=plaintext]
+	entonces -> ver [label="5.21%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 295 
+ Coef = 4.89" shape=plaintext]
+	necesitar -> que [label="26.18%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 165 
+ Coef = 2.29" shape=plaintext]
+	necesitar -> saber [label="14.64%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 58 
+ Coef = -1.87" shape=plaintext]
+	necesitar -> servicio [label="5.15%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 245 
+ Coef = 2.29" shape=plaintext]
+	querer -> saber [label="48.32%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 54 
+ Coef = 4.89" shape=plaintext]
+	querer -> que [label="10.65%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 320 
+ Coef = 0.94" shape=plaintext]
+	no -> haber [label="15.79%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 226 
+ Coef = 1.89" shape=plaintext]
+	no -> tener [label="11.15%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 109 
+ Coef = 2.51" shape=plaintext]
+	no -> ser [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 105 
+ Coef = 1.3" shape=plaintext]
+	no -> no [label="5.18%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 272 
+ Coef = 2.36" shape=plaintext]
+	que -> estar [label="9.31%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 211 
+ Coef = 1.3" shape=plaintext]
+	que -> no [label="7.22%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 209 
+ Coef = 2.51" shape=plaintext]
+	que -> ser [label="7.15%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 154 
+ Coef = 1.89" shape=plaintext]
+	que -> tener [label="5.27%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 327 
+ Coef = -0.26" shape=plaintext]
+	estar -> luz [label="19.91%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 168 
+ Coef = -1.87" shape=plaintext]
+	estar -> servicio [label="10.23%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 112 
+ Coef = -1.21" shape=plaintext]
+	estar -> llamar [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 95 
+ Coef = 2.25" shape=plaintext]
+	estar -> energia [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1211 
+ Coef = 4.89" shape=plaintext]
+	ser -> que [label="53.68%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 177 
+ Coef = -0.26" shape=plaintext]
+	ser -> luz [label="7.85%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 175 
+ Coef = 1.73" shape=plaintext]
+	ver -> si [label="35.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 87 
+ Coef = 4.89" shape=plaintext]
+	ver -> que [label="17.4%" weight=1.2]
+}

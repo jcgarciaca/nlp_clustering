@@ -1,0 +1,72 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	fusagasuga [label="fusagasuga 
+ Count = 440 
+ Coef = 4.93"]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 98 
+ Coef = 17.29" shape=plaintext]
+	municipio -> fusagasuga [label="22.58%" weight=1.2]
+	node [color=green style=filled]
+	chinauta [label="chinauta 
+ Count = 26 
+ Coef = 0.37" shape=plaintext]
+	chinauta -> fusagasuga [label="5.99%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 389 
+ Coef = -2.08" shape=plaintext]
+	luz -> municipio [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 23 
+ Coef = 6.97" shape=plaintext]
+	sector -> chinauta [label="23.23%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 7 
+ Coef = -1.79" shape=plaintext]
+	energia -> chinauta [label="7.07%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = -1.37" shape=plaintext]
+	dia -> chinauta [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 5 
+ Coef = 3.3" shape=plaintext]
+	aqui -> chinauta [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	corregimiento [label="corregimiento 
+ Count = 5 
+ Coef = 2.46" shape=plaintext]
+	corregimiento -> chinauta [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 50 
+ Coef = 16.09" shape=plaintext]
+	fusagasuga -> cundinamarca [label="17.67%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 37 
+ Coef = 15.7" shape=plaintext]
+	fusagasuga -> vereda [label="13.07%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 1003 
+ Coef = 15.7" shape=plaintext]
+	cundinamarca -> vereda [label="29.6%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 271 
+ Coef = -2.0" shape=plaintext]
+	cundinamarca -> no [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 732 
+ Coef = 4.56" shape=plaintext]
+	vereda -> santo [label="7.81%" weight=1.2]
+}

@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	casa [label="casa 
+ Count = 2792 
+ Coef = 8.13"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 364 
+ Coef = 3.76" shape=plaintext]
+	tener -> casa [label="13.61%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 238 
+ Coef = 2.06" shape=plaintext]
+	haber -> casa [label="8.9%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 208 
+ Coef = -0.32" shape=plaintext]
+	energia -> casa [label="7.78%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 160 
+ Coef = -0.41" shape=plaintext]
+	aqui -> casa [label="5.98%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1576 
+ Coef = 0.77" shape=plaintext]
+	no -> tener [label="60.83%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 180 
+ Coef = 0.77" shape=plaintext]
+	que -> tener [label="6.95%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1163 
+ Coef = 0.77" shape=plaintext]
+	no -> haber [label="59.28%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 184 
+ Coef = 3.76" shape=plaintext]
+	tener -> energia [label="16.97%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 132 
+ Coef = -4.78" shape=plaintext]
+	servicio -> energia [label="12.18%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 102 
+ Coef = 2.06" shape=plaintext]
+	haber -> energia [label="9.41%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 101 
+ Coef = 0.77" shape=plaintext]
+	que -> aqui [label="15.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 48 
+ Coef = 3.76" shape=plaintext]
+	tener -> aqui [label="7.55%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 35 
+ Coef = 1.19" shape=plaintext]
+	ser -> aqui [label="5.5%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 306 
+ Coef = 0.77" shape=plaintext]
+	casa -> no [label="18.27%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 88 
+ Coef = 1.19" shape=plaintext]
+	casa -> ser [label="5.25%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1461 
+ Coef = 3.76" shape=plaintext]
+	no -> tener [label="33.77%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1025 
+ Coef = 2.06" shape=plaintext]
+	no -> haber [label="23.69%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1011 
+ Coef = 0.77" shape=plaintext]
+	ser -> que [label="42.53%" weight=1.2]
+}

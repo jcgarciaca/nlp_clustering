@@ -1,0 +1,87 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	contador [label="contador 
+ Count = 369 
+ Coef = 6.29"]
+	node [color=red style=filled]
+	dano [label="dano 
+ Count = 39 
+ Coef = -0.48" shape=plaintext]
+	dano -> contador [label="11.02%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 20 
+ Coef = 4.94" shape=plaintext]
+	corto -> contador [label="5.65%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 18 
+ Coef = 3.11" shape=plaintext]
+	que -> contador [label="5.08%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 52 
+ Coef = -1.98" shape=plaintext]
+	reportar -> dano [label="17.57%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 29 
+ Coef = -0.31" shape=plaintext]
+	haber -> dano [label="9.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 23 
+ Coef = 3.11" shape=plaintext]
+	que -> dano [label="7.77%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 15 
+ Coef = -2.64" shape=plaintext]
+	tener -> dano [label="5.07%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 307 
+ Coef = 1.13" shape=plaintext]
+	hacer -> corto [label="36.72%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 132 
+ Coef = -0.31" shape=plaintext]
+	haber -> corto [label="15.79%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1038 
+ Coef = -0.63" shape=plaintext]
+	ser -> que [label="48.14%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 17 
+ Coef = 1.65" shape=plaintext]
+	contador -> casa [label="6.69%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 13 
+ Coef = 1.81" shape=plaintext]
+	contador -> calle [label="5.12%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 45 
+ Coef = -2.26" shape=plaintext]
+	casa -> no [label="6.51%" weight=1.2]
+	node [color=red style=filled]
+	numero [label="numero 
+ Count = 37 
+ Coef = -0.99" shape=plaintext]
+	calle -> numero [label="11.75%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 25 
+ Coef = 0.39" shape=plaintext]
+	calle -> sur [label="7.94%" weight=1.2]
+	node [color=red style=filled]
+	carrera [label="carrera 
+ Count = 16 
+ Coef = -0.18" shape=plaintext]
+	calle -> carrera [label="5.08%" weight=1.2]
+}

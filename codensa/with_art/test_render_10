@@ -1,0 +1,147 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrico [label="electrico 
+ Count = 2838 
+ Coef = 23.2"]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 876 
+ Coef = -0.71" shape=plaintext]
+	servicio -> electrico [label="30.99%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 576 
+ Coef = 1.28" shape=plaintext]
+	fluido -> electrico [label="20.37%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 505 
+ Coef = -0.22" shape=plaintext]
+	suministro -> electrico [label="17.86%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 329 
+ Coef = -0.74" shape=plaintext]
+	el -> servicio [label="36.27%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 150 
+ Coef = -0.53" shape=plaintext]
+	haber -> servicio [label="16.54%" weight=1.2]
+	node [color=red style=filled]
+	sin [label="sin 
+ Count = 140 
+ Coef = -1.35" shape=plaintext]
+	sin -> servicio [label="15.44%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 91 
+ Coef = -0.52" shape=plaintext]
+	tener -> servicio [label="10.03%" weight=1.2]
+	node [color=red style=filled]
+	del [label="del 
+ Count = 65 
+ Coef = -0.98" shape=plaintext]
+	del -> servicio [label="7.17%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 56 
+ Coef = Not in Dict" shape=plaintext]
+	de -> servicio [label="6.17%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 209 
+ Coef = -0.74" shape=plaintext]
+	el -> fluido [label="36.47%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 143 
+ Coef = Not in Dict" shape=plaintext]
+	de -> fluido [label="24.96%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 67 
+ Coef = -0.53" shape=plaintext]
+	haber -> fluido [label="11.69%" weight=1.2]
+	node [color=red style=filled]
+	sin [label="sin 
+ Count = 65 
+ Coef = -1.35" shape=plaintext]
+	sin -> fluido [label="11.34%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 329 
+ Coef = -0.74" shape=plaintext]
+	el -> suministro [label="65.54%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 67 
+ Coef = Not in Dict" shape=plaintext]
+	de -> suministro [label="13.35%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 169 
+ Coef = Not in Dict" shape=plaintext]
+	electrico -> en [label="35.36%" weight=1.2]
+	node [color=red style=filled]
+	desde [label="desde 
+ Count = 34 
+ Coef = -1.23" shape=plaintext]
+	electrico -> desde [label="7.11%" weight=1.2]
+	node [color=red style=filled]
+	del [label="del 
+ Count = 24 
+ Coef = -0.98" shape=plaintext]
+	electrico -> del [label="5.02%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 969 
+ Coef = -0.74" shape=plaintext]
+	en -> el [label="80.75%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 84 
+ Coef = -2.29" shape=plaintext]
+	en -> la [label="7.0%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 24 
+ Coef = -0.74" shape=plaintext]
+	desde -> el [label="38.1%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 18 
+ Coef = -0.48" shape=plaintext]
+	desde -> hacer [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 11 
+ Coef = -0.58" shape=plaintext]
+	desde -> ayer [label="17.46%" weight=1.2]
+	node [color=red style=filled]
+	las [label="las 
+ Count = 6 
+ Coef = -0.43" shape=plaintext]
+	desde -> las [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 65 
+ Coef = -0.71" shape=plaintext]
+	del -> servicio [label="42.48%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 24 
+ Coef = 1.28" shape=plaintext]
+	del -> fluido [label="15.69%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 22 
+ Coef = -0.22" shape=plaintext]
+	del -> suministro [label="14.38%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 13 
+ Coef = -0.43" shape=plaintext]
+	del -> dia [label="8.5%" weight=1.2]
+}

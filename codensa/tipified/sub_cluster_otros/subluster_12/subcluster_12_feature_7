@@ -1,0 +1,362 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	trifasica [label="trifasica 
+ Count = 24 
+ Coef = 4.24"]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 4 
+ Coef = 2.3" shape=plaintext]
+	funcionar -> trifasica [label="17.39%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 3 
+ Coef = 1.01" shape=plaintext]
+	luz -> trifasica [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 2 
+ Coef = 3.77" shape=plaintext]
+	fase -> trifasica [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 7.45" shape=plaintext]
+	casa -> trifasica [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	acometida [label="acometida 
+ Count = 2 
+ Coef = -0.07" shape=plaintext]
+	acometida -> trifasica [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 19 
+ Coef = 1.38" shape=plaintext]
+	no -> funcionar [label="51.35%" weight=1.2]
+	node [color=green style=filled]
+	solo [label="solo 
+ Count = 4 
+ Coef = 1.14" shape=plaintext]
+	solo -> funcionar [label="10.81%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 7.45" shape=plaintext]
+	casa -> funcionar [label="8.11%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 94 
+ Coef = -0.4" shape=plaintext]
+	ser -> luz [label="28.31%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 28 
+ Coef = 1.3" shape=plaintext]
+	quedar -> luz [label="8.43%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 23 
+ Coef = -3.08" shape=plaintext]
+	estar -> luz [label="6.93%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 10 
+ Coef = -0.4" shape=plaintext]
+	ser -> fase [label="16.13%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 9 
+ Coef = 0.39" shape=plaintext]
+	cayo -> fase [label="14.52%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = 0.18" shape=plaintext]
+	tener -> fase [label="14.52%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 5 
+ Coef = -0.7" shape=plaintext]
+	haber -> fase [label="8.06%" weight=1.2]
+	node [color=green style=filled]
+	sala [label="sala 
+ Count = 5 
+ Coef = 0.56" shape=plaintext]
+	sala -> fase [label="8.06%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = 7.45" shape=plaintext]
+	casa -> fase [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 4 
+ Coef = 2.3" shape=plaintext]
+	funcionar -> fase [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 55 
+ Coef = 1.01" shape=plaintext]
+	luz -> casa [label="17.41%" weight=1.2]
+	node [color=green style=filled]
+	parte [label="parte 
+ Count = 20 
+ Coef = 3.7" shape=plaintext]
+	parte -> casa [label="6.33%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 16 
+ Coef = -0.57" shape=plaintext]
+	aqui -> casa [label="5.06%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.18" shape=plaintext]
+	tener -> acometida [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 2.18" shape=plaintext]
+	dano -> acometida [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 1.38" shape=plaintext]
+	trifasica -> no [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	solo [label="solo 
+ Count = 2 
+ Coef = 1.14" shape=plaintext]
+	trifasica -> solo [label="13.33%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.4" shape=plaintext]
+	trifasica -> ser [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 1 
+ Coef = 0.61" shape=plaintext]
+	trifasica -> fallo [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	trifasica -> barrio [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	solamente [label="solamente 
+ Count = 1 
+ Coef = 4.41" shape=plaintext]
+	trifasica -> solamente [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -0.7" shape=plaintext]
+	trifasica -> haber [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 1 
+ Coef = 1.3" shape=plaintext]
+	trifasica -> quedar [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 31 
+ Coef = 0.18" shape=plaintext]
+	no -> tener [label="12.81%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 27 
+ Coef = -0.7" shape=plaintext]
+	no -> haber [label="11.16%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 20 
+ Coef = 2.3" shape=plaintext]
+	no -> funcionar [label="8.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.4" shape=plaintext]
+	no -> ser [label="5.37%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 5 
+ Coef = 2.3" shape=plaintext]
+	solo -> funcionar [label="20.83%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = 7.45" shape=plaintext]
+	solo -> casa [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	apartamento [label="apartamento 
+ Count = 4 
+ Coef = 10.67" shape=plaintext]
+	solo -> apartamento [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 3 
+ Coef = 0.18" shape=plaintext]
+	solo -> tener [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.38" shape=plaintext]
+	solo -> no [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 88 
+ Coef = 1.01" shape=plaintext]
+	ser -> luz [label="38.94%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 73 
+ Coef = -0.99" shape=plaintext]
+	ser -> que [label="32.3%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = -0.65" shape=plaintext]
+	fallo -> energia [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	equipos [label="equipos 
+ Count = 1 
+ Coef = 0.47" shape=plaintext]
+	fallo -> equipos [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = -4.91" shape=plaintext]
+	fallo -> servicio [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	trifasica [label="trifasica 
+ Count = 1 
+ Coef = 4.24" shape=plaintext]
+	fallo -> trifasica [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	parte [label="parte 
+ Count = 1 
+ Coef = 3.7" shape=plaintext]
+	fallo -> parte [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	interna [label="interna 
+ Count = 1 
+ Coef = 1.12" shape=plaintext]
+	fallo -> interna [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	corriente [label="corriente 
+ Count = 1 
+ Coef = 2.16" shape=plaintext]
+	fallo -> corriente [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.01" shape=plaintext]
+	fallo -> luz [label="10.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	cruces [label="cruces 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	barrio -> cruces [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -0.7" shape=plaintext]
+	barrio -> haber [label="12.5%" weight=1.2]
+	node [color=lightgrey style=filled]
+	madelena [label="madelena 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	barrio -> madelena [label="12.5%" weight=1.2]
+	node [color=lightgrey style=filled]
+	alqueria [label="alqueria 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	barrio -> alqueria [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	variar [label="variar 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	barrio -> variar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	cosa [label="cosa 
+ Count = 1 
+ Coef = -0.08" shape=plaintext]
+	barrio -> cosa [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.18" shape=plaintext]
+	barrio -> tener [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	moda [label="moda 
+ Count = 1 
+ Coef = 0.36" shape=plaintext]
+	barrio -> moda [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 10 
+ Coef = 7.45" shape=plaintext]
+	solamente -> casa [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	parte [label="parte 
+ Count = 3 
+ Coef = 3.7" shape=plaintext]
+	solamente -> parte [label="7.89%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.18" shape=plaintext]
+	solamente -> tener [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	mitad [label="mitad 
+ Count = 2 
+ Coef = 2.34" shape=plaintext]
+	solamente -> mitad [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -0.7" shape=plaintext]
+	solamente -> haber [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.4" shape=plaintext]
+	solamente -> ser [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 18 
+ Coef = 4.84" shape=plaintext]
+	haber -> corto [label="18.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 12 
+ Coef = 1.01" shape=plaintext]
+	haber -> luz [label="12.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 8 
+ Coef = -0.65" shape=plaintext]
+	haber -> energia [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	falla [label="falla 
+ Count = 8 
+ Coef = -0.26" shape=plaintext]
+	haber -> falla [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 34 
+ Coef = 1.01" shape=plaintext]
+	quedar -> luz [label="58.62%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = -0.65" shape=plaintext]
+	quedar -> energia [label="8.62%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 4 
+ Coef = 4.93" shape=plaintext]
+	quedar -> taco [label="6.9%" weight=1.2]
+}

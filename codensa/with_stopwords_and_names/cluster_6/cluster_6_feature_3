@@ -1,0 +1,82 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cuerdas [label="cuerdas 
+ Count = 702 
+ Coef = 6.76"]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 43 
+ Coef = 3.55" shape=plaintext]
+	arbol -> cuerdas [label="6.53%" weight=1.2]
+	node [color=green style=filled]
+	encima [label="encima 
+ Count = 37 
+ Coef = 1.96" shape=plaintext]
+	encima -> cuerdas [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 116 
+ Coef = 2.23" shape=plaintext]
+	cayo -> arbol [label="24.37%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 44 
+ Coef = 0.6" shape=plaintext]
+	haber -> arbol [label="9.24%" weight=1.2]
+	node [color=red style=filled]
+	rama [label="rama 
+ Count = 28 
+ Coef = -0.36" shape=plaintext]
+	rama -> arbol [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 21 
+ Coef = 2.23" shape=plaintext]
+	cayo -> encima [label="14.48%" weight=1.2]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 19 
+ Coef = 3.55" shape=plaintext]
+	arbol -> encima [label="13.1%" weight=1.2]
+	node [color=green style=filled]
+	caer [label="caer 
+ Count = 8 
+ Coef = 2.09" shape=plaintext]
+	caer -> encima [label="5.52%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 91 
+ Coef = -1.84" shape=plaintext]
+	cuerdas -> luz [label="13.98%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 70 
+ Coef = 5.05" shape=plaintext]
+	cuerdas -> estan [label="10.75%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 39 
+ Coef = -2.8" shape=plaintext]
+	cuerdas -> energia [label="5.99%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 315 
+ Coef = 4.13" shape=plaintext]
+	luz -> casa [label="7.33%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 86 
+ Coef = 1.68" shape=plaintext]
+	estan -> hacer [label="8.57%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 51 
+ Coef = 2.46" shape=plaintext]
+	estan -> presentado [label="5.08%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 93 
+ Coef = 4.13" shape=plaintext]
+	energia -> casa [label="6.4%" weight=1.2]
+}

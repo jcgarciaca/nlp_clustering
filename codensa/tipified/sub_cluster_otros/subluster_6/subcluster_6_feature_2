@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	presentar [label="presentar 
+ Count = 133 
+ Coef = 2.72"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 16 
+ Coef = 2.19" shape=plaintext]
+	haber -> presentar [label="16.49%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 8 
+ Coef = 0.07" shape=plaintext]
+	que -> presentar [label="8.25%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = -0.32" shape=plaintext]
+	estar -> presentar [label="7.22%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 177 
+ Coef = 0.53" shape=plaintext]
+	no -> haber [label="31.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 57 
+ Coef = 0.07" shape=plaintext]
+	que -> haber [label="10.04%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 364 
+ Coef = 1.01" shape=plaintext]
+	ser -> que [label="37.53%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 39 
+ Coef = 0.07" shape=plaintext]
+	que -> estar [label="10.51%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 18 
+ Coef = 1.27" shape=plaintext]
+	presentar -> falla [label="13.64%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 13 
+ Coef = 1.27" shape=plaintext]
+	presentar -> fallar [label="9.85%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 7 
+ Coef = 1.76" shape=plaintext]
+	presentar -> corto [label="5.3%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 21 
+ Coef = -6.39" shape=plaintext]
+	falla -> servicio [label="13.38%" weight=1.2]
+	node [color=red style=filled]
+	electrica [label="electrica 
+ Count = 15 
+ Coef = -1.12" shape=plaintext]
+	falla -> electrica [label="9.55%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 13 
+ Coef = 2.64" shape=plaintext]
+	falla -> energia [label="8.28%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 10 
+ Coef = -1.12" shape=plaintext]
+	falla -> luz [label="6.37%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 12 
+ Coef = -6.39" shape=plaintext]
+	fallar -> servicio [label="14.63%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 11 
+ Coef = -1.12" shape=plaintext]
+	fallar -> luz [label="13.41%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 9 
+ Coef = 2.64" shape=plaintext]
+	fallar -> energia [label="10.98%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 0.53" shape=plaintext]
+	corto -> no [label="5.43%" weight=1.2]
+}

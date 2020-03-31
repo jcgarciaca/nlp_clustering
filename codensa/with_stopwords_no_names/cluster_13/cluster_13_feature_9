@@ -1,0 +1,7 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"saber porque ser" [label="saber porque ser 
+ Count = 1 
+ Coef = 2.49"]
+}

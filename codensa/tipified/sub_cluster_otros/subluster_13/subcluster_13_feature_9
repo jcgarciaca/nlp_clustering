@@ -1,0 +1,152 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"falla sistema" [label="falla sistema 
+ Count = 3 
+ Coef = 2.16"]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 1 
+ Coef = 0.65" shape=plaintext]
+	presentar -> "falla sistema" [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.63" shape=plaintext]
+	ser -> "falla sistema" [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 12 
+ Coef = 12.7" shape=plaintext]
+	suministro -> ser [label="36.36%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 3 
+ Coef = 0.5" shape=plaintext]
+	corte -> ser [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -1.46" shape=plaintext]
+	que -> ser [label="6.06%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -0.28" shape=plaintext]
+	luz -> ser [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 1 
+ Coef = 12.7" shape=plaintext]
+	"falla sistema" -> suministro [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	"falla sistema" -> dia [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = 0.73" shape=plaintext]
+	"falla sistema" -> ayer [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 171 
+ Coef = -0.28" shape=plaintext]
+	suministro -> luz [label="67.32%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 13 
+ Coef = -0.45" shape=plaintext]
+	suministro -> energia [label="5.12%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 12 
+ Coef = 0.73" shape=plaintext]
+	dia -> ayer [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 3 
+ Coef = 12.7" shape=plaintext]
+	dia -> suministro [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	viernes [label="viernes 
+ Count = 3 
+ Coef = 1.02" shape=plaintext]
+	dia -> viernes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	febrero [label="febrero 
+ Count = 2 
+ Coef = 1.51" shape=plaintext]
+	dia -> febrero [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	anterior [label="anterior 
+ Count = 2 
+ Coef = -0.07" shape=plaintext]
+	dia -> anterior [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	dia -> no [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 4 
+ Coef = 0.12" shape=plaintext]
+	ayer -> tarde [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -0.48" shape=plaintext]
+	ayer -> estar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -0.64" shape=plaintext]
+	ayer -> casa [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	ayer -> noche [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	enero [label="enero 
+ Count = 1 
+ Coef = 0.51" shape=plaintext]
+	ayer -> enero [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = 0.35" shape=plaintext]
+	ayer -> hora [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.63" shape=plaintext]
+	ayer -> ser [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	madrugada [label="madrugada 
+ Count = 1 
+ Coef = -0.29" shape=plaintext]
+	ayer -> madrugada [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	antes [label="antes 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	ayer -> antes [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	ayer -> reportar [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	ayer -> manana [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	mediodia [label="mediodia 
+ Count = 1 
+ Coef = 0.28" shape=plaintext]
+	ayer -> mediodia [label="6.25%" weight=1.2]
+}

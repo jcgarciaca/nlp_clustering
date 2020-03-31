@@ -1,0 +1,197 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"interrupcion servicio" [label="interrupcion servicio 
+ Count = 54 
+ Coef = 2.12"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -2.09" shape=plaintext]
+	luz -> "interrupcion servicio" [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	nuevamente [label="nuevamente 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	nuevamente -> "interrupcion servicio" [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 202 
+ Coef = 10.87" shape=plaintext]
+	servicio -> luz [label="81.78%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 10.87" shape=plaintext]
+	servicio -> nuevamente [label="66.67%" weight=1.2]
+	node [color=red style=filled]
+	hablar [label="hablar 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	hablar -> nuevamente [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	tener -> nuevamente [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	constante [label="constante 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	"interrupcion servicio" -> constante [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.64" shape=plaintext]
+	"interrupcion servicio" -> dia [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 1 
+ Coef = 0.69" shape=plaintext]
+	"interrupcion servicio" -> zona [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	"interrupcion servicio" -> corte [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = -0.31" shape=plaintext]
+	"interrupcion servicio" -> ayer [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	constante -> falla [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	mala [label="mala 
+ Count = 1 
+ Coef = 0.01" shape=plaintext]
+	constante -> mala [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 10.87" shape=plaintext]
+	constante -> servicio [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 25 
+ Coef = -0.31" shape=plaintext]
+	dia -> ayer [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 10.87" shape=plaintext]
+	dia -> servicio [label="17.89%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 5 
+ Coef = -0.73" shape=plaintext]
+	dia -> hoy [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = -0.73" shape=plaintext]
+	dia -> hora [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	rural [label="rural 
+ Count = 2 
+ Coef = 0.74" shape=plaintext]
+	zona -> rural [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 10.87" shape=plaintext]
+	zona -> servicio [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -1.07" shape=plaintext]
+	zona -> hacer [label="11.76%" weight=1.2]
+	node [color=lightgrey style=filled]
+	zapata [label="zapata 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> zapata [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	colocado [label="colocado 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	zona -> colocado [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	francia [label="francia 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> francia [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	comunes [label="comunes 
+ Count = 1 
+ Coef = -0.12" shape=plaintext]
+	zona -> comunes [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	comun [label="comun 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	zona -> comun [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	igual [label="igual 
+ Count = 1 
+ Coef = 0.41" shape=plaintext]
+	zona -> igual [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	comunales [label="comunales 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> comunales [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	lomas [label="lomas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> lomas [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	cajica [label="cajica 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	zona -> cajica [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	resido [label="resido 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> resido [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -2.09" shape=plaintext]
+	zona -> luz [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 25 
+ Coef = 10.87" shape=plaintext]
+	corte -> servicio [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 9 
+ Coef = -0.62" shape=plaintext]
+	ayer -> manana [label="18.37%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 8 
+ Coef = -0.4" shape=plaintext]
+	ayer -> tarde [label="16.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 10.87" shape=plaintext]
+	ayer -> servicio [label="8.16%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 4 
+ Coef = -0.73" shape=plaintext]
+	ayer -> hora [label="8.16%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 3 
+ Coef = -0.64" shape=plaintext]
+	ayer -> dia [label="6.12%" weight=1.2]
+}

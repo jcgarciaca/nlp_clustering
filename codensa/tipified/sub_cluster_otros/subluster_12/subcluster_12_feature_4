@@ -1,0 +1,167 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	corto [label="corto 
+ Count = 93 
+ Coef = 4.84"]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 18 
+ Coef = -0.7" shape=plaintext]
+	haber -> corto [label="26.09%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 12 
+ Coef = -1.86" shape=plaintext]
+	hacer -> corto [label="17.39%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 10 
+ Coef = 0.18" shape=plaintext]
+	tener -> corto [label="14.49%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 26 
+ Coef = 1.38" shape=plaintext]
+	no -> haber [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 9 
+ Coef = 0.27" shape=plaintext]
+	si -> haber [label="11.54%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = -0.99" shape=plaintext]
+	que -> haber [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	clases [label="clases 
+ Count = 4 
+ Coef = 3.93" shape=plaintext]
+	clases -> haber [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.01" shape=plaintext]
+	luz -> hacer [label="14.63%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = 7.45" shape=plaintext]
+	casa -> hacer [label="9.76%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 33 
+ Coef = 1.38" shape=plaintext]
+	no -> tener [label="30.28%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 10 
+ Coef = 7.45" shape=plaintext]
+	casa -> tener [label="9.17%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 8 
+ Coef = -0.99" shape=plaintext]
+	que -> tener [label="7.34%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 6 
+ Coef = 7.45" shape=plaintext]
+	corto -> casa [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	apartamento [label="apartamento 
+ Count = 5 
+ Coef = 10.67" shape=plaintext]
+	corto -> apartamento [label="7.25%" weight=1.2]
+	node [color=green style=filled]
+	caja [label="caja 
+ Count = 4 
+ Coef = 1.06" shape=plaintext]
+	corto -> caja [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 4 
+ Coef = 4.93" shape=plaintext]
+	corto -> taco [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = 1.38" shape=plaintext]
+	casa -> no [label="10.3%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 13 
+ Coef = 1.01" shape=plaintext]
+	casa -> luz [label="7.88%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.4" shape=plaintext]
+	casa -> ser [label="7.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = 0.18" shape=plaintext]
+	casa -> tener [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 14 
+ Coef = 1.01" shape=plaintext]
+	apartamento -> luz [label="12.07%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = -0.4" shape=plaintext]
+	apartamento -> ser [label="10.34%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 9 
+ Coef = 1.3" shape=plaintext]
+	apartamento -> quedar [label="7.76%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 1.38" shape=plaintext]
+	apartamento -> no [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	tacos [label="tacos 
+ Count = 3 
+ Coef = 2.62" shape=plaintext]
+	caja -> tacos [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	afuera [label="afuera 
+ Count = 2 
+ Coef = 2.47" shape=plaintext]
+	caja -> afuera [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 7.45" shape=plaintext]
+	caja -> casa [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	circuitos [label="circuitos 
+ Count = 1 
+ Coef = 0.36" shape=plaintext]
+	caja -> circuitos [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	caja -> paso [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 1 
+ Coef = 4.93" shape=plaintext]
+	caja -> taco [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = 0.19" shape=plaintext]
+	caja -> como [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	principal [label="principal 
+ Count = 33 
+ Coef = 3.58" shape=plaintext]
+	taco -> principal [label="40.74%" weight=1.2]
+}

@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	tacos [label="tacos 
+ Count = 5 
+ Coef = 3.8"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	luz -> tacos [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	estan [label="estan 
+ Count = 1 
+ Coef = -0.22" shape=plaintext]
+	estan -> tacos [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 9.03" shape=plaintext]
+	corto -> tacos [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	bajar [label="bajar 
+ Count = 1 
+ Coef = -0.14" shape=plaintext]
+	bajar -> tacos [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.57" shape=plaintext]
+	dia -> tacos [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 473 
+ Coef = 13.51" shape=plaintext]
+	corte -> luz [label="85.38%" weight=1.2]
+	node [color=green style=filled]
+	cortes [label="cortes 
+ Count = 1 
+ Coef = 8.58" shape=plaintext]
+	cortes -> estan [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.42" shape=plaintext]
+	ya -> estan [label="33.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	perritos [label="perritos 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	perritos -> estan [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 4 
+ Coef = 9.03" shape=plaintext]
+	corto -> corto [label="36.36%" weight=1.2]
+	node [color=red style=filled]
+	arreglar [label="arreglar 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	arreglar -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	cortes [label="cortes 
+ Count = 1 
+ Coef = 8.58" shape=plaintext]
+	cortes -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 1 
+ Coef = 0.92" shape=plaintext]
+	muy -> corto [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.32" shape=plaintext]
+	energia -> corto [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.95" shape=plaintext]
+	que -> corto [label="9.09%" weight=1.2]
+	node [color=lightgrey style=filled]
+	cortinas [label="cortinas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	cortinas -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	corte -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	corte -> bajar [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 7 
+ Coef = 1.28" shape=plaintext]
+	luz -> dia [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 7 
+ Coef = -0.32" shape=plaintext]
+	energia -> dia [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	cortes [label="cortes 
+ Count = 4 
+ Coef = 8.58" shape=plaintext]
+	cortes -> dia [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -0.9" shape=plaintext]
+	hacer -> dia [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 13.51" shape=plaintext]
+	corte -> dia [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	llevar [label="llevar 
+ Count = 1 
+ Coef = -0.4" shape=plaintext]
+	tacos -> llevar [label="100.0%" weight=1.2]
+}

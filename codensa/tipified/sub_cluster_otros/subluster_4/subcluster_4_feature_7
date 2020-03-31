@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"seguir servicio" [label="seguir servicio 
+ Count = 14 
+ Coef = 2.05"]
+	node [color=green style=filled]
+	vez [label="vez 
+ Count = 1 
+ Coef = 0.05" shape=plaintext]
+	vez -> "seguir servicio" [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	luz -> vez [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 14.77" shape=plaintext]
+	servicio -> vez [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	seguir [label="seguir 
+ Count = 1 
+ Coef = 1.12" shape=plaintext]
+	seguir -> vez [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	"seguir servicio" -> luz [label="50.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	michael [label="michael 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	"seguir servicio" -> michael [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	parte [label="parte 
+ Count = 1 
+ Coef = -0.52" shape=plaintext]
+	"seguir servicio" -> parte [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 17 
+ Coef = -0.3" shape=plaintext]
+	luz -> hacer [label="21.79%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 11 
+ Coef = 14.77" shape=plaintext]
+	luz -> servicio [label="14.1%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 7 
+ Coef = 0.12" shape=plaintext]
+	luz -> manana [label="8.97%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 6 
+ Coef = 0.22" shape=plaintext]
+	luz -> noche [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = 2.35" shape=plaintext]
+	luz -> dia [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 5 
+ Coef = 0.42" shape=plaintext]
+	luz -> muy [label="6.41%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 4 
+ Coef = 0.69" shape=plaintext]
+	luz -> ayer [label="5.13%" weight=1.2]
+	node [color=lightgrey style=filled]
+	jackson [label="jackson 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	michael -> jackson [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 14.77" shape=plaintext]
+	michael -> servicio [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 14.77" shape=plaintext]
+	parte -> servicio [label="100.0%" weight=1.2]
+}

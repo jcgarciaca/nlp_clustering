@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"motivo llamada" [label="motivo llamada 
+ Count = 525 
+ Coef = 3.76"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 29 
+ Coef = 0.87" shape=plaintext]
+	ser -> "motivo llamada" [label="23.02%" weight=1.2]
+	node [color=green style=filled]
+	bueno [label="bueno 
+ Count = 10 
+ Coef = 3.21" shape=plaintext]
+	bueno -> "motivo llamada" [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = 1.15" shape=plaintext]
+	que -> "motivo llamada" [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 423 
+ Coef = 11.7" shape=plaintext]
+	llamada -> ser [label="63.32%" weight=1.2]
+	node [color=green style=filled]
+	ah [label="ah 
+ Count = 3 
+ Coef = 0.57" shape=plaintext]
+	ah -> bueno [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.16" shape=plaintext]
+	servicio -> bueno [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 1 
+ Coef = 5.31" shape=plaintext]
+	contestar -> bueno [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	santo [label="santo 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	santo -> bueno [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.8" shape=plaintext]
+	manana -> bueno [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.99" shape=plaintext]
+	luz -> bueno [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 339 
+ Coef = 0.87" shape=plaintext]
+	ser -> que [label="65.19%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 391 
+ Coef = 0.87" shape=plaintext]
+	"motivo llamada" -> ser [label="77.58%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 319 
+ Coef = 1.15" shape=plaintext]
+	ser -> que [label="52.99%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 85 
+ Coef = 0.15" shape=plaintext]
+	ser -> porque [label="14.12%" weight=1.2]
+}

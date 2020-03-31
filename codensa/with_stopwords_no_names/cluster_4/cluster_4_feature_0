@@ -1,0 +1,162 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	dano [label="dano 
+ Count = 333 
+ Coef = 10.33"]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 10 
+ Coef = 10.33" shape=plaintext]
+	dano -> dano [label="55.56%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 3 
+ Coef = 9.02" shape=plaintext]
+	danos -> dano [label="16.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	paul [label="paul 
+ Count = 2 
+ Coef = Not in Dict" shape=plaintext]
+	paul -> dano [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	zona -> dano [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 0.54" shape=plaintext]
+	ser -> dano [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 1 
+ Coef = 3.92" shape=plaintext]
+	red -> dano [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 10 
+ Coef = 10.33" shape=plaintext]
+	dano -> dano [label="55.56%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 3 
+ Coef = 9.02" shape=plaintext]
+	danos -> dano [label="16.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	paul [label="paul 
+ Count = 2 
+ Coef = Not in Dict" shape=plaintext]
+	paul -> dano [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	zona -> dano [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 0.54" shape=plaintext]
+	ser -> dano [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 1 
+ Coef = 3.92" shape=plaintext]
+	red -> dano [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 3 
+ Coef = 9.02" shape=plaintext]
+	danos -> danos [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 8 
+ Coef = 10.33" shape=plaintext]
+	dano -> zona [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 2 
+ Coef = 9.02" shape=plaintext]
+	danos -> zona [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 2 
+ Coef = 10.33" shape=plaintext]
+	dano -> ser [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 1 
+ Coef = 9.02" shape=plaintext]
+	danos -> ser [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 46 
+ Coef = 10.33" shape=plaintext]
+	dano -> red [label="70.77%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 19 
+ Coef = 9.02" shape=plaintext]
+	danos -> red [label="29.23%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 44 
+ Coef = 3.92" shape=plaintext]
+	dano -> red [label="58.67%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 10 
+ Coef = 10.33" shape=plaintext]
+	dano -> dano [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 8 
+ Coef = 2.39" shape=plaintext]
+	dano -> zona [label="10.67%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 6 
+ Coef = 1.83" shape=plaintext]
+	dano -> fase [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = 0.58" shape=plaintext]
+	dano -> casa [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 10.33" shape=plaintext]
+	red -> dano [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 44 
+ Coef = 3.92" shape=plaintext]
+	dano -> red [label="58.67%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 10 
+ Coef = 10.33" shape=plaintext]
+	dano -> dano [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 8 
+ Coef = 2.39" shape=plaintext]
+	dano -> zona [label="10.67%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 6 
+ Coef = 1.83" shape=plaintext]
+	dano -> fase [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 4 
+ Coef = 0.58" shape=plaintext]
+	dano -> casa [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 10.33" shape=plaintext]
+	zona -> dano [label="100.0%" weight=1.2]
+}

@@ -1,0 +1,182 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	esperar [label="esperar 
+ Count = 48 
+ Coef = 4.87"]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 10 
+ Coef = 2.18" shape=plaintext]
+	estar -> esperar [label="27.03%" weight=1.2]
+	node [color=red style=filled]
+	estan [label="estan 
+ Count = 3 
+ Coef = -0.02" shape=plaintext]
+	estan -> esperar [label="8.11%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.16" shape=plaintext]
+	servicio -> esperar [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	cuesta [label="cuesta 
+ Count = 2 
+ Coef = 0.04" shape=plaintext]
+	cuesta -> esperar [label="5.41%" weight=1.2]
+	node [color=red style=filled]
+	minuto [label="minuto 
+ Count = 2 
+ Coef = -0.05" shape=plaintext]
+	minuto -> esperar [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 2 
+ Coef = 4.05" shape=plaintext]
+	llamar -> esperar [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 91 
+ Coef = 1.15" shape=plaintext]
+	que -> estar [label="26.07%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 33 
+ Coef = 0.15" shape=plaintext]
+	porque -> estar [label="9.46%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 23 
+ Coef = 11.7" shape=plaintext]
+	llamada -> estar [label="6.59%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = 1.15" shape=plaintext]
+	que -> estan [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 1.13" shape=plaintext]
+	no -> estan [label="8.57%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.16" shape=plaintext]
+	servicio -> estan [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 49 
+ Coef = 2.18" shape=plaintext]
+	estar -> servicio [label="21.03%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = 0.87" shape=plaintext]
+	ser -> cuesta [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 3 
+ Coef = 0.5" shape=plaintext]
+	hacer -> minuto [label="27.27%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 2 
+ Coef = -0.07" shape=plaintext]
+	como -> minuto [label="18.18%" weight=1.2]
+	node [color=red style=filled]
+	llevar [label="llevar 
+ Count = 1 
+ Coef = -0.02" shape=plaintext]
+	llevar -> minuto [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	gastar [label="gastar 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	gastar -> minuto [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	mas -> minuto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 1 
+ Coef = 11.7" shape=plaintext]
+	llamada -> minuto [label="9.09%" weight=1.2]
+	node [color=lightgrey style=filled]
+	dire [label="dire 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	dire -> minuto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	dura [label="dura 
+ Count = 1 
+ Coef = 0.09" shape=plaintext]
+	dura -> minuto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 38 
+ Coef = 2.18" shape=plaintext]
+	estar -> llamar [label="28.15%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 10 
+ Coef = 1.15" shape=plaintext]
+	que -> llamar [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 9 
+ Coef = 0.05" shape=plaintext]
+	hemo -> llamar [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 1.15" shape=plaintext]
+	esperar -> que [label="19.57%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 8 
+ Coef = 11.7" shape=plaintext]
+	esperar -> llamada [label="17.39%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 1.13" shape=plaintext]
+	esperar -> no [label="6.52%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 114 
+ Coef = 2.18" shape=plaintext]
+	que -> estar [label="18.42%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 42 
+ Coef = 1.13" shape=plaintext]
+	que -> no [label="6.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 36 
+ Coef = 0.87" shape=plaintext]
+	que -> ser [label="5.82%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 423 
+ Coef = 0.87" shape=plaintext]
+	llamada -> ser [label="65.89%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 73 
+ Coef = -1.44" shape=plaintext]
+	no -> haber [label="16.94%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 43 
+ Coef = -0.51" shape=plaintext]
+	no -> tener [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 32 
+ Coef = 5.31" shape=plaintext]
+	no -> contestar [label="7.42%" weight=1.2]
+}

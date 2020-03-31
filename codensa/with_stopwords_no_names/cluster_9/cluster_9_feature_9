@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	prender [label="prender 
+ Count = 340 
+ Coef = 5.55"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 122 
+ Coef = 0.77" shape=plaintext]
+	no -> prender [label="39.87%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 36 
+ Coef = 1.64" shape=plaintext]
+	poder -> prender [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 346 
+ Coef = 0.77" shape=plaintext]
+	que -> no [label="11.24%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 338 
+ Coef = 8.13" shape=plaintext]
+	casa -> no [label="10.98%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 108 
+ Coef = 0.77" shape=plaintext]
+	no -> poder [label="32.05%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 51 
+ Coef = 1.08" shape=plaintext]
+	si -> poder [label="15.13%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 26 
+ Coef = 0.77" shape=plaintext]
+	que -> poder [label="7.72%" weight=1.2]
+	node [color=green style=filled]
+	bombillos [label="bombillos 
+ Count = 21 
+ Coef = 5.48" shape=plaintext]
+	prender -> bombillos [label="6.91%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 21 
+ Coef = 0.77" shape=plaintext]
+	prender -> no [label="6.91%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 18 
+ Coef = 9.69" shape=plaintext]
+	prender -> electrodomesticos [label="5.92%" weight=1.2]
+	node [color=green style=filled]
+	televisor [label="televisor 
+ Count = 17 
+ Coef = 3.88" shape=plaintext]
+	prender -> televisor [label="5.59%" weight=1.2]
+	node [color=green style=filled]
+	pagar [label="pagar 
+ Count = 16 
+ Coef = 3.05" shape=plaintext]
+	prender -> pagar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 23 
+ Coef = 0.77" shape=plaintext]
+	bombillos -> no [label="10.95%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 12 
+ Coef = 2.23" shape=plaintext]
+	bombillos -> estan [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 11 
+ Coef = 5.55" shape=plaintext]
+	bombillos -> prender [label="5.24%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1461 
+ Coef = 3.76" shape=plaintext]
+	no -> tener [label="33.77%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1025 
+ Coef = 2.06" shape=plaintext]
+	no -> haber [label="23.69%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 37 
+ Coef = 0.77" shape=plaintext]
+	electrodomesticos -> no [label="10.48%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 24 
+ Coef = 2.23" shape=plaintext]
+	electrodomesticos -> estan [label="6.8%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = 0.77" shape=plaintext]
+	televisor -> no [label="11.71%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 11 
+ Coef = 2.4" shape=plaintext]
+	televisor -> nevera [label="9.91%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 6 
+ Coef = 2.13" shape=plaintext]
+	televisor -> porque [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 23 
+ Coef = 5.55" shape=plaintext]
+	pagar -> prender [label="9.54%" weight=1.2]
+	node [color=green style=filled]
+	prenda [label="prenda 
+ Count = 17 
+ Coef = 2.96" shape=plaintext]
+	pagar -> prenda [label="7.05%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = 0.77" shape=plaintext]
+	pagar -> no [label="5.39%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 13 
+ Coef = 9.69" shape=plaintext]
+	pagar -> electrodomesticos [label="5.39%" weight=1.2]
+}

@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cables [label="cables 
+ Count = 690 
+ Coef = 7.32"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 88 
+ Coef = -1.84" shape=plaintext]
+	cables -> luz [label="13.69%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 69 
+ Coef = 5.05" shape=plaintext]
+	cables -> estan [label="10.73%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 40 
+ Coef = -2.8" shape=plaintext]
+	cables -> energia [label="6.22%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 315 
+ Coef = 4.13" shape=plaintext]
+	luz -> casa [label="7.33%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 86 
+ Coef = 1.68" shape=plaintext]
+	estan -> hacer [label="8.57%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 51 
+ Coef = 2.46" shape=plaintext]
+	estan -> presentado [label="5.08%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 93 
+ Coef = 4.13" shape=plaintext]
+	energia -> casa [label="6.4%" weight=1.2]
+}

@@ -1,0 +1,627 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	mensaje [label="mensaje 
+ Count = 18 
+ Coef = 2.99"]
+	node [color=green style=filled]
+	llegar [label="llegar 
+ Count = 4 
+ Coef = 0.26" shape=plaintext]
+	llegar -> mensaje [label="23.53%" weight=1.2]
+	node [color=red style=filled]
+	llegado [label="llegado 
+ Count = 2 
+ Coef = -0.0" shape=plaintext]
+	llegado -> mensaje [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	llamadas [label="llamadas 
+ Count = 1 
+ Coef = 4.48" shape=plaintext]
+	llamadas -> mensaje [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	buzon [label="buzon 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	buzon -> mensaje [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	recibi [label="recibi 
+ Count = 1 
+ Coef = 0.66" shape=plaintext]
+	recibi -> mensaje [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	cantidad [label="cantidad 
+ Count = 1 
+ Coef = 0.06" shape=plaintext]
+	cantidad -> mensaje [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	dejar [label="dejar 
+ Count = 1 
+ Coef = 0.76" shape=plaintext]
+	dejar -> mensaje [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	ver [label="ver 
+ Count = 1 
+ Coef = -0.45" shape=plaintext]
+	ver -> mensaje [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	averiguar [label="averiguar 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	averiguar -> mensaje [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	enviar [label="enviar 
+ Count = 1 
+ Coef = -0.02" shape=plaintext]
+	enviar -> mensaje [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	envien [label="envien 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	envien -> mensaje [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	recibir [label="recibir 
+ Count = 1 
+ Coef = 1.5" shape=plaintext]
+	recibir -> mensaje [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	como -> mensaje [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 19 
+ Coef = -1.44" shape=plaintext]
+	haber -> llegar [label="27.54%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 8 
+ Coef = 1.15" shape=plaintext]
+	que -> llegar [label="11.59%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 1.13" shape=plaintext]
+	no -> llegar [label="11.59%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 4 
+ Coef = 0.58" shape=plaintext]
+	ya -> llegar [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = 0.15" shape=plaintext]
+	porque -> llegado [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	mesitas [label="mesitas 
+ Count = 1 
+ Coef = -0.19" shape=plaintext]
+	mesitas -> llegado [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	seguir [label="seguir 
+ Count = 1 
+ Coef = 0.84" shape=plaintext]
+	seguir -> llegado [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	tener -> llamadas [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	motivo [label="motivo 
+ Count = 4 
+ Coef = 9.49" shape=plaintext]
+	motivo -> llamadas [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 2 
+ Coef = 0.03" shape=plaintext]
+	cortar -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = 0.5" shape=plaintext]
+	hacer -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	atencion [label="atencion 
+ Count = 2 
+ Coef = 0.96" shape=plaintext]
+	atencion -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	salon [label="salon 
+ Count = 2 
+ Coef = 0.1" shape=plaintext]
+	salon -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	mandar [label="mandar 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	mandar -> buzon [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = 2.18" shape=plaintext]
+	estar -> recibi [label="23.08%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -1.44" shape=plaintext]
+	haber -> recibi [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 2 
+ Coef = 0.05" shape=plaintext]
+	hemo -> recibi [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.13" shape=plaintext]
+	no -> recibi [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	porque -> recibi [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	gana [label="gana 
+ Count = 1 
+ Coef = 0.54" shape=plaintext]
+	gana -> recibi [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	rato [label="rato 
+ Count = 1 
+ Coef = 0.2" shape=plaintext]
+	rato -> recibi [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = 1.15" shape=plaintext]
+	que -> recibi [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	tener -> cantidad [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	linea [label="linea 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	linea -> cantidad [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 1.13" shape=plaintext]
+	no -> dejar [label="15.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 8 
+ Coef = -0.99" shape=plaintext]
+	luz -> ver [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = 1.15" shape=plaintext]
+	que -> ver [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 5 
+ Coef = 1.13" shape=plaintext]
+	no -> ver [label="7.81%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 4 
+ Coef = -1.24" shape=plaintext]
+	entonces -> ver [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = 0.87" shape=plaintext]
+	ser -> averiguar [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.44" shape=plaintext]
+	haber -> enviar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = 1.15" shape=plaintext]
+	que -> enviar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	tocar [label="tocar 
+ Count = 1 
+ Coef = -0.3" shape=plaintext]
+	tocar -> enviar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -1.24" shape=plaintext]
+	entonces -> enviar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 1.13" shape=plaintext]
+	no -> envien [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = 2.18" shape=plaintext]
+	estar -> recibir [label="30.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -1.44" shape=plaintext]
+	haber -> recibir [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 2 
+ Coef = 0.05" shape=plaintext]
+	hemo -> recibir [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.13" shape=plaintext]
+	no -> recibir [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	gana [label="gana 
+ Count = 1 
+ Coef = 0.54" shape=plaintext]
+	gana -> recibir [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 13 
+ Coef = 0.5" shape=plaintext]
+	hacer -> como [label="19.7%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 6 
+ Coef = 0.58" shape=plaintext]
+	ya -> como [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	celular [label="celular 
+ Count = 2 
+ Coef = 1.77" shape=plaintext]
+	mensaje -> celular [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	texto [label="texto 
+ Count = 2 
+ Coef = 0.48" shape=plaintext]
+	mensaje -> texto [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.44" shape=plaintext]
+	mensaje -> haber [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	voz [label="voz 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	mensaje -> voz [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	ahi [label="ahi 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	mensaje -> ahi [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	repetitivos [label="repetitivos 
+ Count = 1 
+ Coef = 0.91" shape=plaintext]
+	mensaje -> repetitivos [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = 2.18" shape=plaintext]
+	mensaje -> estar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	mensaje -> decir [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = -0.64" shape=plaintext]
+	mensaje -> corte [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	amor [label="amor 
+ Count = 1 
+ Coef = 0.24" shape=plaintext]
+	mensaje -> amor [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	telefono [label="telefono 
+ Count = 1 
+ Coef = 2.34" shape=plaintext]
+	mensaje -> telefono [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	mensaje -> como [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	telefonico [label="telefonico 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	mensaje -> telefonico [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -1.24" shape=plaintext]
+	mensaje -> energia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	llegar [label="llegar 
+ Count = 1 
+ Coef = 0.26" shape=plaintext]
+	mensaje -> llegar [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	siquiera [label="siquiera 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	celular -> siquiera [label="7.69%" weight=1.2]
+	node [color=lightgrey style=filled]
+	iphone [label="iphone 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	celular -> iphone [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	solo [label="solo 
+ Count = 1 
+ Coef = -0.17" shape=plaintext]
+	celular -> solo [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = 0.5" shape=plaintext]
+	celular -> hacer [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	linea [label="linea 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	celular -> linea [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	cobro [label="cobro 
+ Count = 1 
+ Coef = 0.42" shape=plaintext]
+	celular -> cobro [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	celular -> decir [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -0.1" shape=plaintext]
+	celular -> ir [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 1.29" shape=plaintext]
+	celular -> corto [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 0.87" shape=plaintext]
+	celular -> ser [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	encuentro [label="encuentro 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	celular -> encuentro [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	descargar [label="descargar 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	celular -> descargar [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	celular -> tener [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	celular [label="celular 
+ Count = 1 
+ Coef = 1.77" shape=plaintext]
+	texto -> celular [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	codensa [label="codensa 
+ Count = 1 
+ Coef = 1.52" shape=plaintext]
+	texto -> codensa [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	llegar [label="llegar 
+ Count = 18 
+ Coef = 0.26" shape=plaintext]
+	haber -> llegar [label="12.08%" weight=1.2]
+	node [color=green style=filled]
+	seguir [label="seguir 
+ Count = 12 
+ Coef = 0.84" shape=plaintext]
+	haber -> seguir [label="8.05%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = 0.5" shape=plaintext]
+	haber -> hacer [label="5.37%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 0.58" shape=plaintext]
+	voz -> ya [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 1.13" shape=plaintext]
+	ahi -> no [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 2 
+ Coef = -0.18" shape=plaintext]
+	ahi -> si [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = 2.18" shape=plaintext]
+	ahi -> estar [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = -0.51" shape=plaintext]
+	ahi -> tener [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	repetitivos -> mas [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	celular [label="celular 
+ Count = 1 
+ Coef = 1.77" shape=plaintext]
+	repetitivos -> celular [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 78 
+ Coef = -0.99" shape=plaintext]
+	estar -> luz [label="18.35%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 49 
+ Coef = -2.16" shape=plaintext]
+	estar -> servicio [label="11.53%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 34 
+ Coef = 4.05" shape=plaintext]
+	estar -> llamar [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 23 
+ Coef = 1.15" shape=plaintext]
+	decir -> que [label="51.11%" weight=1.2]
+	node [color=green style=filled]
+	motivo [label="motivo 
+ Count = 3 
+ Coef = 9.49" shape=plaintext]
+	decir -> motivo [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = -0.99" shape=plaintext]
+	corte -> luz [label="57.14%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -0.91" shape=plaintext]
+	corte -> casa [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.58" shape=plaintext]
+	corte -> ya [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = -2.16" shape=plaintext]
+	corte -> servicio [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	motivo [label="motivo 
+ Count = 1 
+ Coef = 9.49" shape=plaintext]
+	amor -> motivo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = 2.18" shape=plaintext]
+	amor -> estar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 1.13" shape=plaintext]
+	amor -> no [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 0.87" shape=plaintext]
+	amor -> ser [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.13" shape=plaintext]
+	telefono -> no [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	celular [label="celular 
+ Count = 2 
+ Coef = 1.77" shape=plaintext]
+	telefono -> celular [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 11 
+ Coef = -1.1" shape=plaintext]
+	como -> hora [label="15.71%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 1.13" shape=plaintext]
+	como -> no [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 4 
+ Coef = -0.41" shape=plaintext]
+	como -> dia [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 4 
+ Coef = 0.5" shape=plaintext]
+	como -> hacer [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	telefonico -> decir [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	resultar [label="resultar 
+ Count = 1 
+ Coef = -0.33" shape=plaintext]
+	telefonico -> resultar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	movistar [label="movistar 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	telefonico -> movistar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 8 
+ Coef = -0.8" shape=plaintext]
+	energia -> manana [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 5 
+ Coef = 0.5" shape=plaintext]
+	energia -> hacer [label="6.41%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 4 
+ Coef = -0.35" shape=plaintext]
+	energia -> ayer [label="5.13%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = -0.99" shape=plaintext]
+	llegar -> luz [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = -2.16" shape=plaintext]
+	llegar -> servicio [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	recibo [label="recibo 
+ Count = 4 
+ Coef = 0.6" shape=plaintext]
+	llegar -> recibo [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	mensaje [label="mensaje 
+ Count = 4 
+ Coef = 2.99" shape=plaintext]
+	llegar -> mensaje [label="6.06%" weight=1.2]
+}

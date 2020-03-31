@@ -1,0 +1,237 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	solamente [label="solamente 
+ Count = 39 
+ Coef = 4.41"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 8 
+ Coef = 1.01" shape=plaintext]
+	luz -> solamente [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 6 
+ Coef = 7.45" shape=plaintext]
+	casa -> solamente [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.18" shape=plaintext]
+	tener -> solamente [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -3.08" shape=plaintext]
+	estar -> solamente [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.4" shape=plaintext]
+	ser -> solamente [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 94 
+ Coef = -0.4" shape=plaintext]
+	ser -> luz [label="28.31%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 28 
+ Coef = 1.3" shape=plaintext]
+	quedar -> luz [label="8.43%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 23 
+ Coef = -3.08" shape=plaintext]
+	estar -> luz [label="6.93%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 55 
+ Coef = 1.01" shape=plaintext]
+	luz -> casa [label="17.41%" weight=1.2]
+	node [color=green style=filled]
+	parte [label="parte 
+ Count = 20 
+ Coef = 3.7" shape=plaintext]
+	parte -> casa [label="6.33%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 16 
+ Coef = -0.57" shape=plaintext]
+	aqui -> casa [label="5.06%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 33 
+ Coef = 1.38" shape=plaintext]
+	no -> tener [label="30.28%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 10 
+ Coef = 7.45" shape=plaintext]
+	casa -> tener [label="9.17%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 8 
+ Coef = -0.99" shape=plaintext]
+	que -> tener [label="7.34%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = -0.99" shape=plaintext]
+	que -> estar [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 7.45" shape=plaintext]
+	casa -> estar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 33 
+ Coef = 0.07" shape=plaintext]
+	paso -> ser [label="18.33%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 16 
+ Coef = -0.99" shape=plaintext]
+	que -> ser [label="8.89%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 15 
+ Coef = 7.45" shape=plaintext]
+	casa -> ser [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = 1.38" shape=plaintext]
+	no -> ser [label="7.22%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 10 
+ Coef = 7.45" shape=plaintext]
+	solamente -> casa [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	parte [label="parte 
+ Count = 3 
+ Coef = 3.7" shape=plaintext]
+	solamente -> parte [label="7.89%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.18" shape=plaintext]
+	solamente -> tener [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	mitad [label="mitad 
+ Count = 2 
+ Coef = 2.34" shape=plaintext]
+	solamente -> mitad [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -0.7" shape=plaintext]
+	solamente -> haber [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.4" shape=plaintext]
+	solamente -> ser [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = 1.38" shape=plaintext]
+	casa -> no [label="10.3%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 13 
+ Coef = 1.01" shape=plaintext]
+	casa -> luz [label="7.88%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.4" shape=plaintext]
+	casa -> ser [label="7.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = 0.18" shape=plaintext]
+	casa -> tener [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 26 
+ Coef = 7.45" shape=plaintext]
+	parte -> casa [label="39.39%" weight=1.2]
+	node [color=green style=filled]
+	apartamento [label="apartamento 
+ Count = 5 
+ Coef = 10.67" shape=plaintext]
+	parte -> apartamento [label="7.58%" weight=1.2]
+	node [color=green style=filled]
+	externa [label="externa 
+ Count = 4 
+ Coef = 0.94" shape=plaintext]
+	parte -> externa [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 29 
+ Coef = 1.01" shape=plaintext]
+	tener -> luz [label="18.12%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 10 
+ Coef = 4.84" shape=plaintext]
+	tener -> corto [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 9 
+ Coef = 3.77" shape=plaintext]
+	tener -> fase [label="5.62%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 16 
+ Coef = 7.45" shape=plaintext]
+	mitad -> casa [label="45.71%" weight=1.2]
+	node [color=green style=filled]
+	apartamento [label="apartamento 
+ Count = 7 
+ Coef = 10.67" shape=plaintext]
+	mitad -> apartamento [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = 1.01" shape=plaintext]
+	mitad -> luz [label="11.43%" weight=1.2]
+	node [color=green style=filled]
+	apartamentos [label="apartamentos 
+ Count = 2 
+ Coef = 5.17" shape=plaintext]
+	mitad -> apartamentos [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 18 
+ Coef = 4.84" shape=plaintext]
+	haber -> corto [label="18.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 12 
+ Coef = 1.01" shape=plaintext]
+	haber -> luz [label="12.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 8 
+ Coef = -0.65" shape=plaintext]
+	haber -> energia [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	falla [label="falla 
+ Count = 8 
+ Coef = -0.26" shape=plaintext]
+	haber -> falla [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 88 
+ Coef = 1.01" shape=plaintext]
+	ser -> luz [label="38.94%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 73 
+ Coef = -0.99" shape=plaintext]
+	ser -> que [label="32.3%" weight=1.2]
+}

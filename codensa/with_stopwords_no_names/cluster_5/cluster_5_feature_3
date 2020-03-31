@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"que ser" [label="que ser 
+ Count = 17 
+ Coef = 3.23"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = 10.41" shape=plaintext]
+	ser -> "que ser" [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.22" shape=plaintext]
+	dia -> "que ser" [label="16.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pez [label="pez 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	pez -> "que ser" [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = 1.17" shape=plaintext]
+	que -> "que ser" [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 17 
+ Coef = 1.17" shape=plaintext]
+	que -> ser [label="26.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="17.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 2.49" shape=plaintext]
+	no -> ser [label="15.62%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 8 
+ Coef = -0.27" shape=plaintext]
+	paso -> ser [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 10.09" shape=plaintext]
+	tener -> ser [label="7.81%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = -0.06" shape=plaintext]
+	hacer -> dia [label="47.06%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 2 
+ Coef = 0.48" shape=plaintext]
+	mna -> dia [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 2 
+ Coef = 0.36" shape=plaintext]
+	dos -> dia [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.73" shape=plaintext]
+	hora -> dia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 10.41" shape=plaintext]
+	ser -> dia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 10.09" shape=plaintext]
+	tener -> dia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tres [label="tres 
+ Count = 1 
+ Coef = 0.21" shape=plaintext]
+	tres -> dia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	cuatro [label="cuatro 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	cuatro -> dia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 31 
+ Coef = 10.41" shape=plaintext]
+	ser -> que [label="77.5%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -1.22" shape=plaintext]
+	"que ser" -> noche [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = 1.6" shape=plaintext]
+	"que ser" -> si [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 2.49" shape=plaintext]
+	noche -> no [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 2.49" shape=plaintext]
+	si -> no [label="72.73%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = 10.41" shape=plaintext]
+	si -> ser [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 10.09" shape=plaintext]
+	si -> tener [label="9.09%" weight=1.2]
+}

@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	colaborar [label="colaborar 
+ Count = 1511 
+ Coef = 4.41"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 452 
+ Coef = 4.94" shape=plaintext]
+	que -> colaborar [label="29.91%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 345 
+ Coef = 3.59" shape=plaintext]
+	poder -> colaborar [label="22.83%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 111 
+ Coef = 1.52" shape=plaintext]
+	si -> colaborar [label="7.35%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7706 
+ Coef = 1.55" shape=plaintext]
+	ser -> que [label="42.63%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 562 
+ Coef = 1.52" shape=plaintext]
+	si -> poder [label="22.1%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 513 
+ Coef = 1.7" shape=plaintext]
+	no -> poder [label="20.17%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 208 
+ Coef = 4.94" shape=plaintext]
+	que -> poder [label="8.18%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 154 
+ Coef = 2.13" shape=plaintext]
+	haber -> poder [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	ver [label="ver 
+ Count = 1077 
+ Coef = 0.88" shape=plaintext]
+	ver -> si [label="18.57%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 547 
+ Coef = 1.67" shape=plaintext]
+	saber -> si [label="9.43%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 397 
+ Coef = 4.94" shape=plaintext]
+	que -> si [label="6.85%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 139 
+ Coef = 6.06" shape=plaintext]
+	colaborar -> porque [label="14.01%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 86 
+ Coef = 4.94" shape=plaintext]
+	colaborar -> que [label="8.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 57 
+ Coef = 1.67" shape=plaintext]
+	colaborar -> servicio [label="5.75%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1124 
+ Coef = 1.7" shape=plaintext]
+	porque -> no [label="17.81%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 478 
+ Coef = 3.32" shape=plaintext]
+	porque -> estar [label="7.58%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 446 
+ Coef = 1.55" shape=plaintext]
+	porque -> ser [label="7.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 442 
+ Coef = 2.29" shape=plaintext]
+	porque -> tener [label="7.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2352 
+ Coef = 1.7" shape=plaintext]
+	que -> no [label="11.86%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1711 
+ Coef = 3.32" shape=plaintext]
+	que -> estar [label="8.63%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1081 
+ Coef = 1.55" shape=plaintext]
+	que -> ser [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1678 
+ Coef = -0.45" shape=plaintext]
+	servicio -> energia [label="21.15%" weight=1.2]
+}

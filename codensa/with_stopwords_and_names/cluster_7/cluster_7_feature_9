@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	santo [label="santo 
+ Count = 1717 
+ Coef = 4.56"]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 740 
+ Coef = 15.7" shape=plaintext]
+	vereda -> santo [label="43.45%" weight=1.2]
+	node [color=green style=filled]
+	avenida [label="avenida 
+ Count = 156 
+ Coef = 6.19" shape=plaintext]
+	avenida -> santo [label="9.16%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 97 
+ Coef = -0.7" shape=plaintext]
+	barrio -> santo [label="5.7%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1271 
+ Coef = -2.08" shape=plaintext]
+	luz -> vereda [label="13.43%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 996 
+ Coef = 16.09" shape=plaintext]
+	cundinamarca -> vereda [label="10.52%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 978 
+ Coef = 3.3" shape=plaintext]
+	aqui -> vereda [label="10.33%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 661 
+ Coef = -1.79" shape=plaintext]
+	energia -> vereda [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 258 
+ Coef = 3.3" shape=plaintext]
+	aqui -> avenida [label="20.91%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 158 
+ Coef = -2.08" shape=plaintext]
+	luz -> avenida [label="12.8%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 99 
+ Coef = -1.79" shape=plaintext]
+	energia -> avenida [label="8.02%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 124 
+ Coef = 16.09" shape=plaintext]
+	cundinamarca -> barrio [label="17.77%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 74 
+ Coef = -2.08" shape=plaintext]
+	luz -> barrio [label="10.6%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 56 
+ Coef = -1.79" shape=plaintext]
+	energia -> barrio [label="8.02%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 54 
+ Coef = 3.3" shape=plaintext]
+	aqui -> barrio [label="7.74%" weight=1.2]
+	node [color=green style=filled]
+	jose [label="jose 
+ Count = 269 
+ Coef = 1.37" shape=plaintext]
+	santo -> jose [label="15.81%" weight=1.2]
+	node [color=green style=filled]
+	antonio [label="antonio 
+ Count = 265 
+ Coef = 1.73" shape=plaintext]
+	santo -> antonio [label="15.58%" weight=1.2]
+	node [color=green style=filled]
+	miguel [label="miguel 
+ Count = 166 
+ Coef = 1.79" shape=plaintext]
+	santo -> miguel [label="9.76%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 64 
+ Coef = 17.29" shape=plaintext]
+	jose -> municipio [label="16.71%" weight=1.2]
+	node [color=green style=filled]
+	tequendama [label="tequendama 
+ Count = 272 
+ Coef = 1.45" shape=plaintext]
+	antonio -> tequendama [label="49.19%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 54 
+ Coef = 17.29" shape=plaintext]
+	antonio -> municipio [label="9.76%" weight=1.2]
+	node [color=green style=filled]
+	alto [label="alto 
+ Count = 29 
+ Coef = 2.25" shape=plaintext]
+	antonio -> alto [label="5.24%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 51 
+ Coef = 17.29" shape=plaintext]
+	miguel -> municipio [label="22.77%" weight=1.2]
+	node [color=green style=filled]
+	sena [label="sena 
+ Count = 22 
+ Coef = 0.58" shape=plaintext]
+	miguel -> sena [label="9.82%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 12 
+ Coef = 6.97" shape=plaintext]
+	miguel -> sector [label="5.36%" weight=1.2]
+}

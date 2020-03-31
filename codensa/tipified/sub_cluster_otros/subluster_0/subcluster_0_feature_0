@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrica [label="electrica 
+ Count = 355 
+ Coef = 13.44"]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 82 
+ Coef = 1.1" shape=plaintext]
+	falla -> electrica [label="23.1%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 49 
+ Coef = -0.58" shape=plaintext]
+	energia -> electrica [label="13.8%" weight=1.2]
+	node [color=red style=filled]
+	emergencia [label="emergencia 
+ Count = 35 
+ Coef = 0.0" shape=plaintext]
+	emergencia -> electrica [label="9.86%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 19 
+ Coef = -1.88" shape=plaintext]
+	luz -> electrica [label="5.35%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 25 
+ Coef = 0.83" shape=plaintext]
+	tener -> falla [label="21.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 18 
+ Coef = 0.37" shape=plaintext]
+	haber -> falla [label="15.25%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 12 
+ Coef = 0.97" shape=plaintext]
+	presentar -> falla [label="10.17%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 11 
+ Coef = 0.84" shape=plaintext]
+	presentado -> falla [label="9.32%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 7 
+ Coef = 0.41" shape=plaintext]
+	reportar -> falla [label="5.93%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 13 
+ Coef = -0.28" shape=plaintext]
+	estar -> energia [label="16.46%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 9 
+ Coef = -2.96" shape=plaintext]
+	servicio -> energia [label="11.39%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 8 
+ Coef = 0.37" shape=plaintext]
+	haber -> energia [label="10.13%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 6 
+ Coef = 0.55" shape=plaintext]
+	encontrar -> energia [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 13.44" shape=plaintext]
+	electrica -> emergencia [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 0.37" shape=plaintext]
+	haber -> emergencia [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 1 
+ Coef = 0.97" shape=plaintext]
+	presentar -> emergencia [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	tener -> emergencia [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	solicitud [label="solicitud 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	solicitud -> emergencia [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	ser -> emergencia [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 16 
+ Coef = -2.96" shape=plaintext]
+	servicio -> luz [label="15.69%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 12 
+ Coef = -0.28" shape=plaintext]
+	estar -> luz [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = -0.61" shape=plaintext]
+	ser -> luz [label="10.78%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 6 
+ Coef = 0.83" shape=plaintext]
+	tener -> luz [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 17 
+ Coef = 0.56" shape=plaintext]
+	electrica -> casa [label="7.98%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = -0.38" shape=plaintext]
+	casa -> no [label="15.87%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4 
+ Coef = 0.83" shape=plaintext]
+	casa -> tener [label="6.35%" weight=1.2]
+}

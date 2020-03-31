@@ -1,0 +1,52 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"que no tener" [label="que no tener 
+ Count = 57 
+ Coef = 2.69"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 19 
+ Coef = 10.41" shape=plaintext]
+	ser -> "que no tener" [label="76.0%" weight=1.2]
+	node [color=green style=filled]
+	pues [label="pues 
+ Count = 2 
+ Coef = 0.96" shape=plaintext]
+	pues -> "que no tener" [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 17 
+ Coef = 1.17" shape=plaintext]
+	que -> ser [label="26.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="17.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 2.49" shape=plaintext]
+	no -> ser [label="15.62%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 8 
+ Coef = -0.27" shape=plaintext]
+	paso -> ser [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 10.09" shape=plaintext]
+	tener -> ser [label="7.81%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 1 
+ Coef = -1.08" shape=plaintext]
+	"que no tener" -> aqui [label="100.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	gym [label="gym 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	aqui -> gym [label="100.0%" weight=1.2]
+}

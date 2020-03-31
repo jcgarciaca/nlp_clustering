@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	transformador [label="transformador 
+ Count = 1520 
+ Coef = 8.32"]
+	node [color=green style=filled]
+	un [label="un 
+ Count = 575 
+ Coef = 3.91" shape=plaintext]
+	un -> transformador [label="38.18%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 559 
+ Coef = 2.89" shape=plaintext]
+	el -> transformador [label="37.12%" weight=1.2]
+	node [color=green style=filled]
+	del [label="del 
+ Count = 134 
+ Coef = 3.14" shape=plaintext]
+	del -> transformador [label="8.9%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1312 
+ Coef = 1.48" shape=plaintext]
+	haber -> un [label="15.19%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 903 
+ Coef = 1.32" shape=plaintext]
+	tener -> un [label="10.46%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 644 
+ Coef = Not in Dict" shape=plaintext]
+	en -> un [label="7.46%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 487 
+ Coef = Not in Dict" shape=plaintext]
+	de -> un [label="5.64%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 4902 
+ Coef = Not in Dict" shape=plaintext]
+	en -> el [label="49.34%" weight=1.2]
+	node [color=lightgrey style=filled]
+	y [label="y 
+ Count = 200 
+ Coef = Not in Dict" shape=plaintext]
+	transformador -> y [label="15.75%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 174 
+ Coef = 5.43" shape=plaintext]
+	transformador -> que [label="13.7%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 138 
+ Coef = Not in Dict" shape=plaintext]
+	transformador -> de [label="10.87%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 96 
+ Coef = Not in Dict" shape=plaintext]
+	transformador -> en [label="7.56%" weight=1.2]
+	node [color=green style=filled]
+	esta [label="esta 
+ Count = 65 
+ Coef = 2.78" shape=plaintext]
+	transformador -> esta [label="5.12%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 643 
+ Coef = -1.58" shape=plaintext]
+	y -> no [label="8.32%" weight=1.2]
+	node [color=green style=filled]
+	se [label="se 
+ Count = 599 
+ Coef = 3.43" shape=plaintext]
+	y -> se [label="7.75%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 433 
+ Coef = Not in Dict" shape=plaintext]
+	y -> en [label="5.6%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 1543 
+ Coef = 1.35" shape=plaintext]
+	que -> paso [label="17.31%" weight=1.2]
+	node [color=green style=filled]
+	se [label="se 
+ Count = 821 
+ Coef = 3.43" shape=plaintext]
+	que -> se [label="9.21%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 774 
+ Coef = -1.58" shape=plaintext]
+	que -> no [label="8.68%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 2273 
+ Coef = 3.35" shape=plaintext]
+	de -> la [label="20.82%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 765 
+ Coef = -2.07" shape=plaintext]
+	de -> luz [label="7.01%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 746 
+ Coef = -3.28" shape=plaintext]
+	de -> energia [label="6.83%" weight=1.2]
+	node [color=green style=filled]
+	mi [label="mi 
+ Count = 595 
+ Coef = 1.77" shape=plaintext]
+	de -> mi [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 4441 
+ Coef = 2.89" shape=plaintext]
+	en -> el [label="34.57%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 3927 
+ Coef = 3.35" shape=plaintext]
+	en -> la [label="30.57%" weight=1.2]
+	node [color=green style=filled]
+	mi [label="mi 
+ Count = 667 
+ Coef = 1.77" shape=plaintext]
+	en -> mi [label="5.19%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 243 
+ Coef = -0.06" shape=plaintext]
+	esta -> hacer [label="6.8%" weight=1.2]
+}

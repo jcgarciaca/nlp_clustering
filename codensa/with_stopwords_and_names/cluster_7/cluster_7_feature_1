@@ -1,0 +1,67 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 5796 
+ Coef = 16.09"]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 342 
+ Coef = 1.54" shape=plaintext]
+	mesa -> cundinamarca [label="5.9%" weight=1.2]
+	node [color=green style=filled]
+	vega [label="vega 
+ Count = 298 
+ Coef = 1.86" shape=plaintext]
+	vega -> cundinamarca [label="5.14%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 283 
+ Coef = 17.29" shape=plaintext]
+	municipio -> mesa [label="41.43%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 42 
+ Coef = 3.3" shape=plaintext]
+	aqui -> mesa [label="6.15%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 138 
+ Coef = 17.29" shape=plaintext]
+	municipio -> vega [label="25.94%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -2.08" shape=plaintext]
+	luz -> vega [label="6.2%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 32 
+ Coef = 3.3" shape=plaintext]
+	aqui -> vega [label="6.02%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 1003 
+ Coef = 15.7" shape=plaintext]
+	cundinamarca -> vereda [label="29.6%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 271 
+ Coef = -2.0" shape=plaintext]
+	cundinamarca -> no [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 732 
+ Coef = 4.56" shape=plaintext]
+	vereda -> santo [label="7.81%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 3786 
+ Coef = 0.76" shape=plaintext]
+	no -> haber [label="37.98%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 3328 
+ Coef = -0.07" shape=plaintext]
+	no -> tener [label="33.38%" weight=1.2]
+}

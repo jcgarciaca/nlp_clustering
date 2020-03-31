@@ -1,0 +1,87 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	servicio [label="servicio 
+ Count = 477 
+ Coef = 2.57"]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 407 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> servicio [label="86.41%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 15 
+ Coef = 2.57" shape=plaintext]
+	servicio -> reconexion [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 10 
+ Coef = 0.66" shape=plaintext]
+	solicitar -> reconexion [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 10 
+ Coef = -0.2" shape=plaintext]
+	ser -> reconexion [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	pedir [label="pedir 
+ Count = 6 
+ Coef = 0.42" shape=plaintext]
+	pedir -> reconexion [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 6 
+ Coef = -0.86" shape=plaintext]
+	hacer -> reconexion [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -0.13" shape=plaintext]
+	servicio -> luz [label="27.27%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 24 
+ Coef = -0.04" shape=plaintext]
+	servicio -> energia [label="19.83%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 15 
+ Coef = 12.16" shape=plaintext]
+	servicio -> reconexion [label="12.4%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 3 
+ Coef = 0.88" shape=plaintext]
+	luz -> corte [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 2.57" shape=plaintext]
+	luz -> servicio [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	luz -> porque [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	tercer [label="tercer 
+ Count = 1 
+ Coef = 0.24" shape=plaintext]
+	energia -> tercer [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.68" shape=plaintext]
+	energia -> no [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 405 
+ Coef = 2.57" shape=plaintext]
+	reconexion -> servicio [label="83.33%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 29 
+ Coef = -0.04" shape=plaintext]
+	reconexion -> energia [label="5.97%" weight=1.2]
+}

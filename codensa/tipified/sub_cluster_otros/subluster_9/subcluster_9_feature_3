@@ -1,0 +1,172 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	tecnico [label="tecnico 
+ Count = 296 
+ Coef = 5.56"]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 53 
+ Coef = -3.42" shape=plaintext]
+	servicio -> tecnico [label="18.03%" weight=1.2]
+	node [color=green style=filled]
+	ningun [label="ningun 
+ Count = 24 
+ Coef = 2.03" shape=plaintext]
+	ningun -> tecnico [label="8.16%" weight=1.2]
+	node [color=green style=filled]
+	mandar [label="mandar 
+ Count = 22 
+ Coef = 1.88" shape=plaintext]
+	mandar -> tecnico [label="7.48%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 22 
+ Coef = 1.3" shape=plaintext]
+	falla -> tecnico [label="7.48%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 159 
+ Coef = 1.27" shape=plaintext]
+	estar -> servicio [label="23.73%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 42 
+ Coef = 0.62" shape=plaintext]
+	dia -> servicio [label="6.27%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 20 
+ Coef = -0.4" shape=plaintext]
+	tener -> ningun [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 17 
+ Coef = 2.32" shape=plaintext]
+	dar -> ningun [label="11.33%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 17 
+ Coef = 3.97" shape=plaintext]
+	haber -> ningun [label="11.33%" weight=1.2]
+	node [color=green style=filled]
+	llegar [label="llegar 
+ Count = 10 
+ Coef = 0.11" shape=plaintext]
+	llegar -> ningun [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	vender [label="vender 
+ Count = 8 
+ Coef = 2.78" shape=plaintext]
+	vender -> ningun [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 16 
+ Coef = 2.72" shape=plaintext]
+	ya -> mandar [label="15.84%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 15 
+ Coef = 1.03" shape=plaintext]
+	que -> mandar [label="14.85%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 15 
+ Coef = 1.1" shape=plaintext]
+	ir -> mandar [label="14.85%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 2.07" shape=plaintext]
+	no -> mandar [label="7.92%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 6 
+ Coef = 3.97" shape=plaintext]
+	haber -> mandar [label="5.94%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 48 
+ Coef = 3.48" shape=plaintext]
+	reportar -> falla [label="20.6%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 32 
+ Coef = -0.4" shape=plaintext]
+	tener -> falla [label="13.73%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 23 
+ Coef = 3.97" shape=plaintext]
+	haber -> falla [label="9.87%" weight=1.2]
+	node [color=red style=filled]
+	presentar [label="presentar 
+ Count = 14 
+ Coef = -0.14" shape=plaintext]
+	presentar -> falla [label="6.01%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 26 
+ Coef = 2.07" shape=plaintext]
+	tecnico -> no [label="10.97%" weight=1.2]
+	node [color=green style=filled]
+	arreglar [label="arreglar 
+ Count = 18 
+ Coef = 9.56" shape=plaintext]
+	tecnico -> arreglar [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 13 
+ Coef = 1.55" shape=plaintext]
+	tecnico -> hacer [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 928 
+ Coef = 3.97" shape=plaintext]
+	no -> haber [label="43.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 142 
+ Coef = 2.07" shape=plaintext]
+	no -> no [label="6.7%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 114 
+ Coef = -0.4" shape=plaintext]
+	no -> tener [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 76 
+ Coef = 3.69" shape=plaintext]
+	arreglar -> problema [label="11.43%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 56 
+ Coef = -0.51" shape=plaintext]
+	arreglar -> luz [label="8.42%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 42 
+ Coef = 2.07" shape=plaintext]
+	arreglar -> no [label="6.32%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 34 
+ Coef = -3.42" shape=plaintext]
+	arreglar -> servicio [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 131 
+ Coef = 0.62" shape=plaintext]
+	hacer -> dia [label="16.48%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 44 
+ Coef = -0.18" shape=plaintext]
+	hacer -> mas [label="5.53%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 41 
+ Coef = 0.67" shape=plaintext]
+	hacer -> hora [label="5.16%" weight=1.2]
+}

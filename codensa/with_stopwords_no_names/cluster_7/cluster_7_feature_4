@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	conjunto [label="conjunto 
+ Count = 609 
+ Coef = 9.46"]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 47 
+ Coef = -0.49" shape=plaintext]
+	energia -> conjunto [label="7.97%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 41 
+ Coef = 3.87" shape=plaintext]
+	aqui -> conjunto [label="6.95%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 353 
+ Coef = -2.82" shape=plaintext]
+	servicio -> energia [label="24.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 153 
+ Coef = 0.28" shape=plaintext]
+	haber -> energia [label="10.49%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 140 
+ Coef = -1.03" shape=plaintext]
+	tener -> energia [label="9.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 101 
+ Coef = 0.05" shape=plaintext]
+	estar -> energia [label="6.92%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 101 
+ Coef = -0.35" shape=plaintext]
+	corte -> energia [label="6.92%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 84 
+ Coef = -1.22" shape=plaintext]
+	suministro -> energia [label="5.76%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 191 
+ Coef = -0.09" shape=plaintext]
+	que -> aqui [label="13.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 79 
+ Coef = 0.05" shape=plaintext]
+	estar -> aqui [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	residencial [label="residencial 
+ Count = 226 
+ Coef = 7.2" shape=plaintext]
+	conjunto -> residencial [label="40.72%" weight=1.2]
+}

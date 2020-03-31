@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	canuelas [label="canuelas 
+ Count = 102 
+ Coef = 10.11"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 0.17" shape=plaintext]
+	luz -> canuelas [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 4 
+ Coef = 1.81" shape=plaintext]
+	dano -> canuelas [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 12 
+ Coef = -0.56" shape=plaintext]
+	estar -> luz [label="41.38%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 6 
+ Coef = 1.19" shape=plaintext]
+	ser -> luz [label="20.69%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	fallo -> luz [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	quedar [label="quedar 
+ Count = 2 
+ Coef = -0.24" shape=plaintext]
+	quedar -> luz [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = -0.27" shape=plaintext]
+	energia -> dano [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = 0.21" shape=plaintext]
+	porque -> dano [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	ser -> dano [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	caidas [label="caidas 
+ Count = 18 
+ Coef = 1.7" shape=plaintext]
+	canuelas -> caidas [label="39.13%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 6 
+ Coef = 0.86" shape=plaintext]
+	canuelas -> calle [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	condominio [label="condominio 
+ Count = 6 
+ Coef = 0.58" shape=plaintext]
+	caidas -> condominio [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	canuelas [label="canuelas 
+ Count = 2 
+ Coef = 10.11" shape=plaintext]
+	calle -> canuelas [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	condominio [label="condominio 
+ Count = 1 
+ Coef = 0.58" shape=plaintext]
+	calle -> condominio [label="33.33%" weight=1.2]
+}

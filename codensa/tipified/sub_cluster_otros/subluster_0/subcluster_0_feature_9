@@ -1,0 +1,87 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electricaribe [label="electricaribe 
+ Count = 3 
+ Coef = 2.0"]
+	node [color=green style=filled]
+	comunicado [label="comunicado 
+ Count = 1 
+ Coef = 0.57" shape=plaintext]
+	comunicado -> electricaribe [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	dar [label="dar 
+ Count = 1 
+ Coef = -0.24" shape=plaintext]
+	dar -> electricaribe [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	deuda [label="deuda 
+ Count = 1 
+ Coef = 0.44" shape=plaintext]
+	deuda -> electricaribe [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.28" shape=plaintext]
+	estar -> comunicado [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	electricidad [label="electricidad 
+ Count = 1 
+ Coef = 10.21" shape=plaintext]
+	electricidad -> comunicado [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = -0.19" shape=plaintext]
+	que -> dar [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	respuesta [label="respuesta 
+ Count = 1 
+ Coef = 0.46" shape=plaintext]
+	respuesta -> dar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	siempre [label="siempre 
+ Count = 1 
+ Coef = -0.46" shape=plaintext]
+	siempre -> dar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.38" shape=plaintext]
+	no -> dar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.96" shape=plaintext]
+	ya -> dar [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 13.44" shape=plaintext]
+	electrica -> dar [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	general [label="general 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	general -> dar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	daniel [label="daniel 
+ Count = 1 
+ Coef = -0.22" shape=plaintext]
+	daniel -> dar [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	tener -> deuda [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	electricaribe -> dia [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 30 
+ Coef = -0.28" shape=plaintext]
+	dia -> ayer [label="28.57%" weight=1.2]
+}

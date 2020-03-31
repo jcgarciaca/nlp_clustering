@@ -1,0 +1,177 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	suspendido [label="suspendido 
+ Count = 53 
+ Coef = 4.81"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 33 
+ Coef = 8.53" shape=plaintext]
+	servicio -> suspendido [label="76.74%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 4 
+ Coef = -0.44" shape=plaintext]
+	energia -> suspendido [label="9.3%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 270 
+ Coef = 5.88" shape=plaintext]
+	suspension -> servicio [label="33.62%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 210 
+ Coef = 4.35" shape=plaintext]
+	faltar -> servicio [label="26.15%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 87 
+ Coef = 4.89" shape=plaintext]
+	cortar -> servicio [label="10.83%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 48 
+ Coef = 4.64" shape=plaintext]
+	suspender -> servicio [label="5.98%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 34 
+ Coef = 8.53" shape=plaintext]
+	servicio -> energia [label="91.89%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 1.93" shape=plaintext]
+	corte -> energia [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 13 
+ Coef = 8.53" shape=plaintext]
+	suspendido -> servicio [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = -0.61" shape=plaintext]
+	suspendido -> ya [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = 0.49" shape=plaintext]
+	suspendido -> dia [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -1.27" shape=plaintext]
+	suspendido -> hacer [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 74 
+ Coef = -0.89" shape=plaintext]
+	servicio -> luz [label="21.45%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 32 
+ Coef = -0.44" shape=plaintext]
+	servicio -> energia [label="9.28%" weight=1.2]
+	node [color=green style=filled]
+	suspendido [label="suspendido 
+ Count = 31 
+ Coef = 4.81" shape=plaintext]
+	servicio -> suspendido [label="8.99%" weight=1.2]
+	node [color=green style=filled]
+	pagar [label="pagar 
+ Count = 5 
+ Coef = 1.85" shape=plaintext]
+	ya -> pagar [label="31.25%" weight=1.2]
+	node [color=green style=filled]
+	cancelar [label="cancelar 
+ Count = 4 
+ Coef = 3.68" shape=plaintext]
+	ya -> cancelar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	cancelado [label="cancelado 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	ya -> cancelado [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	realizado [label="realizado 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	ya -> realizado [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 1 
+ Coef = 3.13" shape=plaintext]
+	ya -> pago [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.49" shape=plaintext]
+	ya -> dia [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = -1.27" shape=plaintext]
+	ya -> hacer [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	realizar [label="realizar 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	ya -> realizar [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	habia [label="habia 
+ Count = 1 
+ Coef = -0.37" shape=plaintext]
+	ya -> habia [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 10 
+ Coef = -0.67" shape=plaintext]
+	dia -> ayer [label="37.04%" weight=1.2]
+	node [color=green style=filled]
+	lunes [label="lunes 
+ Count = 3 
+ Coef = 0.25" shape=plaintext]
+	dia -> lunes [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	jueves [label="jueves 
+ Count = 2 
+ Coef = 0.77" shape=plaintext]
+	dia -> jueves [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 2 
+ Coef = 3.13" shape=plaintext]
+	dia -> pago [label="7.41%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 7 
+ Coef = -1.05" shape=plaintext]
+	hacer -> hora [label="38.89%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 0.49" shape=plaintext]
+	hacer -> dia [label="27.78%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 2 
+ Coef = 5.88" shape=plaintext]
+	hacer -> suspension [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 2 
+ Coef = -0.49" shape=plaintext]
+	hacer -> mas [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 1 
+ Coef = -0.23" shape=plaintext]
+	hacer -> dos [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.53" shape=plaintext]
+	hacer -> como [label="5.56%" weight=1.2]
+}

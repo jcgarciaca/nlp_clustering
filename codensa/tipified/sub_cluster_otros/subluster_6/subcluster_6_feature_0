@@ -1,0 +1,57 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	calle [label="calle 
+ Count = 191 
+ Coef = 3.11"]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 12 
+ Coef = 1.3" shape=plaintext]
+	aqui -> calle [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 40 
+ Coef = 0.07" shape=plaintext]
+	que -> aqui [label="13.51%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 20 
+ Coef = -1.12" shape=plaintext]
+	luz -> aqui [label="6.76%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 20 
+ Coef = 1.24" shape=plaintext]
+	calle -> numero [label="11.17%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 9 
+ Coef = 0.13" shape=plaintext]
+	calle -> sur [label="5.03%" weight=1.2]
+	node [color=green style=filled]
+	cuenta [label="cuenta 
+ Count = 9 
+ Coef = 0.54" shape=plaintext]
+	numero -> cuenta [label="8.41%" weight=1.2]
+	node [color=red style=filled]
+	cliente [label="cliente 
+ Count = 8 
+ Coef = -0.24" shape=plaintext]
+	numero -> cliente [label="7.48%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 2 
+ Coef = 1.24" shape=plaintext]
+	sur -> numero [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 2 
+ Coef = 0.98" shape=plaintext]
+	sur -> barrio [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = 2.19" shape=plaintext]
+	sur -> haber [label="9.52%" weight=1.2]
+}

@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	subestacion [label="subestacion 
+ Count = 5 
+ Coef = 4.45"]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 2 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> subestacion [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 1.83" shape=plaintext]
+	corte -> subestacion [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 0.85" shape=plaintext]
+	dano -> subestacion [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 18 
+ Coef = 0.01" shape=plaintext]
+	tener -> emergencia [label="22.5%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 13 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> emergencia [label="16.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.59" shape=plaintext]
+	ser -> emergencia [label="16.25%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 2 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> corte [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 4 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> dano [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	cajica [label="cajica 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	subestacion -> cajica [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	generar [label="generar 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	subestacion -> generar [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 0.5" shape=plaintext]
+	generar -> corto [label="100.0%" weight=1.2]
+}

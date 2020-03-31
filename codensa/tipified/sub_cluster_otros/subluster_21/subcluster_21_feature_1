@@ -1,0 +1,242 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	minuto [label="minuto 
+ Count = 53 
+ Coef = 5.1"]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 20 
+ Coef = 9.48" shape=plaintext]
+	hacer -> minuto [label="37.74%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 9 
+ Coef = 2.34" shape=plaintext]
+	como -> minuto [label="16.98%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = 1.18" shape=plaintext]
+	luz -> minuto [label="7.55%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 113 
+ Coef = 1.18" shape=plaintext]
+	luz -> hacer [label="42.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 25 
+ Coef = 0.93" shape=plaintext]
+	que -> hacer [label="9.33%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 20 
+ Coef = -1.12" shape=plaintext]
+	energia -> hacer [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 58 
+ Coef = 9.48" shape=plaintext]
+	hacer -> como [label="80.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 126 
+ Coef = 0.37" shape=plaintext]
+	ser -> luz [label="43.6%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 61 
+ Coef = -1.0" shape=plaintext]
+	estar -> luz [label="21.11%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 8 
+ Coef = 0.37" shape=plaintext]
+	minuto -> ser [label="25.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 0.56" shape=plaintext]
+	minuto -> no [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 3 
+ Coef = 0.15" shape=plaintext]
+	minuto -> quedar [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	volver [label="volver 
+ Count = 3 
+ Coef = 0.71" shape=plaintext]
+	minuto -> volver [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 3 
+ Coef = 5.1" shape=plaintext]
+	minuto -> minuto [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	volvio [label="volvio 
+ Count = 2 
+ Coef = 0.59" shape=plaintext]
+	minuto -> volvio [label="6.45%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -1.0" shape=plaintext]
+	minuto -> estar [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 118 
+ Coef = 1.18" shape=plaintext]
+	ser -> luz [label="60.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 46 
+ Coef = 0.93" shape=plaintext]
+	ser -> que [label="23.47%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 22 
+ Coef = -2.23" shape=plaintext]
+	no -> haber [label="24.18%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 13 
+ Coef = -2.78" shape=plaintext]
+	no -> tener [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 12 
+ Coef = 9.48" shape=plaintext]
+	no -> hacer [label="13.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 0.56" shape=plaintext]
+	no -> no [label="8.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = 0.37" shape=plaintext]
+	no -> ser [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.18" shape=plaintext]
+	quedar -> luz [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 2 
+ Coef = -1.12" shape=plaintext]
+	quedar -> energia [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -5.69" shape=plaintext]
+	quedar -> servicio [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = 9.48" shape=plaintext]
+	quedar -> hacer [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	moda [label="moda 
+ Count = 1 
+ Coef = -0.7" shape=plaintext]
+	quedar -> moda [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	vez [label="vez 
+ Count = 3 
+ Coef = 3.59" shape=plaintext]
+	volver -> vez [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = 9.48" shape=plaintext]
+	volver -> hacer [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 1 
+ Coef = 1.67" shape=plaintext]
+	volver -> mas [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	colocar [label="colocar 
+ Count = 1 
+ Coef = 0.47" shape=plaintext]
+	volver -> colocar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 8 
+ Coef = 0.37" shape=plaintext]
+	minuto -> ser [label="25.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 0.56" shape=plaintext]
+	minuto -> no [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 3 
+ Coef = 0.15" shape=plaintext]
+	minuto -> quedar [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	volver [label="volver 
+ Count = 3 
+ Coef = 0.71" shape=plaintext]
+	minuto -> volver [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 3 
+ Coef = 5.1" shape=plaintext]
+	minuto -> minuto [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	volvio [label="volvio 
+ Count = 2 
+ Coef = 0.59" shape=plaintext]
+	minuto -> volvio [label="6.45%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -1.0" shape=plaintext]
+	minuto -> estar [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 3 
+ Coef = 0.21" shape=plaintext]
+	volvio -> ir [label="37.5%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = 0.37" shape=plaintext]
+	volvio -> ser [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 1 
+ Coef = 4.89" shape=plaintext]
+	volvio -> media [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	llegar [label="llegar 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	volvio -> llegar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.43" shape=plaintext]
+	volvio -> ya [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 61 
+ Coef = 1.18" shape=plaintext]
+	estar -> luz [label="58.1%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = -5.69" shape=plaintext]
+	estar -> servicio [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 6 
+ Coef = -1.12" shape=plaintext]
+	estar -> energia [label="5.71%" weight=1.2]
+}

@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 5912 
+ Coef = 18.38"]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 345 
+ Coef = 0.84" shape=plaintext]
+	mesa -> cundinamarca [label="5.84%" weight=1.2]
+	node [color=green style=filled]
+	vega [label="vega 
+ Count = 299 
+ Coef = 1.23" shape=plaintext]
+	vega -> cundinamarca [label="5.06%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 658 
+ Coef = 2.93" shape=plaintext]
+	la -> mesa [label="96.76%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 505 
+ Coef = 2.93" shape=plaintext]
+	la -> vega [label="94.92%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 721 
+ Coef = 12.03" shape=plaintext]
+	cundinamarca -> vereda [label="20.75%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 545 
+ Coef = Not in Dict" shape=plaintext]
+	cundinamarca -> en [label="15.69%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 240 
+ Coef = -1.9" shape=plaintext]
+	cundinamarca -> no [label="6.91%" weight=1.2]
+	node [color=lightgrey style=filled]
+	y [label="y 
+ Count = 178 
+ Coef = Not in Dict" shape=plaintext]
+	cundinamarca -> y [label="5.12%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 1052 
+ Coef = Not in Dict" shape=plaintext]
+	vereda -> de [label="11.79%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 1033 
+ Coef = 2.93" shape=plaintext]
+	vereda -> la [label="11.58%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 706 
+ Coef = 1.77" shape=plaintext]
+	vereda -> el [label="7.91%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 696 
+ Coef = 5.69" shape=plaintext]
+	vereda -> santo [label="7.8%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 7145 
+ Coef = 2.93" shape=plaintext]
+	en -> la [label="38.46%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 5947 
+ Coef = 1.77" shape=plaintext]
+	en -> el [label="32.01%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 3969 
+ Coef = 0.82" shape=plaintext]
+	no -> haber [label="38.87%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 3379 
+ Coef = -0.06" shape=plaintext]
+	no -> tener [label="33.09%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 517 
+ Coef = -1.9" shape=plaintext]
+	y -> no [label="11.1%" weight=1.2]
+}

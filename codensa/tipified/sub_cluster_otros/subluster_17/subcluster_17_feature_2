@@ -1,0 +1,297 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"faltar servicio" [label="faltar servicio 
+ Count = 210 
+ Coef = 4.95"]
+	node [color=green style=filled]
+	reclamo [label="reclamo 
+ Count = 6 
+ Coef = 2.55" shape=plaintext]
+	reclamo -> "faltar servicio" [label="42.86%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3 
+ Coef = 8.53" shape=plaintext]
+	servicio -> "faltar servicio" [label="21.43%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -1.29" shape=plaintext]
+	ser -> "faltar servicio" [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.49" shape=plaintext]
+	dia -> "faltar servicio" [label="7.14%" weight=1.2]
+	node [color=lightgrey style=filled]
+	sociedad [label="sociedad 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	sociedad -> "faltar servicio" [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.96" shape=plaintext]
+	manana -> "faltar servicio" [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	publico [label="publico 
+ Count = 1 
+ Coef = 1.46" shape=plaintext]
+	publico -> reclamo [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 8.53" shape=plaintext]
+	servicio -> reclamo [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 270 
+ Coef = 5.88" shape=plaintext]
+	suspension -> servicio [label="33.62%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 210 
+ Coef = 4.35" shape=plaintext]
+	faltar -> servicio [label="26.15%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 87 
+ Coef = 4.89" shape=plaintext]
+	cortar -> servicio [label="10.83%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 48 
+ Coef = 4.64" shape=plaintext]
+	suspender -> servicio [label="5.98%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 268 
+ Coef = 5.88" shape=plaintext]
+	suspension -> ser [label="33.25%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 209 
+ Coef = 4.35" shape=plaintext]
+	faltar -> ser [label="25.93%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 86 
+ Coef = 4.89" shape=plaintext]
+	cortar -> ser [label="10.67%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 47 
+ Coef = 4.64" shape=plaintext]
+	suspender -> ser [label="5.83%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 11 
+ Coef = -1.42" shape=plaintext]
+	estar -> dia [label="26.83%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = 8.53" shape=plaintext]
+	servicio -> dia [label="19.51%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = -0.89" shape=plaintext]
+	luz -> dia [label="14.63%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 5 
+ Coef = -1.27" shape=plaintext]
+	hacer -> dia [label="12.2%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 1 
+ Coef = 5.88" shape=plaintext]
+	suspension -> sociedad [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = 8.53" shape=plaintext]
+	servicio -> manana [label="55.56%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	ayer -> manana [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	jueves [label="jueves 
+ Count = 1 
+ Coef = 0.77" shape=plaintext]
+	jueves -> manana [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	pagar [label="pagar 
+ Count = 1 
+ Coef = 1.85" shape=plaintext]
+	pagar -> manana [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.89" shape=plaintext]
+	luz -> manana [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 11 
+ Coef = -0.89" shape=plaintext]
+	"faltar servicio" -> luz [label="15.49%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 5 
+ Coef = 0.12" shape=plaintext]
+	"faltar servicio" -> zona [label="7.04%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 4 
+ Coef = -0.96" shape=plaintext]
+	"faltar servicio" -> manana [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	publico [label="publico 
+ Count = 4 
+ Coef = 1.46" shape=plaintext]
+	"faltar servicio" -> publico [label="5.63%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 4 
+ Coef = -1.27" shape=plaintext]
+	"faltar servicio" -> hacer [label="5.63%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 4 
+ Coef = -0.67" shape=plaintext]
+	"faltar servicio" -> ayer [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = 0.49" shape=plaintext]
+	luz -> dia [label="15.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = -1.42" shape=plaintext]
+	luz -> estar [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3 
+ Coef = 8.53" shape=plaintext]
+	luz -> servicio [label="7.5%" weight=1.2]
+	node [color=red style=filled]
+	industrial [label="industrial 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	zona -> industrial [label="20.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	iberia [label="iberia 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> iberia [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 1 
+ Coef = 0.11" shape=plaintext]
+	zona -> sur [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	encontrar [label="encontrar 
+ Count = 1 
+ Coef = -0.31" shape=plaintext]
+	zona -> encontrar [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -1.29" shape=plaintext]
+	zona -> ser [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	manana -> hoy [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 1 
+ Coef = 4.35" shape=plaintext]
+	manana -> faltar [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 1 
+ Coef = 4.64" shape=plaintext]
+	manana -> suspender [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	reclamo [label="reclamo 
+ Count = 1 
+ Coef = 2.55" shape=plaintext]
+	publico -> reclamo [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 7 
+ Coef = -1.05" shape=plaintext]
+	hacer -> hora [label="38.89%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 0.49" shape=plaintext]
+	hacer -> dia [label="27.78%" weight=1.2]
+	node [color=green style=filled]
+	suspension [label="suspension 
+ Count = 2 
+ Coef = 5.88" shape=plaintext]
+	hacer -> suspension [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 2 
+ Coef = -0.49" shape=plaintext]
+	hacer -> mas [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 1 
+ Coef = -0.23" shape=plaintext]
+	hacer -> dos [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.53" shape=plaintext]
+	hacer -> como [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 3 
+ Coef = 0.33" shape=plaintext]
+	ayer -> tarde [label="30.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.07" shape=plaintext]
+	ayer -> haber [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	ayer -> casa [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	enero [label="enero 
+ Count = 1 
+ Coef = 1.29" shape=plaintext]
+	ayer -> enero [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	realizar [label="realizar 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	ayer -> realizar [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 1 
+ Coef = 4.64" shape=plaintext]
+	ayer -> suspender [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	mediodia [label="mediodia 
+ Count = 1 
+ Coef = -0.19" shape=plaintext]
+	ayer -> mediodia [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.96" shape=plaintext]
+	ayer -> manana [label="10.0%" weight=1.2]
+}

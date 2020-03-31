@@ -1,0 +1,107 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	luz [label="luz 
+ Count = 3719 
+ Coef = 7.76"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1893 
+ Coef = 4.44" shape=plaintext]
+	haber -> luz [label="51.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1347 
+ Coef = 5.63" shape=plaintext]
+	tener -> luz [label="36.47%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 364 
+ Coef = 2.12" shape=plaintext]
+	ser -> luz [label="9.86%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2007 
+ Coef = 6.94" shape=plaintext]
+	no -> haber [label="98.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1395 
+ Coef = 6.94" shape=plaintext]
+	no -> tener [label="98.87%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 41 
+ Coef = 7.76" shape=plaintext]
+	luz -> ser [label="36.61%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 16 
+ Coef = -0.7" shape=plaintext]
+	que -> ser [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 13 
+ Coef = -0.39" shape=plaintext]
+	paso -> ser [label="11.61%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 12 
+ Coef = 6.94" shape=plaintext]
+	no -> ser [label="10.71%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 9 
+ Coef = 5.13" shape=plaintext]
+	casa -> ser [label="8.04%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 436 
+ Coef = 5.13" shape=plaintext]
+	luz -> casa [label="40.18%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 159 
+ Coef = 6.94" shape=plaintext]
+	luz -> no [label="14.65%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 57 
+ Coef = -1.15" shape=plaintext]
+	luz -> ayer [label="5.25%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 60 
+ Coef = 6.94" shape=plaintext]
+	casa -> no [label="34.29%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 28 
+ Coef = 7.76" shape=plaintext]
+	casa -> luz [label="16.0%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1971 
+ Coef = 4.44" shape=plaintext]
+	no -> haber [label="57.83%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1374 
+ Coef = 5.63" shape=plaintext]
+	no -> tener [label="40.32%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 27 
+ Coef = 6.94" shape=plaintext]
+	ayer -> no [label="54.0%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 7 
+ Coef = -0.28" shape=plaintext]
+	ayer -> tarde [label="14.0%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 5 
+ Coef = 0.92" shape=plaintext]
+	ayer -> noche [label="10.0%" weight=1.2]
+}

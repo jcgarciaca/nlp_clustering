@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reconexion [label="reconexion 
+ Count = 628 
+ Coef = 6.16"]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 35 
+ Coef = 2.44" shape=plaintext]
+	solicitar -> reconexion [label="15.77%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = -0.15" shape=plaintext]
+	hacer -> reconexion [label="9.91%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 19 
+ Coef = 21.63" shape=plaintext]
+	servicio -> reconexion [label="8.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.48" shape=plaintext]
+	ser -> reconexion [label="5.86%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 13 
+ Coef = 1.11" shape=plaintext]
+	necesitar -> reconexion [label="5.86%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 14 
+ Coef = -0.48" shape=plaintext]
+	ser -> solicitar [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 8 
+ Coef = -1.38" shape=plaintext]
+	estar -> solicitar [label="12.7%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 21.63" shape=plaintext]
+	servicio -> solicitar [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 6 
+ Coef = -0.39" shape=plaintext]
+	llamar -> solicitar [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 229 
+ Coef = 21.63" shape=plaintext]
+	servicio -> hacer [label="43.05%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 131 
+ Coef = -2.19" shape=plaintext]
+	luz -> hacer [label="24.62%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1902 
+ Coef = -0.72" shape=plaintext]
+	tener -> servicio [label="19.95%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1859 
+ Coef = -0.01" shape=plaintext]
+	haber -> servicio [label="19.49%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1080 
+ Coef = -1.38" shape=plaintext]
+	estar -> servicio [label="11.33%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 487 
+ Coef = 6.16" shape=plaintext]
+	reconexion -> servicio [label="5.11%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1858 
+ Coef = -0.72" shape=plaintext]
+	tener -> ser [label="19.42%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1840 
+ Coef = -0.01" shape=plaintext]
+	haber -> ser [label="19.23%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1049 
+ Coef = -1.38" shape=plaintext]
+	estar -> ser [label="10.96%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 15 
+ Coef = 21.63" shape=plaintext]
+	servicio -> necesitar [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 8 
+ Coef = -2.19" shape=plaintext]
+	luz -> necesitar [label="11.59%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = -1.34" shape=plaintext]
+	que -> necesitar [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 491 
+ Coef = 21.63" shape=plaintext]
+	reconexion -> servicio [label="83.79%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 31 
+ Coef = -5.06" shape=plaintext]
+	reconexion -> energia [label="5.29%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 3170 
+ Coef = -2.19" shape=plaintext]
+	servicio -> luz [label="43.74%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 43 
+ Coef = 0.02" shape=plaintext]
+	energia -> dia [label="13.35%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 21 
+ Coef = 2.82" shape=plaintext]
+	energia -> ayer [label="6.52%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 19 
+ Coef = -0.65" shape=plaintext]
+	energia -> no [label="5.9%" weight=1.2]
+}

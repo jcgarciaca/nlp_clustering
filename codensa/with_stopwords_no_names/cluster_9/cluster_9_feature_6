@@ -1,0 +1,152 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	apartamentos [label="apartamentos 
+ Count = 156 
+ Coef = 5.62"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 12 
+ Coef = 2.06" shape=plaintext]
+	haber -> apartamentos [label="7.74%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 8 
+ Coef = 1.19" shape=plaintext]
+	ser -> apartamentos [label="5.16%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 8 
+ Coef = -0.32" shape=plaintext]
+	energia -> apartamentos [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1163 
+ Coef = 0.77" shape=plaintext]
+	no -> haber [label="59.28%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 448 
+ Coef = 0.09" shape=plaintext]
+	paso -> ser [label="18.38%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 157 
+ Coef = 3.76" shape=plaintext]
+	tener -> ser [label="6.44%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 146 
+ Coef = 0.77" shape=plaintext]
+	que -> ser [label="5.99%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 184 
+ Coef = 3.76" shape=plaintext]
+	tener -> energia [label="16.97%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 132 
+ Coef = -4.78" shape=plaintext]
+	servicio -> energia [label="12.18%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 102 
+ Coef = 2.06" shape=plaintext]
+	haber -> energia [label="9.41%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 15 
+ Coef = 3.76" shape=plaintext]
+	apartamentos -> tener [label="10.79%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = 0.77" shape=plaintext]
+	apartamentos -> no [label="9.35%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 7 
+ Coef = 1.08" shape=plaintext]
+	apartamentos -> si [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	conjunto [label="conjunto 
+ Count = 7 
+ Coef = 1.45" shape=plaintext]
+	apartamentos -> conjunto [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	edificio [label="edificio 
+ Count = 7 
+ Coef = 5.25" shape=plaintext]
+	apartamentos -> edificio [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 356 
+ Coef = 8.13" shape=plaintext]
+	tener -> casa [label="12.7%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 186 
+ Coef = -0.32" shape=plaintext]
+	tener -> energia [label="6.63%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 159 
+ Coef = 3.33" shape=plaintext]
+	tener -> problema [label="5.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1461 
+ Coef = 3.76" shape=plaintext]
+	no -> tener [label="33.77%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1025 
+ Coef = 2.06" shape=plaintext]
+	no -> haber [label="23.69%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 115 
+ Coef = 2.06" shape=plaintext]
+	si -> haber [label="13.29%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 103 
+ Coef = 1.19" shape=plaintext]
+	si -> ser [label="11.91%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 87 
+ Coef = 3.76" shape=plaintext]
+	si -> tener [label="10.06%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 80 
+ Coef = 0.77" shape=plaintext]
+	si -> no [label="9.25%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 47 
+ Coef = 1.64" shape=plaintext]
+	si -> poder [label="5.43%" weight=1.2]
+	node [color=green style=filled]
+	residencial [label="residencial 
+ Count = 26 
+ Coef = 0.38" shape=plaintext]
+	conjunto -> residencial [label="19.7%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 10 
+ Coef = 0.95" shape=plaintext]
+	conjunto -> vivir [label="7.58%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = 1.19" shape=plaintext]
+	edificio -> ser [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 9 
+ Coef = 0.95" shape=plaintext]
+	edificio -> vivir [label="5.11%" weight=1.2]
+}

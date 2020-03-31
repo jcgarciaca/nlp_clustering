@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	suministro [label="suministro 
+ Count = 1396 
+ Coef = 2.92"]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 933 
+ Coef = 11.96" shape=plaintext]
+	fallo -> suministro [label="66.98%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 170 
+ Coef = 12.81" shape=plaintext]
+	falla -> suministro [label="12.2%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 164 
+ Coef = 12.46" shape=plaintext]
+	fallar -> suministro [label="11.77%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 85 
+ Coef = 5.52" shape=plaintext]
+	faltar -> suministro [label="6.1%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 1.19" shape=plaintext]
+	servicio -> fallo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 10 
+ Coef = 2.43" shape=plaintext]
+	energia -> fallo [label="14.71%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 8 
+ Coef = 2.92" shape=plaintext]
+	suministro -> fallo [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = -1.42" shape=plaintext]
+	no -> fallo [label="10.29%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 6 
+ Coef = 2.98" shape=plaintext]
+	sector -> fallo [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 40 
+ Coef = 2.86" shape=plaintext]
+	electrica -> falla [label="16.6%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 33 
+ Coef = 11.96" shape=plaintext]
+	fallo -> falla [label="13.69%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 23 
+ Coef = -2.99" shape=plaintext]
+	tener -> falla [label="9.54%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 20 
+ Coef = -2.65" shape=plaintext]
+	haber -> falla [label="8.3%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -2.79" shape=plaintext]
+	ser -> falla [label="5.39%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 12 
+ Coef = 12.46" shape=plaintext]
+	fallar -> fallar [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = 1.19" shape=plaintext]
+	servicio -> fallar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = -2.99" shape=plaintext]
+	tener -> fallar [label="11.25%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 7 
+ Coef = -2.65" shape=plaintext]
+	haber -> fallar [label="8.75%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 6 
+ Coef = 2.43" shape=plaintext]
+	energia -> fallar [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 2 
+ Coef = 5.52" shape=plaintext]
+	faltar -> faltar [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 2.86" shape=plaintext]
+	electrica -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	electricas [label="electricas 
+ Count = 1 
+ Coef = 1.09" shape=plaintext]
+	electricas -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tecnico [label="tecnico 
+ Count = 1 
+ Coef = 0.84" shape=plaintext]
+	tecnico -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.43" shape=plaintext]
+	casa -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 662 
+ Coef = 2.43" shape=plaintext]
+	suministro -> energia [label="83.48%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 81 
+ Coef = 2.86" shape=plaintext]
+	energia -> electrica [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 80 
+ Coef = 2.98" shape=plaintext]
+	energia -> sector [label="19.75%" weight=1.2]
+}

@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	tener [label="tener 
+ Count = 1149 
+ Coef = 10.09"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1122 
+ Coef = 2.49" shape=plaintext]
+	no -> tener [label="99.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 59 
+ Coef = 1.17" shape=plaintext]
+	que -> no [label="30.89%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 43 
+ Coef = 10.09" shape=plaintext]
+	tener -> no [label="22.51%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 14 
+ Coef = -1.01" shape=plaintext]
+	ayer -> no [label="7.33%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 14 
+ Coef = -0.22" shape=plaintext]
+	dia -> no [label="7.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 43 
+ Coef = 2.49" shape=plaintext]
+	tener -> no [label="68.25%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = 10.41" shape=plaintext]
+	tener -> ser [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1110 
+ Coef = 10.09" shape=plaintext]
+	no -> tener [label="97.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 31 
+ Coef = 1.17" shape=plaintext]
+	ser -> que [label="51.67%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 2.49" shape=plaintext]
+	ser -> no [label="6.67%" weight=1.2]
+}

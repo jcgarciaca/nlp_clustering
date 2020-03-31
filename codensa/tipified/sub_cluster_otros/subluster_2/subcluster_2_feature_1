@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	tener [label="tener 
+ Count = 770 
+ Coef = 6.41"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 122 
+ Coef = 0.35" shape=plaintext]
+	no -> tener [label="16.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 76 
+ Coef = 1.24" shape=plaintext]
+	que -> tener [label="10.47%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 56 
+ Coef = 1.52" shape=plaintext]
+	porque -> tener [label="7.71%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 44 
+ Coef = 0.02" shape=plaintext]
+	luz -> tener [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 68 
+ Coef = 1.24" shape=plaintext]
+	que -> no [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 38 
+ Coef = 0.02" shape=plaintext]
+	luz -> no [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 288 
+ Coef = 0.99" shape=plaintext]
+	ser -> que [label="39.4%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 41 
+ Coef = 2.97" shape=plaintext]
+	necesitar -> que [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 41 
+ Coef = 6.41" shape=plaintext]
+	tener -> que [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 20 
+ Coef = 0.02" shape=plaintext]
+	luz -> porque [label="6.13%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 187 
+ Coef = 2.91" shape=plaintext]
+	estar -> luz [label="27.62%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 108 
+ Coef = 0.99" shape=plaintext]
+	ser -> luz [label="15.95%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 52 
+ Coef = -4.36" shape=plaintext]
+	servicio -> luz [label="7.68%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 36 
+ Coef = 0.36" shape=plaintext]
+	dia -> luz [label="5.32%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 44 
+ Coef = 1.24" shape=plaintext]
+	tener -> que [label="5.87%" weight=1.2]
+	node [color=green style=filled]
+	negocio [label="negocio 
+ Count = 42 
+ Coef = 4.02" shape=plaintext]
+	tener -> negocio [label="5.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 84 
+ Coef = 2.91" shape=plaintext]
+	que -> estar [label="9.77%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 83 
+ Coef = 6.41" shape=plaintext]
+	que -> tener [label="9.65%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 61 
+ Coef = 0.35" shape=plaintext]
+	que -> no [label="7.09%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 61 
+ Coef = 0.99" shape=plaintext]
+	que -> ser [label="7.09%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 13 
+ Coef = 6.41" shape=plaintext]
+	negocio -> tener [label="13.83%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = 0.99" shape=plaintext]
+	negocio -> ser [label="5.32%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 5 
+ Coef = 3.47" shape=plaintext]
+	negocio -> estan [label="5.32%" weight=1.2]
+}

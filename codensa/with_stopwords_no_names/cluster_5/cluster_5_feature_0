@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	ser [label="ser 
+ Count = 356 
+ Coef = 10.41"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 17 
+ Coef = 1.17" shape=plaintext]
+	que -> ser [label="26.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="17.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 2.49" shape=plaintext]
+	no -> ser [label="15.62%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 8 
+ Coef = -0.27" shape=plaintext]
+	paso -> ser [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 10.09" shape=plaintext]
+	tener -> ser [label="7.81%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 31 
+ Coef = 10.41" shape=plaintext]
+	ser -> que [label="77.5%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 17 
+ Coef = 1.17" shape=plaintext]
+	que -> ser [label="26.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="17.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 2.49" shape=plaintext]
+	no -> ser [label="15.62%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 8 
+ Coef = -0.27" shape=plaintext]
+	paso -> ser [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = 10.09" shape=plaintext]
+	tener -> ser [label="7.81%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 59 
+ Coef = 1.17" shape=plaintext]
+	que -> no [label="30.89%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 43 
+ Coef = 10.09" shape=plaintext]
+	tener -> no [label="22.51%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 14 
+ Coef = -1.01" shape=plaintext]
+	ayer -> no [label="7.33%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 14 
+ Coef = -0.22" shape=plaintext]
+	dia -> no [label="7.33%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 10.41" shape=plaintext]
+	ser -> paso [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = 1.17" shape=plaintext]
+	que -> paso [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1122 
+ Coef = 2.49" shape=plaintext]
+	no -> tener [label="99.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 31 
+ Coef = 1.17" shape=plaintext]
+	ser -> que [label="51.67%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 2.49" shape=plaintext]
+	ser -> no [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 58 
+ Coef = 2.49" shape=plaintext]
+	que -> no [label="65.91%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 16 
+ Coef = 10.41" shape=plaintext]
+	que -> ser [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 31 
+ Coef = 1.17" shape=plaintext]
+	ser -> que [label="51.67%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = 10.41" shape=plaintext]
+	ser -> ser [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 2.49" shape=plaintext]
+	ser -> no [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1110 
+ Coef = 10.09" shape=plaintext]
+	no -> tener [label="97.8%" weight=1.2]
+}

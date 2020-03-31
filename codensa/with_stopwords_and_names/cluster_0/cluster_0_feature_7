@@ -1,0 +1,32 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"faltar electricidad" [label="faltar electricidad 
+ Count = 7 
+ Coef = 2.87"]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -1.1" shape=plaintext]
+	"faltar electricidad" -> casa [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	chia [label="chia 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	"faltar electricidad" -> chia [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 0.23" shape=plaintext]
+	casa -> no [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 2 
+ Coef = 2.58" shape=plaintext]
+	casa -> fluido [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = -1.1" shape=plaintext]
+	casa -> casa [label="10.0%" weight=1.2]
+}

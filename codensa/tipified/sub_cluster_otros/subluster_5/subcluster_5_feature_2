@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	contestar [label="contestar 
+ Count = 86 
+ Coef = 5.31"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 44 
+ Coef = 1.13" shape=plaintext]
+	no -> contestar [label="51.76%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 10 
+ Coef = 1.15" shape=plaintext]
+	que -> contestar [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 46 
+ Coef = 1.15" shape=plaintext]
+	que -> no [label="11.33%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 27 
+ Coef = -0.99" shape=plaintext]
+	luz -> no [label="6.65%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 22 
+ Coef = 0.15" shape=plaintext]
+	porque -> no [label="5.42%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 339 
+ Coef = 0.87" shape=plaintext]
+	ser -> que [label="65.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 1.13" shape=plaintext]
+	contestar -> no [label="12.07%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 4 
+ Coef = 11.7" shape=plaintext]
+	contestar -> llamada [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = 1.15" shape=plaintext]
+	contestar -> que [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	dar [label="dar 
+ Count = 3 
+ Coef = -0.58" shape=plaintext]
+	contestar -> dar [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	telefono [label="telefono 
+ Count = 3 
+ Coef = 2.34" shape=plaintext]
+	contestar -> telefono [label="5.17%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 73 
+ Coef = -1.44" shape=plaintext]
+	no -> haber [label="16.94%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 43 
+ Coef = -0.51" shape=plaintext]
+	no -> tener [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 32 
+ Coef = 5.31" shape=plaintext]
+	no -> contestar [label="7.42%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 423 
+ Coef = 0.87" shape=plaintext]
+	llamada -> ser [label="65.89%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 114 
+ Coef = 2.18" shape=plaintext]
+	que -> estar [label="18.42%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 42 
+ Coef = 1.13" shape=plaintext]
+	que -> no [label="6.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 36 
+ Coef = 0.87" shape=plaintext]
+	que -> ser [label="5.82%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = 1.15" shape=plaintext]
+	dar -> que [label="13.95%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 6 
+ Coef = 1.29" shape=plaintext]
+	dar -> numero [label="6.98%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 5 
+ Coef = -0.99" shape=plaintext]
+	dar -> luz [label="5.81%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = -2.16" shape=plaintext]
+	dar -> servicio [label="5.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.13" shape=plaintext]
+	telefono -> no [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	celular [label="celular 
+ Count = 2 
+ Coef = 1.77" shape=plaintext]
+	telefono -> celular [label="9.52%" weight=1.2]
+}

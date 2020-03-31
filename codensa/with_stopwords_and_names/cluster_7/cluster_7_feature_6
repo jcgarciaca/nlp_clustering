@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	encontrar [label="encontrar 
+ Count = 1817 
+ Coef = 5.29"]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 158 
+ Coef = -0.3" shape=plaintext]
+	que -> encontrar [label="13.19%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 146 
+ Coef = -2.0" shape=plaintext]
+	no -> encontrar [label="12.19%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 2876 
+ Coef = 0.19" shape=plaintext]
+	ser -> que [label="49.96%" weight=1.2]
+	node [color=green style=filled]
+	informar [label="informar 
+ Count = 379 
+ Coef = 2.26" shape=plaintext]
+	informar -> que [label="6.58%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1172 
+ Coef = -0.3" shape=plaintext]
+	que -> no [label="16.13%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 369 
+ Coef = -2.08" shape=plaintext]
+	luz -> no [label="5.08%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 492 
+ Coef = -2.3" shape=plaintext]
+	encontrar -> servicio [label="27.49%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 479 
+ Coef = -2.08" shape=plaintext]
+	encontrar -> luz [label="26.76%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 137 
+ Coef = -1.79" shape=plaintext]
+	encontrar -> energia [label="7.65%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1648 
+ Coef = -1.79" shape=plaintext]
+	servicio -> energia [label="29.8%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1274 
+ Coef = -2.08" shape=plaintext]
+	servicio -> luz [label="23.03%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 338 
+ Coef = 15.7" shape=plaintext]
+	servicio -> vereda [label="6.11%" weight=1.2]
+	node [color=red style=filled]
+	electrico [label="electrico 
+ Count = 295 
+ Coef = -0.44" shape=plaintext]
+	servicio -> electrico [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 1240 
+ Coef = 15.7" shape=plaintext]
+	luz -> vereda [label="13.81%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 814 
+ Coef = 3.3" shape=plaintext]
+	luz -> aqui [label="9.07%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 615 
+ Coef = 6.97" shape=plaintext]
+	luz -> sector [label="6.85%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 579 
+ Coef = 0.88" shape=plaintext]
+	luz -> ayer [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 645 
+ Coef = 15.7" shape=plaintext]
+	energia -> vereda [label="14.92%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 335 
+ Coef = 17.29" shape=plaintext]
+	energia -> municipio [label="7.75%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 325 
+ Coef = 1.56" shape=plaintext]
+	energia -> electrica [label="7.52%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 288 
+ Coef = 6.97" shape=plaintext]
+	energia -> sector [label="6.66%" weight=1.2]
+}

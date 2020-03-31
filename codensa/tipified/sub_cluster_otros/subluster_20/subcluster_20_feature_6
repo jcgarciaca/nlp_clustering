@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	estar [label="estar 
+ Count = 2474 
+ Coef = 3.1"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 363 
+ Coef = 2.22" shape=plaintext]
+	que -> estar [label="17.57%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1242 
+ Coef = 1.15" shape=plaintext]
+	ser -> que [label="43.11%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 664 
+ Coef = 0.52" shape=plaintext]
+	estar -> luz [label="27.16%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 310 
+ Coef = 2.83" shape=plaintext]
+	estar -> llamar [label="12.68%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 252 
+ Coef = -3.51" shape=plaintext]
+	estar -> servicio [label="10.31%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 188 
+ Coef = 4.66" shape=plaintext]
+	luz -> aqui [label="8.09%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 120 
+ Coef = 1.42" shape=plaintext]
+	luz -> ayer [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 58 
+ Coef = 0.28" shape=plaintext]
+	llamar -> porque [label="6.73%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 50 
+ Coef = 4.66" shape=plaintext]
+	llamar -> aqui [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 241 
+ Coef = 0.83" shape=plaintext]
+	servicio -> energia [label="23.4%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 201 
+ Coef = 0.52" shape=plaintext]
+	servicio -> luz [label="19.51%" weight=1.2]
+}

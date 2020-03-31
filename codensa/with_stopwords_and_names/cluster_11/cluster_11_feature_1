@@ -1,0 +1,172 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	arreglar [label="arreglar 
+ Count = 2821 
+ Coef = 6.89"]
+	node [color=green style=filled]
+	venir [label="venir 
+ Count = 438 
+ Coef = 2.66" shape=plaintext]
+	venir -> arreglar [label="15.58%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 286 
+ Coef = 5.14" shape=plaintext]
+	que -> arreglar [label="10.17%" weight=1.2]
+	node [color=green style=filled]
+	vender [label="vender 
+ Count = 254 
+ Coef = 2.07" shape=plaintext]
+	vender -> arreglar [label="9.04%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 193 
+ Coef = 3.16" shape=plaintext]
+	haber -> arreglar [label="6.87%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 179 
+ Coef = 1.75" shape=plaintext]
+	ir -> arreglar [label="6.37%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 147 
+ Coef = 1.74" shape=plaintext]
+	no -> arreglar [label="5.23%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 526 
+ Coef = 5.14" shape=plaintext]
+	que -> venir [label="27.76%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 148 
+ Coef = 1.75" shape=plaintext]
+	ir -> venir [label="7.81%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 146 
+ Coef = 1.95" shape=plaintext]
+	ayer -> venir [label="7.7%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 95 
+ Coef = 1.74" shape=plaintext]
+	no -> venir [label="5.01%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7307 
+ Coef = 2.87" shape=plaintext]
+	ser -> que [label="42.76%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1167 
+ Coef = 3.16" shape=plaintext]
+	haber -> vender [label="88.08%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7013 
+ Coef = 1.74" shape=plaintext]
+	no -> haber [label="63.12%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 593 
+ Coef = 5.14" shape=plaintext]
+	que -> haber [label="5.34%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 525 
+ Coef = 5.14" shape=plaintext]
+	que -> ir [label="11.94%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 478 
+ Coef = 2.86" shape=plaintext]
+	ya -> ir [label="10.87%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 261 
+ Coef = 3.16" shape=plaintext]
+	haber -> ir [label="5.94%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 2458 
+ Coef = 5.14" shape=plaintext]
+	que -> no [label="13.88%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1085 
+ Coef = -0.25" shape=plaintext]
+	luz -> no [label="6.13%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 207 
+ Coef = 4.45" shape=plaintext]
+	arreglar -> problema [label="9.22%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 200 
+ Coef = -0.25" shape=plaintext]
+	arreglar -> luz [label="8.91%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 142 
+ Coef = 1.74" shape=plaintext]
+	arreglar -> no [label="6.33%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 121 
+ Coef = -0.11" shape=plaintext]
+	arreglar -> servicio [label="5.39%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 203 
+ Coef = 2.87" shape=plaintext]
+	problema -> ser [label="10.2%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 150 
+ Coef = -0.25" shape=plaintext]
+	problema -> luz [label="7.54%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 103 
+ Coef = -2.14" shape=plaintext]
+	problema -> energia [label="5.18%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 991 
+ Coef = 4.77" shape=plaintext]
+	luz -> hacer [label="6.34%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 919 
+ Coef = 1.95" shape=plaintext]
+	luz -> ayer [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 789 
+ Coef = 1.74" shape=plaintext]
+	luz -> no [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5437 
+ Coef = 3.16" shape=plaintext]
+	no -> haber [label="27.78%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5194 
+ Coef = 2.69" shape=plaintext]
+	no -> tener [label="26.53%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1733 
+ Coef = -0.25" shape=plaintext]
+	servicio -> luz [label="22.2%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1676 
+ Coef = -2.14" shape=plaintext]
+	servicio -> energia [label="21.47%" weight=1.2]
+}

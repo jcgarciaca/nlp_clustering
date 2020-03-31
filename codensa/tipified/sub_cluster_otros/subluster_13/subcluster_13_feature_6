@@ -1,0 +1,152 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"tener ministro" [label="tener ministro 
+ Count = 7 
+ Coef = 2.22"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 0.7" shape=plaintext]
+	no -> "tener ministro" [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 14 
+ Coef = -0.28" shape=plaintext]
+	luz -> no [label="29.79%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 4 
+ Coef = 0.12" shape=plaintext]
+	tarde -> no [label="8.51%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 3 
+ Coef = 0.55" shape=plaintext]
+	dia -> no [label="6.38%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	"tener ministro" -> hacer [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	lunes [label="lunes 
+ Count = 1 
+ Coef = 0.08" shape=plaintext]
+	"tener ministro" -> lunes [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.45" shape=plaintext]
+	"tener ministro" -> energia [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 11 
+ Coef = 0.32" shape=plaintext]
+	hacer -> dos [label="35.48%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 5 
+ Coef = -0.26" shape=plaintext]
+	hacer -> mas [label="16.13%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = 0.35" shape=plaintext]
+	hacer -> hora [label="16.13%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 4 
+ Coef = 0.55" shape=plaintext]
+	hacer -> dia [label="12.9%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	lunes -> dia [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -0.36" shape=plaintext]
+	energia -> hacer [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 1 
+ Coef = 12.7" shape=plaintext]
+	energia -> suministro [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	finca [label="finca 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	energia -> finca [label="5.56%" weight=1.2]
+	node [color=lightgrey style=filled]
+	olguita [label="olguita 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	energia -> olguita [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = 0.35" shape=plaintext]
+	energia -> hora [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.63" shape=plaintext]
+	energia -> ser [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	baja [label="baja 
+ Count = 1 
+ Coef = -0.3" shape=plaintext]
+	energia -> baja [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 0.5" shape=plaintext]
+	energia -> corte [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	loca [label="loca 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	energia -> loca [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.48" shape=plaintext]
+	energia -> estar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 0.45" shape=plaintext]
+	energia -> haber [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	previo [label="previo 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	energia -> previo [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	energia -> dia [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = -0.4" shape=plaintext]
+	energia -> electrica [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.57" shape=plaintext]
+	energia -> ya [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -0.64" shape=plaintext]
+	energia -> casa [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	moda [label="moda 
+ Count = 1 
+ Coef = -0.27" shape=plaintext]
+	energia -> moda [label="5.56%" weight=1.2]
+}

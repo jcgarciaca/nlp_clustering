@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	radicado [label="radicado 
+ Count = 184 
+ Coef = 3.41"]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 62 
+ Coef = 2.24" shape=plaintext]
+	numero -> radicado [label="33.7%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 28 
+ Coef = -0.4" shape=plaintext]
+	tener -> radicado [label="15.22%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 19 
+ Coef = 2.32" shape=plaintext]
+	dar -> radicado [label="10.33%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 47 
+ Coef = 2.32" shape=plaintext]
+	dar -> numero [label="23.04%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 30 
+ Coef = -0.4" shape=plaintext]
+	tener -> numero [label="14.71%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 136 
+ Coef = 2.07" shape=plaintext]
+	no -> tener [label="24.77%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 66 
+ Coef = 1.03" shape=plaintext]
+	que -> tener [label="12.02%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 86 
+ Coef = 3.97" shape=plaintext]
+	haber -> dar [label="18.74%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 39 
+ Coef = 6.53" shape=plaintext]
+	llamar -> dar [label="8.5%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 39 
+ Coef = 2.07" shape=plaintext]
+	no -> dar [label="8.5%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 27 
+ Coef = 2.07" shape=plaintext]
+	radicado -> no [label="20.15%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = -0.31" shape=plaintext]
+	radicado -> ser [label="8.21%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 7 
+ Coef = 1.55" shape=plaintext]
+	radicado -> hacer [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 7 
+ Coef = 2.32" shape=plaintext]
+	radicado -> dar [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 928 
+ Coef = 3.97" shape=plaintext]
+	no -> haber [label="43.81%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 142 
+ Coef = 2.07" shape=plaintext]
+	no -> no [label="6.7%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 114 
+ Coef = -0.4" shape=plaintext]
+	no -> tener [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 558 
+ Coef = 1.03" shape=plaintext]
+	ser -> que [label="45.44%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 103 
+ Coef = -0.51" shape=plaintext]
+	ser -> luz [label="8.39%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 131 
+ Coef = 0.62" shape=plaintext]
+	hacer -> dia [label="16.48%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 44 
+ Coef = -0.18" shape=plaintext]
+	hacer -> mas [label="5.53%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 41 
+ Coef = 0.67" shape=plaintext]
+	hacer -> hora [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 156 
+ Coef = 1.03" shape=plaintext]
+	dar -> que [label="25.28%" weight=1.2]
+	node [color=green style=filled]
+	solucion [label="solucion 
+ Count = 52 
+ Coef = 5.26" shape=plaintext]
+	dar -> solucion [label="8.43%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 41 
+ Coef = 2.24" shape=plaintext]
+	dar -> numero [label="6.65%" weight=1.2]
+}

@@ -1,0 +1,147 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 421 
+ Coef = 5.58"]
+	node [color=green style=filled]
+	quemar [label="quemar 
+ Count = 44 
+ Coef = 3.32" shape=plaintext]
+	quemar -> electrodomesticos [label="10.45%" weight=1.2]
+	node [color=red style=filled]
+	danando [label="danando 
+ Count = 31 
+ Coef = -0.11" shape=plaintext]
+	danando -> electrodomesticos [label="7.36%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 27 
+ Coef = 0.98" shape=plaintext]
+	dar -> electrodomesticos [label="6.41%" weight=1.2]
+	node [color=green style=filled]
+	danar [label="danar 
+ Count = 24 
+ Coef = 0.23" shape=plaintext]
+	danar -> electrodomesticos [label="5.7%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 25 
+ Coef = 5.05" shape=plaintext]
+	estan -> quemar [label="11.74%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 21 
+ Coef = 0.6" shape=plaintext]
+	haber -> quemar [label="9.86%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 17 
+ Coef = 3.06" shape=plaintext]
+	poder -> quemar [label="7.98%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 14 
+ Coef = 3.89" shape=plaintext]
+	que -> quemar [label="6.57%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 44 
+ Coef = 5.05" shape=plaintext]
+	estan -> danando [label="60.27%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 4 
+ Coef = -2.8" shape=plaintext]
+	energia -> danando [label="5.48%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 4 
+ Coef = -2.44" shape=plaintext]
+	estar -> danando [label="5.48%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 37 
+ Coef = 3.89" shape=plaintext]
+	que -> dar [label="9.54%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 28 
+ Coef = 0.46" shape=plaintext]
+	no -> dar [label="7.22%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 36 
+ Coef = 3.06" shape=plaintext]
+	poder -> danar [label="34.95%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 20 
+ Coef = -0.07" shape=plaintext]
+	ir -> danar [label="19.42%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 18 
+ Coef = 5.05" shape=plaintext]
+	electrodomesticos -> estan [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 18 
+ Coef = 0.46" shape=plaintext]
+	electrodomesticos -> no [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 15 
+ Coef = 5.28" shape=plaintext]
+	electrodomesticos -> entonces [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 86 
+ Coef = 1.68" shape=plaintext]
+	estan -> hacer [label="8.57%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 51 
+ Coef = 2.46" shape=plaintext]
+	estan -> presentado [label="5.08%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1093 
+ Coef = 0.93" shape=plaintext]
+	no -> tener [label="21.14%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 866 
+ Coef = 0.6" shape=plaintext]
+	no -> haber [label="16.75%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 123 
+ Coef = 0.46" shape=plaintext]
+	entonces -> no [label="8.91%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 109 
+ Coef = 1.68" shape=plaintext]
+	entonces -> ser [label="7.89%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 99 
+ Coef = -2.44" shape=plaintext]
+	entonces -> estar [label="7.17%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 99 
+ Coef = 1.53" shape=plaintext]
+	entonces -> necesitar [label="7.17%" weight=1.2]
+	node [color=red style=filled]
+	ver [label="ver 
+ Count = 77 
+ Coef = -0.08" shape=plaintext]
+	entonces -> ver [label="5.58%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 75 
+ Coef = 3.89" shape=plaintext]
+	entonces -> que [label="5.43%" weight=1.2]
+}

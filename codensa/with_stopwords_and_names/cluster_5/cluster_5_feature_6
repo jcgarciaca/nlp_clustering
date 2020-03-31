@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"corto luz" [label="corto luz 
+ Count = 21 
+ Coef = 3.07"]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.95" shape=plaintext]
+	que -> "corto luz" [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -1.16" shape=plaintext]
+	ser -> que [label="60.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	luz -> que [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	corte -> que [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	ojo [label="ojo 
+ Count = 1 
+ Coef = 0.64" shape=plaintext]
+	"corto luz" -> ojo [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 9.03" shape=plaintext]
+	"corto luz" -> corto [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.57" shape=plaintext]
+	"corto luz" -> dia [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	agua [label="agua 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	ojo -> agua [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 21 
+ Coef = 1.28" shape=plaintext]
+	corto -> luz [label="35.59%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 7 
+ Coef = -0.32" shape=plaintext]
+	corto -> energia [label="11.86%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = -0.93" shape=plaintext]
+	corto -> servicio [label="6.78%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 4 
+ Coef = -1.16" shape=plaintext]
+	corto -> ser [label="6.78%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 4 
+ Coef = 9.03" shape=plaintext]
+	corto -> corto [label="6.78%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 0.43" shape=plaintext]
+	corto -> casa [label="5.08%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 5 
+ Coef = -0.58" shape=plaintext]
+	dia -> hoy [label="26.32%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 3 
+ Coef = -0.61" shape=plaintext]
+	dia -> ayer [label="15.79%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 2 
+ Coef = -0.43" shape=plaintext]
+	dia -> noche [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	enero [label="enero 
+ Count = 2 
+ Coef = 0.2" shape=plaintext]
+	dia -> enero [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.37" shape=plaintext]
+	dia -> manana [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	animal [label="animal 
+ Count = 1 
+ Coef = 0.28" shape=plaintext]
+	dia -> animal [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	canal [label="canal 
+ Count = 1 
+ Coef = 0.31" shape=plaintext]
+	dia -> canal [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	pasar [label="pasar 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	dia -> pasar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.07" shape=plaintext]
+	dia -> hora [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	secretaria [label="secretaria 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	dia -> secretaria [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tacos [label="tacos 
+ Count = 1 
+ Coef = 3.8" shape=plaintext]
+	dia -> tacos [label="5.26%" weight=1.2]
+}

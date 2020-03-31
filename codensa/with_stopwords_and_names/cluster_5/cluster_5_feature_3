@@ -1,0 +1,192 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cortar [label="cortar 
+ Count = 23 
+ Coef = 6.19"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 1.28" shape=plaintext]
+	luz -> cortar [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -1.16" shape=plaintext]
+	ser -> cortar [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = -0.58" shape=plaintext]
+	hoy -> cortar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 9.03" shape=plaintext]
+	corto -> cortar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	pagar [label="pagar 
+ Count = 1 
+ Coef = 0.06" shape=plaintext]
+	pagar -> cortar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	corte -> cortar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = 0.27" shape=plaintext]
+	como -> cortar [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 473 
+ Coef = 13.51" shape=plaintext]
+	corte -> luz [label="85.38%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 168 
+ Coef = 13.51" shape=plaintext]
+	corte -> ser [label="87.96%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 0.57" shape=plaintext]
+	dia -> hoy [label="83.33%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 1 
+ Coef = 1.41" shape=plaintext]
+	pago -> hoy [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 4 
+ Coef = 9.03" shape=plaintext]
+	corto -> corto [label="36.36%" weight=1.2]
+	node [color=red style=filled]
+	arreglar [label="arreglar 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	arreglar -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	cortes [label="cortes 
+ Count = 1 
+ Coef = 8.58" shape=plaintext]
+	cortes -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 1 
+ Coef = 0.92" shape=plaintext]
+	muy -> corto [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = -0.32" shape=plaintext]
+	energia -> corto [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -0.95" shape=plaintext]
+	que -> corto [label="9.09%" weight=1.2]
+	node [color=lightgrey style=filled]
+	cortinas [label="cortinas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	cortinas -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 13.51" shape=plaintext]
+	corte -> corto [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 1 
+ Coef = 0.27" shape=plaintext]
+	habia -> pagar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.42" shape=plaintext]
+	ya -> pagar [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	no -> pagar [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 15 
+ Coef = 1.28" shape=plaintext]
+	luz -> corte [label="18.29%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 11 
+ Coef = 13.51" shape=plaintext]
+	corte -> corte [label="13.41%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	luz -> como [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = -0.9" shape=plaintext]
+	hacer -> como [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	no -> como [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 9 
+ Coef = 1.28" shape=plaintext]
+	cortar -> luz [label="45.0%" weight=1.2]
+	node [color=red style=filled]
+	dano [label="dano 
+ Count = 5 
+ Coef = -0.07" shape=plaintext]
+	cortar -> dano [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 4 
+ Coef = -0.32" shape=plaintext]
+	cortar -> energia [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 15 
+ Coef = 13.51" shape=plaintext]
+	luz -> corte [label="8.38%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 11 
+ Coef = -1.14" shape=plaintext]
+	luz -> no [label="6.15%" weight=1.2]
+	node [color=green style=filled]
+	asi [label="asi 
+ Count = 1 
+ Coef = 0.24" shape=plaintext]
+	dano -> asi [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 12 
+ Coef = 0.07" shape=plaintext]
+	energia -> sector [label="12.9%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 7 
+ Coef = 0.57" shape=plaintext]
+	energia -> dia [label="7.53%" weight=1.2]
+	node [color=green style=filled]
+	programado [label="programado 
+ Count = 6 
+ Coef = 1.38" shape=plaintext]
+	energia -> programado [label="6.45%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 6 
+ Coef = -0.9" shape=plaintext]
+	energia -> hacer [label="6.45%" weight=1.2]
+}

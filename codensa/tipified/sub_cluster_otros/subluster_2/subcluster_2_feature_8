@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	descongelar [label="descongelar 
+ Count = 78 
+ Coef = 4.18"]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 21 
+ Coef = 3.47" shape=plaintext]
+	estan -> descongelar [label="26.92%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 7 
+ Coef = 7.02" shape=plaintext]
+	nevera -> descongelar [label="8.97%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 6 
+ Coef = 0.75" shape=plaintext]
+	ya -> descongelar [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = 0.02" shape=plaintext]
+	luz -> descongelar [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 34 
+ Coef = 0.35" shape=plaintext]
+	no -> estan [label="13.08%" weight=1.2]
+	node [color=green style=filled]
+	alimentos [label="alimentos 
+ Count = 15 
+ Coef = 5.51" shape=plaintext]
+	alimentos -> estan [label="5.77%" weight=1.2]
+	node [color=green style=filled]
+	cosa [label="cosa 
+ Count = 15 
+ Coef = 3.16" shape=plaintext]
+	cosa -> estan [label="5.77%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 14 
+ Coef = 0.75" shape=plaintext]
+	ya -> estan [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 61 
+ Coef = 6.41" shape=plaintext]
+	tener -> nevera [label="18.15%" weight=1.2]
+	node [color=green style=filled]
+	cosa [label="cosa 
+ Count = 30 
+ Coef = 3.16" shape=plaintext]
+	cosa -> nevera [label="8.93%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 19 
+ Coef = 1.24" shape=plaintext]
+	que -> ya [label="7.17%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 15 
+ Coef = 0.72" shape=plaintext]
+	energia -> ya [label="5.66%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 187 
+ Coef = 2.91" shape=plaintext]
+	estar -> luz [label="27.62%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 108 
+ Coef = 0.99" shape=plaintext]
+	ser -> luz [label="15.95%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 52 
+ Coef = -4.36" shape=plaintext]
+	servicio -> luz [label="7.68%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 36 
+ Coef = 0.36" shape=plaintext]
+	dia -> luz [label="5.32%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 8 
+ Coef = 7.02" shape=plaintext]
+	descongelar -> nevera [label="11.94%" weight=1.2]
+	node [color=green style=filled]
+	comida [label="comida 
+ Count = 4 
+ Coef = 4.35" shape=plaintext]
+	descongelar -> comida [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 17 
+ Coef = 0.35" shape=plaintext]
+	nevera -> no [label="7.23%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 12 
+ Coef = 0.75" shape=plaintext]
+	nevera -> ya [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 12 
+ Coef = 3.47" shape=plaintext]
+	nevera -> estan [label="5.11%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 8 
+ Coef = 6.41" shape=plaintext]
+	comida -> tener [label="10.13%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 6 
+ Coef = 5.89" shape=plaintext]
+	comida -> danando [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 4 
+ Coef = 7.02" shape=plaintext]
+	comida -> nevera [label="5.06%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 4 
+ Coef = 3.47" shape=plaintext]
+	comida -> estan [label="5.06%" weight=1.2]
+}

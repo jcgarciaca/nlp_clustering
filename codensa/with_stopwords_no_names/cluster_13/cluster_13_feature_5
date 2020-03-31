@@ -1,0 +1,142 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"que no haber" [label="que no haber 
+ Count = 92 
+ Coef = 2.76"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 14 
+ Coef = -0.2" shape=plaintext]
+	ser -> "que no haber" [label="51.85%" weight=1.2]
+	node [color=green style=filled]
+	pues [label="pues 
+ Count = 5 
+ Coef = 1.28" shape=plaintext]
+	pues -> "que no haber" [label="18.52%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = 7.47" shape=plaintext]
+	haber -> "que no haber" [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 2 
+ Coef = 1.21" shape=plaintext]
+	decir -> "que no haber" [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 10 
+ Coef = 7.47" shape=plaintext]
+	haber -> ser [label="52.63%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 0.3" shape=plaintext]
+	que -> ser [label="15.79%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 2 
+ Coef = -0.26" shape=plaintext]
+	paso -> ser [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	pues [label="pues 
+ Count = 1 
+ Coef = 1.28" shape=plaintext]
+	pues -> ser [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -0.63" shape=plaintext]
+	casa -> ser [label="5.26%" weight=1.2]
+	node [color=lightgrey style=filled]
+	home [label="home 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	home -> ser [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -0.24" shape=plaintext]
+	porque -> ser [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	ay [label="ay 
+ Count = 1 
+ Coef = 1.82" shape=plaintext]
+	ay -> pues [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1573 
+ Coef = 3.62" shape=plaintext]
+	no -> haber [label="99.87%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 7.47" shape=plaintext]
+	haber -> decir [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 3.62" shape=plaintext]
+	"que no haber" -> no [label="42.86%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 4 
+ Coef = 1.25" shape=plaintext]
+	"que no haber" -> mna [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -0.2" shape=plaintext]
+	"que no haber" -> ser [label="21.43%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -0.34" shape=plaintext]
+	"que no haber" -> ir [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1555 
+ Coef = 7.47" shape=plaintext]
+	no -> haber [label="98.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 3.62" shape=plaintext]
+	mna -> no [label="66.67%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	mna -> entonces [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = 1.25" shape=plaintext]
+	mna -> mna [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	mna -> saber [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 16 
+ Coef = 0.3" shape=plaintext]
+	ser -> que [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 2 
+ Coef = 1.25" shape=plaintext]
+	ser -> mna [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 3.62" shape=plaintext]
+	ser -> no [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = 0.3" shape=plaintext]
+	ir -> que [label="100.0%" weight=1.2]
+}

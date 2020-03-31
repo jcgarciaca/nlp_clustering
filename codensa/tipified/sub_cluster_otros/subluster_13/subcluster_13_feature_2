@@ -1,0 +1,222 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	fluido [label="fluido 
+ Count = 6 
+ Coef = 4.46"]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 1 
+ Coef = 12.7" shape=plaintext]
+	suministro -> fluido [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 0.99" shape=plaintext]
+	falla -> fluido [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 0.45" shape=plaintext]
+	haber -> fluido [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.67" shape=plaintext]
+	tener -> fluido [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	salir [label="salir 
+ Count = 1 
+ Coef = 1.21" shape=plaintext]
+	salir -> fluido [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tema [label="tema 
+ Count = 1 
+ Coef = 1.37" shape=plaintext]
+	tema -> fluido [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 70 
+ Coef = 1.25" shape=plaintext]
+	faltar -> suministro [label="22.95%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 68 
+ Coef = 0.45" shape=plaintext]
+	haber -> suministro [label="22.3%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 38 
+ Coef = -0.48" shape=plaintext]
+	estar -> suministro [label="12.46%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 29 
+ Coef = 0.67" shape=plaintext]
+	tener -> suministro [label="9.51%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.67" shape=plaintext]
+	tener -> falla [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 2 
+ Coef = 0.65" shape=plaintext]
+	presentar -> falla [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 0.45" shape=plaintext]
+	haber -> falla [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	existir [label="existir 
+ Count = 1 
+ Coef = 0.51" shape=plaintext]
+	existir -> falla [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.63" shape=plaintext]
+	ser -> falla [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	suministrar [label="suministrar 
+ Count = 1 
+ Coef = 3.35" shape=plaintext]
+	suministrar -> falla [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	reportar -> falla [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 76 
+ Coef = 0.7" shape=plaintext]
+	no -> haber [label="96.2%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 41 
+ Coef = 0.7" shape=plaintext]
+	no -> tener [label="97.62%" weight=1.2]
+	node [color=red style=filled]
+	solucionar [label="solucionar 
+ Count = 1 
+ Coef = -0.15" shape=plaintext]
+	solucionar -> tema [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	fluido -> dia [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.48" shape=plaintext]
+	fluido -> estar [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	electrico [label="electrico 
+ Count = 1 
+ Coef = -0.58" shape=plaintext]
+	fluido -> electrico [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	fluido -> manana [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	viernes [label="viernes 
+ Count = 1 
+ Coef = 1.02" shape=plaintext]
+	fluido -> viernes [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 12 
+ Coef = 0.73" shape=plaintext]
+	dia -> ayer [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 3 
+ Coef = 12.7" shape=plaintext]
+	dia -> suministro [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	viernes [label="viernes 
+ Count = 3 
+ Coef = 1.02" shape=plaintext]
+	dia -> viernes [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	febrero [label="febrero 
+ Count = 2 
+ Coef = 1.51" shape=plaintext]
+	dia -> febrero [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	anterior [label="anterior 
+ Count = 2 
+ Coef = -0.07" shape=plaintext]
+	dia -> anterior [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 0.7" shape=plaintext]
+	dia -> no [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 37 
+ Coef = 12.7" shape=plaintext]
+	estar -> suministro [label="82.22%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = -0.28" shape=plaintext]
+	estar -> luz [label="8.89%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = -0.36" shape=plaintext]
+	electrico -> hacer [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -0.48" shape=plaintext]
+	manana -> estar [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 1 
+ Coef = 12.7" shape=plaintext]
+	manana -> suministro [label="14.29%" weight=1.2]
+	node [color=lightgrey style=filled]
+	ayunas [label="ayunas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	manana -> ayunas [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -0.49" shape=plaintext]
+	manana -> ir [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	poder [label="poder 
+ Count = 1 
+ Coef = -0.32" shape=plaintext]
+	manana -> poder [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 0.7" shape=plaintext]
+	manana -> no [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 2 
+ Coef = -0.05" shape=plaintext]
+	viernes -> noche [label="50.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	iran [label="iran 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	viernes -> iran [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	viernes -> manana [label="25.0%" weight=1.2]
+}

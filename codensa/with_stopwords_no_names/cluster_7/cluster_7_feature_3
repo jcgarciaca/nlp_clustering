@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	calle [label="calle 
+ Count = 1780 
+ Coef = 9.9"]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 163 
+ Coef = 13.85" shape=plaintext]
+	carrera -> calle [label="9.57%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 108 
+ Coef = 3.87" shape=plaintext]
+	aqui -> calle [label="6.34%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 213 
+ Coef = 9.9" shape=plaintext]
+	calle -> carrera [label="11.64%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 105 
+ Coef = 3.87" shape=plaintext]
+	aqui -> carrera [label="5.74%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 191 
+ Coef = -0.09" shape=plaintext]
+	que -> aqui [label="13.6%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 79 
+ Coef = 0.05" shape=plaintext]
+	estar -> aqui [label="5.63%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 262 
+ Coef = 7.31" shape=plaintext]
+	calle -> numero [label="16.73%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 193 
+ Coef = 13.85" shape=plaintext]
+	calle -> carrera [label="12.32%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 164 
+ Coef = 3.79" shape=plaintext]
+	calle -> sur [label="10.47%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 162 
+ Coef = 16.47" shape=plaintext]
+	numero -> barrio [label="14.16%" weight=1.2]
+	node [color=green style=filled]
+	sur [label="sur 
+ Count = 158 
+ Coef = 3.79" shape=plaintext]
+	numero -> sur [label="13.81%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 327 
+ Coef = 7.31" shape=plaintext]
+	carrera -> numero [label="19.3%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 169 
+ Coef = 9.9" shape=plaintext]
+	carrera -> calle [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	septima [label="septima 
+ Count = 124 
+ Coef = 2.87" shape=plaintext]
+	carrera -> septima [label="7.32%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 123 
+ Coef = 7.31" shape=plaintext]
+	sur -> numero [label="25.68%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 72 
+ Coef = 16.47" shape=plaintext]
+	sur -> barrio [label="15.03%" weight=1.2]
+	node [color=green style=filled]
+	carrera [label="carrera 
+ Count = 28 
+ Coef = 13.85" shape=plaintext]
+	sur -> carrera [label="5.85%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 25 
+ Coef = -0.18" shape=plaintext]
+	sur -> no [label="5.22%" weight=1.2]
+}

@@ -1,0 +1,242 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	desde [label="desde 
+ Count = 5691 
+ Coef = 13.95"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2126 
+ Coef = 0.88" shape=plaintext]
+	luz -> desde [label="41.7%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1055 
+ Coef = -1.13" shape=plaintext]
+	energia -> desde [label="20.69%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 469 
+ Coef = -1.09" shape=plaintext]
+	servicio -> desde [label="9.2%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 1134 
+ Coef = 1.76" shape=plaintext]
+	sin -> luz [label="32.09%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 775 
+ Coef = -0.49" shape=plaintext]
+	tener -> luz [label="21.93%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 664 
+ Coef = Not in Dict" shape=plaintext]
+	de -> luz [label="18.79%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 535 
+ Coef = -0.42" shape=plaintext]
+	haber -> luz [label="15.14%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 388 
+ Coef = 1.09" shape=plaintext]
+	la -> luz [label="10.98%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 714 
+ Coef = Not in Dict" shape=plaintext]
+	de -> energia [label="41.56%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 338 
+ Coef = 1.76" shape=plaintext]
+	sin -> energia [label="19.67%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 209 
+ Coef = -1.09" shape=plaintext]
+	servicio -> energia [label="12.17%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 157 
+ Coef = -0.49" shape=plaintext]
+	tener -> energia [label="9.14%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 90 
+ Coef = -0.42" shape=plaintext]
+	haber -> energia [label="5.24%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 692 
+ Coef = 1.76" shape=plaintext]
+	sin -> servicio [label="31.3%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 446 
+ Coef = -0.49" shape=plaintext]
+	tener -> servicio [label="20.17%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 369 
+ Coef = -1.02" shape=plaintext]
+	el -> servicio [label="16.69%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 290 
+ Coef = -0.42" shape=plaintext]
+	haber -> servicio [label="13.12%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 184 
+ Coef = Not in Dict" shape=plaintext]
+	en -> servicio [label="8.32%" weight=1.2]
+	node [color=green style=filled]
+	las [label="las 
+ Count = 1438 
+ Coef = 3.73" shape=plaintext]
+	desde -> las [label="25.29%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 1331 
+ Coef = 5.3" shape=plaintext]
+	desde -> ayer [label="23.4%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 835 
+ Coef = -1.02" shape=plaintext]
+	desde -> el [label="14.68%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 776 
+ Coef = 9.09" shape=plaintext]
+	desde -> noche [label="13.65%" weight=1.2]
+	node [color=green style=filled]
+	esta [label="esta 
+ Count = 491 
+ Coef = 1.68" shape=plaintext]
+	desde -> esta [label="8.63%" weight=1.2]
+	node [color=green style=filled]
+	la [label="la 
+ Count = 306 
+ Coef = 1.09" shape=plaintext]
+	desde -> la [label="5.38%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 2361 
+ Coef = Not in Dict" shape=plaintext]
+	las -> de [label="84.35%" weight=1.2]
+	node [color=lightgrey style=filled]
+	a [label="a 
+ Count = 433 
+ Coef = Not in Dict" shape=plaintext]
+	ayer -> a [label="27.11%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 296 
+ Coef = Not in Dict" shape=plaintext]
+	ayer -> en [label="18.53%" weight=1.2]
+	node [color=green style=filled]
+	desde [label="desde 
+ Count = 137 
+ Coef = 13.95" shape=plaintext]
+	ayer -> desde [label="8.58%" weight=1.2]
+	node [color=red style=filled]
+	por [label="por 
+ Count = 101 
+ Coef = -0.84" shape=plaintext]
+	ayer -> por [label="6.32%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 95 
+ Coef = 0.91" shape=plaintext]
+	ayer -> estar [label="5.95%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 81 
+ Coef = -0.55" shape=plaintext]
+	ayer -> no [label="5.07%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 813 
+ Coef = 0.96" shape=plaintext]
+	el -> dia [label="34.82%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 361 
+ Coef = -1.09" shape=plaintext]
+	el -> servicio [label="15.46%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 187 
+ Coef = -1.35" shape=plaintext]
+	el -> sector [label="8.01%" weight=1.2]
+	node [color=lightgrey style=filled]
+	a [label="a 
+ Count = 137 
+ Coef = Not in Dict" shape=plaintext]
+	noche -> a [label="17.56%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 106 
+ Coef = -0.55" shape=plaintext]
+	noche -> no [label="13.59%" weight=1.2]
+	node [color=lightgrey style=filled]
+	y [label="y 
+ Count = 59 
+ Coef = Not in Dict" shape=plaintext]
+	noche -> y [label="7.56%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 52 
+ Coef = Not in Dict" shape=plaintext]
+	noche -> de [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 47 
+ Coef = 0.91" shape=plaintext]
+	noche -> estar [label="6.03%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 40 
+ Coef = Not in Dict" shape=plaintext]
+	noche -> en [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	desde [label="desde 
+ Count = 40 
+ Coef = 13.95" shape=plaintext]
+	noche -> desde [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 592 
+ Coef = 13.41" shape=plaintext]
+	esta -> manana [label="68.76%" weight=1.2]
+	node [color=green style=filled]
+	madrugada [label="madrugada 
+ Count = 50 
+ Coef = 5.09" shape=plaintext]
+	esta -> madrugada [label="5.81%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 1540 
+ Coef = 13.41" shape=plaintext]
+	la -> manana [label="36.03%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 784 
+ Coef = 5.77" shape=plaintext]
+	la -> tarde [label="18.34%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 504 
+ Coef = 9.09" shape=plaintext]
+	la -> noche [label="11.79%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 305 
+ Coef = 0.88" shape=plaintext]
+	la -> luz [label="7.14%" weight=1.2]
+}

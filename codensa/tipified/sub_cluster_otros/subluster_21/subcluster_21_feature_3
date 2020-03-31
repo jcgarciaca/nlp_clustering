@@ -1,0 +1,307 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	vez [label="vez 
+ Count = 22 
+ Coef = 3.59"]
+	node [color=green style=filled]
+	volver [label="volver 
+ Count = 3 
+ Coef = 0.71" shape=plaintext]
+	volver -> vez [label="33.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	rara [label="rara 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	rara -> vez [label="11.11%" weight=1.2]
+	node [color=lightgrey style=filled]
+	largar [label="largar 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	largar -> vez [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.18" shape=plaintext]
+	luz -> vez [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = 0.93" shape=plaintext]
+	que -> vez [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.0" shape=plaintext]
+	estar -> vez [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	ahora [label="ahora 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	ahora -> vez [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 3 
+ Coef = 5.1" shape=plaintext]
+	minuto -> volver [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -2.23" shape=plaintext]
+	haber -> volver [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 0.56" shape=plaintext]
+	no -> volver [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	demorar [label="demorar 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	demorar -> volver [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.18" shape=plaintext]
+	luz -> volver [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	cosa [label="cosa 
+ Count = 2 
+ Coef = -0.05" shape=plaintext]
+	cosa -> rara [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	apenas [label="apenas 
+ Count = 1 
+ Coef = 0.01" shape=plaintext]
+	apenas -> largar [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 126 
+ Coef = 0.37" shape=plaintext]
+	ser -> luz [label="43.6%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 61 
+ Coef = -1.0" shape=plaintext]
+	estar -> luz [label="21.11%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 46 
+ Coef = 0.37" shape=plaintext]
+	ser -> que [label="48.42%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 9 
+ Coef = 2.91" shape=plaintext]
+	hora -> que [label="9.47%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = 1.19" shape=plaintext]
+	dia -> que [label="6.32%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 23 
+ Coef = 0.93" shape=plaintext]
+	que -> estar [label="27.06%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 14 
+ Coef = 2.91" shape=plaintext]
+	hora -> estar [label="16.47%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 11 
+ Coef = 9.48" shape=plaintext]
+	hacer -> estar [label="12.94%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 5 
+ Coef = -1.04" shape=plaintext]
+	porque -> estar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 1.19" shape=plaintext]
+	dia -> estar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 2 
+ Coef = 2.91" shape=plaintext]
+	hora -> ahora [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = 9.48" shape=plaintext]
+	hacer -> ahora [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	real [label="real 
+ Count = 1 
+ Coef = 0.62" shape=plaintext]
+	real -> ahora [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 1 
+ Coef = 3.39" shape=plaintext]
+	llevar -> ahora [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.0" shape=plaintext]
+	estar -> ahora [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.18" shape=plaintext]
+	luz -> ahora [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = -1.0" shape=plaintext]
+	vez -> estar [label="21.43%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 3 
+ Coef = 1.18" shape=plaintext]
+	vez -> luz [label="21.43%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = 0.37" shape=plaintext]
+	vez -> ser [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = 0.93" shape=plaintext]
+	vez -> que [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = 0.21" shape=plaintext]
+	vez -> ir [label="7.14%" weight=1.2]
+	node [color=lightgrey style=filled]
+	signo [label="signo 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	vez -> signo [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = -5.69" shape=plaintext]
+	vez -> servicio [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 0.56" shape=plaintext]
+	vez -> no [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 61 
+ Coef = 1.18" shape=plaintext]
+	estar -> luz [label="58.1%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = -5.69" shape=plaintext]
+	estar -> servicio [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 6 
+ Coef = -1.12" shape=plaintext]
+	estar -> energia [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 112 
+ Coef = 9.48" shape=plaintext]
+	luz -> hacer [label="52.34%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 12 
+ Coef = 0.56" shape=plaintext]
+	luz -> no [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 118 
+ Coef = 1.18" shape=plaintext]
+	ser -> luz [label="60.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 46 
+ Coef = 0.93" shape=plaintext]
+	ser -> que [label="23.47%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = 9.48" shape=plaintext]
+	que -> hacer [label="16.79%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 22 
+ Coef = -1.0" shape=plaintext]
+	que -> estar [label="16.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 21 
+ Coef = 0.37" shape=plaintext]
+	que -> ser [label="16.03%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 8 
+ Coef = 3.39" shape=plaintext]
+	que -> llevar [label="6.11%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 7 
+ Coef = 1.18" shape=plaintext]
+	ir -> luz [label="24.14%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 5 
+ Coef = 9.48" shape=plaintext]
+	ir -> hacer [label="17.24%" weight=1.2]
+	node [color=green style=filled]
+	salir [label="salir 
+ Count = 2 
+ Coef = 0.51" shape=plaintext]
+	ir -> salir [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 14 
+ Coef = 1.18" shape=plaintext]
+	servicio -> luz [label="45.16%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = 9.48" shape=plaintext]
+	servicio -> hacer [label="25.81%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 4 
+ Coef = -1.12" shape=plaintext]
+	servicio -> energia [label="12.9%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 22 
+ Coef = -2.23" shape=plaintext]
+	no -> haber [label="24.18%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 13 
+ Coef = -2.78" shape=plaintext]
+	no -> tener [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 12 
+ Coef = 9.48" shape=plaintext]
+	no -> hacer [label="13.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 0.56" shape=plaintext]
+	no -> no [label="8.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = 0.37" shape=plaintext]
+	no -> ser [label="5.49%" weight=1.2]
+}

@@ -1,0 +1,17 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	seis [label="seis 
+ Count = 1 
+ Coef = 2.04"]
+	node [color=lightgrey style=filled]
+	paradas [label="paradas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	seis -> paradas [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	cabanuelas [label="cabanuelas 
+ Count = 1 
+ Coef = 2.23" shape=plaintext]
+	paradas -> cabanuelas [label="100.0%" weight=1.2]
+}

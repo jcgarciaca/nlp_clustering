@@ -1,0 +1,402 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"haber servicio" [label="haber servicio 
+ Count = 34 
+ Coef = 1.89"]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -2.53" shape=plaintext]
+	que -> "haber servicio" [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 2 
+ Coef = -0.73" shape=plaintext]
+	hora -> "haber servicio" [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = -0.73" shape=plaintext]
+	hoy -> "haber servicio" [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.89" shape=plaintext]
+	si -> "haber servicio" [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 19 
+ Coef = -2.17" shape=plaintext]
+	ser -> que [label="28.36%" weight=1.2]
+	node [color=red style=filled]
+	saber [label="saber 
+ Count = 5 
+ Coef = -0.2" shape=plaintext]
+	saber -> que [label="7.46%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 15 
+ Coef = -1.07" shape=plaintext]
+	hacer -> hora [label="26.32%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 7 
+ Coef = -0.98" shape=plaintext]
+	mas -> hora [label="12.28%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 10.87" shape=plaintext]
+	servicio -> hora [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 4 
+ Coef = -0.31" shape=plaintext]
+	ayer -> hora [label="7.02%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = -2.53" shape=plaintext]
+	que -> hora [label="7.02%" weight=1.2]
+	node [color=red style=filled]
+	media [label="media 
+ Count = 4 
+ Coef = -0.31" shape=plaintext]
+	media -> hora [label="7.02%" weight=1.2]
+	node [color=green style=filled]
+	casi [label="casi 
+ Count = 3 
+ Coef = 0.13" shape=plaintext]
+	casi -> hora [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 7 
+ Coef = -0.64" shape=plaintext]
+	dia -> hoy [label="58.33%" weight=1.2]
+	node [color=green style=filled]
+	vicio [label="vicio 
+ Count = 1 
+ Coef = 0.31" shape=plaintext]
+	vicio -> hoy [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	tambien [label="tambien 
+ Count = 1 
+ Coef = 0.13" shape=plaintext]
+	tambien -> hoy [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -2.09" shape=plaintext]
+	luz -> hoy [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.62" shape=plaintext]
+	manana -> hoy [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 10.87" shape=plaintext]
+	servicio -> hoy [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 10.87" shape=plaintext]
+	servicio -> si [label="20.69%" weight=1.2]
+	node [color=red style=filled]
+	ver [label="ver 
+ Count = 5 
+ Coef = -0.47" shape=plaintext]
+	ver -> si [label="17.24%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 2 
+ Coef = -0.96" shape=plaintext]
+	como -> si [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	saber [label="saber 
+ Count = 2 
+ Coef = -0.2" shape=plaintext]
+	saber -> si [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = -2.09" shape=plaintext]
+	"haber servicio" -> luz [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 1 
+ Coef = 0.69" shape=plaintext]
+	"haber servicio" -> zona [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	viaje [label="viaje 
+ Count = 1 
+ Coef = 0.47" shape=plaintext]
+	"haber servicio" -> viaje [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -1.35" shape=plaintext]
+	"haber servicio" -> casa [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	area [label="area 
+ Count = 1 
+ Coef = 0.91" shape=plaintext]
+	"haber servicio" -> area [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 1 
+ Coef = 3.13" shape=plaintext]
+	"haber servicio" -> sector [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	punto [label="punto 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	"haber servicio" -> punto [label="8.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	burzaco [label="burzaco 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	"haber servicio" -> burzaco [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	momento [label="momento 
+ Count = 1 
+ Coef = 0.26" shape=plaintext]
+	"haber servicio" -> momento [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 11 
+ Coef = 3.13" shape=plaintext]
+	luz -> sector [label="7.86%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 8 
+ Coef = -0.39" shape=plaintext]
+	luz -> aqui [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	rural [label="rural 
+ Count = 2 
+ Coef = 0.74" shape=plaintext]
+	zona -> rural [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 10.87" shape=plaintext]
+	zona -> servicio [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -1.07" shape=plaintext]
+	zona -> hacer [label="11.76%" weight=1.2]
+	node [color=lightgrey style=filled]
+	zapata [label="zapata 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> zapata [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	colocado [label="colocado 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	zona -> colocado [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	francia [label="francia 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> francia [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	comunes [label="comunes 
+ Count = 1 
+ Coef = -0.12" shape=plaintext]
+	zona -> comunes [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	comun [label="comun 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	zona -> comun [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	igual [label="igual 
+ Count = 1 
+ Coef = 0.41" shape=plaintext]
+	zona -> igual [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	comunales [label="comunales 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> comunales [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	lomas [label="lomas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> lomas [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	cajica [label="cajica 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	zona -> cajica [label="5.88%" weight=1.2]
+	node [color=lightgrey style=filled]
+	resido [label="resido 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	zona -> resido [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -2.09" shape=plaintext]
+	zona -> luz [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	bajito [label="bajito 
+ Count = 1 
+ Coef = 0.59" shape=plaintext]
+	viaje -> bajito [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -0.57" shape=plaintext]
+	viaje -> noche [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = -1.58" shape=plaintext]
+	casa -> no [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 10.87" shape=plaintext]
+	casa -> servicio [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.64" shape=plaintext]
+	casa -> dia [label="9.52%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = 10.87" shape=plaintext]
+	area -> servicio [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	placer [label="placer 
+ Count = 1 
+ Coef = 0.49" shape=plaintext]
+	area -> placer [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	rural [label="rural 
+ Count = 1 
+ Coef = 0.74" shape=plaintext]
+	area -> rural [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	socota [label="socota 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	area -> socota [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	guardia [label="guardia 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	area -> guardia [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	poniente [label="poniente 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	area -> poniente [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	emergencia [label="emergencia 
+ Count = 1 
+ Coef = -0.85" shape=plaintext]
+	area -> emergencia [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	canada [label="canada 
+ Count = 1 
+ Coef = -0.02" shape=plaintext]
+	area -> canada [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 1 
+ Coef = -0.4" shape=plaintext]
+	area -> tarde [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 18 
+ Coef = 10.87" shape=plaintext]
+	sector -> servicio [label="35.29%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 3 
+ Coef = 0.01" shape=plaintext]
+	sector -> vivir [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 10.87" shape=plaintext]
+	punto -> servicio [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -2.53" shape=plaintext]
+	punto -> que [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	punto -> corte [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -0.06" shape=plaintext]
+	momento -> haber [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = 0.9" shape=plaintext]
+	momento -> tener [label="14.29%" weight=1.2]
+	node [color=lightgrey style=filled]
+	razones [label="razones 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	momento -> razones [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -2.83" shape=plaintext]
+	momento -> estar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	encontrar [label="encontrar 
+ Count = 1 
+ Coef = -0.84" shape=plaintext]
+	momento -> encontrar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	demasiado [label="demasiado 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	momento -> demasiado [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 10.87" shape=plaintext]
+	momento -> servicio [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 1 
+ Coef = -0.39" shape=plaintext]
+	momento -> aqui [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -2.53" shape=plaintext]
+	momento -> que [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	vivienda [label="vivienda 
+ Count = 1 
+ Coef = 0.81" shape=plaintext]
+	momento -> vivienda [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.64" shape=plaintext]
+	momento -> dia [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.58" shape=plaintext]
+	momento -> no [label="7.14%" weight=1.2]
+}

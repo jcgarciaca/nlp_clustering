@@ -1,0 +1,82 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	contador [label="contador 
+ Count = 950 
+ Coef = 7.96"]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 57 
+ Coef = 0.59" shape=plaintext]
+	dano -> contador [label="6.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 50 
+ Coef = 3.89" shape=plaintext]
+	que -> contador [label="5.43%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 103 
+ Coef = -2.98" shape=plaintext]
+	reportar -> dano [label="14.21%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 68 
+ Coef = 0.6" shape=plaintext]
+	haber -> dano [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 58 
+ Coef = 0.93" shape=plaintext]
+	tener -> dano [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 56 
+ Coef = 3.89" shape=plaintext]
+	que -> dano [label="7.72%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 42 
+ Coef = 1.68" shape=plaintext]
+	ser -> dano [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 2282 
+ Coef = 1.68" shape=plaintext]
+	ser -> que [label="46.32%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 54 
+ Coef = 0.46" shape=plaintext]
+	contador -> no [label="7.67%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 52 
+ Coef = -1.84" shape=plaintext]
+	contador -> luz [label="7.39%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 42 
+ Coef = 4.13" shape=plaintext]
+	contador -> casa [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1093 
+ Coef = 0.93" shape=plaintext]
+	no -> tener [label="21.14%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 866 
+ Coef = 0.6" shape=plaintext]
+	no -> haber [label="16.75%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 315 
+ Coef = 4.13" shape=plaintext]
+	luz -> casa [label="7.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 229 
+ Coef = 0.46" shape=plaintext]
+	casa -> no [label="11.01%" weight=1.2]
+}

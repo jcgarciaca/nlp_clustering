@@ -1,0 +1,32 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"canuelas caidas" [label="canuelas caidas 
+ Count = 18 
+ Coef = 2.14"]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -1.06" shape=plaintext]
+	tener -> "canuelas caidas" [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.89" shape=plaintext]
+	no -> tener [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	condominio [label="condominio 
+ Count = 6 
+ Coef = 0.58" shape=plaintext]
+	"canuelas caidas" -> condominio [label="100.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	piramides [label="piramides 
+ Count = 5 
+ Coef = Not in Dict" shape=plaintext]
+	condominio -> piramides [label="83.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	miradores [label="miradores 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	condominio -> miradores [label="16.67%" weight=1.2]
+}

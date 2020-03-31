@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	solucion [label="solucion 
+ Count = 864 
+ Coef = 5.26"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 202 
+ Coef = 3.97" shape=plaintext]
+	haber -> solucion [label="23.6%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 112 
+ Coef = 2.07" shape=plaintext]
+	no -> solucion [label="13.08%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 56 
+ Coef = 2.32" shape=plaintext]
+	dar -> solucion [label="6.54%" weight=1.2]
+	node [color=green style=filled]
+	vender [label="vender 
+ Count = 56 
+ Coef = 2.78" shape=plaintext]
+	vender -> solucion [label="6.54%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 48 
+ Coef = 1.03" shape=plaintext]
+	que -> solucion [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1146 
+ Coef = 2.07" shape=plaintext]
+	no -> haber [label="70.26%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 187 
+ Coef = 1.03" shape=plaintext]
+	que -> no [label="9.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 106 
+ Coef = -0.51" shape=plaintext]
+	luz -> no [label="5.24%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 86 
+ Coef = 3.97" shape=plaintext]
+	haber -> dar [label="18.74%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 39 
+ Coef = 6.53" shape=plaintext]
+	llamar -> dar [label="8.5%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 39 
+ Coef = 2.07" shape=plaintext]
+	no -> dar [label="8.5%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 443 
+ Coef = 3.97" shape=plaintext]
+	haber -> vender [label="94.46%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 549 
+ Coef = -0.31" shape=plaintext]
+	ser -> que [label="34.18%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 94 
+ Coef = 2.95" shape=plaintext]
+	decir -> que [label="5.85%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 34 
+ Coef = 3.69" shape=plaintext]
+	solucion -> problema [label="21.38%" weight=1.2]
+	node [color=green style=filled]
+	nada [label="nada 
+ Count = 11 
+ Coef = 0.33" shape=plaintext]
+	solucion -> nada [label="6.92%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 32 
+ Coef = -0.51" shape=plaintext]
+	problema -> luz [label="9.47%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 27 
+ Coef = -0.31" shape=plaintext]
+	problema -> ser [label="7.99%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 25 
+ Coef = 2.07" shape=plaintext]
+	problema -> no [label="7.4%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 20 
+ Coef = 0.36" shape=plaintext]
+	problema -> energia [label="5.92%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 18 
+ Coef = -0.4" shape=plaintext]
+	problema -> tener [label="5.33%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 6 
+ Coef = -0.68" shape=plaintext]
+	nada -> entonces [label="10.34%" weight=1.2]
+	node [color=green style=filled]
+	seguir [label="seguir 
+ Count = 3 
+ Coef = 1.88" shape=plaintext]
+	nada -> seguir [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	arreglar [label="arreglar 
+ Count = 3 
+ Coef = 9.56" shape=plaintext]
+	nada -> arreglar [label="5.17%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -0.31" shape=plaintext]
+	nada -> ser [label="5.17%" weight=1.2]
+}

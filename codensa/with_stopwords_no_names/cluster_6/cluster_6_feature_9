@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	canuela [label="canuela 
+ Count = 574 
+ Coef = 5.96"]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 98 
+ Coef = 4.54" shape=plaintext]
+	cayo -> canuela [label="19.84%" weight=1.2]
+	node [color=green style=filled]
+	saltar [label="saltar 
+ Count = 50 
+ Coef = 3.28" shape=plaintext]
+	saltar -> canuela [label="10.12%" weight=1.2]
+	node [color=green style=filled]
+	caer [label="caer 
+ Count = 26 
+ Coef = 2.34" shape=plaintext]
+	caer -> canuela [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	salto [label="salto 
+ Count = 25 
+ Coef = 1.91" shape=plaintext]
+	salto -> canuela [label="5.06%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 103 
+ Coef = 3.11" shape=plaintext]
+	que -> cayo [label="20.98%" weight=1.2]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 39 
+ Coef = 5.18" shape=plaintext]
+	arbol -> cayo [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 25 
+ Coef = 2.0" shape=plaintext]
+	porque -> cayo [label="5.09%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 11 
+ Coef = 3.11" shape=plaintext]
+	que -> saltar [label="9.73%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 9 
+ Coef = 2.0" shape=plaintext]
+	porque -> saltar [label="7.96%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 8 
+ Coef = 12.85" shape=plaintext]
+	transformador -> saltar [label="7.08%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 27 
+ Coef = 3.11" shape=plaintext]
+	que -> caer [label="13.78%" weight=1.2]
+	node [color=green style=filled]
+	acabar [label="acabar 
+ Count = 12 
+ Coef = 0.86" shape=plaintext]
+	acabar -> caer [label="6.12%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 3 
+ Coef = 4.94" shape=plaintext]
+	corto -> salto [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 3.11" shape=plaintext]
+	que -> salto [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	dano [label="dano 
+ Count = 2 
+ Coef = -0.48" shape=plaintext]
+	dano -> salto [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 2 
+ Coef = 12.85" shape=plaintext]
+	transformador -> salto [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	parecer [label="parecer 
+ Count = 2 
+ Coef = 1.54" shape=plaintext]
+	parecer -> salto [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	contador [label="contador 
+ Count = 2 
+ Coef = 6.29" shape=plaintext]
+	contador -> salto [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = 2.0" shape=plaintext]
+	porque -> salto [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 36 
+ Coef = 12.85" shape=plaintext]
+	canuela -> transformador [label="16.0%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 38 
+ Coef = -0.2" shape=plaintext]
+	transformador -> aqui [label="5.15%" weight=1.2]
+	node [color=green style=filled]
+	echar [label="echar 
+ Count = 38 
+ Coef = 3.31" shape=plaintext]
+	transformador -> echar [label="5.15%" weight=1.2]
+}

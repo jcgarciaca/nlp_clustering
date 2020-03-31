@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	recoleccion [label="recoleccion 
+ Count = 12 
+ Coef = 3.8"]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 1 
+ Coef = -0.58" shape=plaintext]
+	llamar -> recoleccion [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = -0.0" shape=plaintext]
+	dia -> recoleccion [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 2.57" shape=plaintext]
+	servicio -> recoleccion [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 5 
+ Coef = -0.81" shape=plaintext]
+	estar -> llamar [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 2.57" shape=plaintext]
+	servicio -> dia [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 1 
+ Coef = 2.09" shape=plaintext]
+	cortar -> dia [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	ser -> dia [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	pagar [label="pagar 
+ Count = 1 
+ Coef = 1.06" shape=plaintext]
+	pagar -> dia [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 1 
+ Coef = -0.42" shape=plaintext]
+	mas -> dia [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	llevar [label="llevar 
+ Count = 1 
+ Coef = -0.34" shape=plaintext]
+	llevar -> dia [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = -0.86" shape=plaintext]
+	hacer -> dia [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	suspender [label="suspender 
+ Count = 1 
+ Coef = 1.21" shape=plaintext]
+	suspender -> dia [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	luz -> dia [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 407 
+ Coef = 12.16" shape=plaintext]
+	reconexion -> servicio [label="86.41%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = 2.57" shape=plaintext]
+	recoleccion -> servicio [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	realizar [label="realizar 
+ Count = 1 
+ Coef = 0.47" shape=plaintext]
+	recoleccion -> realizar [label="10.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	dolar [label="dolar 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	recoleccion -> dolar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 33 
+ Coef = -0.13" shape=plaintext]
+	servicio -> luz [label="27.27%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 24 
+ Coef = -0.04" shape=plaintext]
+	servicio -> energia [label="19.83%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 15 
+ Coef = 12.16" shape=plaintext]
+	servicio -> reconexion [label="12.4%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 4 
+ Coef = 12.16" shape=plaintext]
+	realizar -> reconexion [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	dolar -> hoy [label="100.0%" weight=1.2]
+}

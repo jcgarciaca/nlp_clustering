@@ -1,0 +1,57 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"bajar luz" [label="bajar luz 
+ Count = 5 
+ Coef = 2.66"]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = 4.74" shape=plaintext]
+	subir -> "bajar luz" [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 2.12" shape=plaintext]
+	luz -> subir [label="30.0%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 2 
+ Coef = 7.78" shape=plaintext]
+	baja -> subir [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 1.05" shape=plaintext]
+	"bajar luz" -> casa [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 1 
+ Coef = -0.73" shape=plaintext]
+	"bajar luz" -> aqui [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	previo [label="previo 
+ Count = 1 
+ Coef = 1.21" shape=plaintext]
+	"bajar luz" -> previo [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	casa -> paso [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = 4.74" shape=plaintext]
+	casa -> subir [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 1 
+ Coef = 8.88" shape=plaintext]
+	casa -> voltaje [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 1.05" shape=plaintext]
+	aqui -> casa [label="100.0%" weight=1.2]
+}

@@ -1,0 +1,192 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	taco [label="taco 
+ Count = 127 
+ Coef = 4.93"]
+	node [color=green style=filled]
+	saltar [label="saltar 
+ Count = 12 
+ Coef = 1.05" shape=plaintext]
+	saltar -> taco [label="10.91%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 8 
+ Coef = 2.18" shape=plaintext]
+	dano -> taco [label="7.27%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 7 
+ Coef = 0.32" shape=plaintext]
+	problema -> taco [label="6.36%" weight=1.2]
+	node [color=red style=filled]
+	bajar [label="bajar 
+ Count = 6 
+ Coef = -1.04" shape=plaintext]
+	bajar -> taco [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = -0.99" shape=plaintext]
+	que -> saltar [label="17.65%" weight=1.2]
+	node [color=red style=filled]
+	estan [label="estan 
+ Count = 2 
+ Coef = -0.28" shape=plaintext]
+	estan -> saltar [label="11.76%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -0.49" shape=plaintext]
+	porque -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	torre [label="torre 
+ Count = 1 
+ Coef = 0.96" shape=plaintext]
+	torre -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	clases [label="clases 
+ Count = 1 
+ Coef = 3.93" shape=plaintext]
+	clases -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	taco [label="taco 
+ Count = 1 
+ Coef = 4.93" shape=plaintext]
+	taco -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	quedar [label="quedar 
+ Count = 1 
+ Coef = 1.3" shape=plaintext]
+	quedar -> saltar [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	fallar [label="fallar 
+ Count = 1 
+ Coef = -0.14" shape=plaintext]
+	fallar -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	apartamentos [label="apartamentos 
+ Count = 1 
+ Coef = 5.17" shape=plaintext]
+	apartamentos -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	externo [label="externo 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	externo -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	toma [label="toma 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	toma -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 1 
+ Coef = 0.76" shape=plaintext]
+	calle -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	parecer [label="parecer 
+ Count = 1 
+ Coef = 0.81" shape=plaintext]
+	parecer -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 1.38" shape=plaintext]
+	no -> saltar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 7 
+ Coef = 0.18" shape=plaintext]
+	tener -> dano [label="30.43%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -0.99" shape=plaintext]
+	que -> dano [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 2 
+ Coef = -1.21" shape=plaintext]
+	reportar -> dano [label="8.7%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.4" shape=plaintext]
+	ser -> dano [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 7 
+ Coef = 0.18" shape=plaintext]
+	tener -> problema [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.4" shape=plaintext]
+	ser -> problema [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 1 
+ Coef = 0.32" shape=plaintext]
+	problema -> problema [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 1 
+ Coef = 0.07" shape=plaintext]
+	paso -> problema [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	fusagasuga [label="fusagasuga 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	fusagasuga -> problema [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	facil [label="facil 
+ Count = 1 
+ Coef = 0.26" shape=plaintext]
+	facil -> problema [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	minuto [label="minuto 
+ Count = 1 
+ Coef = -0.33" shape=plaintext]
+	minuto -> problema [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = 1.38" shape=plaintext]
+	no -> bajar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	administracion [label="administracion 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	administracion -> bajar [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	subir -> bajar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	tacos [label="tacos 
+ Count = 1 
+ Coef = 2.62" shape=plaintext]
+	tacos -> bajar [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	principal [label="principal 
+ Count = 33 
+ Coef = 3.58" shape=plaintext]
+	taco -> principal [label="40.74%" weight=1.2]
+	node [color=green style=filled]
+	apartamento [label="apartamento 
+ Count = 5 
+ Coef = 10.67" shape=plaintext]
+	principal -> apartamento [label="20.83%" weight=1.2]
+	node [color=green style=filled]
+	calle [label="calle 
+ Count = 4 
+ Coef = 0.76" shape=plaintext]
+	principal -> calle [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 7.45" shape=plaintext]
+	principal -> casa [label="12.5%" weight=1.2]
+}

@@ -1,0 +1,162 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	presentar [label="presentar 
+ Count = 72 
+ Coef = 2.6"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 18 
+ Coef = 0.17" shape=plaintext]
+	no -> presentar [label="41.86%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 4 
+ Coef = 18.89" shape=plaintext]
+	energia -> presentar [label="9.3%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = -2.09" shape=plaintext]
+	estar -> presentar [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 3 
+ Coef = 0.88" shape=plaintext]
+	ayer -> presentar [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 317 
+ Coef = 18.89" shape=plaintext]
+	energia -> no [label="22.06%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 194 
+ Coef = -1.68" shape=plaintext]
+	que -> no [label="13.5%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 101 
+ Coef = 0.88" shape=plaintext]
+	ayer -> no [label="7.03%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4842 
+ Coef = 0.98" shape=plaintext]
+	servicio -> energia [label="49.59%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 925 
+ Coef = 2.01" shape=plaintext]
+	tener -> energia [label="9.47%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 884 
+ Coef = 1.81" shape=plaintext]
+	suministro -> energia [label="9.05%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 681 
+ Coef = 0.62" shape=plaintext]
+	haber -> energia [label="6.97%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 71 
+ Coef = -1.68" shape=plaintext]
+	que -> estar [label="20.06%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 32 
+ Coef = 0.88" shape=plaintext]
+	ayer -> estar [label="9.04%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 25 
+ Coef = 18.89" shape=plaintext]
+	energia -> estar [label="7.06%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 24 
+ Coef = 1.39" shape=plaintext]
+	manana -> estar [label="6.78%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 359 
+ Coef = 0.59" shape=plaintext]
+	dia -> ayer [label="49.45%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 242 
+ Coef = 18.89" shape=plaintext]
+	energia -> ayer [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 0.98" shape=plaintext]
+	presentar -> servicio [label="23.61%" weight=1.2]
+	node [color=red style=filled]
+	falla [label="falla 
+ Count = 16 
+ Coef = -2.98" shape=plaintext]
+	presentar -> falla [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	fallar [label="fallar 
+ Count = 12 
+ Coef = -1.79" shape=plaintext]
+	presentar -> fallar [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	fallo [label="fallo 
+ Count = 4 
+ Coef = -2.14" shape=plaintext]
+	presentar -> fallo [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 4813 
+ Coef = 18.89" shape=plaintext]
+	servicio -> energia [label="93.84%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 50 
+ Coef = 18.89" shape=plaintext]
+	falla -> energia [label="32.89%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 38 
+ Coef = 1.81" shape=plaintext]
+	falla -> suministro [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 37 
+ Coef = 0.98" shape=plaintext]
+	falla -> servicio [label="24.34%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 25 
+ Coef = 18.89" shape=plaintext]
+	fallar -> energia [label="29.07%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 24 
+ Coef = 0.98" shape=plaintext]
+	fallar -> servicio [label="27.91%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 15 
+ Coef = 1.81" shape=plaintext]
+	fallar -> suministro [label="17.44%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 67 
+ Coef = 18.89" shape=plaintext]
+	fallo -> energia [label="40.61%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 40 
+ Coef = 1.81" shape=plaintext]
+	fallo -> suministro [label="24.24%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 35 
+ Coef = 0.98" shape=plaintext]
+	fallo -> servicio [label="21.21%" weight=1.2]
+}

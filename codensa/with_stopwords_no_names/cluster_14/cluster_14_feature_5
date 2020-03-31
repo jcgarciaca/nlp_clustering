@@ -1,0 +1,107 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	suministro [label="suministro 
+ Count = 1287 
+ Coef = 3.75"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 259 
+ Coef = 1.38" shape=plaintext]
+	haber -> suministro [label="22.08%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 183 
+ Coef = 2.53" shape=plaintext]
+	tener -> suministro [label="15.6%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 147 
+ Coef = 1.38" shape=plaintext]
+	faltar -> suministro [label="12.53%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 90 
+ Coef = -1.99" shape=plaintext]
+	estar -> suministro [label="7.67%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2369 
+ Coef = -0.64" shape=plaintext]
+	no -> haber [label="93.45%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2778 
+ Coef = -0.64" shape=plaintext]
+	no -> tener [label="92.72%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 9 
+ Coef = 15.75" shape=plaintext]
+	energia -> faltar [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 4 
+ Coef = -1.44" shape=plaintext]
+	ser -> faltar [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	reclamo [label="reclamo 
+ Count = 3 
+ Coef = 0.19" shape=plaintext]
+	reclamo -> faltar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	nuevamente [label="nuevamente 
+ Count = 3 
+ Coef = 0.71" shape=plaintext]
+	nuevamente -> faltar [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 84 
+ Coef = -1.95" shape=plaintext]
+	que -> estar [label="19.31%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 32 
+ Coef = 0.46" shape=plaintext]
+	ayer -> estar [label="7.36%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 31 
+ Coef = 15.75" shape=plaintext]
+	energia -> estar [label="7.13%" weight=1.2]
+	node [color=green style=filled]
+	mna [label="mna 
+ Count = 26 
+ Coef = 0.9" shape=plaintext]
+	mna -> estar [label="5.98%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 969 
+ Coef = 15.75" shape=plaintext]
+	suministro -> energia [label="85.3%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 536 
+ Coef = 0.64" shape=plaintext]
+	energia -> electrica [label="11.17%" weight=1.2]
+	node [color=red style=filled]
+	sector [label="sector 
+ Count = 374 
+ Coef = -0.04" shape=plaintext]
+	energia -> sector [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 339 
+ Coef = 1.25" shape=plaintext]
+	energia -> dia [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 284 
+ Coef = -0.36" shape=plaintext]
+	energia -> hacer [label="5.92%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 273 
+ Coef = 0.46" shape=plaintext]
+	energia -> ayer [label="5.69%" weight=1.2]
+}

@@ -1,0 +1,172 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	faltar [label="faltar 
+ Count = 172 
+ Coef = 5.52"]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 2 
+ Coef = 5.52" shape=plaintext]
+	faltar -> faltar [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 2.86" shape=plaintext]
+	electrica -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	electricas [label="electricas 
+ Count = 1 
+ Coef = 1.09" shape=plaintext]
+	electricas -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tecnico [label="tecnico 
+ Count = 1 
+ Coef = 0.84" shape=plaintext]
+	tecnico -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.43" shape=plaintext]
+	casa -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 2 
+ Coef = 5.52" shape=plaintext]
+	faltar -> faltar [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1 
+ Coef = 2.86" shape=plaintext]
+	electrica -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	electricas [label="electricas 
+ Count = 1 
+ Coef = 1.09" shape=plaintext]
+	electricas -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tecnico [label="tecnico 
+ Count = 1 
+ Coef = 0.84" shape=plaintext]
+	tecnico -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.43" shape=plaintext]
+	casa -> faltar [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1474 
+ Coef = 12.81" shape=plaintext]
+	falla -> electrica [label="86.2%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 75 
+ Coef = 12.46" shape=plaintext]
+	fallar -> electricas [label="88.24%" weight=1.2]
+	node [color=green style=filled]
+	redes [label="redes 
+ Count = 7 
+ Coef = 0.99" shape=plaintext]
+	redes -> electricas [label="8.24%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 90 
+ Coef = 11.96" shape=plaintext]
+	fallo -> tecnico [label="73.17%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 30 
+ Coef = 12.81" shape=plaintext]
+	falla -> tecnico [label="24.39%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 13 
+ Coef = 2.86" shape=plaintext]
+	electrica -> casa [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 12 
+ Coef = 2.43" shape=plaintext]
+	energia -> casa [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 6 
+ Coef = 12.46" shape=plaintext]
+	fallar -> casa [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 5 
+ Coef = 12.81" shape=plaintext]
+	falla -> casa [label="6.41%" weight=1.2]
+	node [color=green style=filled]
+	electricidad [label="electricidad 
+ Count = 4 
+ Coef = 1.32" shape=plaintext]
+	electricidad -> casa [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 1.19" shape=plaintext]
+	servicio -> casa [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 85 
+ Coef = 2.92" shape=plaintext]
+	faltar -> suministro [label="66.93%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 9 
+ Coef = 2.98" shape=plaintext]
+	faltar -> sector [label="7.09%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 7 
+ Coef = 0.25" shape=plaintext]
+	faltar -> fase [label="5.51%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 662 
+ Coef = 2.43" shape=plaintext]
+	suministro -> energia [label="83.48%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 6 
+ Coef = 11.96" shape=plaintext]
+	sector -> fallo [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = -1.42" shape=plaintext]
+	sector -> no [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -0.23" shape=plaintext]
+	fase -> hacer [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 2 
+ Coef = 1.53" shape=plaintext]
+	fase -> red [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.43" shape=plaintext]
+	fase -> casa [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	problema [label="problema 
+ Count = 1 
+ Coef = -0.49" shape=plaintext]
+	fase -> problema [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	completa [label="completa 
+ Count = 1 
+ Coef = 0.3" shape=plaintext]
+	fase -> completa [label="12.5%" weight=1.2]
+	node [color=lightgrey style=filled]
+	apache [label="apache 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	fase -> apache [label="12.5%" weight=1.2]
+}

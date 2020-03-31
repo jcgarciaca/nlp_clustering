@@ -1,0 +1,67 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	energia [label="energia 
+ Count = 519 
+ Coef = 2.64"]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 32 
+ Coef = 2.19" shape=plaintext]
+	haber -> energia [label="6.27%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 30 
+ Coef = -0.32" shape=plaintext]
+	estar -> energia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 30 
+ Coef = 1.83" shape=plaintext]
+	problema -> energia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 177 
+ Coef = 0.53" shape=plaintext]
+	no -> haber [label="31.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 57 
+ Coef = 0.07" shape=plaintext]
+	que -> haber [label="10.04%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 39 
+ Coef = 0.07" shape=plaintext]
+	que -> estar [label="10.51%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 69 
+ Coef = 2.38" shape=plaintext]
+	tener -> problema [label="43.4%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 1.01" shape=plaintext]
+	ser -> problema [label="6.92%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 10 
+ Coef = 2.19" shape=plaintext]
+	haber -> problema [label="6.29%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 36 
+ Coef = 1.49" shape=plaintext]
+	energia -> casa [label="8.18%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 39 
+ Coef = 0.53" shape=plaintext]
+	casa -> no [label="9.82%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 20 
+ Coef = 2.38" shape=plaintext]
+	casa -> tener [label="5.04%" weight=1.2]
+}

@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	bajita [label="bajita 
+ Count = 189 
+ Coef = 4.37"]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 100 
+ Coef = 2.99" shape=plaintext]
+	muy -> bajita [label="53.19%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 30 
+ Coef = 1.56" shape=plaintext]
+	luz -> bajita [label="15.96%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 51 
+ Coef = 1.56" shape=plaintext]
+	luz -> muy [label="19.84%" weight=1.2]
+	node [color=green style=filled]
+	llegar [label="llegar 
+ Count = 32 
+ Coef = 1.49" shape=plaintext]
+	llegar -> muy [label="12.45%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 21 
+ Coef = 1.3" shape=plaintext]
+	energia -> muy [label="8.17%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 18 
+ Coef = 0.71" shape=plaintext]
+	ser -> muy [label="7.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 99 
+ Coef = 0.71" shape=plaintext]
+	ser -> luz [label="12.03%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 53 
+ Coef = -0.94" shape=plaintext]
+	estar -> luz [label="6.44%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 42 
+ Coef = -3.46" shape=plaintext]
+	servicio -> luz [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 42 
+ Coef = 1.44" shape=plaintext]
+	ir -> luz [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 44 
+ Coef = 1.49" shape=plaintext]
+	bajita -> no [label="25.88%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 19 
+ Coef = 1.56" shape=plaintext]
+	bajita -> luz [label="11.18%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 66 
+ Coef = 2.69" shape=plaintext]
+	no -> funcionar [label="8.17%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 50 
+ Coef = 5.54" shape=plaintext]
+	no -> prender [label="6.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 47 
+ Coef = 0.43" shape=plaintext]
+	no -> haber [label="5.82%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 48 
+ Coef = 1.49" shape=plaintext]
+	luz -> no [label="5.67%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 43 
+ Coef = 2.99" shape=plaintext]
+	luz -> muy [label="5.08%" weight=1.2]
+}

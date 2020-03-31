@@ -1,0 +1,102 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	suministro [label="suministro 
+ Count = 233 
+ Coef = 4.02"]
+	node [color=green style=filled]
+	faltar [label="faltar 
+ Count = 67 
+ Coef = 0.53" shape=plaintext]
+	faltar -> suministro [label="38.29%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 44 
+ Coef = -0.01" shape=plaintext]
+	haber -> suministro [label="25.14%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 14 
+ Coef = 21.63" shape=plaintext]
+	servicio -> faltar [label="23.33%" weight=1.2]
+	node [color=green style=filled]
+	reclamo [label="reclamo 
+ Count = 6 
+ Coef = 1.12" shape=plaintext]
+	reclamo -> faltar [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = -0.48" shape=plaintext]
+	ser -> faltar [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2180 
+ Coef = -0.65" shape=plaintext]
+	no -> haber [label="95.91%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 90 
+ Coef = -2.19" shape=plaintext]
+	suministro -> luz [label="70.31%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 13 
+ Coef = 21.63" shape=plaintext]
+	suministro -> servicio [label="10.16%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 7 
+ Coef = -5.06" shape=plaintext]
+	suministro -> energia [label="5.47%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 133 
+ Coef = 0.02" shape=plaintext]
+	luz -> dia [label="8.98%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 131 
+ Coef = -0.15" shape=plaintext]
+	luz -> hacer [label="8.85%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 130 
+ Coef = 2.82" shape=plaintext]
+	luz -> ayer [label="8.78%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 109 
+ Coef = -0.65" shape=plaintext]
+	luz -> no [label="7.36%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 98 
+ Coef = -1.1" shape=plaintext]
+	luz -> casa [label="6.62%" weight=1.2]
+	node [color=green style=filled]
+	manana [label="manana 
+ Count = 78 
+ Coef = 0.15" shape=plaintext]
+	luz -> manana [label="5.27%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 3170 
+ Coef = -2.19" shape=plaintext]
+	servicio -> luz [label="43.74%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 43 
+ Coef = 0.02" shape=plaintext]
+	energia -> dia [label="13.35%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 21 
+ Coef = 2.82" shape=plaintext]
+	energia -> ayer [label="6.52%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 19 
+ Coef = -0.65" shape=plaintext]
+	energia -> no [label="5.9%" weight=1.2]
+}

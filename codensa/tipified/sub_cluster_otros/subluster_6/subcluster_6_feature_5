@@ -1,0 +1,87 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	dano [label="dano 
+ Count = 311 
+ Coef = 2.5"]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 30 
+ Coef = 1.24" shape=plaintext]
+	reportar -> dano [label="14.35%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 23 
+ Coef = 2.19" shape=plaintext]
+	haber -> dano [label="11.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 17 
+ Coef = 1.01" shape=plaintext]
+	ser -> dano [label="8.13%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 16 
+ Coef = 0.07" shape=plaintext]
+	que -> dano [label="7.66%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 16 
+ Coef = 2.38" shape=plaintext]
+	tener -> dano [label="7.66%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 19 
+ Coef = 1.01" shape=plaintext]
+	ser -> reportar [label="28.79%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 6 
+ Coef = -0.32" shape=plaintext]
+	estar -> reportar [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	querer [label="querer 
+ Count = 4 
+ Coef = -0.75" shape=plaintext]
+	querer -> reportar [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 177 
+ Coef = 0.53" shape=plaintext]
+	no -> haber [label="31.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 57 
+ Coef = 0.07" shape=plaintext]
+	que -> haber [label="10.04%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 141 
+ Coef = -0.18" shape=plaintext]
+	paso -> ser [label="14.81%" weight=1.2]
+	node [color=red style=filled]
+	llamada [label="llamada 
+ Count = 62 
+ Coef = -1.02" shape=plaintext]
+	llamada -> ser [label="6.51%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 53 
+ Coef = 0.07" shape=plaintext]
+	que -> ser [label="5.57%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 364 
+ Coef = 1.01" shape=plaintext]
+	ser -> que [label="37.53%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 136 
+ Coef = 0.53" shape=plaintext]
+	no -> tener [label="25.81%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 68 
+ Coef = 0.07" shape=plaintext]
+	que -> tener [label="12.9%" weight=1.2]
+}

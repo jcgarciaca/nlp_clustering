@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	vereda [label="vereda 
+ Count = 9792 
+ Coef = 15.7"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1271 
+ Coef = -2.08" shape=plaintext]
+	luz -> vereda [label="13.43%" weight=1.2]
+	node [color=green style=filled]
+	cundinamarca [label="cundinamarca 
+ Count = 996 
+ Coef = 16.09" shape=plaintext]
+	cundinamarca -> vereda [label="10.52%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 978 
+ Coef = 3.3" shape=plaintext]
+	aqui -> vereda [label="10.33%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 661 
+ Coef = -1.79" shape=plaintext]
+	energia -> vereda [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2030 
+ Coef = 0.76" shape=plaintext]
+	haber -> luz [label="20.01%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1836 
+ Coef = -0.07" shape=plaintext]
+	tener -> luz [label="18.09%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1724 
+ Coef = -0.48" shape=plaintext]
+	estar -> luz [label="16.99%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1244 
+ Coef = -2.3" shape=plaintext]
+	servicio -> luz [label="12.26%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 722 
+ Coef = 0.19" shape=plaintext]
+	ser -> luz [label="7.12%" weight=1.2]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 342 
+ Coef = 1.54" shape=plaintext]
+	mesa -> cundinamarca [label="5.9%" weight=1.2]
+	node [color=green style=filled]
+	vega [label="vega 
+ Count = 298 
+ Coef = 1.86" shape=plaintext]
+	vega -> cundinamarca [label="5.14%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 832 
+ Coef = -2.08" shape=plaintext]
+	luz -> aqui [label="23.84%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 422 
+ Coef = -0.3" shape=plaintext]
+	que -> aqui [label="12.09%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 185 
+ Coef = -1.79" shape=plaintext]
+	energia -> aqui [label="5.3%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1680 
+ Coef = -2.3" shape=plaintext]
+	servicio -> energia [label="35.14%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 492 
+ Coef = -0.48" shape=plaintext]
+	estar -> energia [label="10.29%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 393 
+ Coef = -0.07" shape=plaintext]
+	tener -> energia [label="8.22%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 342 
+ Coef = 0.76" shape=plaintext]
+	haber -> energia [label="7.15%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 319 
+ Coef = 0.85" shape=plaintext]
+	suministro -> energia [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 732 
+ Coef = 4.56" shape=plaintext]
+	vereda -> santo [label="7.81%" weight=1.2]
+	node [color=green style=filled]
+	jose [label="jose 
+ Count = 269 
+ Coef = 1.37" shape=plaintext]
+	santo -> jose [label="15.81%" weight=1.2]
+	node [color=green style=filled]
+	antonio [label="antonio 
+ Count = 265 
+ Coef = 1.73" shape=plaintext]
+	santo -> antonio [label="15.58%" weight=1.2]
+	node [color=green style=filled]
+	miguel [label="miguel 
+ Count = 166 
+ Coef = 1.79" shape=plaintext]
+	santo -> miguel [label="9.76%" weight=1.2]
+}

@@ -1,0 +1,27 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"luz asi" [label="luz asi 
+ Count = 1 
+ Coef = 1.69"]
+	node [color=green style=filled]
+	persona [label="persona 
+ Count = 1 
+ Coef = 1.32" shape=plaintext]
+	persona -> "luz asi" [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -1.01" shape=plaintext]
+	luz -> persona [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 1 
+ Coef = 0.21" shape=plaintext]
+	"luz asi" -> mas [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	alla [label="alla 
+ Count = 1 
+ Coef = 0.87" shape=plaintext]
+	mas -> alla [label="100.0%" weight=1.2]
+}

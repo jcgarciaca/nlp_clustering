@@ -1,0 +1,147 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	arreglar [label="arreglar 
+ Count = 2928 
+ Coef = 6.73"]
+	node [color=green style=filled]
+	venir [label="venir 
+ Count = 457 
+ Coef = 2.47" shape=plaintext]
+	venir -> arreglar [label="15.65%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 300 
+ Coef = 4.94" shape=plaintext]
+	que -> arreglar [label="10.27%" weight=1.2]
+	node [color=green style=filled]
+	vender [label="vender 
+ Count = 259 
+ Coef = 2.47" shape=plaintext]
+	vender -> arreglar [label="8.87%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 200 
+ Coef = 2.13" shape=plaintext]
+	haber -> arreglar [label="6.85%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 182 
+ Coef = 1.74" shape=plaintext]
+	ir -> arreglar [label="6.23%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 147 
+ Coef = 1.7" shape=plaintext]
+	no -> arreglar [label="5.03%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 591 
+ Coef = 4.94" shape=plaintext]
+	que -> venir [label="28.3%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 159 
+ Coef = 1.72" shape=plaintext]
+	ayer -> venir [label="7.61%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 148 
+ Coef = 1.74" shape=plaintext]
+	ir -> venir [label="7.09%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 114 
+ Coef = 3.59" shape=plaintext]
+	poder -> venir [label="5.46%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7706 
+ Coef = 1.55" shape=plaintext]
+	ser -> que [label="42.63%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1222 
+ Coef = 2.13" shape=plaintext]
+	haber -> vender [label="88.36%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7093 
+ Coef = 1.7" shape=plaintext]
+	no -> haber [label="62.29%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 657 
+ Coef = 4.94" shape=plaintext]
+	que -> haber [label="5.77%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 564 
+ Coef = 4.94" shape=plaintext]
+	que -> ir [label="12.62%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 500 
+ Coef = 2.62" shape=plaintext]
+	ya -> ir [label="11.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 271 
+ Coef = 2.13" shape=plaintext]
+	haber -> ir [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 2481 
+ Coef = 4.94" shape=plaintext]
+	que -> no [label="13.81%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 215 
+ Coef = 3.74" shape=plaintext]
+	arreglar -> problema [label="9.35%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 158 
+ Coef = 1.7" shape=plaintext]
+	arreglar -> no [label="6.87%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 121 
+ Coef = 1.67" shape=plaintext]
+	arreglar -> servicio [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 211 
+ Coef = 1.55" shape=plaintext]
+	problema -> ser [label="10.34%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 108 
+ Coef = 6.06" shape=plaintext]
+	problema -> porque [label="5.29%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 107 
+ Coef = -0.45" shape=plaintext]
+	problema -> energia [label="5.25%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 107 
+ Coef = 1.7" shape=plaintext]
+	problema -> no [label="5.25%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5519 
+ Coef = 2.13" shape=plaintext]
+	no -> haber [label="28.07%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4811 
+ Coef = 2.29" shape=plaintext]
+	no -> tener [label="24.47%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 1678 
+ Coef = -0.45" shape=plaintext]
+	servicio -> energia [label="21.15%" weight=1.2]
+}

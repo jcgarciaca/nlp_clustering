@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"fallar servicio" [label="fallar servicio 
+ Count = 529 
+ Coef = 2.88"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 1.19" shape=plaintext]
+	servicio -> "fallar servicio" [label="26.09%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 5 
+ Coef = 12.46" shape=plaintext]
+	fallar -> "fallar servicio" [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 2 
+ Coef = -0.69" shape=plaintext]
+	ir -> "fallar servicio" [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 1341 
+ Coef = 11.96" shape=plaintext]
+	fallo -> servicio [label="57.26%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 527 
+ Coef = 12.46" shape=plaintext]
+	fallar -> servicio [label="22.5%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 372 
+ Coef = 12.81" shape=plaintext]
+	falla -> servicio [label="15.88%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 12 
+ Coef = 12.46" shape=plaintext]
+	fallar -> fallar [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = 1.19" shape=plaintext]
+	servicio -> fallar [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = -2.99" shape=plaintext]
+	tener -> fallar [label="11.25%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 7 
+ Coef = -2.65" shape=plaintext]
+	haber -> fallar [label="8.75%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 6 
+ Coef = 2.43" shape=plaintext]
+	energia -> fallar [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 1 
+ Coef = 11.96" shape=plaintext]
+	fallo -> ir [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	sensor [label="sensor 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	sensor -> ir [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = -0.62" shape=plaintext]
+	subir -> ir [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -1.17" shape=plaintext]
+	ya -> ir [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	servicio -> ir [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	madrid [label="madrid 
+ Count = 1 
+ Coef = -0.16" shape=plaintext]
+	madrid -> ir [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = -0.55" shape=plaintext]
+	mna -> ir [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.44" shape=plaintext]
+	si -> ir [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -1.42" shape=plaintext]
+	no -> ir [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 75 
+ Coef = 2.43" shape=plaintext]
+	"fallar servicio" -> energia [label="48.39%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 81 
+ Coef = 2.86" shape=plaintext]
+	energia -> electrica [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 80 
+ Coef = 2.98" shape=plaintext]
+	energia -> sector [label="19.75%" weight=1.2]
+}

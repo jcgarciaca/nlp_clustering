@@ -1,0 +1,22 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"servicio ayer" [label="servicio ayer 
+ Count = 13 
+ Coef = 1.96"]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 5 
+ Coef = 0.25" shape=plaintext]
+	"servicio ayer" -> tarde [label="83.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pm [label="pm 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	"servicio ayer" -> pm [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 1 
+ Coef = 0.25" shape=plaintext]
+	pm -> tarde [label="100.0%" weight=1.2]
+}

@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	haber [label="haber 
+ Count = 1654 
+ Coef = 3.97"]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1146 
+ Coef = 2.07" shape=plaintext]
+	no -> haber [label="70.26%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 187 
+ Coef = 1.03" shape=plaintext]
+	que -> no [label="9.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 106 
+ Coef = -0.51" shape=plaintext]
+	luz -> no [label="5.24%" weight=1.2]
+	node [color=green style=filled]
+	vender [label="vender 
+ Count = 354 
+ Coef = 2.78" shape=plaintext]
+	haber -> vender [label="21.51%" weight=1.2]
+	node [color=green style=filled]
+	solucionar [label="solucionar 
+ Count = 171 
+ Coef = 7.84" shape=plaintext]
+	haber -> solucionar [label="10.39%" weight=1.2]
+	node [color=green style=filled]
+	seguir [label="seguir 
+ Count = 105 
+ Coef = 1.88" shape=plaintext]
+	haber -> seguir [label="6.38%" weight=1.2]
+	node [color=green style=filled]
+	arreglar [label="arreglar 
+ Count = 93 
+ Coef = 9.56" shape=plaintext]
+	haber -> arreglar [label="5.65%" weight=1.2]
+	node [color=green style=filled]
+	llegar [label="llegar 
+ Count = 84 
+ Coef = 0.11" shape=plaintext]
+	haber -> llegar [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	arreglar [label="arreglar 
+ Count = 97 
+ Coef = 9.56" shape=plaintext]
+	vender -> arreglar [label="22.56%" weight=1.2]
+	node [color=green style=filled]
+	solucionar [label="solucionar 
+ Count = 53 
+ Coef = 7.84" shape=plaintext]
+	vender -> solucionar [label="12.33%" weight=1.2]
+	node [color=green style=filled]
+	arreglarla [label="arreglarla 
+ Count = 37 
+ Coef = 2.18" shape=plaintext]
+	vender -> arreglarla [label="8.6%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 184 
+ Coef = 3.69" shape=plaintext]
+	solucionar -> problema [label="45.66%" weight=1.2]
+	node [color=green style=filled]
+	posible [label="posible 
+ Count = 95 
+ Coef = 0.81" shape=plaintext]
+	seguir -> posible [label="40.77%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 22 
+ Coef = -0.51" shape=plaintext]
+	seguir -> luz [label="9.44%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 76 
+ Coef = 3.69" shape=plaintext]
+	arreglar -> problema [label="11.43%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 56 
+ Coef = -0.51" shape=plaintext]
+	arreglar -> luz [label="8.42%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 42 
+ Coef = 2.07" shape=plaintext]
+	arreglar -> no [label="6.32%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 34 
+ Coef = -3.42" shape=plaintext]
+	arreglar -> servicio [label="5.11%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 25 
+ Coef = -0.51" shape=plaintext]
+	llegar -> luz [label="11.21%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 12 
+ Coef = 2.07" shape=plaintext]
+	llegar -> no [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	mensaje [label="mensaje 
+ Count = 12 
+ Coef = 1.03" shape=plaintext]
+	llegar -> mensaje [label="5.38%" weight=1.2]
+}

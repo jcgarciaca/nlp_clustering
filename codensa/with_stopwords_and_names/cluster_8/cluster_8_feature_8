@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	suspender [label="suspender 
+ Count = 143 
+ Coef = 2.74"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 31 
+ Coef = -0.48" shape=plaintext]
+	ser -> suspender [label="31.63%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 12 
+ Coef = -0.72" shape=plaintext]
+	tener -> suspender [label="12.24%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = -0.65" shape=plaintext]
+	no -> suspender [label="8.16%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = -1.34" shape=plaintext]
+	que -> suspender [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 5 
+ Coef = 0.12" shape=plaintext]
+	porque -> suspender [label="5.1%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1858 
+ Coef = -0.72" shape=plaintext]
+	tener -> ser [label="19.42%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1840 
+ Coef = -0.01" shape=plaintext]
+	haber -> ser [label="19.23%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1049 
+ Coef = -1.38" shape=plaintext]
+	estar -> ser [label="10.96%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1961 
+ Coef = -0.65" shape=plaintext]
+	no -> tener [label="92.94%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 326 
+ Coef = 21.63" shape=plaintext]
+	servicio -> no [label="21.43%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 185 
+ Coef = -1.34" shape=plaintext]
+	que -> no [label="12.16%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 173 
+ Coef = -2.19" shape=plaintext]
+	luz -> no [label="11.37%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 87 
+ Coef = 0.12" shape=plaintext]
+	porque -> no [label="5.72%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 241 
+ Coef = -0.48" shape=plaintext]
+	ser -> que [label="42.21%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 25 
+ Coef = 21.63" shape=plaintext]
+	servicio -> porque [label="15.92%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 24 
+ Coef = -0.48" shape=plaintext]
+	ser -> porque [label="15.29%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 22 
+ Coef = 1.04" shape=plaintext]
+	saber -> porque [label="14.01%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 12 
+ Coef = -0.65" shape=plaintext]
+	no -> porque [label="7.64%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 8 
+ Coef = -0.39" shape=plaintext]
+	llamar -> porque [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 104 
+ Coef = 21.63" shape=plaintext]
+	suspender -> servicio [label="77.04%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 3170 
+ Coef = -2.19" shape=plaintext]
+	servicio -> luz [label="43.74%" weight=1.2]
+}

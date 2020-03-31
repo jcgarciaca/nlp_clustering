@@ -1,0 +1,172 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	barrio [label="barrio 
+ Count = 3998 
+ Coef = 17.73"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 631 
+ Coef = -0.86" shape=plaintext]
+	luz -> barrio [label="16.47%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 410 
+ Coef = 4.14" shape=plaintext]
+	aqui -> barrio [label="10.7%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 230 
+ Coef = -2.41" shape=plaintext]
+	energia -> barrio [label="6.0%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 956 
+ Coef = 0.49" shape=plaintext]
+	haber -> luz [label="21.66%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 725 
+ Coef = -0.21" shape=plaintext]
+	tener -> luz [label="16.43%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 540 
+ Coef = 0.63" shape=plaintext]
+	estar -> luz [label="12.23%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 524 
+ Coef = 1.0" shape=plaintext]
+	ser -> luz [label="11.87%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 335 
+ Coef = -3.8" shape=plaintext]
+	servicio -> luz [label="7.59%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 325 
+ Coef = -0.86" shape=plaintext]
+	luz -> aqui [label="21.42%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 206 
+ Coef = 0.03" shape=plaintext]
+	que -> aqui [label="13.58%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 393 
+ Coef = -3.8" shape=plaintext]
+	servicio -> energia [label="25.39%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 152 
+ Coef = -0.21" shape=plaintext]
+	tener -> energia [label="9.82%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 149 
+ Coef = 0.49" shape=plaintext]
+	haber -> energia [label="9.63%" weight=1.2]
+	node [color=red style=filled]
+	corte [label="corte 
+ Count = 108 
+ Coef = -0.12" shape=plaintext]
+	corte -> energia [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 101 
+ Coef = 0.63" shape=plaintext]
+	estar -> energia [label="6.52%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 84 
+ Coef = -1.6" shape=plaintext]
+	suministro -> energia [label="5.43%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 302 
+ Coef = 1.72" shape=plaintext]
+	barrio -> santo [label="8.13%" weight=1.2]
+	node [color=green style=filled]
+	villa [label="villa 
+ Count = 204 
+ Coef = 3.24" shape=plaintext]
+	barrio -> villa [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 189 
+ Coef = 1.43" shape=plaintext]
+	barrio -> santa [label="5.09%" weight=1.2]
+	node [color=green style=filled]
+	carlos [label="carlos 
+ Count = 69 
+ Coef = 2.58" shape=plaintext]
+	santo -> carlos [label="15.2%" weight=1.2]
+	node [color=green style=filled]
+	mateo [label="mateo 
+ Count = 67 
+ Coef = 1.63" shape=plaintext]
+	santo -> mateo [label="14.76%" weight=1.2]
+	node [color=green style=filled]
+	jose [label="jose 
+ Count = 52 
+ Coef = 0.67" shape=plaintext]
+	santo -> jose [label="11.45%" weight=1.2]
+	node [color=green style=filled]
+	blas [label="blas 
+ Count = 26 
+ Coef = 0.69" shape=plaintext]
+	santo -> blas [label="5.73%" weight=1.2]
+	node [color=green style=filled]
+	luis [label="luis 
+ Count = 24 
+ Coef = 0.13" shape=plaintext]
+	santo -> luis [label="5.29%" weight=1.2]
+	node [color=green style=filled]
+	granada [label="granada 
+ Count = 24 
+ Coef = 2.62" shape=plaintext]
+	villa -> granada [label="7.02%" weight=1.2]
+	node [color=green style=filled]
+	maria [label="maria 
+ Count = 24 
+ Coef = 1.65" shape=plaintext]
+	villa -> maria [label="7.02%" weight=1.2]
+	node [color=green style=filled]
+	cecilia [label="cecilia 
+ Count = 49 
+ Coef = 1.3" shape=plaintext]
+	santa -> cecilia [label="14.45%" weight=1.2]
+	node [color=green style=filled]
+	barbara [label="barbara 
+ Count = 38 
+ Coef = 0.35" shape=plaintext]
+	santa -> barbara [label="11.21%" weight=1.2]
+	node [color=green style=filled]
+	fe [label="fe 
+ Count = 36 
+ Coef = 0.41" shape=plaintext]
+	santa -> fe [label="10.62%" weight=1.2]
+	node [color=green style=filled]
+	maria [label="maria 
+ Count = 27 
+ Coef = 1.65" shape=plaintext]
+	santa -> maria [label="7.96%" weight=1.2]
+	node [color=green style=filled]
+	ana [label="ana 
+ Count = 25 
+ Coef = 0.28" shape=plaintext]
+	santa -> ana [label="7.37%" weight=1.2]
+	node [color=green style=filled]
+	rita [label="rita 
+ Count = 24 
+ Coef = 0.17" shape=plaintext]
+	santa -> rita [label="7.08%" weight=1.2]
+	node [color=green style=filled]
+	isabel [label="isabel 
+ Count = 17 
+ Coef = 0.04" shape=plaintext]
+	santa -> isabel [label="5.01%" weight=1.2]
+}

@@ -1,0 +1,187 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	volvio [label="volvio 
+ Count = 135 
+ Coef = 4.15"]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 12 
+ Coef = 6.73" shape=plaintext]
+	noche -> volvio [label="8.96%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 11 
+ Coef = 0.09" shape=plaintext]
+	no -> volvio [label="8.21%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 10 
+ Coef = 3.73" shape=plaintext]
+	luz -> volvio [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 8 
+ Coef = 1.66" shape=plaintext]
+	hora -> volvio [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 7 
+ Coef = 0.42" shape=plaintext]
+	minuto -> volvio [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 7 
+ Coef = 0.36" shape=plaintext]
+	ya -> volvio [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 81 
+ Coef = 3.73" shape=plaintext]
+	luz -> noche [label="17.88%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 31 
+ Coef = 4.34" shape=plaintext]
+	ayer -> noche [label="6.84%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 28 
+ Coef = 0.25" shape=plaintext]
+	que -> noche [label="6.18%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 126 
+ Coef = 3.73" shape=plaintext]
+	luz -> no [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 69 
+ Coef = 0.25" shape=plaintext]
+	que -> no [label="7.82%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 46 
+ Coef = 4.34" shape=plaintext]
+	ayer -> no [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 276 
+ Coef = 0.78" shape=plaintext]
+	ser -> luz [label="23.19%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 269 
+ Coef = 1.2" shape=plaintext]
+	estar -> luz [label="22.61%" weight=1.2]
+	node [color=green style=filled]
+	quitar [label="quitar 
+ Count = 84 
+ Coef = 4.37" shape=plaintext]
+	quitar -> luz [label="7.06%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 73 
+ Coef = -5.56" shape=plaintext]
+	servicio -> luz [label="6.13%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 35 
+ Coef = 0.25" shape=plaintext]
+	que -> hora [label="12.68%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 21 
+ Coef = 0.78" shape=plaintext]
+	ser -> hora [label="7.61%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 20 
+ Coef = 4.34" shape=plaintext]
+	ayer -> hora [label="7.25%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 20 
+ Coef = 0.87" shape=plaintext]
+	como -> hora [label="7.25%" weight=1.2]
+	node [color=red style=filled]
+	media [label="media 
+ Count = 18 
+ Coef = -0.28" shape=plaintext]
+	media -> hora [label="6.52%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 16 
+ Coef = -2.13" shape=plaintext]
+	hacer -> hora [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 11 
+ Coef = 0.87" shape=plaintext]
+	como -> minuto [label="21.57%" weight=1.2]
+	node [color=green style=filled]
+	duro [label="duro 
+ Count = 5 
+ Coef = 1.33" shape=plaintext]
+	duro -> minuto [label="9.8%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 5 
+ Coef = -2.13" shape=plaintext]
+	hacer -> minuto [label="9.8%" weight=1.2]
+	node [color=green style=filled]
+	quitar [label="quitar 
+ Count = 3 
+ Coef = 4.37" shape=plaintext]
+	quitar -> minuto [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 29 
+ Coef = 0.25" shape=plaintext]
+	que -> ya [label="12.34%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 22 
+ Coef = 3.73" shape=plaintext]
+	luz -> ya [label="9.36%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 39 
+ Coef = 0.7" shape=plaintext]
+	volvio -> ir [label="29.55%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 26 
+ Coef = 0.78" shape=plaintext]
+	volvio -> ser [label="19.7%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 45 
+ Coef = 3.73" shape=plaintext]
+	ir -> luz [label="11.63%" weight=1.2]
+	node [color=green style=filled]
+	colocar [label="colocar 
+ Count = 24 
+ Coef = 4.66" shape=plaintext]
+	ir -> colocar [label="6.2%" weight=1.2]
+	node [color=green style=filled]
+	arreglar [label="arreglar 
+ Count = 21 
+ Coef = 0.31" shape=plaintext]
+	ir -> arreglar [label="5.43%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 21 
+ Coef = 0.25" shape=plaintext]
+	ir -> que [label="5.43%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 388 
+ Coef = 0.25" shape=plaintext]
+	ser -> que [label="44.55%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 218 
+ Coef = 3.73" shape=plaintext]
+	ser -> luz [label="25.03%" weight=1.2]
+}

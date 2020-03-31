@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llamada [label="llamada 
+ Count = 711 
+ Coef = 11.7"]
+	node [color=green style=filled]
+	motivo [label="motivo 
+ Count = 520 
+ Coef = 9.49" shape=plaintext]
+	motivo -> llamada [label="75.25%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 39 
+ Coef = 0.87" shape=plaintext]
+	ser -> motivo [label="22.54%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = 1.15" shape=plaintext]
+	que -> motivo [label="6.94%" weight=1.2]
+	node [color=green style=filled]
+	bueno [label="bueno 
+ Count = 10 
+ Coef = 3.21" shape=plaintext]
+	bueno -> motivo [label="5.78%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 423 
+ Coef = 0.87" shape=plaintext]
+	llamada -> ser [label="65.89%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 319 
+ Coef = 1.15" shape=plaintext]
+	ser -> que [label="52.99%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 85 
+ Coef = 0.15" shape=plaintext]
+	ser -> porque [label="14.12%" weight=1.2]
+}

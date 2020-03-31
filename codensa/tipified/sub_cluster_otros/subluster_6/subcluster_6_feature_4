@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	edificio [label="edificio 
+ Count = 123 
+ Coef = 2.51"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 15 
+ Coef = -1.12" shape=plaintext]
+	luz -> edificio [label="12.4%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 13 
+ Coef = 2.64" shape=plaintext]
+	energia -> edificio [label="10.74%" weight=1.2]
+	node [color=green style=filled]
+	subestacion [label="subestacion 
+ Count = 7 
+ Coef = 0.85" shape=plaintext]
+	subestacion -> edificio [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 118 
+ Coef = 1.01" shape=plaintext]
+	ser -> luz [label="15.75%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 82 
+ Coef = -0.32" shape=plaintext]
+	estar -> luz [label="10.95%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 32 
+ Coef = 2.19" shape=plaintext]
+	haber -> energia [label="6.27%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 30 
+ Coef = -0.32" shape=plaintext]
+	estar -> energia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 30 
+ Coef = 1.83" shape=plaintext]
+	problema -> energia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 10 
+ Coef = 2.38" shape=plaintext]
+	tener -> subestacion [label="19.23%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 4 
+ Coef = 2.19" shape=plaintext]
+	haber -> subestacion [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 3 
+ Coef = 0.23" shape=plaintext]
+	emergencia -> subestacion [label="5.77%" weight=1.2]
+}

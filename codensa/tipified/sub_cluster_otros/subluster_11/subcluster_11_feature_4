@@ -1,0 +1,97 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	bombillos [label="bombillos 
+ Count = 117 
+ Coef = 4.16"]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 11 
+ Coef = 5.54" shape=plaintext]
+	prender -> bombillos [label="9.48%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 6 
+ Coef = 12.59" shape=plaintext]
+	electrodomesticos -> bombillos [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.56" shape=plaintext]
+	luz -> bombillos [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 77 
+ Coef = 1.49" shape=plaintext]
+	no -> prender [label="41.4%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 25 
+ Coef = 1.56" shape=plaintext]
+	poder -> prender [label="13.44%" weight=1.2]
+	node [color=green style=filled]
+	alcanzar [label="alcanzar 
+ Count = 10 
+ Coef = 2.12" shape=plaintext]
+	alcanzar -> prender [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 57 
+ Coef = 1.72" shape=plaintext]
+	danando -> electrodomesticos [label="10.58%" weight=1.2]
+	node [color=green style=filled]
+	danar [label="danar 
+ Count = 44 
+ Coef = 2.01" shape=plaintext]
+	danar -> electrodomesticos [label="8.16%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 42 
+ Coef = 0.96" shape=plaintext]
+	dar -> electrodomesticos [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	quemar [label="quemar 
+ Count = 31 
+ Coef = 3.98" shape=plaintext]
+	quemar -> electrodomesticos [label="5.75%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 99 
+ Coef = 0.71" shape=plaintext]
+	ser -> luz [label="12.03%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 53 
+ Coef = -0.94" shape=plaintext]
+	estar -> luz [label="6.44%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 42 
+ Coef = -3.46" shape=plaintext]
+	servicio -> luz [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 42 
+ Coef = 1.44" shape=plaintext]
+	ir -> luz [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 1.49" shape=plaintext]
+	bombillos -> no [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 66 
+ Coef = 2.69" shape=plaintext]
+	no -> funcionar [label="8.17%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 50 
+ Coef = 5.54" shape=plaintext]
+	no -> prender [label="6.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 47 
+ Coef = 0.43" shape=plaintext]
+	no -> haber [label="5.82%" weight=1.2]
+}

@@ -1,0 +1,152 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	danos [label="danos 
+ Count = 77 
+ Coef = 5.09"]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 4 
+ Coef = 5.09" shape=plaintext]
+	danos -> danos [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 1 
+ Coef = 12.41" shape=plaintext]
+	fallar -> danos [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 4 
+ Coef = 5.09" shape=plaintext]
+	danos -> danos [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 1 
+ Coef = 12.41" shape=plaintext]
+	fallar -> danos [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 13 
+ Coef = -2.98" shape=plaintext]
+	tener -> fallar [label="16.46%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 12 
+ Coef = 12.41" shape=plaintext]
+	fallar -> fallar [label="15.19%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = 0.78" shape=plaintext]
+	servicio -> fallar [label="12.66%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 6 
+ Coef = 1.44" shape=plaintext]
+	energia -> fallar [label="7.59%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 6 
+ Coef = -3.09" shape=plaintext]
+	haber -> fallar [label="7.59%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 24 
+ Coef = 2.74" shape=plaintext]
+	danos -> red [label="48.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 9 
+ Coef = 1.23" shape=plaintext]
+	danos -> luz [label="18.0%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 4 
+ Coef = 5.09" shape=plaintext]
+	danos -> danos [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 3 
+ Coef = 1.44" shape=plaintext]
+	danos -> zona [label="6.0%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 30 
+ Coef = 1.41" shape=plaintext]
+	red -> electrica [label="43.48%" weight=1.2]
+	node [color=green style=filled]
+	comercial [label="comercial 
+ Count = 19 
+ Coef = 0.57" shape=plaintext]
+	red -> comercial [label="27.54%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 5 
+ Coef = 1.44" shape=plaintext]
+	red -> energia [label="7.25%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 5 
+ Coef = -1.58" shape=plaintext]
+	red -> no [label="7.25%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 24 
+ Coef = 1.83" shape=plaintext]
+	luz -> sector [label="11.94%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 19 
+ Coef = -1.58" shape=plaintext]
+	luz -> no [label="9.45%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 15 
+ Coef = -0.44" shape=plaintext]
+	luz -> hacer [label="7.46%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 13 
+ Coef = -0.6" shape=plaintext]
+	luz -> casa [label="6.47%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 12 
+ Coef = 1.44" shape=plaintext]
+	luz -> zona [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 24 
+ Coef = 2.74" shape=plaintext]
+	danos -> red [label="48.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 9 
+ Coef = 1.23" shape=plaintext]
+	danos -> luz [label="18.0%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 4 
+ Coef = 5.09" shape=plaintext]
+	danos -> danos [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 3 
+ Coef = 1.44" shape=plaintext]
+	danos -> zona [label="6.0%" weight=1.2]
+	node [color=red style=filled]
+	chapinero [label="chapinero 
+ Count = 2 
+ Coef = -0.22" shape=plaintext]
+	zona -> chapinero [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	comunes [label="comunes 
+ Count = 2 
+ Coef = 0.12" shape=plaintext]
+	zona -> comunes [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	francia [label="francia 
+ Count = 2 
+ Coef = -0.09" shape=plaintext]
+	zona -> francia [label="8.0%" weight=1.2]
+}

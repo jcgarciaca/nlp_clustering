@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	interrupcion [label="interrupcion 
+ Count = 56 
+ Coef = 1.86"]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -2.09" shape=plaintext]
+	luz -> interrupcion [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	tener -> interrupcion [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	nuevamente [label="nuevamente 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	nuevamente -> interrupcion [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 202 
+ Coef = 10.87" shape=plaintext]
+	servicio -> luz [label="81.78%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = -1.58" shape=plaintext]
+	no -> tener [label="20.31%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = -2.53" shape=plaintext]
+	que -> tener [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = 10.87" shape=plaintext]
+	servicio -> tener [label="7.81%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 4 
+ Coef = -1.59" shape=plaintext]
+	ya -> tener [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 10.87" shape=plaintext]
+	servicio -> nuevamente [label="66.67%" weight=1.2]
+	node [color=red style=filled]
+	hablar [label="hablar 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	hablar -> nuevamente [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	tener -> nuevamente [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 54 
+ Coef = 10.87" shape=plaintext]
+	interrupcion -> servicio [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 240 
+ Coef = 3.13" shape=plaintext]
+	servicio -> sector [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 195 
+ Coef = -2.09" shape=plaintext]
+	servicio -> luz [label="17.66%" weight=1.2]
+}

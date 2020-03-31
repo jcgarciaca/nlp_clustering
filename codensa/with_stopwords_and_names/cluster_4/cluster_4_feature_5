@@ -1,0 +1,137 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"reportar dano" [label="reportar dano 
+ Count = 647 
+ Coef = 4.1"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 29 
+ Coef = -2.04" shape=plaintext]
+	ser -> "reportar dano" [label="35.37%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 7 
+ Coef = 2.74" shape=plaintext]
+	dano -> "reportar dano" [label="8.54%" weight=1.2]
+	node [color=red style=filled]
+	querer [label="querer 
+ Count = 5 
+ Coef = -0.59" shape=plaintext]
+	querer -> "reportar dano" [label="6.1%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 338 
+ Coef = 2.4" shape=plaintext]
+	falla -> ser [label="53.31%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 53 
+ Coef = 2.74" shape=plaintext]
+	dano -> ser [label="8.36%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 36 
+ Coef = 0.52" shape=plaintext]
+	fallo -> ser [label="5.68%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 647 
+ Coef = 20.9" shape=plaintext]
+	reportar -> dano [label="92.03%" weight=1.2]
+	node [color=green style=filled]
+	reporte [label="reporte 
+ Count = 43 
+ Coef = 11.16" shape=plaintext]
+	reporte -> dano [label="6.12%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -1.58" shape=plaintext]
+	luz -> querer [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -1.53" shape=plaintext]
+	no -> querer [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	rama [label="rama 
+ Count = 1 
+ Coef = 0.23" shape=plaintext]
+	rama -> querer [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = -1.12" shape=plaintext]
+	noche -> querer [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 53 
+ Coef = 1.32" shape=plaintext]
+	"reportar dano" -> energia [label="13.95%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 48 
+ Coef = 0.33" shape=plaintext]
+	"reportar dano" -> servicio [label="12.63%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 22 
+ Coef = -1.58" shape=plaintext]
+	"reportar dano" -> luz [label="5.79%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 22 
+ Coef = 0.53" shape=plaintext]
+	energia -> sector [label="14.19%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 15 
+ Coef = 0.48" shape=plaintext]
+	energia -> electrica [label="9.68%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 10 
+ Coef = 0.61" shape=plaintext]
+	energia -> vereda [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 8 
+ Coef = 0.41" shape=plaintext]
+	energia -> dia [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 87 
+ Coef = 1.32" shape=plaintext]
+	servicio -> energia [label="36.25%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 40 
+ Coef = -1.58" shape=plaintext]
+	servicio -> luz [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 12 
+ Coef = 0.61" shape=plaintext]
+	luz -> vereda [label="8.57%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 10 
+ Coef = -0.33" shape=plaintext]
+	luz -> aqui [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 10 
+ Coef = 0.31" shape=plaintext]
+	luz -> ayer [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 8 
+ Coef = -1.58" shape=plaintext]
+	luz -> hacer [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 8 
+ Coef = 0.53" shape=plaintext]
+	luz -> sector [label="5.71%" weight=1.2]
+}

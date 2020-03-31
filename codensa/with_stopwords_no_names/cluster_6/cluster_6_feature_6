@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	canuelas [label="canuelas 
+ Count = 260 
+ Coef = 6.67"]
+	node [color=green style=filled]
+	saltar [label="saltar 
+ Count = 25 
+ Coef = 3.28" shape=plaintext]
+	saltar -> canuelas [label="12.2%" weight=1.2]
+	node [color=green style=filled]
+	caer [label="caer 
+ Count = 21 
+ Coef = 2.34" shape=plaintext]
+	caer -> canuelas [label="10.24%" weight=1.2]
+	node [color=green style=filled]
+	bajar [label="bajar 
+ Count = 14 
+ Coef = 0.1" shape=plaintext]
+	bajar -> canuelas [label="6.83%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 11 
+ Coef = 3.11" shape=plaintext]
+	que -> saltar [label="9.73%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 9 
+ Coef = 2.0" shape=plaintext]
+	porque -> saltar [label="7.96%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 8 
+ Coef = 12.85" shape=plaintext]
+	transformador -> saltar [label="7.08%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 27 
+ Coef = 3.11" shape=plaintext]
+	que -> caer [label="13.78%" weight=1.2]
+	node [color=green style=filled]
+	acabar [label="acabar 
+ Count = 12 
+ Coef = 0.86" shape=plaintext]
+	acabar -> caer [label="6.12%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = 3.11" shape=plaintext]
+	que -> bajar [label="13.95%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 3 
+ Coef = 3.12" shape=plaintext]
+	estan -> bajar [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	caidas [label="caidas 
+ Count = 26 
+ Coef = 2.53" shape=plaintext]
+	canuelas -> caidas [label="15.12%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 21 
+ Coef = 12.85" shape=plaintext]
+	canuelas -> transformador [label="12.21%" weight=1.2]
+	node [color=red style=filled]
+	condominio [label="condominio 
+ Count = 6 
+ Coef = -0.07" shape=plaintext]
+	caidas -> condominio [label="8.45%" weight=1.2]
+	node [color=green style=filled]
+	piso [label="piso 
+ Count = 5 
+ Coef = 2.25" shape=plaintext]
+	caidas -> piso [label="7.04%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 5 
+ Coef = -2.26" shape=plaintext]
+	caidas -> no [label="7.04%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 38 
+ Coef = -0.2" shape=plaintext]
+	transformador -> aqui [label="5.15%" weight=1.2]
+	node [color=green style=filled]
+	echar [label="echar 
+ Count = 38 
+ Coef = 3.31" shape=plaintext]
+	transformador -> echar [label="5.15%" weight=1.2]
+}

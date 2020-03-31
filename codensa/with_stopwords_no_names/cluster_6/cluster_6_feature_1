@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cuerdas [label="cuerdas 
+ Count = 696 
+ Coef = 11.89"]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 47 
+ Coef = 5.18" shape=plaintext]
+	arbol -> cuerdas [label="7.2%" weight=1.2]
+	node [color=green style=filled]
+	encima [label="encima 
+ Count = 38 
+ Coef = 2.44" shape=plaintext]
+	encima -> cuerdas [label="5.82%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 122 
+ Coef = 4.54" shape=plaintext]
+	cayo -> arbol [label="26.99%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 42 
+ Coef = -0.31" shape=plaintext]
+	haber -> arbol [label="9.29%" weight=1.2]
+	node [color=green style=filled]
+	rama [label="rama 
+ Count = 27 
+ Coef = 0.59" shape=plaintext]
+	rama -> arbol [label="5.97%" weight=1.2]
+	node [color=green style=filled]
+	arbol [label="arbol 
+ Count = 19 
+ Coef = 5.18" shape=plaintext]
+	arbol -> encima [label="15.2%" weight=1.2]
+	node [color=green style=filled]
+	cayo [label="cayo 
+ Count = 17 
+ Coef = 4.54" shape=plaintext]
+	cayo -> encima [label="13.6%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 75 
+ Coef = 3.12" shape=plaintext]
+	cuerdas -> estan [label="12.23%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 39 
+ Coef = -2.27" shape=plaintext]
+	cuerdas -> energia [label="6.36%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 48 
+ Coef = 1.13" shape=plaintext]
+	estan -> hacer [label="9.58%" weight=1.2]
+	node [color=green style=filled]
+	piso [label="piso 
+ Count = 39 
+ Coef = 2.25" shape=plaintext]
+	estan -> piso [label="7.78%" weight=1.2]
+}

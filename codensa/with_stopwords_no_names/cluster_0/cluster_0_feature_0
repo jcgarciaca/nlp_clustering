@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	necesitar [label="necesitar 
+ Count = 4180 
+ Coef = 8.67"]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 650 
+ Coef = 5.8" shape=plaintext]
+	entonces -> necesitar [label="17.01%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 311 
+ Coef = 4.94" shape=plaintext]
+	que -> necesitar [label="8.14%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 7706 
+ Coef = 1.55" shape=plaintext]
+	ser -> que [label="42.63%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1218 
+ Coef = 4.94" shape=plaintext]
+	necesitar -> que [label="30.02%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 573 
+ Coef = 1.67" shape=plaintext]
+	necesitar -> saber [label="14.12%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2352 
+ Coef = 1.7" shape=plaintext]
+	que -> no [label="11.86%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 1711 
+ Coef = 3.32" shape=plaintext]
+	que -> estar [label="8.63%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1081 
+ Coef = 1.55" shape=plaintext]
+	que -> ser [label="5.45%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1284 
+ Coef = 4.94" shape=plaintext]
+	saber -> que [label="41.39%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 567 
+ Coef = 1.52" shape=plaintext]
+	saber -> si [label="18.28%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 351 
+ Coef = 6.06" shape=plaintext]
+	saber -> porque [label="11.32%" weight=1.2]
+}

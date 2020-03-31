@@ -1,0 +1,57 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cortada [label="cortada 
+ Count = 2 
+ Coef = 2.78"]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 14.34" shape=plaintext]
+	corte -> cortada [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 18 
+ Coef = 14.34" shape=plaintext]
+	corte -> corte [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 9 
+ Coef = -1.2" shape=plaintext]
+	haber -> corte [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	reconexion [label="reconexion 
+ Count = 8 
+ Coef = 0.88" shape=plaintext]
+	reconexion -> corte [label="9.88%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = -2.66" shape=plaintext]
+	cortada -> servicio [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 1 
+ Coef = 2.62" shape=plaintext]
+	cortada -> muy [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	tarjeta [label="tarjeta 
+ Count = 1 
+ Coef = 0.64" shape=plaintext]
+	servicio -> tarjeta [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.45" shape=plaintext]
+	servicio -> ser [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 6.94" shape=plaintext]
+	muy -> corto [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 1 
+ Coef = 1.02" shape=plaintext]
+	muy -> baja [label="50.0%" weight=1.2]
+}

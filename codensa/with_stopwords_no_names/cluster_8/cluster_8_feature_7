@@ -1,0 +1,77 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	muy [label="muy 
+ Count = 2 
+ Coef = 2.62"]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 6.94" shape=plaintext]
+	corto -> muy [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	cortada [label="cortada 
+ Count = 1 
+ Coef = 2.78" shape=plaintext]
+	cortada -> muy [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 3 
+ Coef = 6.94" shape=plaintext]
+	corto -> corto [label="42.86%" weight=1.2]
+	node [color=red style=filled]
+	arreglar [label="arreglar 
+ Count = 1 
+ Coef = -0.25" shape=plaintext]
+	arreglar -> corto [label="14.29%" weight=1.2]
+	node [color=lightgrey style=filled]
+	cortinas [label="cortinas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	cortinas -> corto [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 1 
+ Coef = 2.62" shape=plaintext]
+	muy -> corto [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	energia -> corto [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 14.34" shape=plaintext]
+	corte -> cortada [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 6.94" shape=plaintext]
+	muy -> corto [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 1 
+ Coef = 1.02" shape=plaintext]
+	muy -> baja [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 7 
+ Coef = 0.33" shape=plaintext]
+	corto -> energia [label="35.0%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 3 
+ Coef = 6.94" shape=plaintext]
+	corto -> corto [label="15.0%" weight=1.2]
+	node [color=green style=filled]
+	zona [label="zona 
+ Count = 2 
+ Coef = 1.51" shape=plaintext]
+	corto -> zona [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.45" shape=plaintext]
+	corto -> ser [label="10.0%" weight=1.2]
+}

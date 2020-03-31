@@ -1,0 +1,282 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"servicio sector" [label="servicio sector 
+ Count = 243 
+ Coef = 2.52"]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 7 
+ Coef = 3.13" shape=plaintext]
+	sector -> "servicio sector" [label="19.44%" weight=1.2]
+	node [color=red style=filled]
+	faltar [label="faltar 
+ Count = 5 
+ Coef = -0.26" shape=plaintext]
+	faltar -> "servicio sector" [label="13.89%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 4 
+ Coef = -2.83" shape=plaintext]
+	estar -> "servicio sector" [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4 
+ Coef = 0.9" shape=plaintext]
+	tener -> "servicio sector" [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	mal [label="mal 
+ Count = 3 
+ Coef = 0.04" shape=plaintext]
+	mal -> "servicio sector" [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = -2.53" shape=plaintext]
+	que -> "servicio sector" [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 242 
+ Coef = 10.87" shape=plaintext]
+	servicio -> sector [label="86.12%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 10.87" shape=plaintext]
+	servicio -> faltar [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	cano [label="cano 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	cano -> faltar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 1 
+ Coef = 3.13" shape=plaintext]
+	sector -> faltar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 1 
+ Coef = -1.03" shape=plaintext]
+	ir -> faltar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	tecnico [label="tecnico 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	tecnico -> faltar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 1 
+ Coef = -0.77" shape=plaintext]
+	llamar -> faltar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	completamente [label="completamente 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	completamente -> faltar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	previo [label="previo 
+ Count = 1 
+ Coef = 0.94" shape=plaintext]
+	previo -> faltar [label="7.14%" weight=1.2]
+	node [color=lightgrey style=filled]
+	tenis [label="tenis 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	tenis -> faltar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	tener -> faltar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	cansados [label="cansados 
+ Count = 1 
+ Coef = 0.08" shape=plaintext]
+	cansados -> faltar [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = -2.53" shape=plaintext]
+	que -> estar [label="10.77%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 7 
+ Coef = 10.87" shape=plaintext]
+	servicio -> estar [label="10.77%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = -2.09" shape=plaintext]
+	luz -> estar [label="6.15%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = -1.58" shape=plaintext]
+	no -> tener [label="20.31%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = -2.53" shape=plaintext]
+	que -> tener [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = 10.87" shape=plaintext]
+	servicio -> tener [label="7.81%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 4 
+ Coef = -1.59" shape=plaintext]
+	ya -> tener [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = 10.87" shape=plaintext]
+	servicio -> mal [label="31.25%" weight=1.2]
+	node [color=green style=filled]
+	tan [label="tan 
+ Count = 2 
+ Coef = 0.25" shape=plaintext]
+	tan -> mal [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 2 
+ Coef = 0.24" shape=plaintext]
+	muy -> mal [label="12.5%" weight=1.2]
+	node [color=lightgrey style=filled]
+	quejarme [label="quejarme 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	quejarme -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.17" shape=plaintext]
+	ser -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -2.53" shape=plaintext]
+	que -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	colocar [label="colocar 
+ Count = 1 
+ Coef = -0.44" shape=plaintext]
+	colocar -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	constante [label="constante 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	constante -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	reclamacion [label="reclamacion 
+ Count = 1 
+ Coef = -0.33" shape=plaintext]
+	reclamacion -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	pues [label="pues 
+ Count = 1 
+ Coef = -0.29" shape=plaintext]
+	pues -> mal [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 19 
+ Coef = -2.17" shape=plaintext]
+	ser -> que [label="28.36%" weight=1.2]
+	node [color=red style=filled]
+	saber [label="saber 
+ Count = 5 
+ Coef = -0.2" shape=plaintext]
+	saber -> que [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 13 
+ Coef = 10.87" shape=plaintext]
+	"servicio sector" -> servicio [label="40.62%" weight=1.2]
+	node [color=green style=filled]
+	vivir [label="vivir 
+ Count = 3 
+ Coef = 0.01" shape=plaintext]
+	"servicio sector" -> vivir [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	lluvias [label="lluvias 
+ Count = 2 
+ Coef = 0.46" shape=plaintext]
+	"servicio sector" -> lluvias [label="6.25%" weight=1.2]
+	node [color=lightgrey style=filled]
+	muna [label="muna 
+ Count = 2 
+ Coef = Not in Dict" shape=plaintext]
+	"servicio sector" -> muna [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = -1.07" shape=plaintext]
+	"servicio sector" -> hacer [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 2 
+ Coef = -0.39" shape=plaintext]
+	"servicio sector" -> aqui [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 240 
+ Coef = 3.13" shape=plaintext]
+	servicio -> sector [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 195 
+ Coef = -2.09" shape=plaintext]
+	servicio -> luz [label="17.66%" weight=1.2]
+	node [color=green style=filled]
+	fuertes [label="fuertes 
+ Count = 2 
+ Coef = 0.2" shape=plaintext]
+	lluvias -> fuertes [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 15 
+ Coef = -0.73" shape=plaintext]
+	hacer -> hora [label="21.43%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 15 
+ Coef = -0.64" shape=plaintext]
+	hacer -> dia [label="21.43%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 10.87" shape=plaintext]
+	hacer -> servicio [label="8.57%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 6 
+ Coef = -0.98" shape=plaintext]
+	hacer -> mas [label="8.57%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 4 
+ Coef = -0.42" shape=plaintext]
+	hacer -> dos [label="5.71%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 3 
+ Coef = 3.13" shape=plaintext]
+	aqui -> sector [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = -1.35" shape=plaintext]
+	aqui -> casa [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 10.87" shape=plaintext]
+	aqui -> servicio [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -1.58" shape=plaintext]
+	aqui -> no [label="6.67%" weight=1.2]
+}

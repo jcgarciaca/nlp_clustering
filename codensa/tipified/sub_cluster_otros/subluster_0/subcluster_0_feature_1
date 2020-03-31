@@ -1,0 +1,217 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrico [label="electrico 
+ Count = 229 
+ Coef = 13.1"]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 55 
+ Coef = 1.09" shape=plaintext]
+	fluido -> electrico [label="24.12%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 49 
+ Coef = -2.96" shape=plaintext]
+	servicio -> electrico [label="21.49%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 18 
+ Coef = 0.64" shape=plaintext]
+	suministro -> electrico [label="7.89%" weight=1.2]
+	node [color=green style=filled]
+	riesgo [label="riesgo 
+ Count = 12 
+ Coef = 1.48" shape=plaintext]
+	riesgo -> electrico [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 15 
+ Coef = -0.28" shape=plaintext]
+	estar -> fluido [label="27.27%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = 0.83" shape=plaintext]
+	tener -> fluido [label="16.36%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = -2.96" shape=plaintext]
+	servicio -> fluido [label="7.27%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 3 
+ Coef = 1.1" shape=plaintext]
+	falla -> fluido [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -0.61" shape=plaintext]
+	ser -> fluido [label="5.45%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 33 
+ Coef = -0.28" shape=plaintext]
+	estar -> servicio [label="27.97%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 6 
+ Coef = 0.83" shape=plaintext]
+	tener -> suministro [label="20.69%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = 0.37" shape=plaintext]
+	haber -> suministro [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 2 
+ Coef = -0.28" shape=plaintext]
+	estar -> suministro [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	problema [label="problema 
+ Count = 2 
+ Coef = 0.56" shape=plaintext]
+	problema -> suministro [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = 0.37" shape=plaintext]
+	haber -> riesgo [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	meses [label="meses 
+ Count = 1 
+ Coef = 0.36" shape=plaintext]
+	meses -> riesgo [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	cortocircuito [label="cortocircuito 
+ Count = 1 
+ Coef = 0.33" shape=plaintext]
+	cortocircuito -> riesgo [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	urgencia [label="urgencia 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	urgencia -> riesgo [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	ser -> riesgo [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	tener -> riesgo [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	suelo [label="suelo 
+ Count = 1 
+ Coef = 0.59" shape=plaintext]
+	suelo -> riesgo [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 1 
+ Coef = 0.97" shape=plaintext]
+	presentar -> riesgo [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 1 
+ Coef = 0.41" shape=plaintext]
+	reportar -> riesgo [label="8.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	sugerencia [label="sugerencia 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	sugerencia -> riesgo [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	debido [label="debido 
+ Count = 1 
+ Coef = -0.2" shape=plaintext]
+	debido -> riesgo [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 15 
+ Coef = -0.64" shape=plaintext]
+	electrico -> hacer [label="7.65%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 11 
+ Coef = -0.05" shape=plaintext]
+	electrico -> dia [label="5.61%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 10 
+ Coef = -0.6" shape=plaintext]
+	electrico -> manana [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 10 
+ Coef = 0.56" shape=plaintext]
+	electrico -> casa [label="5.1%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 13 
+ Coef = 0.22" shape=plaintext]
+	hacer -> hora [label="14.77%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 11 
+ Coef = 0.49" shape=plaintext]
+	hacer -> como [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 8 
+ Coef = -0.82" shape=plaintext]
+	hacer -> mas [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 8 
+ Coef = -0.05" shape=plaintext]
+	hacer -> dia [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 6 
+ Coef = -0.07" shape=plaintext]
+	hacer -> dos [label="6.82%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 30 
+ Coef = -0.28" shape=plaintext]
+	dia -> ayer [label="28.57%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = -0.38" shape=plaintext]
+	manana -> no [label="22.58%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 4 
+ Coef = -0.61" shape=plaintext]
+	manana -> ser [label="12.9%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 3 
+ Coef = -0.96" shape=plaintext]
+	manana -> ya [label="9.68%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.96" shape=plaintext]
+	manana -> servicio [label="6.45%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 2 
+ Coef = -0.6" shape=plaintext]
+	manana -> manana [label="6.45%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = -0.38" shape=plaintext]
+	casa -> no [label="15.87%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4 
+ Coef = 0.83" shape=plaintext]
+	casa -> tener [label="6.35%" weight=1.2]
+}

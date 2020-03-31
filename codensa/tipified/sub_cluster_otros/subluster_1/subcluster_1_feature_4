@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"falla servicio" [label="falla servicio 
+ Count = 77 
+ Coef = 2.22"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 21 
+ Coef = 0.9" shape=plaintext]
+	tener -> "falla servicio" [label="30.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 18 
+ Coef = -0.06" shape=plaintext]
+	haber -> "falla servicio" [label="25.71%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 9 
+ Coef = -2.17" shape=plaintext]
+	ser -> "falla servicio" [label="12.86%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 13 
+ Coef = -1.58" shape=plaintext]
+	no -> tener [label="20.31%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 6 
+ Coef = -2.53" shape=plaintext]
+	que -> tener [label="9.38%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = 10.87" shape=plaintext]
+	servicio -> tener [label="7.81%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 4 
+ Coef = -1.59" shape=plaintext]
+	ya -> tener [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 31 
+ Coef = -1.58" shape=plaintext]
+	no -> haber [label="49.21%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = -2.53" shape=plaintext]
+	que -> haber [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 98 
+ Coef = 0.34" shape=plaintext]
+	dano -> ser [label="6.59%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 75 
+ Coef = 0.38" shape=plaintext]
+	falla -> ser [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 10.87" shape=plaintext]
+	"falla servicio" -> servicio [label="15.38%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.64" shape=plaintext]
+	"falla servicio" -> dia [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 2 
+ Coef = -0.62" shape=plaintext]
+	"falla servicio" -> manana [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 240 
+ Coef = 3.13" shape=plaintext]
+	servicio -> sector [label="21.74%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 195 
+ Coef = -2.09" shape=plaintext]
+	servicio -> luz [label="17.66%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 25 
+ Coef = -0.31" shape=plaintext]
+	dia -> ayer [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 10.87" shape=plaintext]
+	dia -> servicio [label="17.89%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 5 
+ Coef = -0.73" shape=plaintext]
+	dia -> hoy [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = -0.73" shape=plaintext]
+	dia -> hora [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 5 
+ Coef = 10.87" shape=plaintext]
+	manana -> servicio [label="17.86%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -2.17" shape=plaintext]
+	manana -> ser [label="10.71%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.64" shape=plaintext]
+	manana -> dia [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	alla [label="alla 
+ Count = 2 
+ Coef = 0.53" shape=plaintext]
+	manana -> alla [label="7.14%" weight=1.2]
+}

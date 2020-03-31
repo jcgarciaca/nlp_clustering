@@ -1,0 +1,237 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"dano servicio" [label="dano servicio 
+ Count = 98 
+ Coef = 3.15"]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -0.06" shape=plaintext]
+	haber -> "dano servicio" [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	verificar [label="verificar 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	verificar -> "dano servicio" [label="18.18%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 2 
+ Coef = -0.08" shape=plaintext]
+	reportar -> "dano servicio" [label="18.18%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 0.34" shape=plaintext]
+	dano -> "dano servicio" [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	notificar [label="notificar 
+ Count = 1 
+ Coef = 0.1" shape=plaintext]
+	notificar -> "dano servicio" [label="9.09%" weight=1.2]
+	node [color=lightgrey style=filled]
+	italika [label="italika 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	italika -> "dano servicio" [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 1 
+ Coef = -0.89" shape=plaintext]
+	si -> "dano servicio" [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	arreglo [label="arreglo 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	arreglo -> "dano servicio" [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 31 
+ Coef = -1.58" shape=plaintext]
+	no -> haber [label="49.21%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = -2.53" shape=plaintext]
+	que -> haber [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 3 
+ Coef = -2.17" shape=plaintext]
+	ser -> reportar [label="60.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	s [label="s 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	s -> reportar [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	desear [label="desear 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	desear -> reportar [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 3 
+ Coef = -0.06" shape=plaintext]
+	haber -> dano [label="15.79%" weight=1.2]
+	node [color=red style=filled]
+	si [label="si 
+ Count = 2 
+ Coef = -0.89" shape=plaintext]
+	si -> dano [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 2 
+ Coef = -0.08" shape=plaintext]
+	reportar -> dano [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	verificar [label="verificar 
+ Count = 2 
+ Coef = 0.17" shape=plaintext]
+	verificar -> dano [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	malo [label="malo 
+ Count = 1 
+ Coef = -0.18" shape=plaintext]
+	malo -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	notificar [label="notificar 
+ Count = 1 
+ Coef = 0.1" shape=plaintext]
+	notificar -> dano [label="5.26%" weight=1.2]
+	node [color=lightgrey style=filled]
+	italika [label="italika 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	italika -> dano [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	suspendido [label="suspendido 
+ Count = 1 
+ Coef = -0.44" shape=plaintext]
+	suspendido -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	presentar [label="presentar 
+ Count = 1 
+ Coef = 0.25" shape=plaintext]
+	presentar -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	dios [label="dios 
+ Count = 1 
+ Coef = 0.14" shape=plaintext]
+	dios -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 1 
+ Coef = 0.34" shape=plaintext]
+	dano -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	numero [label="numero 
+ Count = 1 
+ Coef = 0.46" shape=plaintext]
+	numero -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	tener -> dano [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	arreglo [label="arreglo 
+ Count = 1 
+ Coef = -0.67" shape=plaintext]
+	arreglo -> dano [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 6 
+ Coef = 10.87" shape=plaintext]
+	servicio -> si [label="20.69%" weight=1.2]
+	node [color=red style=filled]
+	ver [label="ver 
+ Count = 5 
+ Coef = -0.47" shape=plaintext]
+	ver -> si [label="17.24%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 2 
+ Coef = -0.96" shape=plaintext]
+	como -> si [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	saber [label="saber 
+ Count = 2 
+ Coef = -0.2" shape=plaintext]
+	saber -> si [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 1 
+ Coef = 0.9" shape=plaintext]
+	solicitar -> arreglo [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 9 
+ Coef = -2.09" shape=plaintext]
+	"dano servicio" -> luz [label="37.5%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.64" shape=plaintext]
+	"dano servicio" -> dia [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	publico [label="publico 
+ Count = 2 
+ Coef = 0.24" shape=plaintext]
+	"dano servicio" -> publico [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 11 
+ Coef = 3.13" shape=plaintext]
+	luz -> sector [label="7.86%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 8 
+ Coef = -0.39" shape=plaintext]
+	luz -> aqui [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 25 
+ Coef = -0.31" shape=plaintext]
+	dia -> ayer [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 17 
+ Coef = 10.87" shape=plaintext]
+	dia -> servicio [label="17.89%" weight=1.2]
+	node [color=red style=filled]
+	hoy [label="hoy 
+ Count = 5 
+ Coef = -0.73" shape=plaintext]
+	dia -> hoy [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = -0.73" shape=plaintext]
+	dia -> hora [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = -2.09" shape=plaintext]
+	publico -> luz [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 10.87" shape=plaintext]
+	publico -> servicio [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	fuera [label="fuera 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	publico -> fuera [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.96" shape=plaintext]
+	publico -> como [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	clases [label="clases 
+ Count = 1 
+ Coef = -0.42" shape=plaintext]
+	publico -> clases [label="16.67%" weight=1.2]
+}

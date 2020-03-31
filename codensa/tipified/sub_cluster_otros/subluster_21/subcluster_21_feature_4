@@ -1,0 +1,407 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llevar [label="llevar 
+ Count = 32 
+ Coef = 3.39"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = 0.93" shape=plaintext]
+	que -> llevar [label="41.18%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 3 
+ Coef = -0.43" shape=plaintext]
+	ya -> llevar [label="17.65%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -1.04" shape=plaintext]
+	porque -> llevar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 0.38" shape=plaintext]
+	casa -> llevar [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 1 
+ Coef = -1.82" shape=plaintext]
+	aqui -> llevar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	dia -> llevar [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -1.36" shape=plaintext]
+	entonces -> llevar [label="5.88%" weight=1.2]
+	node [color=red style=filled]
+	cuadra [label="cuadra 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	cuadra -> llevar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.18" shape=plaintext]
+	luz -> llevar [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 46 
+ Coef = 0.37" shape=plaintext]
+	ser -> que [label="48.42%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 9 
+ Coef = 2.91" shape=plaintext]
+	hora -> que [label="9.47%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 6 
+ Coef = 1.19" shape=plaintext]
+	dia -> que [label="6.32%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = 0.93" shape=plaintext]
+	que -> ya [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 0.56" shape=plaintext]
+	no -> ya [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 2 
+ Coef = 3.39" shape=plaintext]
+	llevar -> ya [label="8.33%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 2 
+ Coef = -1.04" shape=plaintext]
+	porque -> ya [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3 
+ Coef = 0.56" shape=plaintext]
+	no -> porque [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	necesitar [label="necesitar 
+ Count = 1 
+ Coef = -1.03" shape=plaintext]
+	necesitar -> porque [label="16.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pedidos [label="pedidos 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	pedidos -> porque [label="16.67%" weight=1.2]
+	node [color=red style=filled]
+	dar [label="dar 
+ Count = 1 
+ Coef = -0.74" shape=plaintext]
+	dar -> porque [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 14 
+ Coef = 4.89" shape=plaintext]
+	media -> casa [label="35.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.18" shape=plaintext]
+	luz -> casa [label="15.0%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 3 
+ Coef = -1.12" shape=plaintext]
+	energia -> casa [label="7.5%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 3 
+ Coef = -1.82" shape=plaintext]
+	aqui -> casa [label="7.5%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 4 
+ Coef = 1.18" shape=plaintext]
+	luz -> aqui [label="26.67%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 0.93" shape=plaintext]
+	que -> aqui [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	decir [label="decir 
+ Count = 1 
+ Coef = -0.82" shape=plaintext]
+	decir -> aqui [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	tipo [label="tipo 
+ Count = 1 
+ Coef = -0.03" shape=plaintext]
+	tipo -> aqui [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 1 
+ Coef = 9.48" shape=plaintext]
+	hacer -> aqui [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.43" shape=plaintext]
+	ya -> aqui [label="6.67%" weight=1.2]
+	node [color=lightgrey style=filled]
+	reloj [label="reloj 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	reloj -> aqui [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = 2.91" shape=plaintext]
+	hora -> aqui [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 1 
+ Coef = -2.78" shape=plaintext]
+	tener -> aqui [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	minuto [label="minuto 
+ Count = 1 
+ Coef = 5.1" shape=plaintext]
+	minuto -> aqui [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 42 
+ Coef = 9.48" shape=plaintext]
+	hacer -> dia [label="53.85%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 6 
+ Coef = 3.39" shape=plaintext]
+	llevar -> dia [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 5 
+ Coef = 1.67" shape=plaintext]
+	mas -> dia [label="6.41%" weight=1.2]
+	node [color=red style=filled]
+	tres [label="tres 
+ Count = 5 
+ Coef = -0.28" shape=plaintext]
+	tres -> dia [label="6.41%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 4 
+ Coef = 2.34" shape=plaintext]
+	como -> dia [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	cuatro [label="cuatro 
+ Count = 4 
+ Coef = 1.19" shape=plaintext]
+	cuatro -> dia [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 4 
+ Coef = 0.16" shape=plaintext]
+	dos -> dia [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	dia -> entonces [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 1.18" shape=plaintext]
+	luz -> entonces [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	llegar [label="llegar 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	llegar -> entonces [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -1.04" shape=plaintext]
+	porque -> cuadra [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 126 
+ Coef = 0.37" shape=plaintext]
+	ser -> luz [label="43.6%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 61 
+ Coef = -1.0" shape=plaintext]
+	estar -> luz [label="21.11%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 6 
+ Coef = 1.67" shape=plaintext]
+	llevar -> mas [label="19.35%" weight=1.2]
+	node [color=green style=filled]
+	cuatro [label="cuatro 
+ Count = 5 
+ Coef = 1.19" shape=plaintext]
+	llevar -> cuatro [label="16.13%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 1.19" shape=plaintext]
+	llevar -> dia [label="16.13%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = -0.43" shape=plaintext]
+	llevar -> ya [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 2 
+ Coef = 0.16" shape=plaintext]
+	llevar -> dos [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	casi [label="casi 
+ Count = 2 
+ Coef = 2.2" shape=plaintext]
+	llevar -> casi [label="6.45%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 33 
+ Coef = 2.91" shape=plaintext]
+	mas -> hora [label="42.31%" weight=1.2]
+	node [color=green style=filled]
+	menor [label="menor 
+ Count = 25 
+ Coef = 2.14" shape=plaintext]
+	mas -> menor [label="32.05%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 8 
+ Coef = 4.89" shape=plaintext]
+	mas -> media [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 1.19" shape=plaintext]
+	mas -> dia [label="6.41%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 5 
+ Coef = 1.19" shape=plaintext]
+	cuatro -> dia [label="83.33%" weight=1.2]
+	node [color=green style=filled]
+	clases [label="clases 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	cuatro -> clases [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 54 
+ Coef = 2.91" shape=plaintext]
+	dia -> hora [label="40.3%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 20 
+ Coef = 1.18" shape=plaintext]
+	dia -> luz [label="14.93%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 13 
+ Coef = 0.38" shape=plaintext]
+	dia -> casa [label="9.7%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 0.93" shape=plaintext]
+	dia -> que [label="6.72%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = -1.0" shape=plaintext]
+	dia -> estar [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 5 
+ Coef = 9.48" shape=plaintext]
+	ya -> hacer [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 4 
+ Coef = 0.37" shape=plaintext]
+	ya -> ser [label="16.0%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 2 
+ Coef = 3.39" shape=plaintext]
+	ya -> llevar [label="8.0%" weight=1.2]
+	node [color=red style=filled]
+	estan [label="estan 
+ Count = 2 
+ Coef = -0.54" shape=plaintext]
+	ya -> estan [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	casi [label="casi 
+ Count = 2 
+ Coef = 2.2" shape=plaintext]
+	ya -> casi [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 9 
+ Coef = 2.91" shape=plaintext]
+	dos -> hora [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 4 
+ Coef = 1.19" shape=plaintext]
+	dos -> dia [label="22.22%" weight=1.2]
+	node [color=red style=filled]
+	porque [label="porque 
+ Count = 1 
+ Coef = -1.04" shape=plaintext]
+	dos -> porque [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	tanto [label="tanto 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	dos -> tanto [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.43" shape=plaintext]
+	dos -> ya [label="5.56%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -1.0" shape=plaintext]
+	dos -> estar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	meses [label="meses 
+ Count = 1 
+ Coef = 0.02" shape=plaintext]
+	dos -> meses [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = 2.91" shape=plaintext]
+	casi -> hora [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = 1.19" shape=plaintext]
+	casi -> dia [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	casi [label="casi 
+ Count = 2 
+ Coef = 2.2" shape=plaintext]
+	casi -> casi [label="20.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	apuntar [label="apuntar 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	casi -> apuntar [label="10.0%" weight=1.2]
+}

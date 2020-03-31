@@ -1,0 +1,147 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electricidad [label="electricidad 
+ Count = 198 
+ Coef = 10.21"]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 31 
+ Coef = -2.96" shape=plaintext]
+	servicio -> electricidad [label="18.24%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 23 
+ Coef = 0.83" shape=plaintext]
+	tener -> electricidad [label="13.53%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 16 
+ Coef = 0.37" shape=plaintext]
+	haber -> electricidad [label="9.41%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 33 
+ Coef = -0.28" shape=plaintext]
+	estar -> servicio [label="27.97%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 60 
+ Coef = -0.38" shape=plaintext]
+	no -> tener [label="49.59%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = -0.19" shape=plaintext]
+	que -> tener [label="9.92%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 65 
+ Coef = -0.38" shape=plaintext]
+	no -> haber [label="57.52%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = -0.19" shape=plaintext]
+	que -> haber [label="10.62%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 15 
+ Coef = 0.56" shape=plaintext]
+	electricidad -> casa [label="13.51%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 15 
+ Coef = -0.64" shape=plaintext]
+	electricidad -> hacer [label="13.51%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 9 
+ Coef = -0.38" shape=plaintext]
+	electricidad -> no [label="8.11%" weight=1.2]
+	node [color=green style=filled]
+	vivienda [label="vivienda 
+ Count = 6 
+ Coef = 1.07" shape=plaintext]
+	electricidad -> vivienda [label="5.41%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = -0.38" shape=plaintext]
+	casa -> no [label="15.87%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 4 
+ Coef = 0.83" shape=plaintext]
+	casa -> tener [label="6.35%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 13 
+ Coef = 0.22" shape=plaintext]
+	hacer -> hora [label="14.77%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 11 
+ Coef = 0.49" shape=plaintext]
+	hacer -> como [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 8 
+ Coef = -0.82" shape=plaintext]
+	hacer -> mas [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 8 
+ Coef = -0.05" shape=plaintext]
+	hacer -> dia [label="9.09%" weight=1.2]
+	node [color=red style=filled]
+	dos [label="dos 
+ Count = 6 
+ Coef = -0.07" shape=plaintext]
+	hacer -> dos [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 61 
+ Coef = 0.37" shape=plaintext]
+	no -> haber [label="25.96%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 57 
+ Coef = 0.83" shape=plaintext]
+	no -> tener [label="24.26%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 1 
+ Coef = 0.64" shape=plaintext]
+	vivienda -> suministro [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	corto [label="corto 
+ Count = 1 
+ Coef = 0.58" shape=plaintext]
+	vivienda -> corto [label="14.29%" weight=1.2]
+	node [color=lightgrey style=filled]
+	latina [label="latina 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	vivienda -> latina [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	quedo [label="quedo 
+ Count = 1 
+ Coef = 0.01" shape=plaintext]
+	vivienda -> quedo [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = -0.96" shape=plaintext]
+	vivienda -> ya [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	quedar [label="quedar 
+ Count = 1 
+ Coef = -0.21" shape=plaintext]
+	vivienda -> quedar [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 1 
+ Coef = -0.38" shape=plaintext]
+	vivienda -> no [label="14.29%" weight=1.2]
+}

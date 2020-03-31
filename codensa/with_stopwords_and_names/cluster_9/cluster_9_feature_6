@@ -1,0 +1,122 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"falla electrica" [label="falla electrica 
+ Count = 1445 
+ Coef = 4.08"]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 37 
+ Coef = 1.41" shape=plaintext]
+	electrica -> "falla electrica" [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 8 
+ Coef = -2.64" shape=plaintext]
+	ser -> "falla electrica" [label="10.81%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 6 
+ Coef = 12.29" shape=plaintext]
+	fallo -> "falla electrica" [label="8.11%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = -2.98" shape=plaintext]
+	tener -> "falla electrica" [label="6.76%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1445 
+ Coef = 13.44" shape=plaintext]
+	falla -> electrica [label="87.31%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 1317 
+ Coef = 12.29" shape=plaintext]
+	fallo -> ser [label="55.83%" weight=1.2]
+	node [color=green style=filled]
+	fallar [label="fallar 
+ Count = 528 
+ Coef = 12.41" shape=plaintext]
+	fallar -> ser [label="22.38%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 376 
+ Coef = 13.44" shape=plaintext]
+	falla -> ser [label="15.94%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 18 
+ Coef = 0.78" shape=plaintext]
+	servicio -> fallo [label="27.69%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 8 
+ Coef = 1.74" shape=plaintext]
+	suministro -> fallo [label="12.31%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 8 
+ Coef = 1.44" shape=plaintext]
+	energia -> fallo [label="12.31%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = -1.58" shape=plaintext]
+	no -> fallo [label="10.77%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 5 
+ Coef = 1.83" shape=plaintext]
+	sector -> fallo [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 52 
+ Coef = -1.58" shape=plaintext]
+	no -> tener [label="85.25%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 105 
+ Coef = 1.83" shape=plaintext]
+	"falla electrica" -> sector [label="29.83%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 38 
+ Coef = 13.44" shape=plaintext]
+	"falla electrica" -> falla [label="10.8%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = -1.58" shape=plaintext]
+	sector -> no [label="9.72%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 5 
+ Coef = 12.29" shape=plaintext]
+	sector -> fallo [label="6.94%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 1443 
+ Coef = 1.41" shape=plaintext]
+	falla -> electrica [label="55.54%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 375 
+ Coef = 0.78" shape=plaintext]
+	falla -> servicio [label="14.43%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 273 
+ Coef = 1.44" shape=plaintext]
+	falla -> energia [label="10.51%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 165 
+ Coef = 1.74" shape=plaintext]
+	falla -> suministro [label="6.35%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 164 
+ Coef = 1.23" shape=plaintext]
+	falla -> luz [label="6.31%" weight=1.2]
+}

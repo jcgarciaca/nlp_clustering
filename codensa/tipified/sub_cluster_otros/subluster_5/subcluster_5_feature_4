@@ -1,0 +1,302 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	llamadas [label="llamadas 
+ Count = 32 
+ Coef = 4.48"]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 5 
+ Coef = -0.51" shape=plaintext]
+	tener -> llamadas [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	motivo [label="motivo 
+ Count = 4 
+ Coef = 9.49" shape=plaintext]
+	motivo -> llamadas [label="13.33%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 2 
+ Coef = 0.03" shape=plaintext]
+	cortar -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 2 
+ Coef = 0.5" shape=plaintext]
+	hacer -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	atencion [label="atencion 
+ Count = 2 
+ Coef = 0.96" shape=plaintext]
+	atencion -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	salon [label="salon 
+ Count = 2 
+ Coef = 0.1" shape=plaintext]
+	salon -> llamadas [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 48 
+ Coef = 1.13" shape=plaintext]
+	no -> tener [label="30.97%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 28 
+ Coef = 1.15" shape=plaintext]
+	que -> tener [label="18.06%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 8 
+ Coef = 0.15" shape=plaintext]
+	porque -> tener [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 8 
+ Coef = 0.58" shape=plaintext]
+	ya -> tener [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 39 
+ Coef = 0.87" shape=plaintext]
+	ser -> motivo [label="22.54%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 12 
+ Coef = 1.15" shape=plaintext]
+	que -> motivo [label="6.94%" weight=1.2]
+	node [color=green style=filled]
+	bueno [label="bueno 
+ Count = 10 
+ Coef = 3.21" shape=plaintext]
+	bueno -> motivo [label="5.78%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 4 
+ Coef = 0.15" shape=plaintext]
+	porque -> cortar [label="21.05%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.41" shape=plaintext]
+	dia -> cortar [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 2 
+ Coef = -0.1" shape=plaintext]
+	ir -> cortar [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 2 
+ Coef = 1.15" shape=plaintext]
+	que -> cortar [label="10.53%" weight=1.2]
+	node [color=red style=filled]
+	venir [label="venir 
+ Count = 1 
+ Coef = -0.9" shape=plaintext]
+	venir -> cortar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = -0.35" shape=plaintext]
+	ayer -> cortar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.44" shape=plaintext]
+	haber -> cortar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	bienes [label="bienes 
+ Count = 1 
+ Coef = -0.63" shape=plaintext]
+	bienes -> cortar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	actualmente [label="actualmente 
+ Count = 1 
+ Coef = 0.15" shape=plaintext]
+	actualmente -> cortar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	esperar [label="esperar 
+ Count = 1 
+ Coef = 4.87" shape=plaintext]
+	esperar -> cortar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 1 
+ Coef = 5.31" shape=plaintext]
+	contestar -> cortar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	colgar [label="colgar 
+ Count = 1 
+ Coef = 2.43" shape=plaintext]
+	colgar -> cortar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	estan [label="estan 
+ Count = 1 
+ Coef = -0.02" shape=plaintext]
+	estan -> cortar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 35 
+ Coef = 1.15" shape=plaintext]
+	que -> hacer [label="18.82%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 18 
+ Coef = 2.18" shape=plaintext]
+	estar -> hacer [label="9.68%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 16 
+ Coef = -0.99" shape=plaintext]
+	luz -> hacer [label="8.6%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 10 
+ Coef = 0.15" shape=plaintext]
+	porque -> hacer [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	ningun [label="ningun 
+ Count = 1 
+ Coef = 0.18" shape=plaintext]
+	ningun -> atencion [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = -1.44" shape=plaintext]
+	haber -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	hablar [label="hablar 
+ Count = 1 
+ Coef = 2.43" shape=plaintext]
+	hablar -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	atendio [label="atendio 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	atendio -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 1 
+ Coef = 0.06" shape=plaintext]
+	aqui -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 1 
+ Coef = 0.47" shape=plaintext]
+	solicitar -> atencion [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	prestar [label="prestar 
+ Count = 1 
+ Coef = -0.01" shape=plaintext]
+	prestar -> atencion [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	momento [label="momento 
+ Count = 1 
+ Coef = -0.42" shape=plaintext]
+	momento -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	poner [label="poner 
+ Count = 1 
+ Coef = 1.06" shape=plaintext]
+	poner -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	prestador [label="prestador 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	prestador -> atencion [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = 1.13" shape=plaintext]
+	no -> salon [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 1.13" shape=plaintext]
+	llamadas -> no [label="13.79%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 3 
+ Coef = 0.15" shape=plaintext]
+	llamadas -> porque [label="10.34%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.41" shape=plaintext]
+	llamadas -> dia [label="6.9%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = 0.87" shape=plaintext]
+	llamadas -> ser [label="6.9%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 73 
+ Coef = -1.44" shape=plaintext]
+	no -> haber [label="16.94%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 43 
+ Coef = -0.51" shape=plaintext]
+	no -> tener [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 32 
+ Coef = 5.31" shape=plaintext]
+	no -> contestar [label="7.42%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 34 
+ Coef = 2.18" shape=plaintext]
+	porque -> estar [label="19.21%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 20 
+ Coef = 1.13" shape=plaintext]
+	porque -> no [label="11.3%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 10 
+ Coef = 0.5" shape=plaintext]
+	porque -> hacer [label="5.65%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 9 
+ Coef = 0.87" shape=plaintext]
+	porque -> ser [label="5.08%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 9 
+ Coef = -0.51" shape=plaintext]
+	porque -> tener [label="5.08%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 20 
+ Coef = -0.35" shape=plaintext]
+	dia -> ayer [label="14.81%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 16 
+ Coef = 2.18" shape=plaintext]
+	dia -> estar [label="11.85%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 7 
+ Coef = -0.99" shape=plaintext]
+	dia -> luz [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 7 
+ Coef = 1.13" shape=plaintext]
+	dia -> no [label="5.19%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 319 
+ Coef = 1.15" shape=plaintext]
+	ser -> que [label="52.99%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 85 
+ Coef = 0.15" shape=plaintext]
+	ser -> porque [label="14.12%" weight=1.2]
+}

@@ -1,0 +1,162 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 539 
+ Coef = 12.59"]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 57 
+ Coef = 1.72" shape=plaintext]
+	danando -> electrodomesticos [label="10.58%" weight=1.2]
+	node [color=green style=filled]
+	danar [label="danar 
+ Count = 44 
+ Coef = 2.01" shape=plaintext]
+	danar -> electrodomesticos [label="8.16%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 42 
+ Coef = 0.96" shape=plaintext]
+	dar -> electrodomesticos [label="7.79%" weight=1.2]
+	node [color=green style=filled]
+	quemar [label="quemar 
+ Count = 31 
+ Coef = 3.98" shape=plaintext]
+	quemar -> electrodomesticos [label="5.75%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 67 
+ Coef = 2.35" shape=plaintext]
+	estan -> danando [label="62.04%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 1.49" shape=plaintext]
+	no -> danando [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 37 
+ Coef = 1.56" shape=plaintext]
+	poder -> danar [label="35.58%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 36 
+ Coef = 1.44" shape=plaintext]
+	ir -> danar [label="34.62%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 13 
+ Coef = 0.21" shape=plaintext]
+	que -> dar [label="11.21%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 10 
+ Coef = 1.49" shape=plaintext]
+	no -> dar [label="8.62%" weight=1.2]
+	node [color=green style=filled]
+	porque [label="porque 
+ Count = 7 
+ Coef = 0.72" shape=plaintext]
+	porque -> dar [label="6.03%" weight=1.2]
+	node [color=green style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 6 
+ Coef = 12.59" shape=plaintext]
+	electrodomesticos -> dar [label="5.17%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 17 
+ Coef = 2.35" shape=plaintext]
+	estan -> quemar [label="18.48%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 10 
+ Coef = 0.43" shape=plaintext]
+	haber -> quemar [label="10.87%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 9 
+ Coef = 1.44" shape=plaintext]
+	ir -> quemar [label="9.78%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 7 
+ Coef = 1.56" shape=plaintext]
+	poder -> quemar [label="7.61%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 28 
+ Coef = 1.49" shape=plaintext]
+	electrodomesticos -> no [label="7.57%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 28 
+ Coef = 2.35" shape=plaintext]
+	electrodomesticos -> estan [label="7.57%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 20 
+ Coef = 1.2" shape=plaintext]
+	electrodomesticos -> entonces [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 66 
+ Coef = 2.69" shape=plaintext]
+	no -> funcionar [label="8.17%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 50 
+ Coef = 5.54" shape=plaintext]
+	no -> prender [label="6.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 47 
+ Coef = 0.43" shape=plaintext]
+	no -> haber [label="5.82%" weight=1.2]
+	node [color=green style=filled]
+	danando [label="danando 
+ Count = 63 
+ Coef = 1.72" shape=plaintext]
+	estan -> danando [label="28.51%" weight=1.2]
+	node [color=green style=filled]
+	quitar [label="quitar 
+ Count = 16 
+ Coef = 0.96" shape=plaintext]
+	estan -> quitar [label="7.24%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 15 
+ Coef = 1.48" shape=plaintext]
+	estan -> presentado [label="6.79%" weight=1.2]
+	node [color=green style=filled]
+	quemar [label="quemar 
+ Count = 14 
+ Coef = 3.98" shape=plaintext]
+	estan -> quemar [label="6.33%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 14 
+ Coef = 2.69" shape=plaintext]
+	estan -> funcionar [label="6.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 21 
+ Coef = 1.49" shape=plaintext]
+	entonces -> no [label="10.45%" weight=1.2]
+	node [color=red style=filled]
+	necesitar [label="necesitar 
+ Count = 18 
+ Coef = -0.78" shape=plaintext]
+	entonces -> necesitar [label="8.96%" weight=1.2]
+	node [color=red style=filled]
+	ver [label="ver 
+ Count = 14 
+ Coef = -0.08" shape=plaintext]
+	entonces -> ver [label="6.97%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 12 
+ Coef = 0.71" shape=plaintext]
+	entonces -> ser [label="5.97%" weight=1.2]
+}

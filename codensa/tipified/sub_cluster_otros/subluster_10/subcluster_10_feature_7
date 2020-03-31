@@ -1,0 +1,22 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"recoleccion servicio" [label="recoleccion servicio 
+ Count = 8 
+ Coef = 3.28"]
+	node [color=red style=filled]
+	salud [label="salud 
+ Count = 1 
+ Coef = -0.05" shape=plaintext]
+	"recoleccion servicio" -> salud [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	urgente [label="urgente 
+ Count = 1 
+ Coef = 0.57" shape=plaintext]
+	"recoleccion servicio" -> urgente [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 2.57" shape=plaintext]
+	urgente -> servicio [label="100.0%" weight=1.2]
+}

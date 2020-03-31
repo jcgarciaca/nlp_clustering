@@ -1,0 +1,187 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	oxigeno [label="oxigeno 
+ Count = 1656 
+ Coef = 5.62"]
+	node [color=green style=filled]
+	persona [label="persona 
+ Count = 185 
+ Coef = 3.62" shape=plaintext]
+	persona -> oxigeno [label="11.18%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 173 
+ Coef = 8.13" shape=plaintext]
+	necesitar -> oxigeno [label="10.45%" weight=1.2]
+	node [color=green style=filled]
+	paciente [label="paciente 
+ Count = 172 
+ Coef = 2.27" shape=plaintext]
+	paciente -> oxigeno [label="10.39%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 119 
+ Coef = 2.69" shape=plaintext]
+	tener -> oxigeno [label="7.19%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 96 
+ Coef = 2.87" shape=plaintext]
+	ser -> oxigeno [label="5.8%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 344 
+ Coef = 2.69" shape=plaintext]
+	tener -> persona [label="27.85%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 192 
+ Coef = 3.16" shape=plaintext]
+	haber -> persona [label="15.55%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 79 
+ Coef = 2.87" shape=plaintext]
+	ser -> persona [label="6.4%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 609 
+ Coef = 5.83" shape=plaintext]
+	entonces -> necesitar [label="16.96%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 297 
+ Coef = 5.14" shape=plaintext]
+	que -> necesitar [label="8.27%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 256 
+ Coef = -0.25" shape=plaintext]
+	luz -> necesitar [label="7.13%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 342 
+ Coef = 2.69" shape=plaintext]
+	tener -> paciente [label="68.81%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 46 
+ Coef = 3.16" shape=plaintext]
+	haber -> paciente [label="9.26%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 5638 
+ Coef = 1.74" shape=plaintext]
+	no -> tener [label="51.31%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 839 
+ Coef = 5.14" shape=plaintext]
+	que -> tener [label="7.64%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 3221 
+ Coef = 1.13" shape=plaintext]
+	paso -> ser [label="17.95%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 1782 
+ Coef = 2.07" shape=plaintext]
+	llamada -> ser [label="9.93%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 970 
+ Coef = 3.69" shape=plaintext]
+	estar -> ser [label="5.41%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 905 
+ Coef = 2.69" shape=plaintext]
+	tener -> ser [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	dependiente [label="dependiente 
+ Count = 279 
+ Coef = 2.1" shape=plaintext]
+	oxigeno -> dependiente [label="19.75%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 104 
+ Coef = 5.83" shape=plaintext]
+	oxigeno -> entonces [label="7.36%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 91 
+ Coef = 1.74" shape=plaintext]
+	oxigeno -> no [label="6.44%" weight=1.2]
+	node [color=green style=filled]
+	oxigeno [label="oxigeno 
+ Count = 64 
+ Coef = 5.62" shape=plaintext]
+	dependiente -> oxigeno [label="16.04%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 37 
+ Coef = 8.13" shape=plaintext]
+	dependiente -> necesitar [label="9.27%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 24 
+ Coef = 1.74" shape=plaintext]
+	dependiente -> no [label="6.02%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 22 
+ Coef = 2.69" shape=plaintext]
+	dependiente -> tener [label="5.51%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 21 
+ Coef = 5.83" shape=plaintext]
+	dependiente -> entonces [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 607 
+ Coef = 8.13" shape=plaintext]
+	entonces -> necesitar [label="13.36%" weight=1.2]
+	node [color=green style=filled]
+	querer [label="querer 
+ Count = 360 
+ Coef = 2.61" shape=plaintext]
+	entonces -> querer [label="7.92%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 339 
+ Coef = 1.74" shape=plaintext]
+	entonces -> no [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 305 
+ Coef = 5.14" shape=plaintext]
+	entonces -> que [label="6.71%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 277 
+ Coef = 2.87" shape=plaintext]
+	entonces -> ser [label="6.1%" weight=1.2]
+	node [color=green style=filled]
+	ver [label="ver 
+ Count = 276 
+ Coef = 1.76" shape=plaintext]
+	entonces -> ver [label="6.08%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 274 
+ Coef = 3.69" shape=plaintext]
+	entonces -> estar [label="6.03%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 5437 
+ Coef = 3.16" shape=plaintext]
+	no -> haber [label="27.78%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 5194 
+ Coef = 2.69" shape=plaintext]
+	no -> tener [label="26.53%" weight=1.2]
+}

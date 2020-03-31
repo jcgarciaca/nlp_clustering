@@ -1,0 +1,247 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	hora [label="hora 
+ Count = 332 
+ Coef = 3.41"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 133 
+ Coef = 1.26" shape=plaintext]
+	que -> hora [label="41.96%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 26 
+ Coef = 2.19" shape=plaintext]
+	mas -> hora [label="8.2%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = -0.36" shape=plaintext]
+	hacer -> hora [label="6.94%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 19 
+ Coef = -0.48" shape=plaintext]
+	ser -> hora [label="5.99%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 17 
+ Coef = 0.17" shape=plaintext]
+	media -> hora [label="5.36%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 123 
+ Coef = -0.48" shape=plaintext]
+	ser -> que [label="24.17%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 72 
+ Coef = 4.41" shape=plaintext]
+	saber -> que [label="14.15%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 31 
+ Coef = 0.67" shape=plaintext]
+	necesitar -> que [label="6.09%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = -0.36" shape=plaintext]
+	hacer -> mas [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = 4.81" shape=plaintext]
+	servicio -> mas [label="10.1%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 10 
+ Coef = 4.41" shape=plaintext]
+	saber -> mas [label="10.1%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 6 
+ Coef = 0.26" shape=plaintext]
+	llevar -> mas [label="6.06%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 5 
+ Coef = 12.56" shape=plaintext]
+	restablecer -> mas [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = 3.41" shape=plaintext]
+	hora -> mas [label="5.05%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 21 
+ Coef = -0.65" shape=plaintext]
+	luz -> hacer [label="14.09%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 15 
+ Coef = 1.15" shape=plaintext]
+	energia -> hacer [label="10.07%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 14 
+ Coef = 4.81" shape=plaintext]
+	servicio -> hacer [label="9.4%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 1.26" shape=plaintext]
+	que -> hacer [label="6.04%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 324 
+ Coef = 12.56" shape=plaintext]
+	restablecer -> ser [label="35.72%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 117 
+ Coef = 1.91" shape=plaintext]
+	estar -> ser [label="12.9%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 56 
+ Coef = -0.06" shape=plaintext]
+	paso -> ser [label="6.17%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 9 
+ Coef = -0.36" shape=plaintext]
+	hacer -> media [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 7 
+ Coef = 3.41" shape=plaintext]
+	hora -> media [label="25.93%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 3 
+ Coef = 2.19" shape=plaintext]
+	mas -> media [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 72 
+ Coef = 12.56" shape=plaintext]
+	hora -> restablecer [label="22.71%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 32 
+ Coef = 0.97" shape=plaintext]
+	hora -> no [label="10.09%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 23 
+ Coef = 0.46" shape=plaintext]
+	hora -> ir [label="7.26%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 17 
+ Coef = 1.91" shape=plaintext]
+	hora -> estar [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 16 
+ Coef = 4.81" shape=plaintext]
+	hora -> servicio [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 16 
+ Coef = 1.26" shape=plaintext]
+	hora -> que [label="5.05%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 495 
+ Coef = 4.81" shape=plaintext]
+	restablecer -> servicio [label="83.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 205 
+ Coef = 0.86" shape=plaintext]
+	no -> haber [label="50.74%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 27 
+ Coef = 12.56" shape=plaintext]
+	no -> restablecer [label="6.68%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 27 
+ Coef = 0.97" shape=plaintext]
+	no -> no [label="6.68%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 55 
+ Coef = 12.56" shape=plaintext]
+	ir -> restablecer [label="26.19%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 15 
+ Coef = 1.26" shape=plaintext]
+	ir -> que [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	restablecido [label="restablecido 
+ Count = 15 
+ Coef = 3.23" shape=plaintext]
+	ir -> restablecido [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	posible [label="posible 
+ Count = 14 
+ Coef = 1.67" shape=plaintext]
+	ir -> posible [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 128 
+ Coef = 4.81" shape=plaintext]
+	estar -> servicio [label="34.97%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 63 
+ Coef = -0.65" shape=plaintext]
+	estar -> luz [label="17.21%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 30 
+ Coef = 0.04" shape=plaintext]
+	estar -> llamar [label="8.2%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 21 
+ Coef = 1.15" shape=plaintext]
+	estar -> energia [label="5.74%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 150 
+ Coef = 1.15" shape=plaintext]
+	servicio -> energia [label="22.87%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 138 
+ Coef = -0.65" shape=plaintext]
+	servicio -> luz [label="21.04%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 118 
+ Coef = 3.41" shape=plaintext]
+	que -> hora [label="22.1%" weight=1.2]
+	node [color=green style=filled]
+	restablecer [label="restablecer 
+ Count = 54 
+ Coef = 12.56" shape=plaintext]
+	que -> restablecer [label="10.11%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 51 
+ Coef = 1.91" shape=plaintext]
+	que -> estar [label="9.55%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 38 
+ Coef = 0.97" shape=plaintext]
+	que -> no [label="7.12%" weight=1.2]
+}

@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"no haber mna" [label="no haber mna 
+ Count = 43 
+ Coef = 2.57"]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 4 
+ Coef = 0.3" shape=plaintext]
+	que -> "no haber mna" [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1 
+ Coef = 7.47" shape=plaintext]
+	haber -> "no haber mna" [label="20.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 16 
+ Coef = -0.2" shape=plaintext]
+	ser -> que [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	pues [label="pues 
+ Count = 5 
+ Coef = 1.28" shape=plaintext]
+	pues -> que [label="15.62%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 2 
+ Coef = 2.39" shape=plaintext]
+	saber -> que [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = 7.47" shape=plaintext]
+	haber -> que [label="6.25%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 2 
+ Coef = -1.99" shape=plaintext]
+	tener -> que [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	decir [label="decir 
+ Count = 2 
+ Coef = 1.21" shape=plaintext]
+	decir -> que [label="6.25%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1573 
+ Coef = 3.62" shape=plaintext]
+	no -> haber [label="99.87%" weight=1.2]
+	node [color=red style=filled]
+	entonces [label="entonces 
+ Count = 1 
+ Coef = -0.61" shape=plaintext]
+	"no haber mna" -> entonces [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	saber [label="saber 
+ Count = 1 
+ Coef = 2.39" shape=plaintext]
+	entonces -> saber [label="100.0%" weight=1.2]
+}

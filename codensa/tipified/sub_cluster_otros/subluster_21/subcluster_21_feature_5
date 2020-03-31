@@ -1,0 +1,192 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	hora [label="hora 
+ Count = 243 
+ Coef = 2.91"]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 88 
+ Coef = 9.48" shape=plaintext]
+	hacer -> hora [label="37.13%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 54 
+ Coef = 4.89" shape=plaintext]
+	media -> hora [label="22.78%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 31 
+ Coef = 1.67" shape=plaintext]
+	mas -> hora [label="13.08%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 29 
+ Coef = 2.34" shape=plaintext]
+	como -> hora [label="12.24%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 113 
+ Coef = 1.18" shape=plaintext]
+	luz -> hacer [label="42.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 25 
+ Coef = 0.93" shape=plaintext]
+	que -> hacer [label="9.33%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 20 
+ Coef = -1.12" shape=plaintext]
+	energia -> hacer [label="7.46%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 26 
+ Coef = 9.48" shape=plaintext]
+	hacer -> media [label="29.55%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 19 
+ Coef = 2.91" shape=plaintext]
+	hora -> media [label="21.59%" weight=1.2]
+	node [color=green style=filled]
+	como [label="como 
+ Count = 15 
+ Coef = 2.34" shape=plaintext]
+	como -> media [label="17.05%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 8 
+ Coef = 1.67" shape=plaintext]
+	mas -> media [label="9.09%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 52 
+ Coef = 9.48" shape=plaintext]
+	hacer -> mas [label="65.82%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 7 
+ Coef = 3.39" shape=plaintext]
+	llevar -> mas [label="8.86%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 5 
+ Coef = 2.91" shape=plaintext]
+	hora -> mas [label="6.33%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 58 
+ Coef = 9.48" shape=plaintext]
+	hacer -> como [label="80.56%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 35 
+ Coef = 0.37" shape=plaintext]
+	hora -> ser [label="26.32%" weight=1.2]
+	node [color=green style=filled]
+	media [label="media 
+ Count = 19 
+ Coef = 4.89" shape=plaintext]
+	hora -> media [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 13 
+ Coef = -1.0" shape=plaintext]
+	hora -> estar [label="9.77%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 0.56" shape=plaintext]
+	hora -> no [label="6.02%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = 0.93" shape=plaintext]
+	hora -> que [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 118 
+ Coef = 1.18" shape=plaintext]
+	ser -> luz [label="60.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 46 
+ Coef = 0.93" shape=plaintext]
+	ser -> que [label="23.47%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 55 
+ Coef = 2.91" shape=plaintext]
+	media -> hora [label="63.95%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 13 
+ Coef = 0.38" shape=plaintext]
+	media -> casa [label="15.12%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.18" shape=plaintext]
+	media -> luz [label="6.98%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 61 
+ Coef = 1.18" shape=plaintext]
+	estar -> luz [label="58.1%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 10 
+ Coef = -5.69" shape=plaintext]
+	estar -> servicio [label="9.52%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 6 
+ Coef = -1.12" shape=plaintext]
+	estar -> energia [label="5.71%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 22 
+ Coef = -2.23" shape=plaintext]
+	no -> haber [label="24.18%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 13 
+ Coef = -2.78" shape=plaintext]
+	no -> tener [label="14.29%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 12 
+ Coef = 9.48" shape=plaintext]
+	no -> hacer [label="13.19%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 8 
+ Coef = 0.56" shape=plaintext]
+	no -> no [label="8.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 5 
+ Coef = 0.37" shape=plaintext]
+	no -> ser [label="5.49%" weight=1.2]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = 9.48" shape=plaintext]
+	que -> hacer [label="16.79%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 22 
+ Coef = -1.0" shape=plaintext]
+	que -> estar [label="16.79%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 21 
+ Coef = 0.37" shape=plaintext]
+	que -> ser [label="16.03%" weight=1.2]
+	node [color=green style=filled]
+	llevar [label="llevar 
+ Count = 8 
+ Coef = 3.39" shape=plaintext]
+	que -> llevar [label="6.11%" weight=1.2]
+}

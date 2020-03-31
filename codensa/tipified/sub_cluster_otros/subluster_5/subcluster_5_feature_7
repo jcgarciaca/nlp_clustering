@@ -1,0 +1,132 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	bueno [label="bueno 
+ Count = 29 
+ Coef = 3.21"]
+	node [color=green style=filled]
+	ah [label="ah 
+ Count = 3 
+ Coef = 0.57" shape=plaintext]
+	ah -> bueno [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = -2.16" shape=plaintext]
+	servicio -> bueno [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	contestar [label="contestar 
+ Count = 1 
+ Coef = 5.31" shape=plaintext]
+	contestar -> bueno [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	santo [label="santo 
+ Count = 1 
+ Coef = -0.41" shape=plaintext]
+	santo -> bueno [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	manana [label="manana 
+ Count = 1 
+ Coef = -0.8" shape=plaintext]
+	manana -> bueno [label="11.11%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = -0.99" shape=plaintext]
+	luz -> bueno [label="11.11%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 1.15" shape=plaintext]
+	que -> ah [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 49 
+ Coef = 2.18" shape=plaintext]
+	estar -> servicio [label="21.03%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 44 
+ Coef = 1.13" shape=plaintext]
+	no -> contestar [label="51.76%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 10 
+ Coef = 1.15" shape=plaintext]
+	que -> contestar [label="11.76%" weight=1.2]
+	node [color=green style=filled]
+	recibo [label="recibo 
+ Count = 1 
+ Coef = 0.6" shape=plaintext]
+	recibo -> santo [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 1 
+ Coef = -0.77" shape=plaintext]
+	barrio -> santo [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 13 
+ Coef = -0.99" shape=plaintext]
+	luz -> manana [label="19.4%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 8 
+ Coef = -1.24" shape=plaintext]
+	energia -> manana [label="11.94%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = 1.15" shape=plaintext]
+	que -> manana [label="10.45%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 6 
+ Coef = -0.35" shape=plaintext]
+	ayer -> manana [label="8.96%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 82 
+ Coef = 2.18" shape=plaintext]
+	estar -> luz [label="25.39%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 45 
+ Coef = -2.16" shape=plaintext]
+	servicio -> luz [label="13.93%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 42 
+ Coef = 0.87" shape=plaintext]
+	ser -> luz [label="13.0%" weight=1.2]
+	node [color=green style=filled]
+	motivo [label="motivo 
+ Count = 9 
+ Coef = 9.49" shape=plaintext]
+	bueno -> motivo [label="39.13%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 3 
+ Coef = 2.18" shape=plaintext]
+	bueno -> estar [label="13.04%" weight=1.2]
+	node [color=green style=filled]
+	llamada [label="llamada 
+ Count = 517 
+ Coef = 11.7" shape=plaintext]
+	motivo -> llamada [label="87.93%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 78 
+ Coef = -0.99" shape=plaintext]
+	estar -> luz [label="18.35%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 49 
+ Coef = -2.16" shape=plaintext]
+	estar -> servicio [label="11.53%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 34 
+ Coef = 4.05" shape=plaintext]
+	estar -> llamar [label="8.0%" weight=1.2]
+}

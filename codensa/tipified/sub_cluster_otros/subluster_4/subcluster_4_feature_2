@@ -1,0 +1,212 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"servicio dia" [label="servicio dia 
+ Count = 50 
+ Coef = 2.78"]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 2 
+ Coef = -0.59" shape=plaintext]
+	haber -> "servicio dia" [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	ser -> "servicio dia" [label="12.5%" weight=1.2]
+	node [color=lightgrey style=filled]
+	atoron [label="atoron 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	atoron -> "servicio dia" [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -1.3" shape=plaintext]
+	que -> "servicio dia" [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 2.35" shape=plaintext]
+	dia -> "servicio dia" [label="12.5%" weight=1.2]
+	node [color=lightgrey style=filled]
+	naval [label="naval 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	naval -> "servicio dia" [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	ahora [label="ahora 
+ Count = 1 
+ Coef = 0.18" shape=plaintext]
+	ahora -> "servicio dia" [label="12.5%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 5 
+ Coef = -1.47" shape=plaintext]
+	no -> haber [label="55.56%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 2 
+ Coef = 0.44" shape=plaintext]
+	ya -> haber [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	si [label="si 
+ Count = 2 
+ Coef = 0.39" shape=plaintext]
+	si -> haber [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 44 
+ Coef = 2.35" shape=plaintext]
+	dia -> ser [label="11.99%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 40 
+ Coef = 14.77" shape=plaintext]
+	servicio -> ser [label="10.9%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 29 
+ Coef = -0.51" shape=plaintext]
+	ser -> ser [label="7.9%" weight=1.2]
+	node [color=green style=filled]
+	mal [label="mal 
+ Count = 27 
+ Coef = 1.52" shape=plaintext]
+	mal -> ser [label="7.36%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 23 
+ Coef = -0.59" shape=plaintext]
+	haber -> ser [label="6.27%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 2 
+ Coef = -0.51" shape=plaintext]
+	ser -> que [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 0.7" shape=plaintext]
+	luz -> que [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	sera [label="sera 
+ Count = 1 
+ Coef = 0.17" shape=plaintext]
+	sera -> que [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.44" shape=plaintext]
+	ya -> que [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 49 
+ Coef = 14.77" shape=plaintext]
+	servicio -> dia [label="41.18%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 17 
+ Coef = -0.3" shape=plaintext]
+	hacer -> dia [label="14.29%" weight=1.2]
+	node [color=red style=filled]
+	energia [label="energia 
+ Count = 16 
+ Coef = -0.41" shape=plaintext]
+	energia -> dia [label="13.45%" weight=1.2]
+	node [color=green style=filled]
+	tres [label="tres 
+ Count = 8 
+ Coef = 0.28" shape=plaintext]
+	tres -> dia [label="6.72%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 7 
+ Coef = 0.7" shape=plaintext]
+	luz -> dia [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 6 
+ Coef = 0.54" shape=plaintext]
+	mas -> dia [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 6 
+ Coef = 0.45" shape=plaintext]
+	dos -> dia [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2 
+ Coef = 14.77" shape=plaintext]
+	servicio -> ahora [label="50.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	mamita [label="mamita 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	mamita -> ahora [label="25.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	at [label="at 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	at -> ahora [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	ayer [label="ayer 
+ Count = 18 
+ Coef = 0.69" shape=plaintext]
+	"servicio dia" -> ayer [label="64.29%" weight=1.2]
+	node [color=green style=filled]
+	domingo [label="domingo 
+ Count = 2 
+ Coef = 0.34" shape=plaintext]
+	"servicio dia" -> domingo [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	viernes [label="viernes 
+ Count = 2 
+ Coef = 0.61" shape=plaintext]
+	"servicio dia" -> viernes [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	hoy [label="hoy 
+ Count = 2 
+ Coef = 1.12" shape=plaintext]
+	"servicio dia" -> hoy [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	tarde [label="tarde 
+ Count = 7 
+ Coef = 0.25" shape=plaintext]
+	ayer -> tarde [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 4 
+ Coef = 14.77" shape=plaintext]
+	ayer -> servicio [label="28.57%" weight=1.2]
+	node [color=green style=filled]
+	noche [label="noche 
+ Count = 1 
+ Coef = 0.22" shape=plaintext]
+	ayer -> noche [label="7.14%" weight=1.2]
+	node [color=lightgrey style=filled]
+	pm [label="pm 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	ayer -> pm [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	enero [label="enero 
+ Count = 1 
+ Coef = 0.05" shape=plaintext]
+	ayer -> enero [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 8 
+ Coef = 14.77" shape=plaintext]
+	hoy -> servicio [label="80.0%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 1 
+ Coef = 2.35" shape=plaintext]
+	hoy -> dia [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 1 
+ Coef = 0.44" shape=plaintext]
+	hoy -> ya [label="10.0%" weight=1.2]
+}

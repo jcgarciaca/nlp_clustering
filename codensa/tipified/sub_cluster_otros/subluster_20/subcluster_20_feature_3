@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	aqui [label="aqui 
+ Count = 1393 
+ Coef = 4.66"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 200 
+ Coef = 0.52" shape=plaintext]
+	luz -> aqui [label="15.42%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 194 
+ Coef = 2.22" shape=plaintext]
+	que -> aqui [label="14.96%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 94 
+ Coef = 3.1" shape=plaintext]
+	estar -> aqui [label="7.25%" weight=1.2]
+	node [color=green style=filled]
+	estar [label="estar 
+ Count = 693 
+ Coef = 3.1" shape=plaintext]
+	estar -> luz [label="28.17%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 297 
+ Coef = 1.15" shape=plaintext]
+	ser -> luz [label="12.07%" weight=1.2]
+	node [color=red style=filled]
+	servicio [label="servicio 
+ Count = 189 
+ Coef = -3.51" shape=plaintext]
+	servicio -> luz [label="7.68%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1242 
+ Coef = 1.15" shape=plaintext]
+	ser -> que [label="43.11%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 363 
+ Coef = 2.22" shape=plaintext]
+	que -> estar [label="17.57%" weight=1.2]
+	node [color=green style=filled]
+	vereda [label="vereda 
+ Count = 209 
+ Coef = 8.0" shape=plaintext]
+	aqui -> vereda [label="15.68%" weight=1.2]
+	node [color=green style=filled]
+	municipio [label="municipio 
+ Count = 71 
+ Coef = 8.21" shape=plaintext]
+	aqui -> municipio [label="5.33%" weight=1.2]
+	node [color=green style=filled]
+	barrio [label="barrio 
+ Count = 69 
+ Coef = 3.89" shape=plaintext]
+	aqui -> barrio [label="5.18%" weight=1.2]
+	node [color=green style=filled]
+	sector [label="sector 
+ Count = 69 
+ Coef = 4.65" shape=plaintext]
+	aqui -> sector [label="5.18%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 95 
+ Coef = 2.47" shape=plaintext]
+	vereda -> santo [label="7.87%" weight=1.2]
+	node [color=green style=filled]
+	mesa [label="mesa 
+ Count = 45 
+ Coef = 1.17" shape=plaintext]
+	municipio -> mesa [label="5.07%" weight=1.2]
+	node [color=green style=filled]
+	santo [label="santo 
+ Count = 27 
+ Coef = 2.47" shape=plaintext]
+	barrio -> santo [label="6.57%" weight=1.2]
+	node [color=green style=filled]
+	santa [label="santa 
+ Count = 22 
+ Coef = 2.66" shape=plaintext]
+	barrio -> santa [label="5.35%" weight=1.2]
+	node [color=green style=filled]
+	villa [label="villa 
+ Count = 22 
+ Coef = 1.55" shape=plaintext]
+	barrio -> villa [label="5.35%" weight=1.2]
+}

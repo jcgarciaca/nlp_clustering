@@ -1,0 +1,207 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	energia [label="energia 
+ Count = 7436 
+ Coef = 18.77"]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 3441 
+ Coef = Not in Dict" shape=plaintext]
+	de -> energia [label="47.29%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 989 
+ Coef = 0.42" shape=plaintext]
+	servicio -> energia [label="13.59%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 743 
+ Coef = 4.43" shape=plaintext]
+	tener -> energia [label="10.21%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 584 
+ Coef = 0.88" shape=plaintext]
+	haber -> energia [label="8.03%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 506 
+ Coef = 2.2" shape=plaintext]
+	sin -> energia [label="6.95%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 2680 
+ Coef = 0.42" shape=plaintext]
+	servicio -> de [label="63.55%" weight=1.2]
+	node [color=green style=filled]
+	suministro [label="suministro 
+ Count = 274 
+ Coef = 0.08" shape=plaintext]
+	suministro -> de [label="6.5%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1034 
+ Coef = 4.43" shape=plaintext]
+	tener -> servicio [label="27.15%" weight=1.2]
+	node [color=green style=filled]
+	sin [label="sin 
+ Count = 917 
+ Coef = 2.2" shape=plaintext]
+	sin -> servicio [label="24.08%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 852 
+ Coef = 0.88" shape=plaintext]
+	haber -> servicio [label="22.37%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 459 
+ Coef = -1.09" shape=plaintext]
+	el -> servicio [label="12.05%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 3108 
+ Coef = 0.5" shape=plaintext]
+	no -> tener [label="96.91%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 1670 
+ Coef = 0.5" shape=plaintext]
+	no -> haber [label="97.09%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 423 
+ Coef = -3.34" shape=plaintext]
+	estar -> sin [label="42.9%" weight=1.2]
+	node [color=green style=filled]
+	encontrar [label="encontrar 
+ Count = 134 
+ Coef = 0.74" shape=plaintext]
+	encontrar -> sin [label="13.59%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 106 
+ Coef = 1.23" shape=plaintext]
+	dia -> sin [label="10.75%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 71 
+ Coef = 2.12" shape=plaintext]
+	hora -> sin [label="7.2%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 691 
+ Coef = Not in Dict" shape=plaintext]
+	energia -> en [label="30.44%" weight=1.2]
+	node [color=red style=filled]
+	electrica [label="electrica 
+ Count = 313 
+ Coef = -0.24" shape=plaintext]
+	energia -> electrica [label="13.79%" weight=1.2]
+	node [color=red style=filled]
+	desde [label="desde 
+ Count = 222 
+ Coef = -1.3" shape=plaintext]
+	energia -> desde [label="9.78%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 140 
+ Coef = -0.6" shape=plaintext]
+	energia -> hacer [label="6.17%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 134 
+ Coef = 0.5" shape=plaintext]
+	energia -> no [label="5.9%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 400 
+ Coef = -1.52" shape=plaintext]
+	en -> la [label="28.99%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 370 
+ Coef = -1.09" shape=plaintext]
+	en -> el [label="26.81%" weight=1.2]
+	node [color=red style=filled]
+	mi [label="mi 
+ Count = 136 
+ Coef = -0.48" shape=plaintext]
+	en -> mi [label="9.86%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 86 
+ Coef = 0.42" shape=plaintext]
+	en -> servicio [label="6.23%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 27 
+ Coef = Not in Dict" shape=plaintext]
+	electrica -> en [label="29.67%" weight=1.2]
+	node [color=red style=filled]
+	desde [label="desde 
+ Count = 22 
+ Coef = -1.3" shape=plaintext]
+	electrica -> desde [label="24.18%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 7 
+ Coef = -0.6" shape=plaintext]
+	electrica -> hacer [label="7.69%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 119 
+ Coef = -0.05" shape=plaintext]
+	desde -> ayer [label="29.1%" weight=1.2]
+	node [color=red style=filled]
+	el [label="el 
+ Count = 116 
+ Coef = -1.09" shape=plaintext]
+	desde -> el [label="28.36%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 91 
+ Coef = -0.6" shape=plaintext]
+	desde -> hacer [label="22.25%" weight=1.2]
+	node [color=red style=filled]
+	las [label="las 
+ Count = 25 
+ Coef = -0.77" shape=plaintext]
+	desde -> las [label="6.11%" weight=1.2]
+	node [color=green style=filled]
+	dia [label="dia 
+ Count = 80 
+ Coef = 1.23" shape=plaintext]
+	hacer -> dia [label="23.32%" weight=1.2]
+	node [color=green style=filled]
+	hora [label="hora 
+ Count = 61 
+ Coef = 2.12" shape=plaintext]
+	hacer -> hora [label="17.78%" weight=1.2]
+	node [color=red style=filled]
+	mas [label="mas 
+ Count = 56 
+ Coef = -0.09" shape=plaintext]
+	hacer -> mas [label="16.33%" weight=1.2]
+	node [color=green style=filled]
+	dos [label="dos 
+ Count = 32 
+ Coef = 0.19" shape=plaintext]
+	hacer -> dos [label="9.33%" weight=1.2]
+	node [color=red style=filled]
+	una [label="una 
+ Count = 23 
+ Coef = -0.62" shape=plaintext]
+	hacer -> una [label="6.71%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 3065 
+ Coef = 4.43" shape=plaintext]
+	no -> tener [label="60.72%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1623 
+ Coef = 0.88" shape=plaintext]
+	no -> haber [label="32.15%" weight=1.2]
+}

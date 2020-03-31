@@ -1,0 +1,112 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	emergencia [label="emergencia 
+ Count = 308 
+ Coef = 11.91"]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 18 
+ Coef = 0.01" shape=plaintext]
+	tener -> emergencia [label="22.5%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 13 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> emergencia [label="16.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.59" shape=plaintext]
+	ser -> emergencia [label="16.25%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = -1.32" shape=plaintext]
+	que -> tener [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 2 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> tener [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = 1.3" shape=plaintext]
+	casa -> tener [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 18 
+ Coef = 0.01" shape=plaintext]
+	tener -> emergencia [label="22.5%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 13 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> emergencia [label="16.25%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 13 
+ Coef = -0.59" shape=plaintext]
+	ser -> emergencia [label="16.25%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 6 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> ser [label="40.0%" weight=1.2]
+	node [color=green style=filled]
+	caso [label="caso 
+ Count = 1 
+ Coef = 1.11" shape=plaintext]
+	caso -> ser [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	urgente [label="urgente 
+ Count = 1 
+ Coef = 1.52" shape=plaintext]
+	urgente -> ser [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -1.32" shape=plaintext]
+	que -> ser [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	malo [label="malo 
+ Count = 1 
+ Coef = -0.49" shape=plaintext]
+	malo -> ser [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 1 
+ Coef = -0.42" shape=plaintext]
+	paso -> ser [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	ay [label="ay 
+ Count = 1 
+ Coef = 0.63" shape=plaintext]
+	ay -> ser [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	mal [label="mal 
+ Count = 1 
+ Coef = 0.36" shape=plaintext]
+	mal -> ser [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 2.91" shape=plaintext]
+	falla -> ser [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	acometida [label="acometida 
+ Count = 1 
+ Coef = 0.52" shape=plaintext]
+	acometida -> ser [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 14 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> emergencia [label="16.47%" weight=1.2]
+	node [color=green style=filled]
+	emergencia [label="emergencia 
+ Count = 14 
+ Coef = 11.91" shape=plaintext]
+	emergencia -> emergencia [label="16.47%" weight=1.2]
+}

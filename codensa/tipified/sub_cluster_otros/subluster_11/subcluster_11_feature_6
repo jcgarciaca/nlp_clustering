@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	televisor [label="televisor 
+ Count = 163 
+ Coef = 3.97"]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 15 
+ Coef = 5.54" shape=plaintext]
+	prender -> televisor [label="9.2%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 14 
+ Coef = 2.81" shape=plaintext]
+	nevera -> televisor [label="8.59%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 10 
+ Coef = 1.1" shape=plaintext]
+	dano -> televisor [label="6.13%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 77 
+ Coef = 1.49" shape=plaintext]
+	no -> prender [label="41.4%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 25 
+ Coef = 1.56" shape=plaintext]
+	poder -> prender [label="13.44%" weight=1.2]
+	node [color=green style=filled]
+	alcanzar [label="alcanzar 
+ Count = 10 
+ Coef = 2.12" shape=plaintext]
+	alcanzar -> prender [label="5.38%" weight=1.2]
+	node [color=green style=filled]
+	televisor [label="televisor 
+ Count = 10 
+ Coef = 3.97" shape=plaintext]
+	televisor -> nevera [label="6.99%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 10 
+ Coef = 5.54" shape=plaintext]
+	prender -> nevera [label="6.99%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 11 
+ Coef = 0.43" shape=plaintext]
+	haber -> dano [label="9.24%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 7 
+ Coef = -0.57" shape=plaintext]
+	reportar -> dano [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 7 
+ Coef = 1.07" shape=plaintext]
+	tener -> dano [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 7 
+ Coef = 0.42" shape=plaintext]
+	ya -> dano [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	responder [label="responder 
+ Count = 6 
+ Coef = 0.9" shape=plaintext]
+	responder -> dano [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 1.56" shape=plaintext]
+	luz -> dano [label="5.04%" weight=1.2]
+	node [color=green style=filled]
+	nevera [label="nevera 
+ Count = 10 
+ Coef = 2.81" shape=plaintext]
+	televisor -> nevera [label="11.36%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 1.49" shape=plaintext]
+	televisor -> no [label="6.82%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 14 
+ Coef = 1.49" shape=plaintext]
+	nevera -> no [label="12.84%" weight=1.2]
+	node [color=green style=filled]
+	televisor [label="televisor 
+ Count = 8 
+ Coef = 3.97" shape=plaintext]
+	nevera -> televisor [label="7.34%" weight=1.2]
+	node [color=green style=filled]
+	televisores [label="televisores 
+ Count = 6 
+ Coef = 3.35" shape=plaintext]
+	nevera -> televisores [label="5.5%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 66 
+ Coef = 2.69" shape=plaintext]
+	no -> funcionar [label="8.17%" weight=1.2]
+	node [color=green style=filled]
+	prender [label="prender 
+ Count = 50 
+ Coef = 5.54" shape=plaintext]
+	no -> prender [label="6.19%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 47 
+ Coef = 0.43" shape=plaintext]
+	no -> haber [label="5.82%" weight=1.2]
+}

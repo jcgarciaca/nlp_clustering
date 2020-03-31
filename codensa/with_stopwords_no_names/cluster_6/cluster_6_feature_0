@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	transformador [label="transformador 
+ Count = 923 
+ Coef = 12.85"]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 50 
+ Coef = -0.31" shape=plaintext]
+	haber -> transformador [label="5.7%" weight=1.2]
+	node [color=red style=filled]
+	dano [label="dano 
+ Count = 46 
+ Coef = -0.48" shape=plaintext]
+	dano -> transformador [label="5.25%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 331 
+ Coef = -2.26" shape=plaintext]
+	no -> haber [label="30.73%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 146 
+ Coef = 3.11" shape=plaintext]
+	que -> haber [label="13.56%" weight=1.2]
+	node [color=red style=filled]
+	reportar [label="reportar 
+ Count = 52 
+ Coef = -1.98" shape=plaintext]
+	reportar -> dano [label="17.57%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 29 
+ Coef = -0.31" shape=plaintext]
+	haber -> dano [label="9.8%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 23 
+ Coef = 3.11" shape=plaintext]
+	que -> dano [label="7.77%" weight=1.2]
+	node [color=red style=filled]
+	tener [label="tener 
+ Count = 15 
+ Coef = -2.64" shape=plaintext]
+	tener -> dano [label="5.07%" weight=1.2]
+	node [color=red style=filled]
+	aqui [label="aqui 
+ Count = 38 
+ Coef = -0.2" shape=plaintext]
+	transformador -> aqui [label="5.15%" weight=1.2]
+	node [color=green style=filled]
+	echar [label="echar 
+ Count = 38 
+ Coef = 3.31" shape=plaintext]
+	transformador -> echar [label="5.15%" weight=1.2]
+	node [color=red style=filled]
+	vereda [label="vereda 
+ Count = 58 
+ Coef = -0.68" shape=plaintext]
+	aqui -> vereda [label="8.7%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 39 
+ Coef = 1.65" shape=plaintext]
+	aqui -> casa [label="5.85%" weight=1.2]
+	node [color=red style=filled]
+	barrio [label="barrio 
+ Count = 39 
+ Coef = -1.71" shape=plaintext]
+	aqui -> barrio [label="5.85%" weight=1.2]
+	node [color=green style=filled]
+	chispas [label="chispas 
+ Count = 155 
+ Coef = 6.23" shape=plaintext]
+	echar -> chispas [label="56.78%" weight=1.2]
+	node [color=green style=filled]
+	candela [label="candela 
+ Count = 44 
+ Coef = 3.51" shape=plaintext]
+	echar -> candela [label="16.12%" weight=1.2]
+	node [color=green style=filled]
+	chispa [label="chispa 
+ Count = 28 
+ Coef = 3.96" shape=plaintext]
+	echar -> chispa [label="10.26%" weight=1.2]
+	node [color=green style=filled]
+	humo [label="humo 
+ Count = 19 
+ Coef = 1.43" shape=plaintext]
+	echar -> humo [label="6.96%" weight=1.2]
+}

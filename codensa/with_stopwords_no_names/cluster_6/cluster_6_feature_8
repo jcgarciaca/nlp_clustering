@@ -1,0 +1,117 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	chispas [label="chispas 
+ Count = 388 
+ Coef = 6.23"]
+	node [color=green style=filled]
+	echar [label="echar 
+ Count = 152 
+ Coef = 3.31" shape=plaintext]
+	echar -> chispas [label="39.69%" weight=1.2]
+	node [color=green style=filled]
+	hecha [label="hecha 
+ Count = 28 
+ Coef = 0.7" shape=plaintext]
+	hecha -> chispas [label="7.31%" weight=1.2]
+	node [color=green style=filled]
+	salir [label="salir 
+ Count = 20 
+ Coef = 2.52" shape=plaintext]
+	salir -> chispas [label="5.22%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 40 
+ Coef = 12.85" shape=plaintext]
+	transformador -> echar [label="14.76%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 27 
+ Coef = 3.12" shape=plaintext]
+	estan -> echar [label="9.96%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 20 
+ Coef = -2.05" shape=plaintext]
+	estar -> echar [label="7.38%" weight=1.2]
+	node [color=green style=filled]
+	transformador [label="transformador 
+ Count = 10 
+ Coef = 12.85" shape=plaintext]
+	transformador -> hecha [label="20.41%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 5 
+ Coef = 1.65" shape=plaintext]
+	casa -> hecha [label="10.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 3.11" shape=plaintext]
+	que -> hecha [label="6.12%" weight=1.2]
+	node [color=green style=filled]
+	poste [label="poste 
+ Count = 3 
+ Coef = 5.72" shape=plaintext]
+	poste -> hecha [label="6.12%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 8 
+ Coef = 1.12" shape=plaintext]
+	poder -> salir [label="7.14%" weight=1.2]
+	node [color=red style=filled]
+	ir [label="ir 
+ Count = 6 
+ Coef = -0.45" shape=plaintext]
+	ir -> salir [label="5.36%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 16 
+ Coef = -0.63" shape=plaintext]
+	chispas -> ser [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 16 
+ Coef = 2.49" shape=plaintext]
+	chispas -> entonces [label="5.13%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 1029 
+ Coef = 3.11" shape=plaintext]
+	ser -> que [label="53.99%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 46 
+ Coef = -2.05" shape=plaintext]
+	entonces -> estar [label="9.0%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 39 
+ Coef = -0.63" shape=plaintext]
+	entonces -> ser [label="7.63%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 39 
+ Coef = -2.26" shape=plaintext]
+	entonces -> no [label="7.63%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 33 
+ Coef = 3.11" shape=plaintext]
+	entonces -> que [label="6.46%" weight=1.2]
+	node [color=red style=filled]
+	necesitar [label="necesitar 
+ Count = 30 
+ Coef = -0.72" shape=plaintext]
+	entonces -> necesitar [label="5.87%" weight=1.2]
+	node [color=green style=filled]
+	pues [label="pues 
+ Count = 30 
+ Coef = 0.44" shape=plaintext]
+	entonces -> pues [label="5.87%" weight=1.2]
+	node [color=red style=filled]
+	ver [label="ver 
+ Count = 27 
+ Coef = -0.76" shape=plaintext]
+	entonces -> ver [label="5.28%" weight=1.2]
+}

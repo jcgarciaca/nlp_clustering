@@ -1,0 +1,27 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"ser dano" [label="ser dano 
+ Count = 1 
+ Coef = 2.16"]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = 1.19" shape=plaintext]
+	"ser dano" -> ser [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 7 
+ Coef = -0.51" shape=plaintext]
+	ser -> que [label="25.93%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 6 
+ Coef = 0.17" shape=plaintext]
+	ser -> luz [label="22.22%" weight=1.2]
+	node [color=green style=filled]
+	canuela [label="canuela 
+ Count = 2 
+ Coef = 10.71" shape=plaintext]
+	ser -> canuela [label="7.41%" weight=1.2]
+}

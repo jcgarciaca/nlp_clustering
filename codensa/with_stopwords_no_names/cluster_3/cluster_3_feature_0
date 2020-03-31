@@ -1,0 +1,177 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reportar [label="reportar 
+ Count = 2243 
+ Coef = 21.1"]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 98 
+ Coef = -2.41" shape=plaintext]
+	ser -> reportar [label="30.53%" weight=1.2]
+	node [color=red style=filled]
+	llamar [label="llamar 
+ Count = 21 
+ Coef = -0.03" shape=plaintext]
+	llamar -> reportar [label="6.54%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 341 
+ Coef = 3.08" shape=plaintext]
+	falla -> ser [label="52.06%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 52 
+ Coef = 1.53" shape=plaintext]
+	dano -> ser [label="7.94%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 37 
+ Coef = 0.34" shape=plaintext]
+	fallo -> ser [label="5.65%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 7 
+ Coef = -1.99" shape=plaintext]
+	estar -> llamar [label="36.84%" weight=1.2]
+	node [color=green style=filled]
+	mirar [label="mirar 
+ Count = 2 
+ Coef = 0.69" shape=plaintext]
+	mirar -> llamar [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	habia [label="habia 
+ Count = 2 
+ Coef = 0.14" shape=plaintext]
+	habia -> llamar [label="10.53%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 1 
+ Coef = 0.83" shape=plaintext]
+	servicio -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 1 
+ Coef = -1.14" shape=plaintext]
+	que -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	hemo [label="hemo 
+ Count = 1 
+ Coef = 0.11" shape=plaintext]
+	hemo -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 1 
+ Coef = -2.41" shape=plaintext]
+	ser -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -1.18" shape=plaintext]
+	como -> llamar [label="5.26%" weight=1.2]
+	node [color=red style=filled]
+	mna [label="mna 
+ Count = 1 
+ Coef = -0.66" shape=plaintext]
+	mna -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 1 
+ Coef = 3.08" shape=plaintext]
+	falla -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 1 
+ Coef = 2.2" shape=plaintext]
+	energia -> llamar [label="5.26%" weight=1.2]
+	node [color=green style=filled]
+	falla [label="falla 
+ Count = 974 
+ Coef = 3.08" shape=plaintext]
+	reportar -> falla [label="43.62%" weight=1.2]
+	node [color=green style=filled]
+	dano [label="dano 
+ Count = 659 
+ Coef = 1.53" shape=plaintext]
+	reportar -> dano [label="29.51%" weight=1.2]
+	node [color=green style=filled]
+	fallo [label="fallo 
+ Count = 140 
+ Coef = 0.34" shape=plaintext]
+	reportar -> fallo [label="6.27%" weight=1.2]
+	node [color=red style=filled]
+	que [label="que 
+ Count = 128 
+ Coef = -1.14" shape=plaintext]
+	reportar -> que [label="5.73%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 345 
+ Coef = 0.83" shape=plaintext]
+	falla -> servicio [label="39.34%" weight=1.2]
+	node [color=green style=filled]
+	electrica [label="electrica 
+ Count = 138 
+ Coef = 0.54" shape=plaintext]
+	falla -> electrica [label="15.74%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 113 
+ Coef = 2.2" shape=plaintext]
+	falla -> energia [label="12.88%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 84 
+ Coef = -0.57" shape=plaintext]
+	falla -> suministro [label="9.58%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 61 
+ Coef = 2.2" shape=plaintext]
+	dano -> energia [label="13.99%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 48 
+ Coef = 0.83" shape=plaintext]
+	dano -> servicio [label="11.01%" weight=1.2]
+	node [color=green style=filled]
+	aqui [label="aqui 
+ Count = 26 
+ Coef = 0.15" shape=plaintext]
+	dano -> aqui [label="5.96%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 67 
+ Coef = 2.2" shape=plaintext]
+	fallo -> energia [label="43.79%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 37 
+ Coef = 0.83" shape=plaintext]
+	fallo -> servicio [label="24.18%" weight=1.2]
+	node [color=red style=filled]
+	suministro [label="suministro 
+ Count = 15 
+ Coef = -0.57" shape=plaintext]
+	fallo -> suministro [label="9.8%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 93 
+ Coef = -1.43" shape=plaintext]
+	que -> no [label="48.19%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 26 
+ Coef = -1.99" shape=plaintext]
+	que -> estar [label="13.47%" weight=1.2]
+	node [color=red style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = -2.41" shape=plaintext]
+	que -> ser [label="5.7%" weight=1.2]
+	node [color=green style=filled]
+	reportar [label="reportar 
+ Count = 11 
+ Coef = 21.1" shape=plaintext]
+	que -> reportar [label="5.7%" weight=1.2]
+}

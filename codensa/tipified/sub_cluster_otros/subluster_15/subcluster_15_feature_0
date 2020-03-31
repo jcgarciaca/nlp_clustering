@@ -1,0 +1,252 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	voltaje [label="voltaje 
+ Count = 82 
+ Coef = 8.88"]
+	node [color=green style=filled]
+	alto [label="alto 
+ Count = 5 
+ Coef = 1.34" shape=plaintext]
+	alto -> voltaje [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 4 
+ Coef = 4.92" shape=plaintext]
+	bajo -> voltaje [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	como [label="como 
+ Count = 1 
+ Coef = -0.71" shape=plaintext]
+	como -> alto [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 1 
+ Coef = 1.51" shape=plaintext]
+	muy -> alto [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 1 
+ Coef = 8.88" shape=plaintext]
+	voltaje -> alto [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 9 
+ Coef = 4.74" shape=plaintext]
+	subir -> bajo [label="45.0%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 5 
+ Coef = 1.51" shape=plaintext]
+	muy -> bajo [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 2 
+ Coef = 8.88" shape=plaintext]
+	voltaje -> bajo [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 2.12" shape=plaintext]
+	luz -> bajo [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 5 
+ Coef = 1.51" shape=plaintext]
+	voltaje -> muy [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 3 
+ Coef = 0.34" shape=plaintext]
+	voltaje -> red [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 3 
+ Coef = -0.35" shape=plaintext]
+	voltaje -> hacer [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	bajito [label="bajito 
+ Count = 3 
+ Coef = 1.97" shape=plaintext]
+	voltaje -> bajito [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 1.05" shape=plaintext]
+	voltaje -> casa [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	demasiado [label="demasiado 
+ Count = 2 
+ Coef = 1.02" shape=plaintext]
+	voltaje -> demasiado [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 2 
+ Coef = 8.88" shape=plaintext]
+	voltaje -> voltaje [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 2.12" shape=plaintext]
+	voltaje -> luz [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 5 
+ Coef = 4.92" shape=plaintext]
+	muy -> bajo [label="38.46%" weight=1.2]
+	node [color=green style=filled]
+	bajito [label="bajito 
+ Count = 3 
+ Coef = 1.97" shape=plaintext]
+	muy -> bajito [label="23.08%" weight=1.2]
+	node [color=green style=filled]
+	bajita [label="bajita 
+ Count = 2 
+ Coef = 2.21" shape=plaintext]
+	muy -> bajita [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 2 
+ Coef = 7.78" shape=plaintext]
+	muy -> baja [label="15.38%" weight=1.2]
+	node [color=green style=filled]
+	alto [label="alto 
+ Count = 1 
+ Coef = 1.34" shape=plaintext]
+	muy -> alto [label="7.69%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 1 
+ Coef = 7.78" shape=plaintext]
+	red -> baja [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	mas [label="mas 
+ Count = 3 
+ Coef = 0.04" shape=plaintext]
+	hacer -> mas [label="50.0%" weight=1.2]
+	node [color=red style=filled]
+	dia [label="dia 
+ Count = 2 
+ Coef = -0.96" shape=plaintext]
+	hacer -> dia [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	hora [label="hora 
+ Count = 1 
+ Coef = -0.13" shape=plaintext]
+	hacer -> hora [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 2 
+ Coef = 8.88" shape=plaintext]
+	bajito -> voltaje [label="50.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	voltajes [label="voltajes 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	bajito -> voltajes [label="25.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 1 
+ Coef = 2.12" shape=plaintext]
+	bajito -> luz [label="25.0%" weight=1.2]
+	node [color=red style=filled]
+	paso [label="paso 
+ Count = 1 
+ Coef = -0.51" shape=plaintext]
+	casa -> paso [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 1 
+ Coef = 4.74" shape=plaintext]
+	casa -> subir [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 1 
+ Coef = 8.88" shape=plaintext]
+	casa -> voltaje [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 1 
+ Coef = 4.92" shape=plaintext]
+	demasiado -> bajo [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	bajito [label="bajito 
+ Count = 1 
+ Coef = 1.97" shape=plaintext]
+	demasiado -> bajito [label="33.33%" weight=1.2]
+	node [color=lightgrey style=filled]
+	acilacion [label="acilacion 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	demasiado -> acilacion [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 5 
+ Coef = 1.51" shape=plaintext]
+	voltaje -> muy [label="16.67%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 3 
+ Coef = 0.34" shape=plaintext]
+	voltaje -> red [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 3 
+ Coef = -0.35" shape=plaintext]
+	voltaje -> hacer [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	bajito [label="bajito 
+ Count = 3 
+ Coef = 1.97" shape=plaintext]
+	voltaje -> bajito [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = 1.05" shape=plaintext]
+	voltaje -> casa [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	demasiado [label="demasiado 
+ Count = 2 
+ Coef = 1.02" shape=plaintext]
+	voltaje -> demasiado [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	voltaje [label="voltaje 
+ Count = 2 
+ Coef = 8.88" shape=plaintext]
+	voltaje -> voltaje [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 2.12" shape=plaintext]
+	voltaje -> luz [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 6 
+ Coef = 4.74" shape=plaintext]
+	luz -> subir [label="17.65%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 5 
+ Coef = 7.78" shape=plaintext]
+	luz -> baja [label="14.71%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 3 
+ Coef = 1.51" shape=plaintext]
+	luz -> muy [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 1.05" shape=plaintext]
+	luz -> casa [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 2 
+ Coef = 4.92" shape=plaintext]
+	luz -> bajo [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 2 
+ Coef = 3.67" shape=plaintext]
+	luz -> tension [label="5.88%" weight=1.2]
+}

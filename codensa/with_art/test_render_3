@@ -1,0 +1,92 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	fallo [label="fallo 
+ Count = 1390 
+ Coef = 13.17"]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 18 
+ Coef = 5.12" shape=plaintext]
+	servicio -> fallo [label="66.67%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 2 
+ Coef = 2.0" shape=plaintext]
+	luz -> fallo [label="7.41%" weight=1.2]
+	node [color=red style=filled]
+	no [label="no 
+ Count = 2 
+ Coef = -1.51" shape=plaintext]
+	no -> fallo [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 2 
+ Coef = 7.35" shape=plaintext]
+	corte -> fallo [label="7.41%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 1429 
+ Coef = 0.92" shape=plaintext]
+	el -> servicio [label="82.94%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 144 
+ Coef = Not in Dict" shape=plaintext]
+	de -> servicio [label="8.36%" weight=1.2]
+	node [color=green style=filled]
+	del [label="del 
+ Count = 97 
+ Coef = 1.53" shape=plaintext]
+	del -> servicio [label="5.63%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 167 
+ Coef = Not in Dict" shape=plaintext]
+	de -> luz [label="57.0%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 96 
+ Coef = -0.36" shape=plaintext]
+	la -> luz [label="32.76%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 13 
+ Coef = 5.12" shape=plaintext]
+	servicio -> no [label="54.17%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 3 
+ Coef = 2.0" shape=plaintext]
+	luz -> no [label="12.5%" weight=1.2]
+	node [color=green style=filled]
+	red [label="red 
+ Count = 2 
+ Coef = 1.41" shape=plaintext]
+	red -> no [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	corte [label="corte 
+ Count = 1 
+ Coef = 7.35" shape=plaintext]
+	corte -> corte [label="50.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	de [label="de 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	de -> corte [label="50.0%" weight=1.2]
+	node [color=lightgrey style=filled]
+	en [label="en 
+ Count = 1222 
+ Coef = Not in Dict" shape=plaintext]
+	fallo -> en [label="94.14%" weight=1.2]
+	node [color=green style=filled]
+	el [label="el 
+ Count = 1576 
+ Coef = 0.92" shape=plaintext]
+	en -> el [label="90.47%" weight=1.2]
+	node [color=red style=filled]
+	la [label="la 
+ Count = 103 
+ Coef = -0.36" shape=plaintext]
+	en -> la [label="5.91%" weight=1.2]
+}

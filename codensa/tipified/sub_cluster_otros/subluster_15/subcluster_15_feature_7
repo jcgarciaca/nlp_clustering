@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	bajon [label="bajon 
+ Count = 6 
+ Coef = 3.17"]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 3 
+ Coef = 2.12" shape=plaintext]
+	bajon -> luz [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	subir [label="subir 
+ Count = 6 
+ Coef = 4.74" shape=plaintext]
+	luz -> subir [label="17.65%" weight=1.2]
+	node [color=green style=filled]
+	baja [label="baja 
+ Count = 5 
+ Coef = 7.78" shape=plaintext]
+	luz -> baja [label="14.71%" weight=1.2]
+	node [color=green style=filled]
+	muy [label="muy 
+ Count = 3 
+ Coef = 1.51" shape=plaintext]
+	luz -> muy [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	casa [label="casa 
+ Count = 3 
+ Coef = 1.05" shape=plaintext]
+	luz -> casa [label="8.82%" weight=1.2]
+	node [color=green style=filled]
+	bajo [label="bajo 
+ Count = 2 
+ Coef = 4.92" shape=plaintext]
+	luz -> bajo [label="5.88%" weight=1.2]
+	node [color=green style=filled]
+	tension [label="tension 
+ Count = 2 
+ Coef = 3.67" shape=plaintext]
+	luz -> tension [label="5.88%" weight=1.2]
+}

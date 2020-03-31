@@ -1,0 +1,62 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	"faltar energia electrica" [label="faltar energia electrica 
+ Count = 15 
+ Coef = 3.43"]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 1 
+ Coef = -1.1" shape=plaintext]
+	"faltar energia electrica" -> casa [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	danos [label="danos 
+ Count = 1 
+ Coef = 0.55" shape=plaintext]
+	"faltar energia electrica" -> danos [label="33.33%" weight=1.2]
+	node [color=red style=filled]
+	ayer [label="ayer 
+ Count = 1 
+ Coef = -0.11" shape=plaintext]
+	"faltar energia electrica" -> ayer [label="33.33%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 4 
+ Coef = 0.23" shape=plaintext]
+	casa -> no [label="20.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 2 
+ Coef = 2.58" shape=plaintext]
+	casa -> fluido [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	casa [label="casa 
+ Count = 2 
+ Coef = -1.1" shape=plaintext]
+	casa -> casa [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	electricos [label="electricos 
+ Count = 10 
+ Coef = 5.47" shape=plaintext]
+	danos -> electricos [label="50.0%" weight=1.2]
+	node [color=green style=filled]
+	fluido [label="fluido 
+ Count = 2 
+ Coef = 2.58" shape=plaintext]
+	danos -> fluido [label="10.0%" weight=1.2]
+	node [color=green style=filled]
+	sistema [label="sistema 
+ Count = 2 
+ Coef = 0.67" shape=plaintext]
+	danos -> sistema [label="10.0%" weight=1.2]
+	node [color=red style=filled]
+	tarde [label="tarde 
+ Count = 22 
+ Coef = -0.39" shape=plaintext]
+	ayer -> tarde [label="36.67%" weight=1.2]
+	node [color=red style=filled]
+	noche [label="noche 
+ Count = 5 
+ Coef = -0.36" shape=plaintext]
+	ayer -> noche [label="8.33%" weight=1.2]
+}

@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	electrodomesticos [label="electrodomesticos 
+ Count = 543 
+ Coef = 9.69"]
+	node [color=green style=filled]
+	dndo [label="dndo 
+ Count = 56 
+ Coef = 1.09" shape=plaintext]
+	dndo -> electrodomesticos [label="10.35%" weight=1.2]
+	node [color=green style=filled]
+	quemar [label="quemar 
+ Count = 44 
+ Coef = 3.27" shape=plaintext]
+	quemar -> electrodomesticos [label="8.13%" weight=1.2]
+	node [color=green style=filled]
+	dar [label="dar 
+ Count = 38 
+ Coef = 0.9" shape=plaintext]
+	dar -> electrodomesticos [label="7.02%" weight=1.2]
+	node [color=green style=filled]
+	dr [label="dr 
+ Count = 37 
+ Coef = 0.69" shape=plaintext]
+	dr -> electrodomesticos [label="6.84%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 65 
+ Coef = 2.23" shape=plaintext]
+	estan -> dndo [label="63.11%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 6 
+ Coef = 0.77" shape=plaintext]
+	no -> dndo [label="5.83%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 23 
+ Coef = 2.23" shape=plaintext]
+	estan -> quemar [label="18.4%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 12 
+ Coef = 2.06" shape=plaintext]
+	haber -> quemar [label="9.6%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 11 
+ Coef = 1.64" shape=plaintext]
+	poder -> quemar [label="8.8%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 10 
+ Coef = 1.2" shape=plaintext]
+	ir -> quemar [label="8.0%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 0.77" shape=plaintext]
+	que -> quemar [label="7.2%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 27 
+ Coef = 0.77" shape=plaintext]
+	que -> dar [label="14.92%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 14 
+ Coef = 0.77" shape=plaintext]
+	no -> dar [label="7.73%" weight=1.2]
+	node [color=green style=filled]
+	ir [label="ir 
+ Count = 31 
+ Coef = 1.2" shape=plaintext]
+	ir -> dr [label="33.7%" weight=1.2]
+	node [color=green style=filled]
+	poder [label="poder 
+ Count = 30 
+ Coef = 1.64" shape=plaintext]
+	poder -> dr [label="32.61%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 37 
+ Coef = 0.77" shape=plaintext]
+	electrodomesticos -> no [label="10.48%" weight=1.2]
+	node [color=green style=filled]
+	estan [label="estan 
+ Count = 24 
+ Coef = 2.23" shape=plaintext]
+	electrodomesticos -> estan [label="6.8%" weight=1.2]
+	node [color=green style=filled]
+	tener [label="tener 
+ Count = 1461 
+ Coef = 3.76" shape=plaintext]
+	no -> tener [label="33.77%" weight=1.2]
+	node [color=green style=filled]
+	haber [label="haber 
+ Count = 1025 
+ Coef = 2.06" shape=plaintext]
+	no -> haber [label="23.69%" weight=1.2]
+	node [color=green style=filled]
+	dndo [label="dndo 
+ Count = 65 
+ Coef = 1.09" shape=plaintext]
+	estan -> dndo [label="16.58%" weight=1.2]
+	node [color=green style=filled]
+	presentado [label="presentado 
+ Count = 31 
+ Coef = 2.66" shape=plaintext]
+	estan -> presentado [label="7.91%" weight=1.2]
+	node [color=green style=filled]
+	funcionar [label="funcionar 
+ Count = 27 
+ Coef = 5.58" shape=plaintext]
+	estan -> funcionar [label="6.89%" weight=1.2]
+	node [color=red style=filled]
+	hacer [label="hacer 
+ Count = 22 
+ Coef = -0.86" shape=plaintext]
+	estan -> hacer [label="5.61%" weight=1.2]
+	node [color=green style=filled]
+	quemar [label="quemar 
+ Count = 20 
+ Coef = 3.27" shape=plaintext]
+	estan -> quemar [label="5.1%" weight=1.2]
+}

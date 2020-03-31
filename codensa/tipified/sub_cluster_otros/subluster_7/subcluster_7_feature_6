@@ -1,0 +1,127 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	reconexion [label="reconexion 
+ Count = 225 
+ Coef = 3.2"]
+	node [color=green style=filled]
+	hacer [label="hacer 
+ Count = 32 
+ Coef = 1.06" shape=plaintext]
+	hacer -> reconexion [label="15.02%" weight=1.2]
+	node [color=green style=filled]
+	solicitar [label="solicitar 
+ Count = 23 
+ Coef = 2.4" shape=plaintext]
+	solicitar -> reconexion [label="10.8%" weight=1.2]
+	node [color=green style=filled]
+	necesitar [label="necesitar 
+ Count = 18 
+ Coef = 1.84" shape=plaintext]
+	necesitar -> reconexion [label="8.45%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 11 
+ Coef = 1.13" shape=plaintext]
+	ser -> reconexion [label="5.16%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 61 
+ Coef = 1.36" shape=plaintext]
+	que -> hacer [label="16.35%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 24 
+ Coef = 4.87" shape=plaintext]
+	servicio -> hacer [label="6.43%" weight=1.2]
+	node [color=red style=filled]
+	haber [label="haber 
+ Count = 22 
+ Coef = -0.0" shape=plaintext]
+	haber -> hacer [label="5.9%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 20 
+ Coef = -0.75" shape=plaintext]
+	luz -> hacer [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	ser [label="ser 
+ Count = 9 
+ Coef = 1.13" shape=plaintext]
+	ser -> solicitar [label="16.07%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 9 
+ Coef = -1.48" shape=plaintext]
+	estar -> solicitar [label="16.07%" weight=1.2]
+	node [color=green style=filled]
+	llamar [label="llamar 
+ Count = 4 
+ Coef = 0.23" shape=plaintext]
+	llamar -> solicitar [label="7.14%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 3 
+ Coef = 1.36" shape=plaintext]
+	que -> solicitar [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 3 
+ Coef = 4.87" shape=plaintext]
+	servicio -> solicitar [label="5.36%" weight=1.2]
+	node [color=green style=filled]
+	entonces [label="entonces 
+ Count = 13 
+ Coef = 0.33" shape=plaintext]
+	entonces -> necesitar [label="12.04%" weight=1.2]
+	node [color=green style=filled]
+	que [label="que 
+ Count = 9 
+ Coef = 1.36" shape=plaintext]
+	que -> necesitar [label="8.33%" weight=1.2]
+	node [color=green style=filled]
+	pago [label="pago 
+ Count = 6 
+ Coef = 3.07" shape=plaintext]
+	pago -> necesitar [label="5.56%" weight=1.2]
+	node [color=green style=filled]
+	cortar [label="cortar 
+ Count = 157 
+ Coef = 5.25" shape=plaintext]
+	cortar -> ser [label="9.98%" weight=1.2]
+	node [color=green style=filled]
+	paso [label="paso 
+ Count = 149 
+ Coef = 0.14" shape=plaintext]
+	paso -> ser [label="9.47%" weight=1.2]
+	node [color=green style=filled]
+	servicio [label="servicio 
+ Count = 91 
+ Coef = 4.87" shape=plaintext]
+	reconexion -> servicio [label="48.4%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 11 
+ Coef = -0.75" shape=plaintext]
+	reconexion -> luz [label="5.85%" weight=1.2]
+	node [color=green style=filled]
+	energia [label="energia 
+ Count = 219 
+ Coef = 0.62" shape=plaintext]
+	servicio -> energia [label="17.18%" weight=1.2]
+	node [color=red style=filled]
+	luz [label="luz 
+ Count = 209 
+ Coef = -0.75" shape=plaintext]
+	servicio -> luz [label="16.39%" weight=1.2]
+	node [color=green style=filled]
+	no [label="no 
+ Count = 43 
+ Coef = 1.05" shape=plaintext]
+	luz -> no [label="9.35%" weight=1.2]
+	node [color=green style=filled]
+	ya [label="ya 
+ Count = 40 
+ Coef = 1.75" shape=plaintext]
+	luz -> ya [label="8.7%" weight=1.2]
+}

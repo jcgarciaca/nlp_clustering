@@ -1,0 +1,42 @@
+// Data Feature Probability Relationship
+digraph {
+	node [color=blue style=filled]
+	cabanuelas [label="cabanuelas 
+ Count = 1 
+ Coef = 2.23"]
+	node [color=lightgrey style=filled]
+	paradas [label="paradas 
+ Count = 1 
+ Coef = Not in Dict" shape=plaintext]
+	paradas -> cabanuelas [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	seis [label="seis 
+ Count = 1 
+ Coef = 2.04" shape=plaintext]
+	seis -> paradas [label="100.0%" weight=1.2]
+	node [color=red style=filled]
+	estar [label="estar 
+ Count = 1 
+ Coef = -0.56" shape=plaintext]
+	cabanuelas -> estar [label="100.0%" weight=1.2]
+	node [color=green style=filled]
+	luz [label="luz 
+ Count = 12 
+ Coef = 0.17" shape=plaintext]
+	estar -> luz [label="80.0%" weight=1.2]
+	node [color=red style=filled]
+	energias [label="energias 
+ Count = 1 
+ Coef = -0.04" shape=plaintext]
+	estar -> energias [label="6.67%" weight=1.2]
+	node [color=green style=filled]
+	fase [label="fase 
+ Count = 1 
+ Coef = 0.4" shape=plaintext]
+	estar -> fase [label="6.67%" weight=1.2]
+	node [color=red style=filled]
+	dar [label="dar 
+ Count = 1 
+ Coef = -0.37" shape=plaintext]
+	estar -> dar [label="6.67%" weight=1.2]
+}
